@@ -1,42 +1,15 @@
 <skillDB>
 
+<!-- Radiant Wizard -->
+
 <skill name="Radiant Wizard" skillname="Radiant Wizard" type="wizard" description="You have immersed yourself in the energies of all things luminous to gain great magical power, at the cost of your physical body deteriorating.">
 	<art icon="skills/radiant64.png"/>
 	<loadout type="armour" subtype="Cracked Orb" />
 	</skill>
 
-<skill name="Blood Knight" skillname="Blood Knight" type="warrior" description="You have engraved runes of power on your equipment, which are powered by blood. Contrary to popular belief, this does not turn you into a sociopathic elf.">
-	<art icon="skills/blood_knight/blood_knight64.png"/>
-	<loadout type="armour" subtype="Garnet Circlet" always="1"/>
-	</skill>
-
 <ability name="Radiant Wizard" icon="skills/radiant64.png" skillname="Radiant Wizard" startSkill="1">
 	<description text="You have steeped yourself in the energies of all things luminous to gain great magical power. As your physical body becomes more insubstantial, though, the laws of physics come bearing down upon you ever more harshly."/>
 	</ability>
-
-<ability name="Blood Knight" icon="skills/blood_knight/blood_knight64.png" skillname="Blood Knight" startSkill="1">
-	<description text="You have engraved runes of power on your equipment, which draw their strength from warm, rich blood. Preferably that of your foes, but your own will do in a pinch."/>
-	</ability>
-
-<skill name="Witcher" skillname="Witcher" type="rogue" description="Going under the name of 'White Eyebrows', you travel through a gritty fantasy world slaying monsters for money, exploring social issues, and being witty and sarcastic in general.">
-	<art icon="skills/witcher/witcher_64.png"/>
-	</skill>
-
-<ability name="Witcher" icon="skills/witcher/witcher_64.png" skillname="Witcher" startSkill="1">
-	<description text="Mutated by various alchemical and magical processes (which incidentally also turned your hair white), you roam a gritty fantasy world slaying monsters for money. You've also become extremely witty and sarcastic, and are to most of the world as 'White Eyebrows'."/>
-	</ability>
-
-<skill name="Arcanist" skillname="Testing" type="wizard" description="You have studied extensively the manipulation of raw mana and how to sling it at people.">
-	<art icon="skills/wizard/magictraining2_64.png"/>
-	<loadout type="weapon" subtype="Refurbished Staff" always="1" />
-	</skill>
-
-<ability name="Arcanist" icon="skills/wizard/magictraining2_64.png" skillname="Testing" startSkill="1">
-	<description text="You have studied extensively the manipulation of raw mana and how to sling it at people."/>
-	</ability>
-
-
-<!-- Radiant Wizard -->
 
 <!-- Human form version of Light Dart. -->
 
@@ -257,6 +230,15 @@
 
 <!-- Blood Knight-->
 
+<skill name="Blood Knight" skillname="Blood Knight" type="warrior" description="You have engraved runes of power on your equipment, which are powered by blood. Contrary to popular belief, this does not turn you into a sociopathic elf.">
+	<art icon="skills/blood_knight/blood_knight64.png"/>
+	<loadout type="armour" subtype="Garnet Circlet" always="1"/>
+	</skill>
+
+<ability name="Blood Knight" icon="skills/blood_knight/blood_knight64.png" skillname="Blood Knight" startSkill="1">
+	<description text="You have engraved runes of power on your equipment, which draw their strength from warm, rich blood. Preferably that of your foes, but your own will do in a pinch."/>
+	</ability>
+
 <!-- Blood Price skill. Protection! -->
 
 <ability name="Crimson Defender" icon="skills/blood_knight/crimson_aegis64.png" skillname="Blood Knight" level="0" >
@@ -310,6 +292,14 @@
 
 
 <!-- Witcher -->
+
+<skill name="Witcher" skillname="Witcher" type="rogue" description="Going under the name of 'White Eyebrows', you travel through a gritty fantasy world slaying monsters for money, exploring social issues, and being witty and sarcastic in general.">
+	<art icon="skills/witcher/witcher_64.png"/>
+	</skill>
+
+<ability name="Witcher" icon="skills/witcher/witcher_64.png" skillname="Witcher" startSkill="1">
+	<description text="Mutated by various alchemical and magical processes (which incidentally also turned your hair white), you roam a gritty fantasy world slaying monsters for money. You've also become extremely witty and sarcastic, and are to most of the world as 'White Eyebrows'."/>
+	</ability>
 
 <ability name="Mutant!" icon="skills/witcher/witcher_64.png" skillname="Witcher" level="0">
 	<description text="Various Trials performed on you as a child have enhanced your vitality and sight, as well as giving you some basic training in alchemy to prepare your Witcher's potions."/>
@@ -378,6 +368,15 @@
 
 
 <!-- Arcanist -->
+
+<skill name="Arcanist" skillname="Testing" type="wizard" description="You have studied extensively the manipulation of raw mana and how to sling it at people.">
+	<art icon="skills/wizard/magictraining2_64.png"/>
+	<loadout type="weapon" subtype="Refurbished Staff" always="1" />
+	</skill>
+
+<ability name="Arcanist" icon="skills/wizard/magictraining2_64.png" skillname="Testing" startSkill="1">
+	<description text="You have studied extensively the manipulation of raw mana and how to sling it at people."/>
+	</ability>
 
 <ability name="Cornucopia" icon="skills/fruit64.png" skillname="Testing" level="0" >
 	<spell name="Cornucopia"/>
