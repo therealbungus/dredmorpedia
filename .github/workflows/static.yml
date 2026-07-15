@@ -41,7 +41,7 @@ jobs:
         run: |
           mkdir -p download
           wget "$IMPORT_URL"
-          tar -xzf dredmor.tar -C download
+          tar -xvpf dredmor.tar -C download
           cp -r download/* ./
           rm dredmor.tar
           rm -rf download
