@@ -40,10 +40,10 @@ jobs:
           IMPORT_URL: ${{ secrets.IMPORT_URL }}
         run: |
           mkdir -p download
-          wget "$DOWNLOAD_URL" -P /download
-          tar -xzf download/dredmor.tar -C download
-          rm download/dredmor.tar
+          wget "$IMPORT_URL"
+          tar -xzf dredmor.tar -C download
           cp -r download/* ./
+          rm dredmor.tar
           rm -rf download
       - name: XML Fixes
         continue-on-error: true
