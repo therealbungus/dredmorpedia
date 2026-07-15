@@ -17,7 +17,7 @@
 	</spell>
 
 <spell name="Gummi Smarts" type="self" >
-	<buff useTimer="1" time="12" allowstacking="0" icon="skills/v_confused_64.png" smallicon="skills/v_confused_32.png">
+	<buff useTimer="1" time="12" allowstacking="0" icon="skills/smrt64.png" smallicon="skills/smrt32.png">
 		<primarybuff id="1" amount="3"/> <!-- Sagacity -->
 		<primarybuff id="5" amount="3"/> <!-- Savvy -->
 		</buff>
@@ -32,31 +32,23 @@
 	<description text="You feel distinctly slippery, slimy and hard to get ahold of." />
 	</spell>
 
-<spell name="Tummy Ache" type="self" >
-	<buff useTimer="1" time="20" self="1" allowstacking="0" icon="skills/tummy_ache_64.png" smallicon="skills/tummy_ache_32.png" bad="1" >
-		<secondarybuff id="13" amount="-2" /> <!-- life regen --> 
-		<secondarybuff id="0" amount="-5" /> <!-- life --> 
-		</buff>
-	<description text="Your tummy hurts from eating food that had clearly gone bad. Either you were very desperate, or very stupid." />
-	</spell>
-
 <spell name="Filled Belly" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/filled_belly_64.png" smallicon="skills/filled_belly_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/filledbelly64.png" smallicon="skills/filledbelly32.png">
 		<secondarybuff id="0" amount="5"/> <!-- HP -->
 		<secondarybuff id="13" amount="2"/> <!-- HP regen -->
 		</buff>
-	<description text="Your belly size has temporarily increased! Good thing no one's going to comment on your weight in the dungeon." />
+	<description text="That meal was particularly delicious. You really ought to try selling the recipe to McDiggle's once you're out of here." />
 	</spell>
 
-<spell name="Karma Arceus" type="target" >
+<spell name="Walking Into The Light" type="target" >
 	<anim sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="lightning_bolt" framerate="30" centerEffect="0"/>
 	<effect type="damage" righteous="800" affectscaster="1" />
 	</spell>
 
-<spell name="You Monster!" type="self" >
-	<buff useTimer="1" time="5" allowstacking="0" icon="skills/you_monster_64.png" smallicon="skills/you_monster_32.png">
+<spell name="Impending Death" type="self" >
+	<buff useTimer="1" time="5" allowstacking="0" icon="skills/pdeath64.png" smallicon="skills/pdeath32.png">
 		</buff>
-	<description text="You baby-eating monster! You not-friendly friend! You...you GRAND MASTER OF ALL THINGS BAD! I TOLD you, didn't I? I TOLD you not to eat the egg, and even explained WHY you shouldn't have eaten it. I mean, why did you do it? Curiosity? Cruelty? Contrariness? If there's a big red button with 'do not push' on it, are you going to push the thing anyway just to see what all that fuss is about? You know what, I don't care any more; say hello to Karma Arceus for me." />
+	<description text="Your head spins, your mind whirls. Everything is darkening, and then a bright light seems to be rushing towards you. 'Walk Towards me', it says over and over again. 'Walk towards me...'" />
 	</spell>
 
 
@@ -64,26 +56,27 @@
 
 <!-- Drink Buffs -->
 
+<spell name="Knurd" type="self" >
+	<buff useTimer="1" time="40" allowstacking="0" icon="skills/knurd64.png" smallicon="skills/knurd32.png" bad="1">
+		<secondarybuff id="7" amount="-30" /> <!-- block --> 
+		<secondarybuff id="11" amount="-30" /> <!-- resist --> 
+		<secondarybuff id="17" amount="-2" /> <!-- trap sight --> 
+		<secondarybuff id="18" amount="-2" /> <!-- sight -->
+		<resistbuff existential="-5" />
+		</buff>
+	<description text="The opposite of being drunk, this state of being is as sober as you'll ever be. It strips away the illusions, the comforting pink fog in which people normally spend their lives, and lets them see and think clearly for the first time ever. Then, after they've screamed a bit, they make sure to never get knurd again." />
+	<effect type="resetrandomcooldown" />
+	<effect type="resetrandomcooldown" />
+	<effect type="resetrandomcooldown" />
+	<effect type="resetrandomcooldown" />
+	</spell>
+
 <spell name="Inner Peace" type="self" >
 	<buff useTimer="1" time="12" allowstacking="0" icon="skills/innerpeace64.png" smallicon="skills/innerpeace32.png">
 		<primarybuff id="1" amount="3"/> <!-- Sag -->
 		<primarybuff id="4" amount="3"/> <!-- Stubb -->
 		</buff>
 	<description text="That was simply...wonderful." />
-	</spell>
-
-<spell name="Minotaur Milk Effect" type="self" >
-	<effect type="trigger" spell="Major Burl" />
-	<effect type="trigger" spell="Medium Heal Potion" />
-	<effect type="trigger" spell="Crushing Guilt" />
-	</spell>
-
-<spell name="Crushing Guilt" type="self" >
-	<buff useTimer="1" time="40" allowstacking="0" icon="skills/guilt64.png" smallicon="skills/guilt32.png" bad="1" >
-		<primarybuff id="4" amount="-10"/> <!-- Stubb -->
-		<primarybuff id="5" amount="-10"/> <!-- Savvy -->
-		</buff>
-	<description text="Yes, minotaur society was this rigid and brutal before they even had contact with the outside world. But by doing this, you're enabling - no, supporting this cruel way of life and the matriarchs' traditional grip over their people. Even if the end result tastes lip-smackingly good." />
 	</spell>
 
 <spell name="Classy" type="self" >
@@ -95,7 +88,7 @@
 	</spell>
 
 <spell name="Sugar Rush" type="self" >
-	<buff useTimer="1" time="12" allowstacking="0" icon="skills/soda_pop64.png" smallicon="skills/soda_pop32.png">
+	<buff useTimer="1" time="12" allowstacking="0" icon="skills/rush64.png" smallicon="skills/rush32.png">
 		<primarybuff id="0" amount="-1"/> <!-- Burl -->
 		<primarybuff id="1" amount="-2"/> <!-- Sagacity -->
 		<primarybuff id="2" amount="5"/> <!-- Sagacity -->
@@ -105,7 +98,7 @@
 
 
 <spell name="Helluva Tough" type="self" >
-	<buff useTimer="1" time="12" allowstacking="0" icon="skills/tough_64.png" smallicon="skills/tough_32.png">
+	<buff useTimer="1" time="12" allowstacking="0" icon="skills/tough64.png" smallicon="skills/tough32.png">
 		<primarybuff id="0" amount="3"/> <!-- Burl -->
 		<primarybuff id="4" amount="3"/> <!-- Stubb -->
 		</buff>
@@ -131,10 +124,10 @@
 	</spell>
 
 <spell name="Liquid Refreshment" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/l_refreshment_64.png" smallicon="skills/l_refreshment_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/refreshed64.png" smallicon="skills/refreshed32.png">
 		<secondarybuff id="14" amount="2"/> <!-- Mana Regen -->
 		</buff>
-	<description text="The pure, sparkling water makes you feel more refreshed than your standard drink." />
+	<description text="The pure, sparkling spirits cool you to your core and makes you feel more refreshed than your standard drink." />
 	</spell>
 
 
@@ -142,48 +135,62 @@
 
 <!-- Potion Buffs -->
 
+<!-- Sub potion buffs need to be placed in front of the potions that call them -->
+
+<spell name="Flinching" type="target" >
+	<effect type="paralyze" turns="1" />
+	<anim sprite="sprites/sfx/impact_piercing/impact_piercing" frames="3" framerate="90" centerEffect="0" sfx="fleshbore" />
+	</spell>
+
+<spell name="Hydra Blood Effect" type="template" templateID="09" anchored="1" icon="skills/toxicself64.png" wand="0">
+	<effect type="damage" acidic="5" acidicF="0.08" secondaryScale="0" />
+	<anim sprite="sprites/sfx/impact_acid/impact_acid" frames="5" sfx="fleshbore" framerate="100" centereffect="1"/>
+</spell>
+
+<!-- Directly called by the potion -->
+
 <spell name="Protein Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/protein_boost_64.png" smallicon="skills/protein_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/proteinboost64.png" smallicon="skills/proteinboost32.png">
 		<secondarybuff id="2" amount="6"/> <!-- melee power -->
 		<secondarybuff id="4" amount="6"/> <!-- crit -->
 		</buff>
-	<description text="You ingested the Protein! Your Attack increa...oh, wait, you don't have effort values, do you?" />
+	<description text="Fight like a tiger, sting like a bee! Or was it fight like a bee and sting like a tiger? Who cares? Go get them, tiger!" />
 	</spell>
 
 <spell name="Iron Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/iron_boost_64.png" smallicon="skills/iron_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/ironboost64.png" smallicon="skills/ironboost32.png">
 		<secondarybuff id="7" amount="6"/> <!-- block -->
 		<secondarybuff id="8" amount="6"/> <!-- counter -->
 		</buff>
-	<description text="You ingested the Iron! Your Defense increa...oh, wait, you don't have effort values, do you?" />
+	<description text="'Eat your seaweed, son,' my dad said to me when I was young. 'It's got plenty of iron.' Well, I did, and look at me now! I didn't ask for this!" />
 	</spell>
 
 <spell name="Carbos Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/carbos_boost_64.png" smallicon="skills/carbos_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/carbosboost64.png" smallicon="skills/carbosboost32.png">
 		<secondarybuff id="6" amount="6"/> <!-- Dodge -->
 		<secondarybuff id="9" amount="6"/> <!-- EDR -->
 		</buff>
-	<description text="You ingested the Carbos! Your Speed increa...oh, wait, you don't have effort values, do you?" />
+	<description text="Glucose - the body's primary fuel." />
 	</spell>
 
 <spell name="Calcium Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/calcium_boost_64.png" smallicon="skills/calcium_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/calciumboost64.png" smallicon="skills/calciumboost32.png">
 		<secondarybuff id="3" amount="6"/> <!-- Mpow -->
 		<secondarybuff id="5" amount="6"/> <!-- Haywire -->
 		</buff>
-	<description text="You ingested the Calcium! Your Special Attack increa...oh, wait, you don't have effort values, do you?" />
+	<description text="Four out of five wizards agree that a healthy intake of calcium in one's diet is essential to one's magical faculties. Then again, nine out of ten also agree that it's a good idea to get stone drunk in the middle of the road." />
 	</spell>
 
 <spell name="Zinc Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/zinc_boost_64.png" smallicon="skills/zinc_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/zincboost64.png" smallicon="skills/zincboost32.png">
 		<secondarybuff id="11" amount="6"/> <!-- Resist -->
 		<secondarybuff id="22" amount="6"/> <!-- Reflect -->
 		</buff>
-	<description text="You ingested the Zinc! Your Special Defense increa...oh, wait, you don't have effort values, do you?" />
+	<description text="Dwarven war paint often contains zinc in order to help defend against Elven hippiemancy, a most dreaded and potent school of magic." />
 	</spell>
 
 <spell name="Ginseng Boost" type="self" >
-	<buff useTimer="1" time="50" allowstacking="0" icon="skills/ginseng_boost_64.png" smallicon="skills/ginseng_boost_32.png">
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/ginseng64.png" smallicon="skills/ginseng32.png">
 		<resistbuff toxic="3" asphyxiative="3" putrefying="3" necromantic="3" />
 		</buff>
 	<description text="Ugh, that tasted simply awful! Hope it's as potent a tonic as they say." />
@@ -201,33 +208,130 @@
 	<description text="Just...gotta have a little more of that skoom - I mean, stuff. I can stop any time I want. Really." />
 	</spell>
 
+<spell name="Hyper Hyped" type="self" >
+	<effect type="removebuffbyname" name="Withdrawal" />
+	<buff useTimer="1" time="30" allowstacking="0" icon="skills/hyped64.png" smallicon="skills/hyped32.png" >
+		<secondarybuff id="9" amount="10"/> <!-- edr -->
+		<secondarybuff id="4" amount="10"/> <!-- crit -->
+		<primarybuff id="4" amount="10"/> <!-- Stubb -->
+		</buff>
+	<description text="Brblblblblblblblbl. You feel more alert and can shrug off pain easier; you feel like you can take on whole hordes and come out on top!" />
+	</spell>
+
+<spell name="Hyper Hyped Trigger" type="self" >
+	<effect type="trigger" spell="Withdrawal" amount="31" />
+	<effect type="trigger" spell="Hyper Hyped" />
+	</spell>
+
 <spell name="Expanded Mind" type="self" >
 	<buff useTimer="1" time="30" allowstacking="0" icon="skills/expandedmind64.png" smallicon="skills/expandedmind32.png" >
-		<primarybuff id="1" amount="10"/> <!-- Sag -->
-		<primarybuff id="5" amount="10"/> <!-- Savv -->
+		<primarybuff id="1" amount="15"/> <!-- Sag -->
+		<primarybuff id="5" amount="15"/> <!-- Savv -->
 		</buff>
-	<effect type="trigger" spell="Withdrawal" amount="31" />
 	<effect type="removebuffbyname" name="Withdrawal" />
 	<description text="You're seeing things. You're hearing things, too. They're not altogether unpleasant, though." />
 	</spell>
 
+<spell name="Expanded Mind Trigger" type="self" >
+	<effect type="trigger" spell="Withdrawal" amount="31" />
+	<effect type="trigger" spell="Expanded Mind" />
+	</spell>
+
 <spell name="Roid Rage" type="self" >
 	<buff useTimer="1" time="30" allowstacking="0" icon="skills/roidrage64.png" smallicon="skills/roidrage32.png" >
-		<primarybuff id="0" amount="10"/> <!-- Burl -->
-		<primarybuff id="2" amount="10"/> <!-- Nim -->
+		<primarybuff id="0" amount="15"/> <!-- Burl -->
+		<primarybuff id="2" amount="15"/> <!-- Nim -->
 		</buff>
-	<effect type="trigger" spell="Withdrawal" amount="31" />
 	<effect type="removebuffbyname" name="Withdrawal" />
 	<description text="AUUUGGGHHH! AAA! AAA! AARRGGGHHH! FOOD AND SLEEP IS FOR THE WEAK! WHY CAN'T I STOP YELLING?" />
 	</spell>
 
-<!-- For evolutionary stones. -->
+<spell name="Roid Rage Trigger" type="self" >
+	<effect type="trigger" spell="Withdrawal" amount="31" />
+	<effect type="trigger" spell="Roid Rage" />
+	</spell>
+
+<spell name="Hotfoot" type="self" >
+	<buff useTimer="1" time="20" allowstacking="0" icon="skills/hotfoot64.png" smallicon="skills/hotfoot32.png">
+		<resistbuff conflagratory="8" />
+		</buff>
+	<effect type="dot" amount="20" resistable="0" spell="Fire 1" />
+	<effect type="heal" amount="20" />
+	<description text="Time to leave them eating your dust, you trailblazer!" />
+	</spell>
+
+<spell name="Haste" type="self" >
+	<buff useTimer="1" time="15" allowstacking="0" icon="skills/warrior/axemanship2_64.png" smallicon="skills/warrior/axemanship2_32.png">
+      <halo name="sprites/sfx/bladewallblock/bladewallblock" first="0" num="4" frameRate="100" centerEffect="0"/>
+		<multibuff amount="2"/>
+		</buff>
+	<effect type="heal" amount="20" />
+	<description text="You're moving at a blur! Hack and slash!" />
+	</spell>
+
+<spell name="Brutal Strikes" type="self" >
+	<buff useTimer="1" time="50" allowstacking="0" icon="skills/crush64.png" smallicon="skills/crush32.png">
+	<damagebuff crushing="4" />
+		<targetHitEffectBuff percentage="100" name="Flinching" />
+		</buff>
+	<description text="You can crush and daze others with the sheer brutality of your attacks!" />
+	</spell>
+
+<spell name="Hydra Blood" type="self" >
+	<buff useTimer="1" time="90" allowstacking="0" icon="skills/toxicself64.png" smallicon="skills/toxicself32.png">
+		<damagebuff acidic="4" />
+		<resistbuff acidic="6" />
+		<playerHitEffectBuff percentage="100" name="Hydra Blood Effect" />
+		</buff>
+	<description text="Your blood has turned to acid and spurts all over the place when enemies strike you in melee." />
+	</spell>
+
+<spell name="Powerful Restoration" type="self" >
+	<effect type="heal" amountF="0.5" secondaryScale="0"/>
+	<effect type="spellpoints" amountF="0.5" secondaryScale="1"/>
+	<effect type="uncurse" amount="1" />
+	<anim sprite="sprites/sfx/manafount/manafont" frames="7" sfx="choir"/>
+	</spell>
+
+<spell name="Lewton Concentrate Tick" type="self" >
+	<effect type="spellpoints" amount="5"/>
+	</spell>
+
+<spell name="Aided Concentration" type="self" icon="skills/wizard/leylines1_32.png">
+	<effect type="spellpoints" amount="5" />
+	<description text="Mmm. You feel alert and focused, regenerating mana on the go. Or at least, you think you are...it's hard to tell through the alcoholic haze."/>
+	<effect type="dot" self="1" resistable="0" amount="11" spell="Lewton Concentrate Tick" />
+	<buff useTimer="1" time="11" stackable="0" icon="skills/wizard/leylines1_64.png" smallicon="skills/wizard/leylines1_32.png">
+	</buff>
+	</spell>
+
+<spell name="Deliberate Immolation" type="self" icon="skills/immolate64.png" >
+	<effect type="damage" conflagratory="1" affectsCaster="1"/>
+	<anim sprite="sprites/sfx/fireball/fireball" frames="7" firstframe="0" framerate="90" centerEffect="1" sfx="explosion"/>
+	<buff useTimer="1" time="20" stacksize="1" allowstacking="0" self="0" icon="skills/immolate64.png" smallicon="skills/immolate32.png">
+		<halo name="sprites/sfx/burnD/burnD" first="0" num="5" frameRate="100"/>
+		<secondarybuff id="6" amount="50"/> <!-- dodge -->
+		<resistbuff hyperborean="3" />
+		<playerHitEffectBuff percentage="100" name="Burn Hit A" />
+	</buff>
+	<effect type="dot" amount="20" spell="Burn Hit A" resistable="0"/>
+	<description text="It's true! Ninjas CAN'T catch you when you're on fire!" />
+	</spell>
+
+<spell name="Deflection Draught" type="self" >
+	<buff brittle="5" useTimer="0" allowstacking="0" icon="skills/energy_bolt64.png" smallicon="skills/energy_bolt32.png">
+		<secondarybuff id="22" amount="75"/> <!-- Reflect -->
+		<halo name="sprites/sfx/arcA/arcA" first="0" num="4" frameRate="100"/>
+		</buff>
+	<description text="I am rubber, you are glue! Anything you throw at me bounces off and sticks to you!" />
+	</spell>
 
 <!-- Failure Condition -->
 
 <spell name="Evil-lutionary Mishap" type="target" icon="skills/core_diggle32.png" wand="0">
-	<buff useTimer="1" time="20" stacksize="1" self="0" icon="skills/mishap_64.png" smallicon="skills/mishap_32.png" bad="1" >    
+	<buff useTimer="1" time="15" stacksize="1" self="0" icon="skills/core_diggle64.png" smallicon="skills/core_diggle32.png" bad="1" >    
 		<polymorph name="Blobby"/>
+		<multibuff amount="-1"/>
 		<primarybuff id="0" amount="-2"/> <!-- Burl -->
 		<primarybuff id="1" amount="-2"/> <!-- Sag -->
 		<primarybuff id="2" amount="-2"/> <!-- Nim -->
@@ -235,7 +339,7 @@
 		<primarybuff id="4" amount="-2"/> <!-- Stubb -->
 		<primarybuff id="4" amount="-2"/> <!-- Savvy -->
 	</buff>
-	<description text="You know, there's a reason why people don't use items made for pokemon. In another game, we would call this status effect 'Moogled'." />
+	<description text="In another game, we would call this status effect 'Moogled'. No attacks or spells available to you!" />
 	</spell>
 
 <!-- Thunder Stone -->
@@ -250,17 +354,6 @@
 <!-- Spells that call other spells need to be placed behind them in the XML and hence go here. -->
 
 <!-- Miracle Drink and Pills Here spells -->
-
-<spell name="Miracle Drink Effect" type="self" >
-      	<effect type="triggerfromlist">
-		<option name="Protein Boost" />
-		<option name="Iron Boost" />
-		<option name="Carbos Boost" />
-		<option name="Calcium Boost" />
-		<option name="Ginseng Boost" />
-		<option name="Zinc Boost" />
-	</effect>
-	</spell>
 
 <spell name="Pills Here" type="self" >
       	<effect type="triggerfromlist">
@@ -296,6 +389,12 @@
 		<option name="Medium Regen" />
 		<option name="Medium Mana Potion" />
 		<option name="Long Touch of Midas" />
+		<option name="Hydra Blood" />
+		<option name="Brutal Strikes" />
+		<option name="Powerful Restoration" />
+		<option name="Hotfoot" />
+		<option name="Haste" />
+		<option name="Roid Rage Trigger" />
 	<!-- Bad effects here -->
 		<option name="Acid Burn" />
 		<option name="Diggle Flu" />
@@ -315,13 +414,16 @@
 		<option name="Monstrous Nerve Staple" />
 		<option name="Necromantic Blinding" />
 		<option name="Antimagic Field" />
+		<option name="Strong Acid Burn" />
+		<option name="Ennui" />
+		<option name="Tentacular Infestation Bolt" />
 	</effect>
 	</spell>
 
 <!-- Temporal Deliciousness -->
 
 <spell name="Temporal Deliciousness" type="self" >
-	<effect type="trigger" percent="100" spell="Tummy Ache" amount="1" />
+	<effect type="trigger" percent="100" spell="Food Poisoning" amount="1" />
 	<effect type="trigger" percent="66" spell="Gummi Smarts" amount="3" />
 	<effect type="trigger" percent="50" spell="Rune of Exploding" amount="6" />
 	<effect type="trigger" percent="50" spell="Rune of Exploding" amount="9" />
@@ -345,173 +447,65 @@
 	<effect type="trigger" percent="100" spell="Tentacular Doom" amount="64" />
 	</spell>
 
-<!-- Pokemon egg eating -->
+<!-- Suicide Pill -->
 
 <spell name="Really Now" type="self" >
-	<effect type="trigger" percent="100" spell="You Monster!" />
-	<effect type="trigger" percent="100" spell="Karma Arceus" amount="6" />
+	<effect type="trigger" spell="Impending Death" />
+	<effect type="trigger" spell="Walking Into The Light" amount="6" />
 	</spell>
 
 <!-- Dinner wondermail effect and grab bags -->
 
 <spell name="Create Wondermail" type="self" >
   	<effect type="spawnitemfromlist">
-		<option name="Reminder From The Guildmaster"/>
-		<option name="Note From The Shopkeeper"/> 
-		<option name="Note From Your Partner"/>  
-		<option name="Mysterious Message"/> 
-		<option name="Golden Chamber Wondermail"/>
-		<option name="Escort Mission Wondermail"/>
-		<option name="Outlaw Apprehension Wondermail"/>
-		<option name="Sightseeing Wondermail"/>
-		<option name="Treasure Hunting Wondermail"/>
-		<option name="SOS Wondermail"/>
-	</effect>
-	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="pong" />
-	</spell>
-
-<spell name="Grab Bag 1" type="self" >
-  	<effect type="spawnitemfromlist">
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="Radiant Orb"/>
-		<option name="Verdant Bow"/>
-		<option name="Razor Fang"/>
-		<option name="Mage Armour"/>
-		<option name="Never-Melt Ice"/>
-		<option name="Mudkipz"/>
-		<option name="Expert Belt"/>
-		<option name="Metal Coat"/>
-		<option name="Silk Scarf"/>
-		<option name="Wind Sword"/>
-		<option name="Invisible Blade"/>
-		<option name="Floppy Fish"/>
-		<option name="Ring of Reflection"/>
-		<option name="Gardening Gloves"/>
-		<option name="Hurricane"/>
-		<option name="Fruity Wine"/>
-		<option name="Piquant Poffin Pie"/>
-		<option name="Creamy Poffin Cake"/>
-		<option name="Perfect Apple"/>
-	</effect>
-	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="pong" />
-	</spell>
-
-<spell name="Grab Bag 2" type="self" >
-  	<effect type="spawnitemfromlist">
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="Fishing Rod"/>
-		<option name="Reaper"/>
-		<option name="Eye of the Storm"/>
-		<option name="Hydra Edge"/>
-		<option name="Dragon Fang"/>
-		<option name="Spear of Rot"/>
-		<option name="Kissy Fish"/>
-		<option name="Star Amulet"/>
-		<option name="Heavy Boots"/>
-		<option name="Iron Geta"/>
-		<option name="Studded Roughneck Leggings"/>
-		<option name="Charcoal"/>
-		<option name="Focus Sash"/>
-		<option name="Black Sludge"/>
-		<option name="Wide Lens"/>
-		<option name="Zoom Lens"/>
-		<option name="Hurricane"/>
-		<option name="Fruity Wine"/>
-		<option name="Piquant Poffin Pie"/>
-		<option name="Creamy Poffin Cake"/>
-		<option name="Perfect Apple"/>
-	</effect>
-	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="pong" />
-	</spell>
-
-<spell name="Grab Bag 3" type="self" >
-  	<effect type="spawnitemfromlist">
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="Grimy Food"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="Mirrored Boots"/>
-		<option name="Shocking Revelations of a Charged Mind"/>
-		<option name="Null's Guide to Practical Geology"/>
-		<option name="Griseous Orb"/>
-		<option name="Silvered Amulet"/>
-		<option name="Feathered Cap"/>
-		<option name="Blingy Fish"/>
-		<option name="Omni-Elemental"/>
-		<option name="Hurricane"/>
-		<option name="Fruity Wine"/>
-		<option name="Piquant Poffin Pie"/>
-		<option name="Creamy Poffin Cake"/>
-		<option name="Perfect Apple"/>
+		<option name="Odd Note 1"/>
+		<option name="Odd Note 2"/> 
+		<option name="Odd Note 3"/>  
+		<option name="Odd Note 4"/> 
+		<option name="Odd Note 5"/>
+		<option name="Odd Note 6"/>
+		<option name="Odd Note 7"/>
+		<option name="Odd Note 8"/>
+		<option name="Odd Note 9"/>
+		<option name="Odd Note 10"/>
+		<option name="Odd Note 11"/>
+		<option name="Odd Note 12"/>
+		<option name="Odd Note 13"/>
+		<option name="Odd Note 14"/>
+		<option name="Odd Note 15"/>
+		<option name="Odd Note 16"/>
+		<option name="Odd Note 17"/>
+		<option name="Odd Note 18"/>
+		<option name="Odd Note 19"/>
+		<option name="Odd Note 20"/>
+		<option name="Odd Note 21"/>
+		<option name="Odd Note 22"/>
+		<option name="Odd Note 23"/>
+		<option name="Odd Note 24"/>
+		<option name="Odd Note 25"/>
+		<option name="Odd Note 26"/>
+		<option name="Odd Note 27"/>
+		<option name="Odd Note 28"/>
 	</effect>
 	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="pong" />
 	</spell>
 
 <spell name="Item Grab Bag 1" type="self" >
   	<effect type="spawnitemfromlist">
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
-		<option name="'Jelly Donut'"/>
 		<option name="Ginseng"/>
 		<option name="Iron"/>
 		<option name="Zinc"/>
 		<option name="Carbos"/>
 		<option name="Calcium"/>
-		<option name="TM of Powder Snow"/>
-		<option name="Blank TM"/>
 		<option name="Protein"/>
+		<option name="Pills"/>
+		<option name="R.O.I.D.S"/>
+		<option name="Dream Dust"/>
+		<option name="Hotfoot Elixir"/>
+		<option name="Haste Elixir"/>
+		<option name="Elixir of Brutality"/>
+		<option name="Hydrablood Potion"/>
+		<option name="Potion of Powerful Restoration"/>
 	</effect>
 	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="pong" />
 	</spell>
@@ -574,6 +568,19 @@
 
 <!-- Weapon Effects -->
 
+<spell name="Sandman Effect" type="target" >
+  	<effect type="spawnitemfromlist">
+		<option name="Softball"/>
+	</effect>
+	</spell>
+
+<!-- For Oversized Peeler -->
+
+<spell name="Peeler Effect" type="target" >
+	<effect type="damage" slashing="15" taxa="Vegetable" />
+	<description text="Veggies beware." />
+	</spell>
+
 <!-- For Hydra Blade -->
 
 <spell name="Hydra Edge Effect" type="target" >
@@ -588,6 +595,7 @@
 
 <spell name="Combo Breaker" type="self" >
 	<buff useTimer="1" time="3" allowstacking="0" icon="skills/warrior/axemanship2_64.png" smallicon="skills/warrior/axemanship2_32.png">
+      <halo name="sprites/sfx/bladewallblock/bladewallblock" first="0" num="4" frameRate="100" centerEffect="0"/>
 		<multibuff amount="2"/>
 		</buff>
 	<description text="You have been granted the ability to do combo attacks!" />
@@ -609,13 +617,6 @@
 <spell name="Sacred Sword Effect" type="template" anchored="1" templateID="88">
 	<effect type="damage" righteous="40" />
 	<anim sprite="sprites/sfx/impact_slash/impact_slash" frames="6" framerate="90" centerEffect="0" sfx="tinkering" />
-	</spell>
-
-<!-- For Razor Fang and other weapons that proc flinching -->
-
-<spell name="Flinching" type="target" >
-	<effect type="paralyze" turns="1" />
-	<anim sprite="sprites/sfx/impact_piercing/impact_piercing" frames="3" framerate="90" centerEffect="0" sfx="fleshbore" />
 	</spell>
 
 <!-- For The Black Sword -->
@@ -664,9 +665,9 @@
 	</effect>
 </spell>
 
-<spell name="Distortion" type="self" icon="skills/giratina_32.png" >
+<spell name="Distortion" type="self" icon="skills/distortion32.png" >
 	<anim sprite="sprites/sfx/black_ritual/black_ritual" frames="10" framerate="100" centerEffect="1" sfx="portal" />
-	<buff useTimer="1" time="5" allowstacking="0" icon="skills/giratina_64.png" smallicon="skills/giratina_32.png" >
+	<buff useTimer="1" time="5" allowstacking="0" icon="skills/distortion64.png" smallicon="skills/distortion32.png" >
 		<targetHitEffectBuff percentage="50" name="Distortion Effect" />
 	</buff>
 	<description text="Can you feel it? There is nothing here at all. Time isn't flowing. Space isn't stable. Not quite a world, but at least a small space about you where the rules are broken."/>
@@ -696,13 +697,22 @@
    </spell>
 
 <spell name="Exposed Armour" type="target" >
-	<buff useTimer="1" time="15" allowstacking="1" stacksize="5" icon="skills/impossible_shot64.png" smallicon="skills/impossible_shot32.png">
-		<secondarybuff id="10" amount="-5"/> <!-- armour -->
+	<buff useTimer="1" time="15" allowstacking="1" stacksize="5" self="0" icon="skills/crushed_bones64.png" smallicon="skills/crushed_bones32.png">
+		<resistbuff crushing="-2" slashing="-2" blasting="-2" />
 		</buff>
 	<description text="This guy's armour has been violently ripped apart." />
 	</spell>
 
 <!-- For tomes -->
+
+<spell name="Telepathy for Thaumatheurgists" type="target">
+      	<effect type="triggerfromlist">
+        	<option name="Unconditional Love" />
+        	<option name="Nerve Staple" />
+        	<option name="Narcosomatic Induction" />
+		<option name="Pyrokinesis" /> 
+	</effect>
+</spell>
 
 <spell name="Practical Geology Effect" type="target" icon="skills/spells/rockburst32.png" wand="1">
 	<effect type="damage" crushing="10" crushingF="0.5" />
@@ -710,7 +720,66 @@
 	<description text="This spell causes rock to explode from beneath an enemy's feet." />
 	</spell>
 
-<!-- For TMs and thrown -->
+<!-- Armour effects -->
+
+<spell name="Elven Gloves Effect" type="target" >
+	<effect type="damage" piercing="1" piercingF="0.35" secondaryScale="9" />
+	<effect type="trigger" percent="25" spell="Fleshbore" />
+	<description text="Accuracy!" />
+	</spell>
+
+<spell name="Strength of Earth" type="self" >
+	<buff useTimer="1" time="10" allowstacking="1" stacksize="5" icon="skills/earthstrength_64.png" smallicon="skills/earthstrength_32.png" >
+		<secondarybuff id="10" amount="1"/> <!-- armour -->
+		</buff>
+	<description text="The strength of earth wells up in you." />
+	</spell>
+
+<!-- For thrown -->
+
+<spell name="Instant Concrete" type="template" templateID="10" anchored="0">
+	<effect type="trigger" spell="Unliving Wall"/>
+	<anim sprite="sprites/sfx/null" frames="1" firstframe="0" framerate="100"/>
+	<description text="Instant dungeon, just add water."/>
+	</spell>
+
+<spell name="Thunder Mine Trigger" type="target">
+	<effect type="trigger" spell="TMine Blast 1" amount="0" />
+	<effect type="trigger" spell="TMine Blast 2" amount="0" />
+	<effect type="trigger" spell="TMine Blast 3" amount="0" />
+	<anim sprite="sprites/sfx/fulminaric_bolt/fulminaric_bolt" frames="10" sfx="lightning_bolt" framerate="90" centerEffect="0"/>
+	<impact sprite="sprites/sfx/blastA/blastA" frames="4" framerate="70" centerEffect="1"/>
+	<description text="By busting some sweet dance moves, you set the dance floor on fire, effectively setting all enemies around you on fire. Also more fire beyond that, it's really quite a mess. Greater magical power makes the fire all the hotter." />
+	</spell>
+
+<spell name="TMine Blast 1" type="template" templateID="20" >
+	<effect type="damage" blasting="13" voltaic="12" voltaicF="0.42" affectscaster="1" />
+	<effect type="knock" self="0" amount="1" />
+	<anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec"/>
+	</spell>
+
+<spell name="TMine Blast 2" type="template" templateID="21" >
+	<effect type="damage" blasting="10" voltaic="10" voltaicF="0.36" affectscaster="1" />
+	<effect type="knock" self="0" amount="1" />
+	<anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec"/>
+	</spell>
+
+<spell name="TMine Blast 3" type="template" templateID="22" >
+	<effect type="damage" blasting="9" voltaic="9" voltaicF="0.30" affectscaster="1" />
+	<effect type="knock" self="0" amount="1" />
+	<anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec"/>
+	</spell>
+
+<spell name="Cluster Bomb Trigger" type="targetfloor" >
+	<effect type="trigger" spell="Generic Fireball"/>
+	<effect type="trigger" spell="Cluster Bomb Blast"/>
+	<description text="Boom."/>
+	</spell>
+
+<spell name="Cluster Bomb Blast" type="template" templateID="99" anchored="0">
+	<effect type="trigger" percent="25" spell="Thermite Center"/>
+	<description text="Boom."/>
+	</spell>
 
 <spell name="Lance Effect" type="target" >
 	<effect type="damage" righteous="20" taxa="Undead" />
@@ -724,26 +793,29 @@
 	<description text="Ghouls and ghosts beware." />
 	</spell>
 
-<spell name="Stealth Rock" type="targetfloor" 
-	mine="1" 
-	mineradius="2" 
-	mineSpriteDrawOrder="0"
-	minePermanent="0" 
-	mineTimer="50"
-	minesprite="dungeon/stealth_rock.png" 
-	icon="skills/spells/crystal_healing32.png">
-	<requirements mp="1" savvyBonus="0.30" mincost="1" />
-	<effect type="damage" crushing="15" crushingF="0.2" affectscaster="1" />
-	<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" framerate="100" sfx="earth" centerEffect="0"/>
-	<description text="Creates pointed stones that float in the air and deal damage when stepped into."/>
-	<ai hint="mine"/>
-	</spell>
-
 <spell name="Molotov Milk Effect" type="target" >
 	<effect type="trigger" spell="Thermite Center" />
-	<effect type="trigger" spell="Flamefield 2" />
-	<effect type="trigger" spell="Flamefield 2" />
+	<effect type="trigger" spell="Thermite Center" />
+	<effect type="trigger" spell="Milk Flamefield" />
 	</spell>
+
+<spell name="Milk Flamefield" 
+      type="targetfloor" 
+      mineTimer="4" 
+      mineUseGlints="1" 
+      mineGlintDensity="16" 
+      mineSpritePNGSeries="sprites/sfx/flame_field/flame_field" 
+      mineSpritePNGFirst="0" 
+      mineSpritePNGNum="10" 
+      mineSpritePNGRate="100" 
+      mine="1" 
+      mineradius="3"
+      mineSpriteDrawOrder="1"
+      minePermanent="1" >
+   <effect type="damage" conflagratory="18" affectscaster="1" />
+   <effect type="trigger" affectscaster="1" spell="On Fire" />
+   <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60" centerEffect="1" sfx="flame_weak"/>
+   </spell>
 
 <spell name="Oiled" type="target" icon="skills/spells/phlogistonic_oil32.png" wand="1" >
 	<anim sprite="sprites/sfx/oildrip/oildrip" frames="4" framerate="90" sfx="fleshbore" centerEffect="0"/>
@@ -768,7 +840,62 @@
     <effect type="trigger" affectscaster="1" spell="Oiled" />
    </spell>
 
+<spell name="Frostfire Flask Effect" 
+      type="targetfloor" 
+      mineTimer="14" 
+      mineUseGlints="1" 
+      mineGlintDensity="16" 
+      mineSpritePNGSeries="sprites/frostfire_field/frostfire_field" 
+      mineSpritePNGFirst="0" 
+      mineSpritePNGNum="8" 
+      mineSpritePNGRate="100" 
+      mine="1" 
+      mineradius="3"
+      minePermanent="1" >
+   <effect type="damage" hyperborean="5" hyperboreanF="2" conflagratory="5" conflagratoryF="2" secondaryScale="21" affectscaster="1" />
+   <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60" centerEffect="1" sfx="magic"/>
+   </spell>
+
+
+<spell name="Frostfire Trap Effect" 
+      type="targetfloor" 
+      mineTimer="14" 
+      mineUseGlints="1" 
+      mineGlintDensity="16" 
+      mineSpritePNGSeries="sprites/frostfire_field/frostfire_field" 
+      mineSpritePNGFirst="0" 
+      mineSpritePNGNum="8" 
+      mineSpritePNGRate="100" 
+      mine="1" 
+      mineradius="3"
+      minePermanent="1" >
+   <effect type="damage" hyperborean="6" conflagratory="6" affectscaster="1" />
+   <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60" centerEffect="1" sfx="magic"/>
+   </spell>
+
+<!-- Crossbow effects -->
+
+<spell name="Repeating Crossbow Effect" type="template" templateID="09" anchored="0" >
+	<effect type="trigger" spell="Gargoyle Arrow" />
+	</spell>
+
+<spell name="Mind Thruster Effect" type="target" >
+	<effect type="damage" aethereal="1" aetherealF="0.35" primaryScale="1" />
+	<description text="Blam!" />
+	</spell>
+
 <!-- For Bolts -->
+
+<spell name="Aethereal Bolt Center" type="target" >
+	<effect type="damage" blasting="8" aethereal="16" affectscaster="1" />
+	<anim sprite="sprites/sfx/blastA/blastA" frames="4" framerate="70" centerEffect="1" sfx="explosion"/>
+	<effect type="trigger" spell="Aethereal Bolt Blast" />
+	</spell>
+
+<spell name="Aethereal Bolt Blast" type="template" templateID="11" >
+	<effect type="damage" transmutative="7" blasting="7" aethereal="7" affectscaster="1" />
+	<anim sprite="sprites/sfx/null" frames="1" firstframe="0" framerate="100" centerEffect="0"/>
+	</spell> 
 
 <spell name="Stay Frosty" type="target" >
 	<effect type="lockdown" amount="5" />
@@ -796,8 +923,39 @@
 	<description text="A burst of holy wrath." />  
    </spell>
 
+<spell name="Tinkertoy Bolt Effect" type="target" >
+	<effect type="damage" piercingF="8" secondaryScale="20" />
+	<description text="Show off your mechanical skill." />
+	</spell>
 
 <!-- Wand effects -->
+
+<spell name="Wand Fungling Blast" type="target" wand="0" >
+	<effect type="damage" toxic="6" toxicF="1.00" conflagratory="6" conflagratoryF="1.00" secondaryScale="23" />
+	<effect type="trigger" spell="Sporification" />
+	<effect type="trigger" spell="Fungling" />
+	<anim sprite="sprites/sfx/goosplatA/goosplatA" frames="4" framerate="100" sfx="agar_attack" />
+	</spell>
+
+<spell name="Wand Silver Discharge" type="beam" wand="0" >
+	<effect type="damage" voltaic="8" voltaicF="2.00" conflagratory="8" conflagratoryF="2.00" secondaryScale="23" />
+	<effect type="trigger" spell="On Fire" />
+	</spell>
+
+<spell name="Wand Stealth Rock" type="targetfloor" 
+	mine="1" 
+	mineradius="2" 
+	mineSpriteDrawOrder="0"
+	minePermanent="0" 
+	mineTimer="50"
+	minesprite="dungeon/stealth_rock.png" 
+	icon="skills/spells/crystal_healing32.png">
+	<requirements mp="1" savvyBonus="0.30" mincost="1" />
+	<effect type="damage" crushing="15" crushingF="3.00" secondaryScale="23" affectscaster="1" />
+	<anim sprite="sprites/sfx/rockburst/rockburst" frames="9" framerate="100" sfx="earth" centerEffect="0"/>
+	<description text="Creates pointed stones that float in the air and deal damage when stepped into."/>
+	<ai hint="mine"/>
+	</spell>
 
 <spell name="Universal Remote Effect" type="target" icon="skills/spells/animate_robot32.png" >
 	<effect type="charm" turns="12" taxa="Construct" />
@@ -805,11 +963,144 @@
 	<anim sprite="sprites/sfx/lightningstrike/lightningstrike" frames="6" framerate="100" sfx="elect" />
 	</spell>
 
+<spell name="Seeding" type="targetcorpse">
+      	<effect type="triggerfromlist">
+        	<option name="Mushy Summon" />
+        	<option name="Carroty Summon" />
+        	<option name="Potato Summon" />
+	</effect>
+</spell>
+
+<spell name="Mushy Summon" type="target" icon="skills/rogue/fungus4_32.png" >
+	<effect type="summon" monsterType="Mushy"/>
+	<anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="90" sfx="small_spell" centerEffect="1" /> 
+	</spell>
+
+<spell name="Carroty Summon" type="target" icon="skills/rogue/fungus4_32.png" >
+	<effect type="summon" monsterType="Carrotty"/>
+	<anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="90" sfx="small_spell" centerEffect="1" /> 
+	</spell>
+
+<spell name="Potato Summon" type="target" icon="skills/rogue/fungus4_32.png" >
+	<effect type="summon" monsterType="Enchanted Plaguetato"/>
+	<anim sprite="sprites/sfx/smokepuffbig/smokepuffbig" frames="6" framerate="90" sfx="small_spell" centerEffect="1" /> 
+	</spell>
+
+<!-- Encrusting instabilities -->
+
+<spell name="Unstable Self Evil-lutionary Mishap" type="self" icon="skills/core_diggle32.png" wand="0">
+	<buff useTimer="1" time="15" stacksize="1" self="0" icon="skills/core_diggle64.png" smallicon="skills/core_diggle32.png" bad="1" >    
+		<polymorph name="Agar Aguardian"/>
+		<multibuff amount="-1"/>
+		<primarybuff id="0" amount="-2"/> <!-- Burl -->
+		<primarybuff id="1" amount="-2"/> <!-- Sag -->
+		<primarybuff id="2" amount="-2"/> <!-- Nim -->
+		<primarybuff id="3" amount="-2"/> <!-- Cad -->
+		<primarybuff id="4" amount="-2"/> <!-- Stubb -->
+		<primarybuff id="4" amount="-2"/> <!-- Savvy -->
+	</buff>
+	<description text="Your insides have turned to jello as your instability-ridden body tries to work out what it should be. Without hands or feet, you're not going to be able to attack or cast spells." />
+	</spell>
+
+<spell name="Rotfiend Instability Rot" type="self">
+	<anim sprite="sprites/sfx/chargeB/chargeB" frames="6" framerate="100" sfx="agar_attack" />
+	<effect type="consumebooze"/>
+	<effect type="consumefood"/>
+  	<effect type="spawnitemfromlist">
+		<option name="Grimy Food"/>
+	</effect>
+</spell>
+
+<spell name="Unstable Demonic Calling" type="self" >
+	<effect type="summonhostile" monsterType="Monstrous Demon Diggle" />
+</spell>
 
 
 <!-- Dungeon Effect Spells -->
 
-<!-- Obsdia Shrine Curses -->
+<!-- Fountains. Fountains have a roughly 3 to 1 good to bad ratio of effects. -->
+
+<!-- <fountain name="Hydra Blood" text="The water tastes lemony. You wonder if there's any shrimp to be had nearby."/>  This doesn't work; Crashes the Game -->
+<fountain name="Alien Autopsy" text="Cool refreshment swirls in your mind and coalesces into inspiration."/>
+<fountain name="Voltaic Empowerment" text="The water tingles! Hey, this is fun!"/>
+<fountain name="Bolt Grab Bag" text="Looks like someone's left a bundle of bolts in the bottom."/>
+<fountain name="Brutal Strikes" text="You feel angry. Really, really angry. People won't like you now."/>
+<fountain name="Righteous Radiance" text="A wave of calmness washes over your mind, leaving it clean and pristine."/>
+<fountain name="Deflection Draught" text="The water imbues you with bouncy deflection magics."/>
+<fountain name="Classy" text="You feel elevated over the undignified, hatless masses."/>
+<fountain name="Hyper Hyped Trigger" text="A surge of confidence wells up in you."/>
+<fountain name="Thaumaturgic Charge" text="Energies crawl out of the water and run across your skin."/>
+<fountain name="Wright's Irrefutable Argument" text="You feel recharged and ready for a long night of sustained action."/>
+<fountain name="Haste" text="Everything starts moving at a blur. Can someone please stop the room so you can get off?"/>
+
+
+
+<fountain name="Magebane Trap Effect" text="This isn't water in the fountain, it's searing mana!"/>
+<fountain name="Food Poisoning" text="Consumption of non DSHA-compliant fluids can lead to adverse effects."/>
+<fountain name="Evil-lutionary Mishap" text="Transmutative magics wash over you; everything suddenly seems larger."/>
+<fountain name="Rotfiend Trap Effect" text="Disgusting slimy water splashes up from the fountain and fouls your food!"/>
+
+<!-- Trap effects -->
+
+<spell name="Lesser Magebane Trap Effect" type="target" wand="0">
+	<effect type="damage" aethereal="3" transmutative="3" affectsCaster="1" />
+	<effect type="trigger" spell="Lesser Magebane Trap Drain" taxa="Player" amount="1" />
+	<anim sprite="sprites/sfx/stancechange/stancechange" frames="5" framerate="50" centerEffect="1" sfx="weakness" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Lesser Magebane Trap Drain" type="target" wand="0">
+	<effect type="drainCasterMana" amount="25" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Magebane Trap Effect" type="target" wand="0">
+	<effect type="damage" aethereal="5" transmutative="5" affectsCaster="1" />
+	<effect type="trigger" spell="Magebane Trap Drain" taxa="Player" amount="1" />
+	<anim sprite="sprites/sfx/stancechange/stancechange" frames="5" framerate="50" centerEffect="1" sfx="weakness" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Magebane Trap Drain" type="target" wand="0">
+	<effect type="drainCasterMana" amount="50" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Greater Magebane Trap Effect" type="target" wand="0">
+	<effect type="damage" aethereal="10" transmutative="10" affectsCaster="1" />
+	<effect type="trigger" spell="Greater Magebane Trap Drain" taxa="Player" amount="1" />
+	<anim sprite="sprites/sfx/stancechange/stancechange" frames="5" framerate="50" centerEffect="1" sfx="weakness" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Greater Magebane Trap Drain" type="target" wand="0">
+	<effect type="drainCasterMana" amount="90" />
+	<description text="Well, snap. There goes your magic."/>
+	</spell>
+
+<spell name="Rotfiend Trap Effect" type="target" >
+	<anim sprite="sprites/sfx/chargeB/chargeB" frames="6" framerate="100" sfx="agar_attack" />
+	<description text="Disgusting putrefaction rapidly seeps through your flesh and possessions." />
+	<effect type="trigger" spell="Rotfiend Trap Effect Rot" taxa="Player" amount="1" />
+</spell>
+
+<spell name="Rotfiend Trap Effect Rot" type="target">
+	<effect type="consumebooze"/>
+	<effect type="consumefood"/>
+  	<effect type="spawnitemfromlist">
+		<option name="Grimy Food"/>
+	</effect>
+</spell>
+
+<spell name="Vile Rotfiend Trap Effect" type="target" >
+	<anim sprite="sprites/sfx/chargeB/chargeB" frames="6" framerate="100" sfx="agar_attack" />
+	<description text="Disgusting putrefaction rapidly seeps through your flesh and possessions." />
+	<effect type="trigger" spell="Rotfiend Trap Effect Rot" taxa="Player" amount="1" />
+	<effect type="trigger" spell="Rotfiend Trap Effect Rot" taxa="Player" amount="1" />
+	<effect type="trigger" spell="Rotfiend Trap Effect Rot" taxa="Player" amount="1" />
+</spell>
+
+<!-- Obsdia Shrine and Grove spells -->
 
 <spell name="Draconic Curse" type="self" >
 	<buff brittle="60" useTimer="0" allowstacking="0" icon="skills/d_curse64.png" smallicon="skills/d_curse32.png">
@@ -818,6 +1109,7 @@
 		<secondarybuff id="14" amount="-4"/> <!-- mp regen -->
 		<resistbuff conflagratory="-10" />
 		</buff>
+	<effect type="removebuffbyname" name="Draconic Power" />
 	<description text="The draconic goddess Obsidia has turned a baleful eye on you for slaying her children and defiling her shrine." />
 	</spell>
 
@@ -828,26 +1120,128 @@
 		<secondarybuff id="14" amount="-6"/> <!-- mp regen -->
 		<resistbuff conflagratory="-15" />
 		</buff>
+	<effect type="removebuffbyname" name="Draconic Power" />
 	<description text="The draconic goddess Obsidia has turned a baleful eye on you for slaying her children and defiling her shrine." />
 	</spell>
 
 <spell name="Obsidia Bone Loot Summon" type="target" >
   	<effect type="spawnitemfromlist">
+		<option name="Skelefang"/>
+		<option name="Ferox"/>
 		<option name="Crystal Carapace"/>
 		<option name="Dragonbone Helm"/>
 		<option name="Bone Boots"/>
 		<option name="Bone Cuirass"/>
 		<option name="Bone Plate"/>
 		<option name="Silent Grave"/>
+		<option name="Needlestrike"/>
+		<option name="Skullcrusher"/>
+		<option name="Spinebreaker"/>
+		<option name="Skeletal Ring"/>
 	</effect>
+	</spell>
+
+<spell name="Obsidia Obsidian Loot Summon" type="target" >
+  	<effect type="spawnitemfromlist">
+		<option name="Earth Shadow"/>
+		<option name="Obsidian Tipped Spear"/>
+		<option name="Death Scythe(s)"/>
+		<option name="Fury of the Earth"/>
+		<option name="Volcannon"/>
+		<option name="Obsidian Breastplate"/>
+		<option name="Obsidian Helm"/>
+		<option name="Earthwarder"/>
+		<option name="Obsidian Belt"/>
+		<option name="Essence of Wisdom"/>
+		<option name="Obsidian Plated Boots"/>
+		<option name="Obsidian Gauntlets"/>
+	</effect>
+	</spell>
+
+<spell name="Draconic Refresh" type="self" wand="0">
+	<effect type="heal" amount="200" />
+	<effect type="spellpoints" amount="200" />
+	<effect type="uncurse" amount="1" />
+	<description text="Life flows through your body!" />
+	<anim sprite="sprites/sfx/summonA/summonA" frames="10" framerate="60" centerEffect="1" sfx="choir" />
+	</spell>
+
+<spell name="Draconic Power" type="self" >
+	<buff useTimer="1" time="300" allowstacking="0" icon="skills/drapower64.png" smallicon="skills/drapower32.png">
+		<secondarybuff id="3" amount="5"/> <!-- Mpow -->
+		<damagebuff conflagratory="5" />
+		<secondarybuff id="13" amount="4"/> <!-- hp regen -->
+		<secondarybuff id="14" amount="4"/> <!-- mp regen -->
+		</buff>
+	<description text="The fury of the earth burns inside you! You feel incredibly powerful." />
+	</spell>
+
+<!-- Selzauide -->
+
+<spell name="Selzauide's Serenity" type="self">
+	<anim sprite="sprites/sfx/fulminaric_bolt/fulminaric_bolt" frames="10" sfx="lightning_bolt" framerate="90"  centerEffect="0"/>
+	<buff useTimer="0" stacksize="1" icon="skills/drapower164.png" smallicon="skills/drapower132.png"  digglegod="1">
+		<secondarybuff id="1" amount="40" />
+		<secondarybuff id="3" amount="15" />
+		<secondarybuff id="11" amount="15" />
+		<secondarybuff id="14" amount="4" />
+		<secondarybuff id="22" amount="20" />
+		</buff>
+	<description text="The draconic wind goddess Selzauide has lent you a small portion of Her magical elegance. After so long with only ice and wind for company, She's so happy to be remembered by someone that She doesn't even care that you're not a dragon."/>
+	<ai hint="buff"/>
+	</spell>
+
+<spell name="Curse of the North Wind" type="self" >
+	<buff brittle="100" useTimer="0" allowstacking="0" icon="skills/spells/hyperborean_vitrification64.png" smallicon="skills/spells/hyperborean_vitrification32.png">
+	<anim sprite="sprites/sfx/fulminaric_bolt/fulminaric_bolt" frames="10" sfx="lightning_bolt" framerate="90"  centerEffect="0"/>
+		<primarybuff id="5" amount="-30"/> <!-- Savvy -->
+		<secondarybuff id="3" amount="-30"/> <!-- mpow -->
+		<secondarybuff id="14" amount="-14"/> <!-- mp regen -->
+		<resistbuff voltaic="-8" hyperborean="-8" />
+		</buff>
+	<effect type="removebuffbyname" name="Draconic Power" />
+	<effect type="removebuffbyname" name="Selzauide's Serenity" />
+	<description text="The knowledge of whether Selzauide dislikes lawyers, burglars or golemancers has been lost to time with any meaningful worship of Her, but there is one sure fact: she loathes those who would game her little puzzles." />
+	</spell>
+
+  <digglegod name="Draconic Wind Goddess, Selzauide" description="It's an ancient, long-forgotten shrine to the draconic wind goddess, Selzauide." art="dungeon/selza.png" spell="Selzauide's Serenity"/>
+
+<!-- Other -->
+
+<!-- For Brax pet shop. -->
+
+<spell name="Brax Pet Summon" type="self">
+      	<effect type="triggerfromlist">
+        	<option name="Mushy Summon" />
+        	<option name="Carroty Summon" />
+        	<option name="Potato Summon" />
+        	<option name="Zombyfycation" />
+        	<option name="Summon Wyrmling" />
+        	<option name="Animate Mustache" />
+        	<option name="Release The Hounds" />
+        	<option name="Summon Swarmy" />
+        	<option name="Summon Slime" />
+		<option name="Fire 1" />
+		<option name="Fire 1" />
+		<option name="Fire 1" />
+		<option name="Fire 1" />
+		<option name="Fire 1" />
+	</effect>
+</spell>
+
+<spell name="Phoenix Summon" type="target" >
+	<effect type="summon" monsterType="Phoenix"/>
+	<anim sprite="sprites/sfx/fireball/fireball" frames="7" firstframe="0" framerate="90" centerEffect="1" sfx="explosion" /> 
 	</spell>
 
 <!-- Monster spells -->
 
+<!-- Dragons -->
+
 <spell name="Thaumic Drain" type="target" >
 	<anim sprite="sprites/sfx/hex_orb/hex_orb" frames="6" framerate="100" sfx="hex_missile" />
 	<impact sprite="sprites/sfx/curse_loop/curse_loop" frames="7" framerate="100" sfx="magic_damage" />
-	<buff useTimer="1" allowstacking="1" stacksize="10" time="50" icon="skills/wizard/spell_black0_64.png" smallicon="skills/wizard/spell_black0_32.png" bad="1" >
+	<buff useTimer="1" allowstacking="1" stacksize="10" time="50" self="0" icon="skills/wizard/spell_black0_64.png" smallicon="skills/wizard/spell_black0_32.png" bad="1" >
 		<primarybuff id="1" amount="-2"/> <!-- Sag -->
 		<primarybuff id="5" amount="-2"/> <!-- Savvy -->
 		<secondarybuff id="3" amount="-1" />
@@ -861,7 +1255,7 @@
 <spell name="Greater Thaumic Drain" type="target" >
 	<anim sprite="sprites/sfx/hex_orb/hex_orb" frames="6" framerate="100" sfx="hex_missile" />
 	<impact sprite="sprites/sfx/curse_loop/curse_loop" frames="7" framerate="100" sfx="magic_damage" />
-	<buff useTimer="1" allowstacking="1" stacksize="10" time="50" icon="skills/wizard/spell_black0_64.png" smallicon="skills/wizard/spell_black0_32.png" bad="1" >
+	<buff useTimer="1" allowstacking="1" stacksize="10" time="50" self="0" icon="skills/wizard/spell_black0_64.png" smallicon="skills/wizard/spell_black0_32.png" bad="1" >
 		<primarybuff id="1" amount="-4"/> <!-- Sag -->
 		<primarybuff id="5" amount="-4"/> <!-- Savvy -->
 		<secondarybuff id="3" amount="-2" />
@@ -873,16 +1267,208 @@
 	</spell>
 
 <spell name="Vile Gunk" type="target" >
-	<buff useTimer="1" time="2" allowstacking="0" icon="skills/spells/stagnant_deluge64.png" smallicon="skills/spells/stagnant_deluge32.png">
+	<buff useTimer="1" time="2" allowstacking="0" self="0" icon="skills/spells/stagnant_deluge64.png" smallicon="skills/spells/stagnant_deluge32.png" bad="1" >
 		<multibuff amount="-1"/>
 		</buff>
 	<description text="Yuck! Thick, disgusting gunk plasters your body and prevents you from attacking!" monsterText="spews thick, disgusting gunk all over you!" />
 	</spell>
 
+<spell name="Summon Flamer" type="self" >
+	<effect type="summonhostile" monsterType="Flamer" />
+</spell>
+
+<spell name="Summon Obsidian Warder" type="self" >
+	<effect type="summonhostile" monsterType="Obsidian Warder" />
+</spell>
+
+<!-- Boss Exclusive spells -->
+
+<spell name="Flame Death Destruction" type="self">
+	<effect type="trigger" spell="FDD 1" amount="0" />
+	<effect type="trigger" spell="FDD 2" amount="0" />
+	<effect type="trigger" spell="FDD 3" amount="0" />
+	<anim sprite="sprites/sfx/fireburst/fireburst" frames="7" framerate="90" sfx="magic" centerEffect="1"/>
+	<impact sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="100" sfx="flame" centerEffect="1"/>
+	<description text="Flame Death Destruction" monsterText="begins channelling the power of Obsidia! Run!"/>
+</spell>
+
+<spell name="FDD 1" type="template" templateID="20" >
+	<effect type="damage" conflagratory="100" affectscaster="0" />
+	<anim sprite="sprites/sfx/thermite_hit/thermite_hit" frames="8" framerate="40" sfx="blast"/>
+	</spell>
+
+<spell name="FDD 2" type="template" templateID="21" >
+	<effect type="damage" conflagratory="80" affectscaster="0" />
+	<anim sprite="sprites/sfx/thermite_hit/thermite_hit" frames="8" framerate="40" sfx="blast"/>
+	</spell>
+
+<spell name="FDD 3" type="template" templateID="22" >
+	<effect type="damage" conflagratory="60" affectscaster="0" />
+	<anim sprite="sprites/sfx/thermite_hit/thermite_hit" frames="8" framerate="40" sfx="blast"/>
+	</spell>
+
+<spell name="Fire Blossom" type="self">
+	<effect type="trigger" spell="Fire Blossom Trigger" amount="0" />
+	<description text="Flame Death Destruction" monsterText="erupts in a blossom of fire!"/>
+</spell>
+
+<spell name="Fire Blossom Trigger" type="template" templateID="5002" >
+	<effect type="trigger" spell="Gog's Tactical Pyre" amount="0" />
+	</spell>
+
+<!-- Statues -->
+
+<spell name="Mind Blast" type="target" >
+	<anim sprite="sprites/sfx/chargeA/chargeA" frames="6" framerate="100" sfx="magic_damage" />
+	<buff useTimer="1" allowstacking="0" time="5" icon="skills/mindblast64.png" smallicon="skills/mindblast32.png" bad="1" >
+		<primarybuff id="5" amount="-50"/> <!-- Savvy -->
+		</buff>
+	<description text="Your mind has been seared by a surge of magical energies, making them much harder to cast and less likely to go haywire. At least it doesn't last long." monsterText="blasts your mind with arcane power!" />
+	</spell>
+
+<spell name="Summon Arcane Flares" type="template" templateID="5001" >
+	<effect type="trigger" spell="Summon Arcane Flare Effect" amount="0" />
+	<anim sprite="sprites/sfx/impact_transmutative/impact_transmutative" frames="6" sfx="aetherial" framerate="70" centerEffect="0"/>
+	<description text="Curator!" monsterText="summons arcane flares to its aid!"/>
+	<ai hint="self"/>
+	</spell>
+
+<spell name="Summon Arcane Flare Effect" type="target" >
+	<effect type="summonhostile" monsterType="Arboreal Wisp" />
+</spell>
+
+<!-- Mushys -->
+
+<spell name="Death Spores" type="self" icon="skills/spells/unconditional_love64.png" >
+	<effect type="trigger" amount="5" spell="Small Weak Poison Cloud" /> 
+	</spell>
+
+<spell name="Death Jolt" type="self" icon="skills/spells/unconditional_love64.png" >
+	<effect type="trigger" spell="Tesla Mine Effect" /> 
+	<effect type="trigger" amount="5" spell="Death Jolt Blast" /> 
+	</spell>
+
+<spell name="Death Jolt Blast" type="template" templateID="98" anchored="0">
+	<anim sprite="sprites/sfx/null" frames="1" framerate="100" centerEffect="1"/>
+	<effect type="trigger" spell="Tesla Mine Effect" /> 
+	</spell>
+
+<spell name="Death Flare" type="self" icon="skills/spells/unconditional_love64.png" >
+	<effect type="trigger" spell="Fire 0" /> 
+	<effect type="trigger" amount="5" spell="Death Flare Blast" /> 
+	</spell>
+
+<spell name="Death Flare Blast" type="target">
+      	<effect type="triggerfromlist">
+        	<option name="Flamefield 2" />
+        	<option name="Brimstone Cloud" />
+	</effect>
+</spell>
+
+<spell name="Shroomy Flame" 
+      type="targetfloor" 
+      mine="1" 
+      mineradius="1"
+      mineSpriteDrawOrder="1"
+      mineSpritePNGSeries="sprites/ffburn/ffburn" 
+      mineSpritePNGFirst="0" mineSpritePNGNum="4" mineSpritePNGRate="90" 
+      mineTimer="10" 
+      minePermanent="1" >
+   <effect type="damage" hyperborean="5" hyperboreanF="0.15" necromantic="5" necromanticF="0.15" affectscaster="1" />
+   <effect type="trigger" affectscaster="1" spell="On Fire" />
+	<description text="For shrooms." monsterText="burns your soul with ghostly flame!"/>
+   <anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="80" sfx="flame_weak" centerEffect="1"/>
+   </spell>
+
+<spell name="Death Shiitake" type="self" icon="skills/spells/unconditional_love64.png" >
+	<effect type="trigger" spell="Shroomy Flame" /> 
+	<effect type="trigger" amount="5" spell="Death Shiitake Blast" /> 
+	</spell>
+
+<spell name="Death Shiitake Blast" type="template" templateID="98" anchored="0">
+	<anim sprite="sprites/sfx/null" frames="1" framerate="100" centerEffect="1"/>
+	<effect type="trigger" percent="50" spell="Shroomy Flame" /> 
+	</spell>
+
+<spell name="Doom Shroom Trigger" type="self" icon="skills/spells/unconditional_love64.png" >
+	<effect type="trigger" spell="Gog's Tactical Pyre" /> 
+	<effect type="trigger" amount="5" spell="Doom Shroom Cloud" /> 
+	</spell>
+
+<spell name="Doom Shroom Cloud" type="target">
+      	<effect type="triggerfromlist">
+        	<option name="Infernal Torus" />
+        	<option name="Tentacular Doom" />
+        	<option name="Frostfire Trap Effect" />
+        	<option name="Strong Brimstone Cloud" />
+	</effect>
+	</spell>
+
+<!-- Phoenix Spells -->
+
+<spell name="Minor Phoenix Regeneration" type="target" >
+	<effect type="heal" amount="2" />
+	<description text="Your body is being rebuilt with alarming speed, tendon upon bone upon skin upon viscera..." />
+	<buff useTimer="1" time="16" icon="skills/spells/volcanonicon64.png" smallicon="skills/spells/volcanonicon32.png">
+	</buff>
+	<effect type="dot" spell="Regen Life Effect 1" amount="16"  resistable="0" />
+	<anim sprite="sprites/sfx/summonA/summonA" frames="10" framerate="60" centerEffect="1" sfx="white" />
+	<ai hint="ally" />
+	</spell>
+
+<spell name="Phoenix Regeneration" type="target" >
+	<effect type="heal" amount="3" />
+	<description text="Your body is being rebuilt with alarming speed, tendon upon bone upon skin upon viscera..." />
+	<buff useTimer="1" time="16" icon="skills/spells/volcanonicon64.png" smallicon="skills/spells/volcanonicon32.png">
+	</buff>
+	<effect type="dot" spell="Regen Life Effect 2" amount="16"  resistable="0" />
+	<anim sprite="sprites/sfx/summonA/summonA" frames="10" framerate="60" centerEffect="1" sfx="white" />
+	<ai hint="ally" />
+	</spell>
+
+<spell name="Major Phoenix Regeneration" type="target" >
+	<effect type="heal" amount="4" />
+	<description text="Your body is being rebuilt with alarming speed, tendon upon bone upon skin upon viscera..." />
+	<buff useTimer="1" time="16" icon="skills/spells/volcanonicon64.png" smallicon="skills/spells/volcanonicon32.png">
+	</buff>
+	<effect type="dot" spell="Regen Life Effect 3" amount="16"  resistable="0" />
+	<anim sprite="sprites/sfx/summonA/summonA" frames="10" framerate="60" centerEffect="1" sfx="white" />
+	<ai hint="ally" />
+	</spell>
+
+<spell name="Phoenix Reviver" type="self">
+	<effect type="trigger" spell="Phoenix Refresh" amount="0" />
+	<effect type="trigger" spell="Phoenix Revival" amount="0" />
+	<anim sprite="sprites/sfx/fireburst/fireburst" frames="7" framerate="90" sfx="magic" centerEffect="1"/>
+	<impact sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="100" sfx="flame" centerEffect="1"/>
+	<description text="Flame Death Destruction" monsterText="spreads warmth and life around it!"/>
+	</spell>
+
+<spell name="Phoenix Refresh" type="self" wand="0">
+	<effect type="heal" amount="200" />
+	<description text="Life flows through your body!" />
+	<anim sprite="sprites/sfx/summonA/summonA" frames="10" framerate="60" centerEffect="1" sfx="choir" />
+	</spell>
+
+<spell name="Phoenix Revival" type="template" templateID="12" >
+	<effect type="resurrection"/>
+	<anim sprite="sprites/sfx/thermite_hit/thermite_hit" frames="8" framerate="40" sfx="blast"/>
+	</spell>
+
+<spell name="Summon Grand Phoenix" type="template" templateID="5001" >
+	<effect type="trigger" spell="Summon Grand Phoenix Effect" amount="0" />
+	<anim sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="radiant" framerate="70" centerEffect="0"/>
+	<description text="For Svetlana" monsterText="calls her children to her aid!"/>
+	<ai hint="self"/>
+	</spell>
+
+<spell name="Summon Grand Phoenix Effect" type="target" >
+	<effect type="summonhostile" monsterType="Grand Phoenix" />
+	</spell>
 
 
 
-
+<!-- Skill spells -->
 
 
 
@@ -908,10 +1494,10 @@
 
 <!-- A buff. Quite strong and offsets some of the weaknesses of the tree, but sucks away mana like no tomorrow. Based on Syzygy. -->
 
-<spell name="Realignment" type="self" icon="skills/spells/zephyric_transport32.png" >
+<spell name="Realignment" type="self" icon="skills/realign32.png" >
 	<requirements mp="20" savvyBonus="0.25" mincost="10" />
 	<anim sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="radiant" framerate="70" centerEffect="0"/>
-	<buff useTimer="0" stacksize="1" removable="1" manaUpkeep="1" allowstacking="0" icon="skills/spells/zephyric_transport64.png" smallicon="skills/spells/zephyric_transport32.png">
+	<buff useTimer="0" stacksize="1" removable="1" manaUpkeep="1" allowstacking="0" icon="skills/realign64.png" smallicon="skills/realign32.png">
 		<halo name="sprites/sfx/hero_glow/hero_glow" first="0" num="3" frameRate="60" />
 		<secondarybuff id="0" amount="20"/> <!-- hp -->		
 		<secondarybuff id="6" amount="10"/> <!-- dodge -->
@@ -946,10 +1532,10 @@
 	<effect type="damage" righteous="1" aethereal="1" conflagratory="1" self="1" affectscaster="1"/>
    </spell>
 
-<spell name="Meltdown" type="self" icon="skills/wreathofexplosion32.png" >
+<spell name="Meltdown" type="self" icon="skills/immolate32.png" >
 	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="5" framerate="80" centerEffect="1" sfx="blast" />
 	<description text="You have learnt the hard way that it's not just little girls bearing buckets of water you have to watch out for." />
-	<buff useTimer="1" allowstacking="0" stacksize="1" time="2" icon="skills/wreathofexplosion64.png" smallicon="skills/wreathofexplosion32.png" bad="1" >
+	<buff useTimer="1" allowstacking="0" stacksize="1" time="2" icon="skills/immolate64.png" smallicon="skills/immolate32.png" bad="1" >
 	</buff>
 	<effect type="dot" resistable="0" self="1" spell="Meltdown Damage" amount="2" /> <!-- 2 turns of meltdown damage? -->
 	</spell>
@@ -1015,7 +1601,7 @@
 
 <spell name="Prismatic Spray" type="template" templateID="89" anchored="1" icon="skills/rainbow_spray32.png" wand="1" >
 	<requirements mp="25" savvyBonus="0.2" mincost="12" />
-	<anim sprite="sprites/sfx/energyring/energyring" frames="8" framerate="70" centerEffect="0" sfx="magic_damage" />
+	<anim sprite="sprites/sfx/rainbowhit/rainbowhit" frames="7" framerate="70" centerEffect="0" sfx="magic_damage" />
 	<description text="Smite thine enemies with the power of the rainbow! You probably won't find it super effective, but it won't be not very effective, either. Now if only this was a pokemon match..." />
 	<effect type="damage" crushing="1" crushingF="0.13" slashing="1" slashingF="0.13" blasting="1" blastingF="0.13" piercing="1" piercingF="0.13" conflagratory="1" conflagratoryF="0.13" hyperborean="1" hyperboreanF="0.13" voltaic="1" voltaicF="0.13" toxic="1" toxicF="0.13" righteous="1" righteousF="0.13" necromantic="1" necromanticF="0.13" acidic="1" acidicF="0.13" putrefying="1" putrefyingF="0.13" transmutative="1" transmutativeF="0.13" aethereal="1" aetherealF="0.13" asphyxiative="1" asphyxiativeF="0.13" existential="1" existentialF="0.13" />
 	</spell>
@@ -1041,7 +1627,7 @@
 	<description text="FLAME! DEATH! DESTRUCTION! Now let us show them who is the true lord of Blackr--I mean, this dungeon!" />
 	<buff useTimer="1" time="32" stacksize="1" self="1"  icon="skills/light_dragon64.png" smallicon="skills/light_dragon32.png" >    
 		<polymorph name="Flamer"/>
-		<halo name="sprites/sfx/hero_glow/hero_glow" first="0" num="3" frameRate="60" />
+		<halo name="sprites/sfx/chargeHalo/chargeHalo" first="0" num="8" frameRate="60" />
 		<secondarybuff id="1" amount="25"/><!-- magic points -->
 		<secondarybuff id="3" amount="20"/> <!-- magic power -->
 		<secondarybuff id="5" amount="20"/> <!-- haywire -->
@@ -1057,6 +1643,8 @@
 <spell name="Supercharged Heal" type="target" icon="skills/spells/restoration32.png" >
 	<effect type="heal" amount="200" />
 	<effect type="uncurse" amount="1" />
+	<effect type="removebuffbyname" name="Breached" />
+	<effect type="removebuffbyname" name="Disrupted" />
 	</spell>
 
 <!-- Regulates the effects of EDF. -->
@@ -1141,5 +1729,633 @@
 		<secondarybuff id="3" amount="-50"/> <!-- magic power -->
 	</buff>
 	</spell>
+
+
+
+<!-- Blood Knight Spells -->
+
+<!-- Healing from Blood Drain spell -->
+
+<spell name="Blood Healing" type="self" >
+	<effect type="heal" amount="2" />
+   </spell>
+
+<!-- Effect of Blood Price vampirism. -->
+
+<spell name="Blood Drain" type="target" >
+	<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" framerate="60" centerEffect="0" sfx="fleshbore" />
+	<effect type="drain" necromanticF="0.03" taxa="Vegetable" secondaryScale="0" />
+	<effect type="drain" necromanticF="0.02" taxa="Construct" secondaryScale="0" />
+	<effect type="drain" necromanticF="0.02" taxa="Undead" secondaryScale="0" />
+	<effect type="drain" necromanticF="0.03" taxa="Demon" secondaryScale="0" />
+	<effect type="drain" necromanticF="0.05" taxa="Other" secondaryScale="0" />
+	<effect type="drain" necromanticF="0.05" taxa="Animal" secondaryScale="0" />
+	<effect type="trigger" spell="Blood Healing" /> <!-- You do want some sort of return on your investment, yes? -->
+	</spell>
+
+<!-- Basic Blood Knight skill, designed to allow one to drain HP to fuel spells. Heal component is so that some sort of guaranteed return is expected. -->
+
+<spell name="Blood Price" downtime="25" type="self" icon="skills/blood_knight/blood_price32.png" wand="0">
+	<anim sfx="naughty"/>
+	<effect type="trigger" spell="Blood Upkeep" amount="4" />
+	<effect type="trigger" spell="Blood Price Effect" />
+	<description text="The runes on your weapon (or boot) have awakened to help you drain health from your enemies. If you do not constantly feed them the blood of others, they'll take yours instead!"/>
+	</spell>
+
+<spell name="Blood Upkeep" type="self" >
+	<effect type="heal" amount="-1" />
+	<effect type="trigger" spell="Blood Upkeep" amount="4" requirebuffontrigger="1" requirebuffontriggername="Blood Price Effect" />
+   </spell>
+
+<spell name="Blood Price Effect" type="self" icon="skills/blood_knight/blood_price32.png" >
+	<anim sprite="sprites/sfx/curse_hit/curse_hit" frames="6" framerate="100" sfx="naughty" centerEffect="1"/>
+	<buff useTimer="0" removable="1" allowstacking="0" icon="skills/blood_knight/blood_price64.png" smallicon="skills/blood_knight/blood_price32.png" >
+		<secondarybuff id="13" amount="-99" /> <!-- life regen --> 
+		<targetHitEffectBuff percentage="100" name="Blood Drain" />
+	</buff>
+	<description text="The runes on your weapon (or boot) have awakened to help you drain health from your enemies. If you do not constantly feed them blood of others, they'll take yours instead (at the cost of one health every four rounds)!"/>
+   </spell>
+
+
+<!-- Defensive buff for Blood Knights. -->
+
+<spell name="Crimson Defender" type="self" downtime="1" icon="skills/blood_knight/crimson_aegis32.png" >
+	<description text="Fresh, dripping life-force has awakened the protective runes on your armour." />
+	<anim sprite="sprites/sfx/evil_pact/evil_pact" frames="16" framerate="80" centerEffect="1" sfx="metal_drop" />
+	<buff useTimer="0" removable="1" allowstacking="0" icon="skills/blood_knight/crimson_aegis64.png" smallicon="skills/blood_knight/crimson_aegis32.png">
+		<secondarybuff id="0" amount="-13" /> <!-- hp -->
+		<secondarybuff id="7" amount="10"/> <!-- block -->
+		<secondarybuff id="11" amount="10"/> <!-- resist -->
+		<secondarybuff id="10" amount="3"/> <!-- armour -->
+	</buff>
+	</spell>
+
+<!-- Actual buff for Bloody Mess. -->
+
+<spell name="Bloody Mess" type="self" icon="skills/blood_knight/bloody_mess_32.png" >
+	<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="1" stacksize="5"  time="7" icon="skills/blood_knight/bloody_mess_64.png" smallicon="skills/blood_knight/bloody_mess_64.png">
+	<secondarybuff id="2" amount="2"/> <!-- melee power -->
+	<secondarybuff id="4" amount="1" /> <!-- crit -->
+	<secondarybuff id="8" amount="2"/> <!-- counter -->
+	</buff>
+	<description text="What? Oh you mean that bloody mess over there? Nope, definitely didn't have anything to do with it."/>
+	</spell>
+
+<!-- Ramping-up buffs for BA go here. -->
+
+<spell name="Tepid Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="2" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="2"/> <!-- melee power -->
+	<secondarybuff id="4" amount="2" /> <!-- crit -->
+	<secondarybuff id="9" amount="2"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<spell name="Warm Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="1" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="4"/> <!-- melee power -->
+	<secondarybuff id="4" amount="4" /> <!-- crit -->
+	<secondarybuff id="9" amount="4"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<spell name="Hot Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="1" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="6"/> <!-- melee power -->
+	<secondarybuff id="4" amount="6" /> <!-- crit -->
+	<secondarybuff id="9" amount="6"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<spell name="Steaming Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="1" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="8"/> <!-- melee power -->
+	<secondarybuff id="4" amount="8" /> <!-- crit -->
+	<secondarybuff id="9" amount="8"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<spell name="Boiling Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="1" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="10"/> <!-- melee power -->
+	<secondarybuff id="4" amount="10" /> <!-- crit -->
+	<secondarybuff id="9" amount="10"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<spell name="Burning Blood" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="7" framerate="60" centerEffect="0" />
+	<buff useTimer="1" self="1" allowstacking="0"  time="1" icon="skills/blood_knight/burning_adrenaline64.png" smallicon="skills/blood_knight/burning_adrenaline32.png">
+	<secondarybuff id="2" amount="12"/> <!-- melee power -->
+	<secondarybuff id="4" amount="12" /> <!-- crit -->
+	<secondarybuff id="9" amount="12"/> <!-- EDR -->
+	</buff>
+	<description text="Your blood is rapidly coming to a boil; enjoy your enhanced killing power while it lasts!"/>
+	</spell>
+
+<!-- Final Explosion from BA spell. -->
+
+<spell name="Bloody Explosion" type="template" templateID="20" anchored="1" affectscorpses="0" >
+	<effect type="damage" conflagratory="30" resistable="1" affectscaster="0" affectsCorpses="0" />
+	<anim sprite="sprites/sfx/smallfireexplosion/smallfireexplosion" frames="9" framerate="90" centerEffect="0" sfx="explosion" />
+	<description text="Does what it says." />
+   </spell>
+
+<!-- Cost for BA. -->
+
+<spell name="Burning Adrenaline Price" type="self" icon="skills/butcher32.png" >
+	<effect type="heal" amount="-20" />
+	</spell>
+
+<!-- Actual Burning Adrenaline spell, triggers other stuff. -->
+
+<spell name="Burning Adrenaline" downtime="12" type="self" icon="skills/blood_knight/burning_adrenaline32.png" >
+	<effect type="trigger" spell="Burning Adrenaline Price" />
+	<effect type="trigger" spell="Tepid Blood" />
+	<effect type="trigger" spell="Warm Blood" amount="3" />
+	<effect type="trigger" spell="Hot Blood" amount="5" />
+	<effect type="trigger" spell="Steaming Blood" amount="7" />
+	<effect type="trigger" spell="Boiling Blood" amount="9" />
+	<effect type="trigger" spell="Burning Blood" amount="11" />
+	<effect type="trigger" spell="Bloody Explosion" amount="13" />
+	<description text="Having taken on the aspect of a phoenix, your blood is coming to a (rather painful) boil. Enjoy it while it lasts." />
+	<anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="rune_set" centerEffect="0"/>
+	</spell>
+
+<spell name="Slaughter Price" type="self" icon="skills/butcher32.png" >
+	<description text="Remember that time when you stole that spaceship from those space goats? Turned out they were space vegetarians who dined on space vegetables, but space goats equal space mutton, and at least you've learned to slice straight from the whole experience."/>
+	<effect type="heal" amount="-3" />
+	</spell>
+
+<spell name="Slaughter Attack" type="template" anchored="1" templateID="03" attack="1" downtime="1" icon="skills/blood_knight/to_the_slaughter32.png" >
+	<description text="Remember that time when you stole that spaceship from those space goats? Turned out they were space vegetarians who dined on space vegetables, but space goats equal space mutton, and at least you've learned to slice straight from the whole experience. Costs nine units of blood to use." />
+      	<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" framerate="60" centerEffect="0" sfx="fleshbore" />
+	<effect type="damage" bleed="1" slashing="15" slashingF="1" secondaryScale="2" affectscaster="0" affectsCorpses="0"/>
+	<effect type="trigger" spell="Slaughter Price"/>
+	</spell>
+
+<spell name="Crimson Flurry" type="self" downtime="4" icon="skills/blood_knight/crimson_flurry32.png" >
+	<description text="For eighteen simple payments of blood (without interest), you can charge the runes on your weapon and become a swirling tornado of bloody death. Lengthy and bore-inducing introduction speech for you and your companions sold separately."/>
+	<effect type="heal" amount="-18" />
+	<effect type="trigger" spell="Crimson Attack"/>
+	</spell>
+
+<spell name="Crimson Attack" type="template" anchored="1" templateID="20" attack="1" affectsCorpses="0" >
+      	<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" framerate="60" centerEffect="0" sfx="fleshbore" />
+	<effect type="damage" bleed="1" slashing="30" slashingF="1" secondaryScale="2" affectscaster="0" affectsCorpses="0"/>
+	<effect type="trigger" spell="Fleshbore"/>
+	</spell>
+
+<!-- Potion effects go here. -->
+
+<spell name="Elven Snobbery" type="self" icon="skills/skill_bloodmagic.png" >
+   <effect percent="100" type="spellpoints" amount="2" amountF="0.1" />  
+   </spell>
+
+<spell name="Elven Sociopathy" type="self" icon="skills/blood_knight/blood_knight32.png" >
+	<anim sprite="sprites/sfx/evil_pact/evil_pact" frames="16" framerate="80" centerEffect="1" sfx="darkmagic" />
+	<buff useTimer="1" time="20" allowstacking="0" icon="skills/blood_knight/blood_knight64.png" smallicon="skills/blood_knight/blood_knight32.png" >
+		<targetHitEffectBuff percentage="100" name="Elven Snobbery" />
+	</buff>
+	<description text="You can try all you want, but being as stuck-up as an elf is something rather out of your reach. Still, the murderous mana-draining touch and fake British accent have got to be good for something."/>
+	</spell>
+
+<!-- Thrown Boring Speech here. -->
+
+<spell name="Boring Speech Effect" type="target" >
+	<anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1" sfx="induction" />
+	<effect type="sleep" amount="2" />
+	<effect type="trigger" spell="Boring Speech Blast" after="1" />
+	</spell>
+
+<spell name="Boring Speech Blast" type="template" templateID="99" >
+	<anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1" sfx="induction" />
+	<effect type="sleep" amount="2" after="1" />
+	</spell>
+
+
+
+<!-- From Witcher -->
+
+<!-- Here we go, then. Aard Sign is mainly as support - there's a little damage there, but it's mainly token, especially with a gish type character. 
+
+I was originally going to go with a mana cost for this, but it'd be so low that it'd be pointless at higher levels, and I don't want PK shove. I also
+
+don't want this to be spammed, and instead used intelligently.-->
+
+<spell name="Sign of Aard" type="template" templateID="89" anchored="1" downtime="8" icon="skills/witcher/aard_sign32.png" wand="1" >
+	<anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="70" sfx="psychic_shove" />
+	<description text="Using a powerful telekinetic force, you can send people and objects flying. Does not require you to shout words of power in a dramatic fashion to use." />
+	<effect type="paralyze" turns="1" self="0" resistable="0" /> <!-- Just in case. -->
+	<effect type="damage" blasting="2" blastingF="0.1" asphyxiative="2" asphyxiativeF="0.1" /> <!-- some token damage -->
+	<effect type="knock" amount="4" /> <!-- or maybe 5 -->
+	</spell>
+
+<spell name="Sign of Igni" type="template" templateID="89" anchored="1" icon="skills/witcher/igni_sign32.png" wand="1" >
+	<requirements mp="16" savvyBonus="0.1" mincost="12"/>
+	<anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" firstframe="0" framerate="60" sfx="flame_weak" />
+	<description text="A staple in any Witcher's arsenal, the Igni Sign sets things on fire and burns them to ashes." />
+	<effect type="damage" blasting="8" blastingF="0.45" conflagratory="3" conflagratoryF="0.25" /> <!-- slightly weaker than obvious fireball, since it's not ranged and they'll have lower mpow. -->
+	<effect type="trigger" spell="Igni Flamefield" />
+	</spell>
+
+<!-- So essentially, to fit the form of the template, each igni flamefield is created 6 times in each square. Based on flamefield 1. -->
+
+<spell name="Igni Flamefield" 
+      type="targetfloor" 
+      mineTimer="4" 
+      mineUseGlints="1" 
+      mineGlintDensity="16" 
+      mineSpritePNGSeries="sprites/sfx/flame_field/flame_field" 
+      mineSpritePNGFirst="0" 
+      mineSpritePNGNum="10" 
+      mineSpritePNGRate="100" 
+      mine="1" 
+      mineradius="1"
+      minePermanent="1" >
+   <effect type="damage" conflagratory="2" conflagratoryF="0.1" affectscaster="1" />
+   <effect type="trigger" affectscaster="1" spell="On Fire" />
+   <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60" centerEffect="1" sfx="flame_weak"/>
+   </spell>
+
+<!-- Wanted to do something interesting with counterbuff. Should work like adventurer aikido - now to hope it doesn't proc huge chains of nonsense. -->
+
+<spell name="Sweeping Strike" type="template" anchored="1" attack="1" templateID="88">
+	<effect type="damage" slashing="1" />
+	<anim sprite="sprites/sfx/impact_slash/impact_slash" frames="6" framerate="90" sfx="blade" />
+	</spell>
+
+<!-- Crowd control spell. Costly, so it can't be spammed. This part creates the mine. -->
+
+<spell name="Sign of Yrden" 
+	type="targetfloor"
+	mineTimer="20" 
+	mine="1" 
+	mineradius="1" 
+	mineSpriteDrawOrder="0" 
+	minesprite="skills/witcher/yrden_sigil.png" 
+	icon="skills/witcher/yrden_sign32.png">
+	<requirements mp="20" savvyBonus="0.2" mincost="16" />
+	<anim sprite="sprites/sfx/impact_transmutative/impact_transmutative" frames="6" framerate="70" sfx="rune_set" centerEffect="0"/>
+	<description text="The Sign of Yrden can be used to stun and trap enemies, either to create an opening or as an escape tool."/>
+	<effect type="trigger" spell="Yrden Lockup" />
+	<ai hint="mine"/>
+	</spell>
+
+<!-- And this part causes the effect. -->
+
+<spell name="Yrden Lockup" type="target" icon="skills/witcher/yrden_sign32.png" >
+	<description text="This enemy has been trapped by the Yrden Sign."/>
+	<anim sprite="sprites/sfx/impact_transmutative/impact_transmutative" frames="6" framerate="70" sfx="cursed" />
+	<buff useTimer="1" time="6" allowstacking="0" icon="skills/witcher/yrden_sign64.png" smallicon="skills/witcher/yrden_sign32.png" bad="1" self="0"> <!-- Just to show how long the effect is. -->
+	</buff>
+	<effect type="lockdown" amount="6" resistable="0" affectscaster="0"/>
+	<effect type="paralyze" turns="2" self="0" resistable="0" affectscaster="0" /> <!-- Just in case. -->
+   </spell>
+
+<!-- Quen sign. I'm going to try and make this as simple as possible without the need for overcomplicating matters. -->
+
+<spell name="Quen Sign Drain" type="self">
+	<effect type="drainCasterMana" amount="8" resistable="0" affectscaster="1"/>
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" sfx="elect" framerate="70" centerEffect="0"/>
+	<description text="Draining for Quen Sign."/>
+	</spell>
+
+<spell name="Quen Sign Blast" type="template" templateID="20" anchored="1" affectscorpses="0" >
+	<effect type="damage" voltaic="30" voltaicF="0.65" affectscaster="0" />
+	<anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec" />
+	<description text="Does what it says." />
+   </spell>
+
+<spell name="Quen Sign Effect" type="self" >
+	<effect type="trigger" spell="Quen Sign Drain" />
+	<effect type="trigger" spell="Quen Sign Blast" />
+	</spell>
+
+<spell name="Sign of Quen" type="self" icon="skills/witcher/quen_sign32.png" >
+	<requirements mp="20" savvyBonus="0.15" mincost="12" />
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" sfx="lightning_bolt" framerate="70" centerEffect="0"/>
+	<buff useTimer="0" stacksize="1" removable="1" manaUpkeep="3" allowstacking="0" icon="skills/witcher/quen_sign64.png" smallicon="skills/witcher/quen_sign32.png">
+		<halo name="sprites/sfx/arcA/arcA" first="0" num="4" frameRate="60" />
+		<secondarybuff id="7" amount="12"/> <!-- block -->
+		<secondarybuff id="10" amount="3"/> <!-- armor_absorption -->
+		<secondarybuff id="14" amount="-99"/> <!-- Mana regen -->
+		<blockBuff percentage="100" name="Quen Sign Effect" />
+		<resistbuff voltaic="5"/>
+	</buff>
+	<description text="A ward of electrical energy shields you from damage, but rapidly drains your mana and prevents it from regenerating." />     
+	</spell>
+
+<!-- Heliotrop sign. -->
+
+<spell name="Sign of Heliotrop" type="self" downtime="36" icon="skills/witcher/heliotrop_sign32.png" >
+	<anim sprite="sprites/sfx/energyring/energyring" frames="8" framerate="90" sfx="magic_damage" />
+	<buff useTimer="1" time="12" allowstacking="0" icon="skills/witcher/heliotrop_sign64.png" smallicon="skills/witcher/heliotrop_sign32.png">
+		<multibuff amount="2"/>
+		<secondarybuff id="11" amount="10"/> <!-- resist -->
+		<secondarybuff id="22" amount="10"/> <!-- reflect -->
+		</buff>
+	<description text="The Heliotrop Sign provides resistance to magical attacks and quickens your instincts and reflexes." />
+	</spell>
+
+
+
+<!-- From Arcanist -->
+
+<spell name="Cornucopia" downtime="480" type="self" icon="skills/fruit32.png" wand="0">
+	<anim sprite="sprites/sfx/energyring/energyring" frames="8" framerate="60" sfx="teleport"/>
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Danish" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<effect type="spawnitematlocation" itemName="Merlot" />
+	<description text="Pull food and drink out of thin air! The only reason you haven't ended world hunger yet is that this spell takes far too long to recharge."/>
+</spell>
+
+<!-- For Arcane Missile. I really wanted to use multiattack equals a number here. Too bad that for that to work, it had to be called directly with the spell, 
+and that using triggerfromlist wouldn't carry it over. Alas. Well, the effect is only cosmetic, really. -->
+
+<spell name="Arcane Missiles Weak" type="missile" >
+	<effect type="damage" aethereal="2" aetherealF="0.2" blasting="1" blastingF="0.1" affectscaster="1" />
+	<anim sprite="sprites/sfx/aetherial_missile/aetherial_missile" frames="6" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/icepuff/icepuff" frames="8" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="One Arcane Missile, you spell-fizzler."/>
+   </spell>
+
+<spell name="Arcane Missiles Medium" type="missile" >
+	<effect type="damage" aethereal="4" aetherealF="0.4" blasting="3" blastingF="0.3" affectscaster="1" />
+	<anim sprite="sprites/sfx/energy_ball/energy_ball" frames="6" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/impact_aethereal/impact_aethereal" frames="6" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="Two Arcane Missiles, your standard fare."/>
+   </spell>
+
+<spell name="Arcane Missiles Strong" type="missile" >
+	<effect type="damage" aethereal="8" aetherealF="0.5" blasting="5" blastingF="0.4" affectscaster="1" />
+	<anim sprite="sprites/sfx/mystic_missile/mystic_missile" frames="4" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="Three arcane missiles, don't get used to it."/>
+   </spell>
+
+<spell name="Arcane Missiles" type="target" icon="skills/wizard/spell_water0_32.png" >
+	<requirements mp="12" savvyBonus="0.3" mincost="5" />
+	<anim sfx="aetherial" />
+	<effect type="triggerfromlist">
+		<option name="Arcane Missiles Weak" />
+		<option name="Arcane Missiles Medium" />
+		<option name="Arcane Missiles Medium" />
+		<option name="Arcane Missiles Medium" />
+		<option name="Arcane Missiles Strong" />
+	</effect>
+	<description text="Fire an arcane missile off into the darkness! The effect is stable most of the time, but sometimes you get more, sometimes you get less..."/>
+	</spell>
+
+<spell name="Counterspell" type="target" icon="skills/mystic_missile32.png" wand="1" >
+	<requirements mp="15" savvyBonus="0.7" mincost="15" />
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="cursed" centerEffect="0"/>
+	<buff useTimer="1" time="15" self="0" stacksize="3" allowstacking="1" icon="skills/mystic_missile64.png" smallicon="skills/mystic_missile32.png" bad="1">
+		<secondarybuff id="11" amount="-7"/> <!-- resist -->
+		<secondarybuff id="22" amount="-7"/> <!-- reflect -->
+		<resistbuff aethereal="-3" />
+		<mute/>
+	</buff>
+	<description text="Your counterspell has silenced your enemy and reduced its magical resistances."/>
+	</spell>
+
+<!-- For Arcane Blast -->
+
+
+<!-- Arcane Blast Buffs. -->
+
+<spell name="Minor Arcane Charging" type="self" icon="skills/wizard/spell_water9_32.png" wand="0">
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="magic" />
+	<buff useTimer="1" self="1" allowstacking="0" time="2" icon="skills/wizard/spell_water9_64.png" smallicon="skills/wizard/spell_water9_32.png">
+		<halo name="sprites/sfx/water_loop/water_loop" first="0" num="6" frameRate="100" />
+		<primarybuff id="5" amount="-10"/> <!-- Savvy -->
+		<secondarybuff id="3" amount="3"/> <!-- Mpow -->
+		<secondarybuff id="5" amount="5"/> <!-- haywire, to make up for loss from savvy -->
+	</buff>
+	<description text="I'ma charging my mana! Your spells are more potent, but cost much more to cast!"/>
+</spell>
+
+<spell name="Arcane Charging" type="self" icon="skills/wizard/spell_water9_32.png" wand="0">
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="magic" />
+	<buff useTimer="1" self="1" allowstacking="0" time="2" icon="skills/wizard/spell_water4_64.png" smallicon="skills/wizard/spell_water4_32.png">
+		<halo name="sprites/sfx/water_loop/water_loop" first="0" num="6" frameRate="100" />
+		<primarybuff id="5" amount="-30"/> <!-- Savvy -->
+		<secondarybuff id="3" amount="7"/> <!-- Mpow -->
+		<secondarybuff id="5" amount="15"/> <!-- haywire, to make up for loss from savvy -->
+	</buff>
+	<effect type="removebuffbyname" name="Minor Arcane Charging" amount="0" self="1" />
+	<description text="I'ma charging my mana! Your spells are more potent, but cost much more to cast!"/>
+</spell>
+
+<spell name="Major Arcane Charging" type="self" icon="skills/wizard/spell_water9_32.png" wand="0">
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="magic" />
+	<buff useTimer="1" self="1" allowstacking="0" time="2" icon="skills/wizard/spell_water8_64.png" smallicon="skills/wizard/spell_water8_32.png">
+		<halo name="sprites/sfx/water_loop/water_loop" first="0" num="6" frameRate="100" />
+		<primarybuff id="5" amount="-60"/> <!-- Savvy -->
+		<secondarybuff id="3" amount="12"/> <!-- Mpow -->
+		<secondarybuff id="5" amount="30"/> <!-- haywire, to make up for loss from savvy -->
+	</buff>
+	<effect type="removebuffbyname" name="Arcane Charging" amount="0" self="1" />
+	<description text="I'ma charging my mana! Your spells are more potent, but cost much more to cast!"/>
+</spell>
+
+<!-- AB checks -->
+
+<spell name="Check for Major" type="target">
+	<effect type="trigger" requirebuffonnottrigger="1" requirebuffonnottriggername="Major Arcane Charging" spell="Minor Arcane Damage" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="80" />
+</spell>
+
+<spell name="Check for Arcane" type="target">
+	<effect type="trigger" requirebuffonnottrigger="1" requirebuffonnottriggername="Arcane Charging" spell="Check for Major" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="80" />
+</spell>
+
+<spell name="Check for Minor" type="target">
+	<effect type="trigger" requirebuffonnottrigger="1" requirebuffonnottriggername="Minor Arcane Charging" spell="Check for Arcane" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="80" />
+</spell>
+
+<!-- AB explosions -->
+
+<spell name="Arcane Explosion" type="template" templateID="9" anchored="0" affectscorpses="0" >
+	<effect type="damage" aethereal="2" aetherealF="0.2" blasting="2" blastingF="0.1" transmutative="2" transmutativeF="0.1" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="Does what it says." />
+   </spell>
+
+<spell name="Major Arcane Explosion" type="template" templateID="20" anchored="0" affectscorpses="0" >
+	<effect type="damage" aethereal="2" aetherealF="0.3" blasting="2" blastingF="0.2" transmutative="2" transmutativeF="0.2" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="Does what it says." />
+   </spell>
+
+<spell name="Supreme Arcane Explosion" type="template" templateID="12" anchored="0" affectscorpses="0" >
+	<effect type="damage" aethereal="2" aetherealF="0.4" blasting="2" blastingF="0.3" transmutative="2" transmutativeF="0.3" />
+	<effect type="removebuffbyname" name="Major Arcane Charging" amount="0" self="1" />
+	<anim sprite="sprites/sfx/null" frames="2" framerate="100" sfx="aetherial" />
+	<impact sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="aetherial" centerEffect="0"/>
+	<description text="Does what it says." />
+   </spell>
+
+<!-- Arcane Blast Damages -->
+
+<spell name="Minor Arcane Damage" type="target" >
+	<effect type="damage" aethereal="2" aetherealF="0.2" blasting="2" blastingF="0.2" transmutative="2" transmutativeF="0.1" />
+	<impact sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" centerEffect="0"/>
+	<effect type="trigger" spell="Minor Arcane Charging" amount="1" />
+	<description text="Testing, testing."/>
+   </spell>
+
+<spell name="Arcane Damage" type="target" >
+	<effect type="damage" aethereal="2" aetherealF="0.4" blasting="2" blastingF="0.4" transmutative="2" transmutativeF="0.2" />
+	<effect type="trigger" spell="Arcane Explosion" />
+	<effect type="trigger" spell="Arcane Charging" amount="1" />
+	<description text="Testing, testing."/>
+   </spell>
+
+<spell name="Major Arcane Damage" type="target" >
+	<effect type="damage" aethereal="2" aetherealF="0.6" blasting="2" blastingF="0.6" transmutative="2" transmutativeF="0.3" />
+	<effect type="trigger" spell="Major Arcane Charging" amount="1" />
+	<effect type="trigger" spell="Major Arcane Explosion" />
+	<description text="Testing, testing."/>
+   </spell>
+
+<spell name="Supreme Arcane Damage" type="target" >
+	<effect type="damage" aethereal="2" aetherealF="0.8" blasting="2" blastingF="0.8" transmutative="2" transmutativeF="0.4" />
+	<effect type="trigger" spell="Supreme Arcane Explosion" />
+	<description text="Testing, testing."/>
+   </spell>
+
+<!-- Actual AB Spell. -->
+
+<spell name="Arcane Blast" type="target" icon="skills/wizard/spell_water9_32.png" >
+	<requirements mp="30" savvyBonus="0.4" mincost="10" />
+	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Minor Arcane Charging" spell="Arcane Damage" />
+	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Arcane Charging" spell="Major Arcane Damage" />
+	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Major Arcane Charging" spell="Supreme Arcane Damage" />
+	<effect type="trigger" requirebuffonnottrigger="1" requirebuffonnottriggername="Minor Arcane Charging" spell="Check for Minor" />
+	<anim sprite="sprites/sfx/blastA/blastA" frames="4" framerate="70" centerEffect="1" sfx="explosion"/>
+	<description text="Blast your enemy with raw mana and charge yourself with it at the same time!"/>
+   </spell>
+
+
+
+<!-- The inner workings of the mana gem. Behold! -->
+
+<spell name="Create Mana Gem" type="self" icon="skills/rogue/skill_alchemy0_32.png">
+	<requirements mp="50" savvyBonus="0.1" mincost="50" />
+	<description text="Create a gem to store away some of your mana for later! Using the gem will fry your energies a little due to the surge of power, but better that than running dry, eh?"/>
+	<effect type="spawn" itemname="Mana Gem" amount="1"/>
+   <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="70" sfx="ping"/>
+   </spell>
+
+<spell name="Mana Gem Effect" type="self" >
+	<effect type="trigger" requirebuffonnottrigger="1" requirebuffonnottriggername="Mana Surge" spell="Mana Gem Effect Restoration" />
+	</spell>
+
+<spell name="Mana Gem Effect Restoration" type="self" >
+	<effect type="spellpoints" amount="33"/>
+	<effect type="trigger" spell="Mana Surge" />
+	</spell>
+
+<spell name="Mana Surge" type="self" icon="skills/rogue/skill_wand_lore1_32.png" wand="0">
+	<anim sprite="sprites/sfx/mystic_hit/mystic_hit" frames="5" framerate="80" sfx="magic" />
+	<buff useTimer="1" allowstacking="0" time="20" icon="skills/rogue/skill_wand_lore1_64.png" smallicon="skills/rogue/skill_wand_lore1_32.png" >
+	</buff>
+	<description text="That surge of energy sure fried something somewhere - you cannot use another mana gem for a short while. This debuff cannot be removed through usual curse removal methods."/>
+</spell>
+
+<!-- Supercharge -->
+
+
+<spell name="Supercharge Drain" self="1" icon="skills/invisible_geometries32.png" type="self" wand="0">
+	<effect type="drainCasterMana" amount="100"/>
+	<anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="blast" />
+	<description text="Well, snap. There goes your magic."/>
+</spell>
+
+<spell name="Supercharge Mana" type="target" >
+	<effect type="spellpoints" amount="200" />
+</spell>
+
+<spell name="Supercharge" type="self" downtime="96" icon="skills/spells/tesla32.png" >
+	<effect type="spellpoints" amount="200" />
+	<description text="You have gained ultimate wizard power - without even needing to get all six avian wizard ninjas first!"/>
+	<buff useTimer="1" time="6" stackable="0" icon="skills/spells/tesla64.png" smallicon="skills/spells/tesla32.png">
+		<halo name="sprites/sfx/lightningarc/lightningarc" first="0" num="7" frameRate="60" />
+		<secondarybuff id="3" amount="7"/> <!-- Mpow -->
+		<secondarybuff id="5" amount="7"/> <!-- haywire -->
+	</buff>
+	<effect resistable="0" type="dot" spell="Supercharge Mana" amount="6" />
+	<anim sprite="sprites/sfx/summonB/summonB" frames="10" sfx="undead_spell" framerate="70" centerEffect="0"/>
+</spell>
+
+<spell name="Supercharge Trigger" type="self" downtime="96" icon="skills/spells/tesla32.png" >
+	<anim sprite="sprites/sfx/summonB/summonB" frames="10" sfx="undead_spell" framerate="70" centerEffect="0"/>
+	<effect type="trigger" spell="Supercharge Drain" amount="7" />
+	<effect type="trigger" spell="Supercharge" />
+	</spell>
+
+<!-- Reflux -->
+
+<spell name="Arcane Reflux" type="self" icon="skills/wizard/spell_water2_32.png" >
+	<requirements mp="12" savvyBonus="0.25" mincost="4" />
+	<anim sfx="elec"/>
+	<buff useTimer="0" removable="1" manaUpkeep="2" allowstacking="0" icon="skills/wizard/spell_water2_64.png" smallicon="skills/wizard/spell_water2_32.png">
+		<halo name="sprites/sfx/puissance/puissance" first="0" num="3" frameRate="90" />
+	</buff>
+	<description text="Reduce, reuse, recycle. While this buff is active, every spell you cast has a chance to convert any spare magical power into wayward blasts. Handle with care around shopkeepers."/>     
+	</spell>
+
+<spell name="Arcane Zapping" type="template" templateID="10" anchored="0" icon="skills/wizard/spell_water2_32.png" >
+	<effect type="damage" aethereal="2" aetherealF="0.2" blasting="2" blastingF="0.1" transmutative="2" transmutativeF="0.1" />
+	<anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec" />
+	</spell>
+
+<spell name="Arcane Reflux Trigger" type="target" icon="skills/wizard/spell_water2_32.png" downtime="25" >
+	<effect type="trigger" spell="Arcane Zapping" percent="33" requirebuffontrigger="1" requirebuffontriggername="Arcane Reflux" />
+	</spell>
+
+<!-- Thaumogenic Cleansing -->
+
+<spell name="Thaumogenic Drain" type="self" >
+	<anim sprite="sprites/sfx/curse_hit/curse_hit" frames="6" framerate="80" centerEffect="1" sfx="darkmagic" />
+	<effect type="drainCasterMana" amount="75" affectscaster="1"/>
+	<description text="Phew, that debugging sure was tiring." />
+	</spell>
+
+<spell name="Thaumogenic Cleansing" type="item" downtime="72" icon="skills/rogue/skill_wand_lore0_32.png">
+	<description text="Go on, figure out what makes this thing tick and then rewrite the enchantment - but without the corruption."/>
+	<effect type="cleanseartifact"/>
+	<effect type="trigger" spell="Thaumogenic Drain" />
+	<anim sprite="sprites/sfx/summonB/summonB" frames="10" sfx="choir" framerate="70" centerEffect="0"/>
+  </spell>
 
 </spellDB>

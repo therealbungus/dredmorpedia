@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<sprite>
+  <frame delay="50">Fire_Die_00.png</frame>
+  <frame delay="50">Fire_Die_01.png</frame>
+  <frame delay="50">Fire_Die_02.png</frame>
+  <frame delay="50">Fire_Die_03.png</frame>
+  <frame delay="50">Fire_Die_04.png</frame>
+  <frame delay="50">Fire_Die_05.png</frame>
+  <frame delay="50">Fire_Die_06.png</frame>
+  <frame delay="50">Fire_Die_07.png</frame>
+  <frame delay="30">Fire_Die_08.png</frame>
+  <frame delay="30">Fire_Die_09.png</frame>
+  <frame delay="30">Fire_Die_10.png</frame>
+  <frame delay="30">Fire_Die_11.png</frame>
+  <frame delay="30">Fire_Die_12.png</frame>
+  <frame delay="45">Fire_Die_13.png</frame>
+  <frame delay="40">Fire_Die_14.png</frame>
+  <frame delay="50">Fire_Die_15.png</frame>
+</sprite>

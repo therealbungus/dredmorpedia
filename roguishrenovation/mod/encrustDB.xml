@@ -1,0 +1,748 @@
+<encrustDB>
+
+<!-- Instabilities -->
+
+<unstableEffect name="Transmorgific Volatility" spell="Unstable Self Evil-lutionary Mishap" />
+<unstableEffect name="Food-Rotting Vileness" spell="Rotfiend Instability Rot" />
+<unstableEffect name="Monstrous Demonic Calling" spell="Unstable Demonic Calling" />
+
+<!-- Smithing encrusts -->
+
+  <encrust name="Zinc Coating">
+	<description text="An etching of zinc-imbued dwarven runes helps keep those damned elf hippies and their magic away."/>
+	<tool tag="smithing" />
+	<slot type="shield" />
+	<slot type="chest" />
+	
+	<input name="Zinc Ingot" />
+	<input name="Zinc Ingot" />
+	
+	<skill level="1" />
+
+	<secondarybuff id="3" amount="-5"/> <!-- mpow -->
+	<secondarybuff id="11" amount="5"/> <!-- resist -->
+	<secondarybuff id="22" amount="5"/> <!-- reflect -->	
+
+	<encrustwith name="dwarven zinc runes" />
+	
+	<instability amount="8" />
+  </encrust>
+
+  <encrust name="Glare Protectors" hidden="1">
+	<description text="Special Visors developed by space wizards protect your eyes from unsightly lens flare and blinding flashes of the obvious."/>
+	<tool tag="smithing" />
+	<slot type="head" />
+	
+	<input name="Rough Silver Shield" />
+	<input name="Aluminum Ingot" />
+	<input name="Aluminum Ingot" />
+	
+	<skill level="2" />
+
+	<resistbuff righteous="3"/>
+	
+	<encrustwith name="reflective surfaces" />
+	
+	<instability amount="8" />
+  </encrust>
+
+  <encrust name="Deflective Surfaces">
+	<description text="It is known amongst some 'special' circles that the Bolt Council employs sublimal advertising in the form of thaumatronic mind-leeches, the broodspawn of She Which Devours The Hive. Applying a simple coating of aluminum will prevent the thauma-waves from...hey, why're you sniggering?"/>
+	<tool tag="smithing" />
+	<slot type="head" />
+	<slot type="shield" />
+	
+	<input name="Aluminum Ingot" />
+	<input name="Aluminum Ingot" />
+	<input name="Aluminum Ingot" />
+	<input name="Aluminum Ingot" />
+	
+	<skill level="4" />
+
+	<secondarybuff id="22" amount="20"/> <!-- reflect -->
+	
+	<encrustwith name="anti-mesmeric foil" />
+	
+	<instability amount="12" />
+  </encrust>
+
+  <encrust name="Iron Weights" hidden="1">
+	<description text="Help your boots deliver even more of a kick with these iron weights."/>
+	<tool tag="smithing" />
+	<slot type="feet" />
+	
+	<input name="Iron Ingot" />
+	<input name="Iron Ingot" />
+	<input name="Iron Ingot" />
+	
+	<skill level="3" />
+	
+	<secondarybuff id="7" amount="2"/> <!-- block -->
+	<primarybuff id="2" amount="-2"/> <!-- nim -->
+	<secondarybuff id="12" amount="-7"/> <!-- sneak -->
+
+	<damagebuff crushing="4" />
+	
+	<encrustwith name="iron blocks" />
+	
+	<instability amount="8" />
+  </encrust>
+
+<!-- Tinkering encrusts -->
+
+<encrust name="Brass Knuckles">
+	<description text="Fine cog-shaped brass studs that can be added to your boots, too. Now THAT'S one they'll never see coming."/>
+	<tool tag="tinkerer" />
+	<slot type="hands" />
+	<slot type="feet" />
+	
+	<input name="Brass Ingot" />
+	
+	<skill level="1" />
+	
+	<damagebuff crushing="1" />
+	
+	<encrustwith name="brass studs" />
+	
+	<instability amount="9" />
+	</encrust>
+
+<encrust name="Utility Toolkit">
+	<description text="So long as you have a belt, why not add a couple of pouches to hold all sorts of useful gadgetry in? You can be just like Bat-Warthog-Man!"/>
+	<tool tag="tinkerer" />
+	<slot type="waist" />
+	
+	<input name="Aetheric Power Cylinder" />
+	<input name="Brass Mechanisms" />
+	<input name="Copper Wire" />
+	<input name="Slotted Bronze Discs" />
+	
+	<skill level="3" />
+
+	<secondarybuff id="16" amount="1"/> <!-- trap level -->
+	
+	<encrustwith name="assorted gadgets" />
+	<encrustwith name="trapper's tools" />
+	
+	<instability amount="8" />
+	</encrust>
+
+<encrust name="Cognaher's Digital Enhancers" hidden="1">
+	<description text="Why waste a perfectly good hand when all the mechanisms will go straight onto your glove?"/>
+	<tool tag="tinkerer" />
+	<slot type="hands" />
+	
+	<input name="Voltaic Cell" />
+	<input name="Spring-loaded Power Core" />
+	<input name="Slotted Bronze Discs" />
+	<input name="Diamond" />
+	
+	<skill level="5" />
+	
+	<damagebuff voltaic="2" />
+	<secondarybuff id="2" amount="2"/> <!-- melee power -->
+	<secondarybuff id="9" amount="3"/> <!-- EDR -->
+	<secondarybuff id="16" amount="1"/> <!-- trap level -->
+	
+	<encrustwith name="mechanical gunslinging fingers" />
+	<encrustwith name="cold, robotic digits" />
+	
+	<instability amount="18" />
+	</encrust>
+
+<encrust name="Countervailing Power">
+	<description text="Automatic weapons systems detect incoming attacks and move to counter your enemies' strikes of their own accord."/>
+	<tool tag="tinkerer" />
+	<slot type="weapon" />
+	
+	<input name="Pressure Plate" />
+	<input name="Spring-loaded Power Core" />
+	<input name="Slotted Bronze Discs" />
+	<input name="Aetheric Power Cylinder" />
+	
+	<skill level="6" />
+	
+	<secondarybuff id="6" amount="-3"/> <!-- dodge -->
+	<secondarybuff id="8" amount="7"/> <!-- counter -->
+	
+	<encrustwith name="beeping reflexive mechanisms" />
+	
+	<instability amount="40" />
+	</encrust>
+
+<!-- Alchemy encrusts -->
+
+  <encrust name="Piratical Markings">
+	<description text="YARR! Look your best with these fancy set of new colours!"/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	<slot type="legs" />
+	
+	<input name="Grog" />
+	<input name="Grog" />
+	<input name="Grog" />
+	<input name="Grog" />
+	
+	<skill level="1" />
+
+	<primarybuff id="3" amount="2"/> <!-- caddish -->
+	
+	<encrustwith name="jolly rogers" />
+	
+	<instability amount="9" />
+  </encrust>
+
+  <encrust name="Charcoal Coat">
+	<description text="A good charcoal biscuit can help absorb poisons and acids before they can do any real harm. Quite flammable, though."/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	<slot type="legs" />
+	
+	<input name="Burnt Out Wand" />
+	<input name="Burnt Out Wand" />
+	<input name="Burnt Out Wand" />
+	<input name="Burnt Out Wand" />
+	
+	<skill level="2" />
+	
+	<resistbuff toxic="2" acidic="2" conflagratory="-1" />
+	
+	<encrustwith name="charcoal chips" />
+	<encrustwith name="activated carbon" />
+	
+	<instability amount="12" />
+  </encrust>
+
+  <encrust name="Nifty Insulation">
+	<description text="Keeps your head and hands warm, eh. Slightly stuffy in hot weather, though."/>
+	<tool tag="alchemy" />
+	<slot type="head" />
+	<slot type="hands" />
+	
+	<input name="Toque of Kanada" />
+	<input name="Plastic Ingot" />
+	
+	<skill level="3" />
+
+	<resistbuff hyperborean="4" conflagratory="-1"/>
+	
+	<encrustwith name="thick, warm...stuff" />
+	
+	<instability amount="8" />
+  </encrust>
+
+  <encrust name="Life Energy" hidden="1">
+	<description text="Imbue your necklaces with concentrated life energy."/>
+	<tool tag="alchemy" />
+	<slot type="neck" />
+	
+	<input name="Potion of Powerful Restoration" />
+	<input name="Coral Wand" />
+	<input name="Emerald" />
+	
+	<skill level="5" />
+
+	<secondarybuff id="13" amount="2"/> <!-- hp regen -->
+	
+	<encrustwith name="life-force" />
+	
+	<instability amount="10" />
+  </encrust>
+
+  <encrust name="Mind Thruster">
+	<description text="Coat your weapon with thaumatronic energies and pierce them with the power of your mind." />
+	<tool tag="alchemy" />
+	<slot type="weapon" />
+	<slot type="ranged" />
+	
+	<input name="Lewton's Concentrate" />
+	<input name="Powdered Aluminum" />
+	<input name="Mana Shard" />
+	<input name="Orb of Nothing" />
+	
+	<skill level="6" />
+
+	<power name="Mind Thrust" chance="0.99" />
+	
+	<encrustwith name="thaumatronic energies" />
+	
+	<instability amount="18" />
+  </encrust>
+
+<!-- Wandcrafting encrusts -->
+
+  <encrust name="Defensive Matrix">
+	<description text="The defensive magics of some gems and ores can be extracted to shield yourself from various nasty things." />
+	<tool tag="lathe" />
+	<slot type="chest" />
+	<slot type="shield" />
+	
+	<input name="Zincblende" />
+	<input name="Hematite" />
+	<input name="Pyrite Sun" />
+	
+	<skill level="3" />
+
+	<primarybuff id="4" amount="3"/> <!-- stubb -->
+	
+	<encrustwith name="stony stubbornness" />
+	
+	<instability amount="13" />
+  </encrust>
+
+  <encrust name="Mana Wellspring">
+	<description text="A fine dusting of aluminum powder can help an item better attune to the leylines." />
+	<tool tag="lathe" />
+	<slot type="chest" />
+	
+	<input name="Lewton's Concentrate" />
+	<input name="Powdered Aluminum" />
+	<input name="Powdered Aluminum" />
+	
+	<skill level="3" />
+
+	<secondarybuff id="14" amount="1"/> <!-- mana regen -->
+	
+	<encrustwith name="leyline attractors" />
+	
+	<instability amount="10" />
+  </encrust>
+
+  <encrust name="Mana Devourer">
+	<description text="Turn your weapon into a mana-sucking beast just like those mana hunters. No, you ARE the mana hunters." />
+	<tool tag="lathe" />
+	<slot type="weapon" />
+	
+	<input name="Mana Shard" />
+	<input name="Mana Shard" />
+	<input name="Mana Shard" />
+	<input name="Mana Shard" />
+	
+	<skill level="4" />
+
+	<damagebuff aethereal="3" />
+
+	<power name="Mana Leech" chance="0.3" />
+	
+	<encrustwith name="mana hunter scales" />
+	
+	<instability amount="15" />
+  </encrust>
+
+  <encrust name="Philosophical Steadfastness">
+	<description text="To be, or not to be, that is the question? Encrusting your equipment with pages upon pages of discussion will firmly root you on the 'be' side of the argument." />
+	<tool tag="lathe" />
+	<slot type="head" />
+	<slot type="waist" />
+	
+	<input name="Universal Principles" />
+	<input name="Universal Principles" />
+	
+	<skill level="5" />
+
+	<damagebuff existential="5" />
+	<resistbuff existential="5" />
+	
+	<encrustwith name="lengthy monologues" />
+	
+	<instability amount="16" />
+  </encrust>
+
+  <encrust name="Mutable Magicks">
+	<description text="This aura of transformative enchantments promises to leave you with a new and changed outlook on life." />
+	<tool tag="lathe" />
+	<slot type="weapon" />
+	
+	<input name="Wand of Transmogrification" />
+	<input name="Amethyst" />
+	<input name="Diggle Nog" />
+	
+	<skill level="5" />
+
+	<damagebuff transmutative="10" />
+	<resistbuff transmutative="-2" />
+	
+	<encrustwith name="mutable magicks" />
+	<encrustwith name="changing chants" />
+	
+	<instability amount="20" />
+  </encrust>
+
+<!-- Ingot press encrusts -->
+
+<encrust name="CAEK">
+	<description text="You are a lie."/>
+	<tool tag="ingot" />
+	<slot type="head" />
+	<slot type="chest" />
+	<slot type="legs" />
+	
+	<input name="Creamy Cake" />
+	<input name="Creamy Cake" />
+	<input name="Creamy Cake" />
+	<input name="Creamy Cake" />
+	
+	<skill level="0" />
+	
+	<secondarybuff id="0" amount="20"/> <!-- hp -->
+
+	<resistbuff existential="-5" />
+	
+	<encrustwith name="cake" />
+	
+	<instability amount="40" />
+	</encrust>
+
+<encrust name="Fruity Deliciousness" hidden="1">
+	<description text="Coat your armour in delicious fresh fruit and let it ferment to manalicious booze on your skin! Also guaranteed to keep away caped children."/>
+	<tool tag="ingot" />
+	<slot type="head" />
+	<slot type="chest" />
+	<slot type="legs" />
+	
+	<input name="Apple" />
+	<input name="Plum" />
+	<input name="Pear" />
+	<input name="Grapes" />
+	
+	<skill level="0" />
+	
+	<secondarybuff id="1" amount="5"/> <!-- mana -->
+	
+	<encrustwith name="delicious fruit" />
+	
+	<instability amount="9" />
+	</encrust>
+
+<encrust name="Lutofu Layer" hidden="1">
+	<description text="This disgusting, vile coating of horrific mutant-food will make all the monsters you meet sick, even if the noxious fumes make you feel a little slow and stupid."/>
+	<tool tag="ingot" />
+	<slot type="chest" />
+	<slot type="weapon" />
+	
+	<input name="Tofu" />
+	<input name="Tofu" />
+	<input name="Lutefisk" />
+	<input name="Lutefisk" />
+	
+	<skill level="0" />
+	
+	<damagebuff toxic="2" />
+	<resistbuff toxic="2" />
+	<primarybuff id="1" amount="-2"/>
+	<primarybuff id="2" amount="-2"/>
+	
+	<encrustwith name="vile lutofu" />
+	
+	<instability amount="9" />
+	</encrust>
+
+<!-- Grinder encrusts? Could it be? -->
+
+<encrust name="Sneaky Padding" hidden="1">
+	<description text="Muffle your footsteps with the best ground materials in acoustics technology...oh, who are you trying to kid?" />
+	<tool tag="grinder" />
+	<slot type="feet" />
+	
+	<input name="Robe" />
+	<input name="Plastic Ingot" />
+	
+	<skill level="0" />
+	
+	<secondarybuff id="12" amount="3"/>
+	<!-- dodge -->
+	
+	<encrustwith name="thick plascloth padding" />
+	
+	<instability amount="13" />
+	</encrust>
+
+<!-- Obsidia encrusts. These are meant to be very powerful and hence suffer no instability. -->
+
+  <encrust name="Ancient Fortitude" hidden="1">
+	<description text="Plate your equipment with ancient dragonbone and be protected."/>
+	<tool tag="smithing" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="13" amount="1"/>
+	<secondarybuff id="7" amount="3"/>
+	<secondarybuff id="10" amount="2"/>
+	
+	<encrustwith name="hardened ancient dragonbone" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Might" hidden="1">
+	<description text="Plate your equipment with ancient dragonbone and feel strengthened."/>
+	<tool tag="smithing" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="2" amount="3"/>
+	<secondarybuff id="0" amount="3"/>
+
+	<damagebuff conflagratory="3" />
+	
+	<encrustwith name="strengthened ancient dragonbone" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Fortitude" hidden="1">
+	<description text="Plate your equipment with the purest obsidian and be protected by the Mother's strength."/>
+	<tool tag="smithing" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="13" amount="2"/>
+	<secondarybuff id="7" amount="5"/>
+	<secondarybuff id="10" amount="3"/>
+	
+	<encrustwith name="hardened obsidian runes" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Might" hidden="1">
+	<description text="Plate your equipment with the purest obsidian and strike down the Mother's enemies."/>
+	<tool tag="smithing" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="2" amount="5"/>
+	<secondarybuff id="0" amount="5"/>
+
+	<damagebuff conflagratory="5" />
+	
+	<encrustwith name="strengthened obsidian runes" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Swiftness" hidden="1">
+	<description text="Plate your equipment with ancient dragonbone and feel fleet of foot."/>
+	<tool tag="tinkerer" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="6" amount="3"/>
+	<secondarybuff id="8" amount="3"/>
+	<secondarybuff id="12" amount="3"/>
+	
+	<encrustwith name="swift dragonbone chips" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Shadows" hidden="1">
+	<description text="Plate your equipment with ancient dragonbone and be one with the shadows."/>
+	<tool tag="tinkerer" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="9" amount="3"/>
+	<secondarybuff id="4" amount="3"/>
+
+	<damagebuff necromantic="3" />
+	
+	<encrustwith name="shadowy dragonbone chips" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Swiftness" hidden="1">
+	<description text="Plate your equipment with the purest obsidian and see how the quickly the land can change."/>
+	<tool tag="tinkerer" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="6" amount="5"/>
+	<secondarybuff id="8" amount="5"/>
+	<secondarybuff id="12" amount="5"/>
+	
+	<encrustwith name="swift obsidian chips" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Shadows" hidden="1">
+	<description text="Plate your equipment with the purest obsidian and feel the Mother's shadowy embrace."/>
+	<tool tag="tinkerer" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="9" amount="5"/>
+	<secondarybuff id="4" amount="5"/>
+
+	<damagebuff necromantic="5" />
+	
+	<encrustwith name="shadowy obsidian chips" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Acuity" hidden="1">
+	<description text="One pound of dragonbone, ground to dust, mixed with a small amount of water - the potential is limitless."/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="1" amount="3"/>
+	<secondarybuff id="3" amount="3"/>
+	<secondarybuff id="5" amount="3"/>
+	
+	<encrustwith name="pounded dragonbone paste" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Serenity" hidden="1">
+	<description text="Smear this paste of dragonbone on your equipment and be protected from all things magical."/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<secondarybuff id="11" amount="5"/>
+	<secondarybuff id="14" amount="1"/>
+	<secondarybuff id="22" amount="7"/>
+	
+	<encrustwith name="fine dragonbone powder" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Acuity" hidden="1">
+	<description text="The purest obsidian, ground down to fine shards and imbuing the Mother's blessing in your equipment."/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="1" amount="5"/>
+	<secondarybuff id="3" amount="5"/>
+	<secondarybuff id="5" amount="5"/>
+	
+	<encrustwith name="tiny obsidian shards" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Serenity" hidden="1">
+	<description text="Spread this dust on your equipment and partake of the Mother's will."/>
+	<tool tag="alchemy" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<secondarybuff id="11" amount="5"/>
+	<secondarybuff id="14" amount="2"/>
+	<secondarybuff id="22" amount="15"/>
+	
+	<encrustwith name="dark obsidian powder" />
+	
+	<instability amount="0" />
+  </encrust>
+
+
+
+  <encrust name="Ancient Resilience" hidden="1">
+	<description text="Etch sigils of bone onto your equipment and resist the elements of this world."/>
+	<tool tag="lathe" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<resistbuff conflagratory="2" hyperborean="2" toxic="2" transmutative="2" />
+	
+	<encrustwith name="draconic sigils" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Ancient Sufferance" hidden="1">
+	<description text="Etch sigils of bone onto your equipment and resist the essences of the otherworld."/>
+	<tool tag="lathe" />
+	<slot type="chest" />
+	
+	<input name="Dragon Skull" />
+	
+	<skill level="6" />
+
+	<resistbuff necromantic="2" existential="2" righteous="2" aethereal="2" />
+	
+	<encrustwith name="draconic wards" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Resilience" hidden="1">
+	<description text="Etch sigils of bone onto your equipment and embrace the Mother's protection from the physical."/>
+	<tool tag="lathe" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<resistbuff conflagratory="4" hyperborean="4" toxic="4" transmutative="3" />
+	
+	<encrustwith name="obsidian sigils" />
+	
+	<instability amount="0" />
+  </encrust>
+
+  <encrust name="Obsidian Sufferance" hidden="1">
+	<description text="Etch sigils of bone onto your equipment and embrace the Mother's warding from the supernatural."/>
+	<tool tag="lathe" />
+	<slot type="chest" />
+	
+	<input name="Perfect Obsidian" />
+	
+	<skill level="7" />
+
+	<resistbuff necromantic="4" existential="4" righteous="4" aethereal="3" />
+	
+	<encrustwith name="obsidian wards" />
+	
+	<instability amount="0" />
+  </encrust>
+
+</encrustDB>
