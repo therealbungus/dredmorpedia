@@ -1,0 +1,38 @@
+<!-- craft DB stores all crafting information -->
+
+<craftDB>
+
+<craft hidden="1">
+	<output skill="5" name="Wand of Death Ray" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Freeze Wand"/>
+	<input name="Plastic Ingot" />	 
+	<input name="Voltaic Cell" />		
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Prismatic Wand" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Wand of Laser"/>
+	<input name="Diamond"/>
+	<input name="Potion of Radiance"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Wanda's Wand of Wands" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Potion of Alchemical Inspiration"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Blingring" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Gold Ring"/>
+	<input name="Solution of Gold"/>
+	<input name="Wand of Bling"/>
+	<input name="Potion of Midas"/>
+	</craft>
+</craftDB>

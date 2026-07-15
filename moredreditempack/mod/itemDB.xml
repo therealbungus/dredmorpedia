@@ -1,0 +1,1018 @@
+<itemDB>
+
+<!--  secondary stats
+  
+0: HITPOINTS,
+1:	SPELLPOINTS,
+2:	MELEE_POWER,
+3:	MAGIC_POWER,
+4:	CRITICAL,
+5:	HAYWIRE,
+6:	DODGE,	
+7:	BLOCK,
+8:	COUNTER,
+9:	ENEMY_DODGE_REDUCTION,
+10:	ARMOR_ABSORPTION,
+11: RESIST
+12: SNEAKINESS,
+13:	LIFE_REGEN,
+14: MANA_REGEN,
+15:	WAND_BURNOUT_REDUCTION,
+16:	TRAP_SENSE_LEVEL,
+17:	TRAP_SIGHT_RADIUS,
+18: sight radius
+
+	
+primary stats
+
+0: STAT_BURLINESS,
+1: STAT_SAGACITY,
+2: STAT_NIMBLENESS,
+3: STAT_CADDISHNESS,
+4: STAT_STUBBORNNESS,
+5: STAT_SAVVY
+
+-->
+
+  <!-- swords -->
+
+<item name="Stupidly Huge Sword" iconFile="items/sword_stupidly_huge.png" level="12" type="0">
+  <price amount="7000"/>
+  <weapon crushing="28"/>
+  <secondarybuff id="9" amount="-12"/> <!-- edr -->
+  <description text="Wow. Someone's overcompensating."/>
+  </item> 
+
+<item name="Generic Magic Sword" iconFile="items/sword_generic.png" level="12" type="0">
+  <price amount="20000"/>
+  <weapon slashing="22" aethereal="5" />
+  <secondarybuff id="9" amount="5"/> <!-- edr -->
+  <description text="It seems like these things are a dime a dozen these days. It's probably enchanted for extra dragon-slaying or maiden-rescuing power, the usual stuff. Boring."/>
+  </item> 
+
+<item name="Swordchucks" iconFile="items/sword_swordchucks.png" level="12" type="0">
+  <price amount="15040"/>
+  <weapon slashing="26"/>
+  <description text="These linked swords swing at lightning fast speeds, delivering dozens of wounds in the blink of an eye. If you're exceptionally talented, some of those wounds will even end up on your enemy!"/>
+
+  <targetHitEffectBuff percentage="100" name="Swordchuck Attack" />
+  </item> 
+
+<item name="Occam's Razor" iconFile="items/sword_occams_razor.png" level="14" type="0" artifact="1">
+  <price amount="24420"/>
+  <artifact quality="5"/>
+  <weapon slashing="18" existential="18"/>
+  <resistbuff existential="5"/>
+  <description text="First wielded by Wilhelm of Occam, the philosopher-barbarian who formulated the principle that all things being equal, the simplest solution is to kill all your enemies."/>
+  </item> 
+
+<item name="Digglesbane" iconFile="items/sword_digglesbane.png" level="14" type="0" artifact="1">
+  <price amount="19913"/>
+  <artifact quality="4"/>
+  <weapon slashing="14" piercing="14"/>
+  <description text="Carved of diggle bone and enchanted with the most potent diggle-slaying enchantments known to man, the main question this weapon raises is why, exactly, anyone would do this."/>
+
+  <targetHitEffectBuff percentage="100" name="Smite Diggle" />
+  </item> 
+
+<item name="Serif Sword" iconFile="items/sword_serif.png" level="17" type="0">
+  <price amount="53414"/>
+  <weapon slashing="21" righteous="7" existential="7" conflagratory="7"/>
+  <description text="This holy blade was once wielded by the archangels charged with defending the sacred waters of the Font of Wisdom."/>
+  </item> 
+
+  <!-- axes -->
+
+<item name="Necrotic Fasces" iconFile="items/axe_necrotic_fasces.png" level="12" type="1">
+  <price amount="14563"/>
+  <weapon slashing="4" crushing="4" putrefying="10" necromantic="4" toxic="6"/>
+  <description text="This corrupted symbol of authority spreads corruption in the form of terrifying flesh-eating bacteria." />
+
+  <targetHitEffectBuff percentage="75" name="Necrotizing Fasciitis" />
+  </item> 
+
+<item name="Axe of the Mountainking" iconFile="items/axe_mountainking.png" level="12" type="1">
+  <price amount="14563"/>
+  <weapon slashing="28"/>
+  <primarybuff id="0" amount="5"/> <!-- burliness -->
+  <primarybuff id="4" amount="5"/> <!-- stubbornness -->
+  <description text="Dwarves tend to largely pick their kings based on who has the shiniest axe; unlike humans, they aren't enlightened enough to pick kings based on who has the shiniest sword." />
+
+  </item> 
+
+<item name="Axcalibur" iconFile="items/axe_axcalibur.png" level="17" type="1" artifact="1">
+  <price amount="14563"/>
+  <weapon slashing="35" righteous="5"/>
+
+  <secondarybuff id="7" amount="10"/>
+
+  <description text="You're not entirely sure how this works, but you may or may not have just become the rightwise king of Axland." />
+
+  </item> 
+
+  <!-- maces -->
+
+<item name="Kanadian War Club" iconFile="items/mace_kanadian_club.png" level="10" type="2">
+  <price amount="4540"/>
+  <weapon crushing="14"/>
+  <secondarybuff id="7" amount="6"/> <!-- block -->
+  <description text="Wielding their traditional ancestral weapons, Kanadian warriors are a terror to behold as they skate their way through enemies, tripping and pushing them as they go."/>
+  <targetHitEffectBuff percentage="20" name="Hockey Knockback" />
+  </item> 
+
+<item name="Doomhammer" iconFile="items/mace_doomhammer.png" level="12" type="2">
+  <price amount="15007"/>
+  <weapon crushing="20" blasting="6"/>
+  <description text="This used to look a lot more impressive in the old days, before safety regulations killed the aesthetics. The government takes all the fun out of weapons of mass destruction."/>
+
+  <targetHitEffectBuff percentage="15" name="Concussion Bomb Center" />
+  </item> 
+
+<item name="Sludgehammer" iconFile="items/mace_sludgehammer.png" level="12" type="2">
+  <price amount="15100"/>
+  <weapon crushing="16" acidic="7" toxic="5"/>
+  <description text="It glistens and oozes in ways you are not entirely comfortable with."/>
+
+  <targetHitEffectBuff percentage="100" name="Sludgehammer Hit" />
+  </item> 
+
+<item name="Nailboard Prime" iconFile="items/mace_nailboard_prime.png" level="13" type="2" artifact="1">
+  <price amount="28457"/>
+  <weapon crushing="12" piercing="16"/>
+  <artifact quality="4"/>
+  <description text="The product of weapons research gone horribly out of control. God have mercy on us all."/>
+  </item>
+
+<item name="Overpowered Mace of Imbalance" iconFile="items/mace_overpowered.png" level="17" type="2">
+  <price amount="50091"/>
+  <weapon crushing="50"/>
+  <secondarybuff id="2" amount="10"/> <!-- melee power -->
+  <description text="Who playtested this thing, anyhow?! This is clearly broken."/>
+
+  <targetHitEffectBuff percentage="5" name="Nerfed" />
+  </item> 
+
+  <!-- staves -->
+
+<item name="Reaper's Scythe" iconFile="items/staff_scythe.png" level="12" type="3">
+  <price amount="10347"/>
+  <weapon slashing="12" necromantic="16"/>
+  <description text="It shreds the souls of men and also helps you mow the lawn! Now that's efficiency."/>
+  </item> 
+
+<item name="Fabulous Wand of the Faerie Queene" iconFile="items/staff_faerie.png" level="12" type="3">
+  <price amount="14391"/>
+  <weapon crushing="4" aethereal="6" transmutative="6"/>
+  <secondarybuff id="1" amount="8" /> <!-- spellpoints -->
+  <secondarybuff id="3" amount="8" /> <!-- magic power -->
+  <secondarybuff id="5" amount="8" /> <!-- haywire -->
+  <description text="Wrought of unicorn horn and moonbeams and woven with gossamer, this potent magical staff... hey seriously guys, stop laughing, this thing is really powerful okay?"/>
+  </item> 
+  
+<item name="Lightning Rod" iconFile="items/staff_lightningrod.png" type="3">
+  <price amount="19476"/>
+  <weapon crushing="8" piercing="12" voltaic="6" level="15"/>
+  <resistbuff voltaic="-5"/>
+  <description text="Most people would tell you that a lightning rod won't attract lightning underground. It turns out it's just a matter of getting a good enough lightning rod."/>
+
+  <targetHitEffectBuff percentage="100" name="MD Lightning Rod Blast" />
+  </item> 
+
+<item name="Crystalline Rod" iconFile="items/staff_crystal.png" level="15" type="3">
+  <price amount="17194"/>
+  <weapon crushing="12" piercing="6" transmutative="6"/>
+  <secondarybuff id="3" amount="5" /> <!-- magic power -->
+
+  <description text="Helps you realign your chakras while you realign your enemies' skulls. Crystals really are good for everything!"/>
+
+  <targetKillBuff percentage="30" name="MD Spawn Crystals" />
+  </item> 
+
+  <!-- HELMETS -->
+
+<item name="Eyepatch" iconFile="items/eyepatch.png" >
+	<price amount="866" />
+	<armour level="8" type="head" />
+	<primarybuff id="0" amount="3" /> <!-- burliness -->
+	<primarybuff id="2" amount="3" /> <!-- nimbleness -->
+	<primarybuff id="3" amount="6" /> <!-- caddishness -->
+	<secondarybuff id="18" amount="-2" /> <!-- sight -->
+
+	<description text="The most quintessentially badass of pirate accessories." />
+	</item>
+
+<item name="Deerstalker" iconFile="items/helm_deerstalker.png" >
+	<price amount="3120" />
+	<armour level="9" type="head" />
+	<primarybuff id="1" amount="4" /> <!-- sagacity -->
+	<primarybuff id="5" amount="4" /> <!-- savvy -->
+	<secondarybuff id="7" amount="2" /> <!-- block -->
+	<secondarybuff id="10" amount="1" /> <!-- armor -->
+	<secondarybuff id="17" amount="2" /> <!-- trap sight -->
+	<secondarybuff id="18" amount="2" /> <!-- sight -->
+
+	<resistbuff hyperborean="2" existential="2"/>
+
+	<description text="Enhances your sleuthing abilities while keeping your ears warm. What's not to like?" />
+	</item>
+
+<item name="Glorious Hat of the Pirate Kings" iconFile="items/helm_glorious_pirate_hat.png" >
+	<price amount="19473" />
+	<armour level="12" type="head" />
+	<primarybuff id="3" amount="10" /> <!-- caddishness -->
+	<secondarybuff id="4" amount="3" /> <!-- critical -->
+	<secondarybuff id="6" amount="5" /> <!-- dodge -->
+	<secondarybuff id="8" amount="4" /> <!-- counter -->
+	<secondarybuff id="10" amount="1" /> <!-- armor -->
+
+	<description text="Yarrr! Now this be a serious piratin' hat." />
+	</item>
+
+<item name="Tinfoil Hat" iconFile="items/helm_tinfoil.png" >
+	<price amount="4017" />
+	<armour level="12" type="head" />
+	<primarybuff id="5" amount="-8" /> <!-- savvy -->
+	<secondarybuff id="10" amount="1" /> <!-- armor -->
+	<secondarybuff id="11" amount="8" /> <!-- resist -->
+
+	<resistbuff existential="10" aethereal="4" transmutative="4" voltaic="4"/>
+
+	<description text="Guaranteed protection against Lord Dredmor's mind control rays. (The existence of Dredmor's mind control rays is generally thought to be a myth, but if they did exist, this would protect you.)" />
+	</item>
+
+<item name="Magnetronic Helmet" iconFile="items/helm_magnetronic.png">
+	<price amount="15500" />
+	<armour level="11" type="head"/>
+
+	<secondarybuff id="6" amount="-15" /> <!-- dodge -->
+	<secondarybuff id="10" amount="8"/> <!-- armour absorption -->
+	<secondarybuff id="7" amount="10"/> <!-- block -->
+	<secondarybuff id="3" amount="-5"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-1"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-2" /> <!-- nim -->
+
+	<resistbuff piercing="8" voltaic="8" existential="4" />
+
+	<description text="It turns out that magnetically pulling weapons straight towards your own head is not a terribly good idea. The upshot is that severe concussions are a pretty good defense against psychic intrusion." />
+	</item>
+
+<item name="The Digghelm" iconFile="items/helm_digghelm.png">
+	<price amount="16613" />
+	<armour level="13" type="head"/>
+	<secondarybuff id="7" amount="8"/> <!-- block -->
+	<secondarybuff id="10" amount="9"/> <!-- armour absorption -->
+	<secondarybuff id="3" amount="-4"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-2"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-1" /> <!-- nimbleness -->
+	<secondarybuff id="18" amount="-1" /> <!-- sight -->
+
+	<resistbuff piercing="12"/>
+	<damagebuff piercing="2"/>
+
+	<targetHitEffectBuff percentage="50" name="Fleshbore" />
+
+	<description text="Aspiring armourers take note: this is what happens when you let an armet get away from you." />
+	</item>
+
+<item name="Ghoul Mask" iconFile="items/helm_ghoul_mask.png">
+	<price amount="33104" />
+	<armour level="13" type="head"/>
+	<secondarybuff id="7" amount="3"/> <!-- block -->
+	<secondarybuff id="10" amount="5"/> <!-- armour absorption -->
+
+	<resistbuff necromantic="6" putrefying="4" toxic="4" piercing="5" righteous="-3"/>
+	<damagebuff putrefying="2" toxic="2"/>
+
+	<targetHitEffectBuff percentage="10" name="Ravening Hunger" />	
+	<targetKillBuff percentage="30" name="Corpse Drain" />
+
+	<description text="Unspeakable magics empower this twisted visage with all sorts of vile forces. But the hunger... it consumes you. And everything edible within reach." />
+	</item>
+
+<item name="The Wintercrown" iconFile="items/helm_wintercrown.png" artifact="1">
+	<price amount="35403" />
+	<armour level="13" type="head"/>
+
+	<artifact quality="9"/>
+
+	<secondarybuff id="7" amount="5"/> <!-- block -->
+	<secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	<secondarybuff id="3" amount="3"/> <!-- magic power -->
+
+	<resistbuff hyperborean="6"/>
+	<damagebuff hyperborean="4"/>
+
+	<targetHitEffectBuff percentage="100" name="Icebolt" />
+
+	<description text="Cast in the icy forges of Niflheimr, it is foretold that the Rime Giants will use this crown's power to unleash Fimbulvetr and cleanse the Earth in ice and blood. But 'til then, hey, neat crown!" />
+	</item>
+
+<item name="Brain Jar" iconFile="items/helm_brainjar.png" >
+	<price amount="4017" />
+	<armour level="13" type="head" />
+	<primarybuff id="1" amount="10" /> <!-- sagacity -->
+	<primarybuff id="5" amount="10" /> <!-- savvy -->
+	<secondarybuff id="11" amount="5" /> <!-- resist -->
+
+	<resistbuff existential="5" crushing="-4"/>
+
+	<description text="Two brains really is better than one, although you're not really sure a fragile glass dome is really the smartest place to store a brain." />
+	</item>
+
+<item name="Aethernaut Helmet" iconFile="items/helm_aethernaut.png">
+	<price amount="19011" />
+	<armour level="14" type="head"/>
+	<secondarybuff id="7" amount="10"/> <!-- block -->
+	<secondarybuff id="10" amount="6"/> <!-- armour absorption -->
+	<primarybuff id="2" amount="-8" /> <!-- nimbleness -->
+	<secondarybuff id="17" amount="-1" /> <!-- trap sight -->
+	<secondarybuff id="18" amount="-2" /> <!-- sight -->
+
+	<resistbuff acidic="2" conflagratory="2" piercing="4" hyperborean="2" asphyxiative="8" aethereal="8" toxic="4"/>
+
+	<description text="A bittersweet reminder of the glory days of the aetherspace program, effectively dismantled nowadays due to budget cuts. (And rampaging astral horrors from beyond the veil of stars. But mostly budget cuts.)" />
+	</item>
+
+<item name="Horrific Symbiont" iconFile="items/helm_horrific_symbiont.png" artifact="1">
+	<price amount="33104" />
+	<armour level="14" type="head"/>
+	<artifact quality="5"/>
+	<primarybuff id="1" amount="4"/> <!-- sagacity -->
+	<secondarybuff id="7" amount="6"/> <!-- block -->
+	<secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	<secondarybuff id="18" amount="1"/> <!-- sight -->
+
+	<resistbuff acidic="8" toxic="4" slashing="4" piercing="4"/>
+	<damagebuff acidic="6" slashing="2"/>
+
+	<description text="Wait... this thing wants you to WEAR it? On... on your HEAD?" />
+	</item>
+
+<item name="Helm of the Wyrm" iconFile="items/helm_dragon_helm.png" artifact="1">
+	<price amount="44404" />
+	<armour level="14" type="head"/>
+	<artifact quality="7"/>
+	<secondarybuff id="7" amount="5"/> <!-- block -->
+	<secondarybuff id="10" amount="7"/> <!-- armour absorption -->
+	<secondarybuff id="3" amount="-2"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-1"/> <!-- mana regen -->
+
+	<resistbuff piercing="5" conflagratory="5"/>
+	<damagebuff conflagratory="4"/>
+
+	<targetHitEffectBuff percentage="30" name="Dragon's Breath" />
+
+	<description text="This regrettably unfashionable helmet smolders with the burning heat of a thousand raging fires. I mean, seriously? Dragons are so last year." />
+	</item>
+
+<item name="Ridiculous Mage Hat" iconFile="items/helm_ridiculous_mage_hat.png" >
+	<price amount="41016" />
+	<armour level="15" type="head" />
+	<primarybuff id="8" amount="5" /> <!-- savvy -->
+	<secondarybuff id="3" amount="8" /> <!-- magic power -->
+	<secondarybuff id="14" amount="1" /> <!-- mana regen -->
+
+	<resistbuff aethereal="2" transmutative="2"/>
+
+	<description text="It takes a truly powerful sorcerer to get away with a hat this silly." />
+	</item>
+
+<item name="Helm of Storms" iconFile="items/helm_storms.png" artifact="1">
+	<price amount="44404" />
+	<armour level="16" type="head"/>
+	<artifact quality="10"/>
+
+	<secondarybuff id="7" amount="8"/> <!-- block -->
+	<secondarybuff id="10" amount="8"/> <!-- armour absorption -->
+	<secondarybuff id="3" amount="-2"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-1"/> <!-- mana regen -->
+
+	<resistbuff piercing="4" conflagratory="3" hyperborean="3" voltaic="5" />
+	<damagebuff voltaic="2"/>
+
+	<thrownBuff name="Lesser Fulminaric Bolt" percentage="100" />
+
+	<description text="This helmet was once used by Thor himself, allowing him to throw Mjolnir with the force of a lightning bolt. You're not sure how it ended up here, but when in doubt, blame Loki." />
+	</item>
+
+  <!-- shields -->
+
+<item name="Lead Shield" iconFile="items/shield_lead.png">
+	<price amount="13405"/>
+	<armour level="11" type="shield"/>
+	<secondarybuff id="3" amount="-8"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-2"/> <!-- mana regen -->
+	<secondarybuff id="7" amount="9"/> <!-- block -->
+	<secondarybuff id="10" amount="8"/> <!-- armor -->
+	<secondarybuff id="11" amount="12"/> <!-- resist -->
+	<primarybuff id="2" amount="-4"/> <!-- nim -->
+
+	<resistbuff piercing="3"/>
+
+	<description text="A cumbersome but effective way of protecting yourself from deadly thaumentropic radiation, for when there aren't any convenient refrigerators around."/>
+	</item>
+
+<item name="Shield of Justice" iconFile="items/shield_justice.png">
+	<price amount="14343"/>
+	<armour level="12" type="shield"/>
+	<secondarybuff id="3" amount="-3"/> <!-- magic power -->
+	<secondarybuff id="7" amount="12"/> <!-- block -->
+	<secondarybuff id="10" amount="7"/> <!-- armor -->
+	<secondarybuff id="12" amount="-20"/> <!-- sneakiness -->
+	<primarybuff id="2" amount="-2"/> <!-- nim -->
+
+	<resistbuff piercing="4" righteous="4"/>
+
+	<description text="'Halt, criminal scum!' You've always wanted to say that."/>
+	</item>
+
+<item name="Cobra Shield" iconFile="items/shield_cobra.png">
+	<price amount="30844"/>
+	<armour level="13" type="shield"/>
+	<secondarybuff id="3" amount="-2"/> <!-- magic power -->
+	<secondarybuff id="7" amount="8"/> <!-- block -->
+	<secondarybuff id="10" amount="5"/> <!-- armor -->
+	<secondarybuff id="4" amount="2"/> <!-- critical -->
+	<primarybuff id="2" amount="2"/> <!-- nim -->
+
+	<resistbuff piercing="3" toxic="3"/>
+	<damagebuff toxic="4"/>
+
+	<description text="Snakes. Why did it have to be snakes?"/>
+	</item>
+
+<item name="Shield of Escher" iconFile="items/shield_escher.png" artifact="1">
+	<artifact quality="7"/>
+	<price amount="35634"/>
+	<armour level="14" type="shield"/>
+	<secondarybuff id="7" amount="10"/> <!-- block -->
+	<secondarybuff id="10" amount="7"/> <!-- armor -->
+	<secondarybuff id="11" amount="5"/> <!-- resist -->
+
+	<resistbuff piercing="3" existential="3" transmutative="3"/>
+
+   	<playerHitEffectBuff percentage="15" name="Teleport Away" />
+
+	<description text="You feint left, they go right. You block right, they attack somewhere behind you. You counter low, they dodge into next Tuesday."/>
+	</item>
+
+<item name="Disco Orb" iconFile="items/orb_disco.png" overrideClassName="Orb">
+	<price amount="12600"/>
+	<armour level="11" type="shield"/>
+	<secondarybuff id="3" amount="9"/> <!-- magic power -->
+	<secondarybuff id="1" amount="20"/> <!-- mana -->
+	<secondarybuff id="14" amount="1"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-1"/> <!-- nim -->
+	<secondarybuff id="22" amount="50"/> <!-- magic reflect -->
+	<resistbuff transmutative="8" />
+	<description text="This orb is stubbornly resistant to change."/>
+	</item>
+
+<item name="Prismatic Orb" iconFile="items/orb_prismatic.png" overrideClassName="Orb">
+	<price amount="24154"/>
+	<armour level="14" type="shield"/>
+	<secondarybuff id="3" amount="10"/> <!-- magic power -->
+	<secondarybuff id="1" amount="25"/> <!-- mana -->
+	<secondarybuff id="14" amount="1"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-1"/> <!-- nim -->
+
+	<resistbuff crushing="1" conflagratory="1" righteous="1" acidic="1" hyperborean="1" aethereal="1" necromantic="1" />
+	<description text="Crafted by the wizard Newton, despite its power this orb would always be overshadowed in the public mind by Newton's more famous invention, a type of delicious fruit-filled cake."/>
+	</item>
+
+<item name="Meat Orb" iconFile="items/orb_meat.png" overrideClassName="Orb">
+	<price amount="11347"/>
+	<armour level="12" type="shield"/>
+	<secondarybuff id="3" amount="8"/> <!-- magic power -->
+	<secondarybuff id="1" amount="16"/> <!-- mana -->
+	<secondarybuff id="14" amount="1"/> <!-- mana regen -->
+	<secondarybuff id="13" amount="1"/> <!-- health regen -->
+	<primarybuff id="2" amount="-1"/> <!-- nim -->
+
+	<resistbuff crushing="2" slashing="2" />
+
+   	<playerHitEffectBuff percentage="8" name="Self Meat" />
+
+	<description text="Things like this are why wizards shouldn't go enchanting on an empty stomach."/>
+	</item>
+
+  <!-- ARMOUR -->
+
+<item name="Dashing Duelist's Tabard" iconFile="items/armour_tabard.png" >
+	<price amount="4141"/>
+	<armour level="8" type="chest"/>
+	<secondarybuff id="7" amount="4"/> <!-- Block -->
+	<secondarybuff id="6" amount="6"/> <!-- dodge -->
+	<secondarybuff id="8" amount="4"/> <!-- counter -->
+	<secondarybuff id="10" amount="2"/> <!-- armour absorption -->
+	<description text="It takes a special kind of hero to look dashing while wearing what amounts to an oversized bib."/>    
+	</item>
+
+<item name="Flannel Mail" iconFile="items/armour_flannel.png" >
+	<price amount="3434"/>
+	<armour level="9" type="chest"/>
+	<primarybuff id="0" amount="2"/> <!-- burliness -->
+	<primarybuff id="4" amount="2"/> <!-- stubbornness -->
+	<secondarybuff id="7" amount="3"/> <!-- Block -->
+	<secondarybuff id="10" amount="2"/> <!-- armour absorption -->
+	<resistbuff acidic="2" conflagratory="2" crushing="2" hyperborean="4" slashing="2" voltaic="2"/>
+	<description text="Wrought by Kanadian flannelsmiths, this sturdy garment is imbued with protective runes of plaid."/>
+	</item>
+
+<item name="Magic Bandolier" iconFile="items/armour_bandolier.png" >
+	<price amount="18017"/>
+	<armour level="11" type="chest"/>
+	<primarybuff id="2" amount="3"/> <!-- nimbleness -->
+	<primarybuff id="3" amount="3"/> <!-- caddishness -->
+	<secondarybuff id="6" amount="3"/> <!-- dodge -->
+	<secondarybuff id="9" amount="5"/> <!-- EDR -->
+
+	<crossbowShotBuff percentage="100" name="Handy Bandolier" />
+
+	<description text="It turns out that not only do these look completely badass, they actually store a supply of bolts too! Who knew?"/>
+	</item>
+
+<item name="Elvish Jacket" iconFile="items/elvish_jacket.png" >
+	<price amount="15680"/>
+	<armour level="11" type="chest"/>
+	<secondarybuff id="7" amount="4"/> <!-- Block -->
+	<secondarybuff id="6" amount="4"/> <!-- Dodge -->
+	<secondarybuff id="10" amount="4"/> <!-- armour absorption -->
+	<secondarybuff id="5" amount="8"/> <!-- haywire -->
+	<secondarybuff id="22" amount="50"/> <!-- magic reflect -->
+	<primarybuff id="3" amount="4"/> <!-- caddishness -->
+	<primarybuff id="5" amount="4"/> <!-- savvy -->
+	<description text="Only the exalted Troubador Kings are allowed to wear this magnificently bejeweled garment."/>    
+	</item>
+
+<item name="Lab Coat" iconFile="items/armour_lab_coat.png" >
+	<price amount="3434"/>
+	<armour level="11" type="chest"/>
+	<primarybuff id="1" amount="5"/> <!-- sagacity -->
+	<primarybuff id="5" amount="5"/> <!-- savvy -->
+	<secondarybuff id="7" amount="5"/> <!-- Block -->
+	<secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	<resistbuff acidic="3" toxic="3" voltaic="3" existential="3"/>
+	<description text="This all seems nominal."/>
+	</item>
+
+<item name="Trollhide Cuirass" iconFile="items/armour_trollhide.png" >
+	<price amount="3434"/>
+	<armour level="12" type="chest"/>
+	<primarybuff id="0" amount="5"/> <!-- burliness -->
+	<primarybuff id="2" amount="-2"/> <!-- nimbleness -->
+	<secondarybuff id="7" amount="5"/> <!-- Block -->
+	<secondarybuff id="10" amount="6"/> <!-- armour absorption -->
+	<secondarybuff id="0" amount="5"/> <!-- hitpoints -->
+	<secondarybuff id="13" amount="5"/> <!-- hp regen -->
+	<resistbuff piercing="3" acidic="-3" conflagratory="-3"/>
+	<description text="It's because of things like this that the majestic Western Lowland Troll is nearly extinct. You monster."/>
+	</item>
+
+<item name="Three Wolf Tunic" iconFile="items/armour_three_wolf_tunic.png" artifact="1" >
+	<artifact quality="3"/>
+	<price amount="23014"/>
+	<armour level="12" type="chest"/>
+	<primarybuff id="0" amount="4"/> <!-- burliness -->
+	<primarybuff id="2" amount="4"/> <!-- nimbleness -->
+	<primarybuff id="3" amount="4"/> <!-- caddishness -->
+	<secondarybuff id="7" amount="6"/> <!-- Block -->
+	<secondarybuff id="10" amount="4"/> <!-- armour absorption -->
+	<secondarybuff id="2" amount="2"/> <!-- melee power -->
+	<secondarybuff id="4" amount="2"/> <!-- critical chance -->
+	<secondarybuff id="12" amount="5"/> <!-- sneakiness -->
+
+	<resistbuff slashing="2"/>
+	<description text="Imbued with the strength and ferocity of its majestic threefold totem spirit, this is undoubtedly the garb of a powerful shaman."/>
+	</item>
+
+<item name="Vine Armor" iconFile="items/armour_vine.png">
+	<price amount="23014"/>
+	<armour level="12" type="chest"/>
+
+	<primarybuff id="2" amount="-2"/> <!-- nimbleness  -->
+
+	<secondarybuff id="10" amount="3"/> <!-- armour absorption -->
+	<secondarybuff id="3" amount="5"/> <!-- magic power -->
+	<secondarybuff id="13" amount="2"/> <!-- health regen -->
+	<secondarybuff id="14" amount="2"/> <!-- mana regen -->
+
+	<resistbuff toxic="5" asphyxiative="-3"/>
+
+   	<playerHitEffectBuff percentage="100" name="Skatha's Roots" />
+
+	<description text="Woven from deadly Demon Kudzu, the strangling vines of this living armor throttle anything that gets too close."/>
+	</item>
+
+<item name="Wetsuit" iconFile="items/armour_wetsuit.png" >
+	<price amount="3434"/>
+	<armour level="13" type="chest"/>
+	<secondarybuff id="6" amount="3"/> <!-- dodge -->
+	<secondarybuff id="10" amount="5"/> <!-- armour absorption -->
+	<secondarybuff id="12" amount="3"/> <!-- sneakiness -->
+	<resistbuff acidic="6" asphyxiative="6" toxic="6" hyperborean="10" voltaic="10"/>
+	<description text="You probably don't want to go for a swim down here, having seen what's in the water. The suit is still surprisingly sleek and comfy, though."/>
+	</item>
+
+<item name="Tacky Black Platemail" iconFile="items/armour_tacky_black_plate.png">
+	<price amount="23417"/>
+	<armour level="13" type="chest"/>
+	<secondarybuff id="10" amount="15"/> <!-- armour absorption -->
+	<secondarybuff id="7" amount="16"/> <!-- block -->
+	<secondarybuff id="3" amount="-8"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-2"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-4" /> <!-- nim -->
+	<secondarybuff id="12" amount="-6"/> <!-- sneak --> 
+	<resistbuff piercing="8" necromantic="6"/>
+	<damagebuff piercing="2" necromantic="2"/>
+	<description text="No self-respecting evil overlord would be caught (un)dead in this fashion disaster. The skull motif and spike overload simply scream 'poser.'"/>
+	</item>
+
+<item name="Spider Silk Armor" iconFile="items/armour_spidersilk.png">
+	<price amount="25176"/>
+	<armour level="13" type="chest"/>
+	<secondarybuff id="10" amount="8"/> <!-- armour absorption -->
+	<secondarybuff id="6" amount="6"/> <!-- dodge -->
+	<secondarybuff id="3" amount="3"/> <!-- magic power -->
+	<primarybuff id="2" amount="5" /> <!-- nim -->
+	<secondarybuff id="12" amount="5"/> <!-- sneak --> 
+
+	<description text="Such armor is woven by enchanted dark elven mageweavers, spelled to be softer than cloth and stronger than steel. Most of it winds up in Hallowe'en surplus stores anyhow."/>
+	</item>
+
+<item name="Regal Armor" iconFile="items/armour_regal.png">
+	<price amount="43941"/>
+	<armour level="14" type="chest"/>
+	<primarybuff id="3" amount="6"/> <!-- caddishness -->
+	<primarybuff id="5" amount="6"/> <!-- savvy -->
+	<secondarybuff id="0" amount="8"/> <!-- hitpoints -->
+	<secondarybuff id="10" amount="15"/> <!-- armour absorption -->
+	<secondarybuff id="7" amount="18"/> <!-- block -->
+	<secondarybuff id="3" amount="-8"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-2"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-3" /> <!-- nim -->
+	<resistbuff piercing="10"/>
+	<description text="It's good to be the king."/>
+	</item>
+
+<item name="Ludicrously Large Pauldrons" iconFile="items/ludicrously_large_pauldrons.png" artifact="1">
+	<artifact quality="4" />
+	<price amount="40000"/>
+	<armour level="14" type="chest"/>
+	<primarybuff id="0" amount="5"/> <!-- burliness -->
+	<secondarybuff id="10" amount="20"/> <!-- armour absorption -->
+	<secondarybuff id="7" amount="25"/> <!-- block -->
+	<secondarybuff id="3" amount="-10"/> <!-- magic power -->
+	<secondarybuff id="14" amount="-2"/> <!-- mana regen -->
+	<primarybuff id="2" amount="-18" /> <!-- nim -->
+	<secondarybuff id="12" amount="-10"/> <!-- sneak --> 
+	<resistbuff piercing="14" blasting="14"/>
+	<description text="In the grim dark future, there is only ridiculous-looking armor."/>    
+	</item>
+
+<item name="The Heart of Darkness" iconFile="items/armour_heart_of_darkness.png" artifact="1">
+	<price amount="43447"/>
+	<armour level="14" type="chest"/>
+
+	<primarybuff id="0" amount="5"/> <!-- burliness -->
+	<secondarybuff id="2" amount="6"/> <!-- melee power -->
+	<secondarybuff id="3" amount="6"/> <!-- magic power -->
+	<secondarybuff id="10" amount="6"/> <!-- armour absorption -->
+	<secondarybuff id="14" amount="2"/> <!-- mana regen -->
+	<secondarybuff id="13" amount="2"/> <!-- health regen -->
+
+	<resistbuff putrefying="4" toxic="4" piercing="-4" necromantic="-4" righteous="-4" />
+	<description text="Picking up random organs you found lying around in the dungeon and grafting them onto your chest probably doesn't seem like the brightest idea you've ever had. And yet the heart... it beckons."/>
+
+   	<targetHitEffectBuff percentage="100" name="Heart of Darkness Attack" />
+
+	</item>
+
+<item name="Super Cape" iconFile="items/super_cape.png" artifact="1" >
+	<artifact quality="5" />
+	<price amount="50935"/>
+	<armour level="15" type="chest"/>
+	<secondarybuff id="0" amount="10"/> <!-- hitpoints -->
+	<secondarybuff id="10" amount="10"/> <!-- armor -->
+	<primarybuff id="0" amount="20"/> <!-- burliness -->
+	<primarybuff id="2" amount="20"/> <!-- nimbleness -->
+	<description text="The last scion of Planet Capeton, this cape is imbued with powers far beyond those of mortal capes. Keep it away from glowing green rocks."/>
+	</item>
+
+<item name="Cybertronic Armor" iconFile="items/armour_cybertronic.png">
+	<price amount="67834"/>
+	<armour level="17" type="chest"/>
+	
+	<primarybuff id="1" amount="8"/> <!-- sagacity -->
+	<primarybuff id="2" amount="8"/> <!-- nimbleness -->
+
+	<secondarybuff id="6" amount="5"/> <!-- dodge -->
+	<secondarybuff id="7" amount="8"/> <!-- block -->
+	<secondarybuff id="10" amount="12"/> <!-- armour absorption -->
+
+	<resistbuff voltaic="5" athereal="5" piercing="3" />
+	<damagebuff voltaic="8"/>
+
+	<playerHitEffectBuff percentage="100" name="Weak Electrobolt" />
+
+	<description text="Luminescent wires trace intricate runes across the surface of this flexible plastic armor, pulsing with electricity."/>
+	</item>
+
+<!-- boots -->
+
+<item name="Adventuring Galoshes" iconFile="items/boots_galoshes.png">
+	<price amount="801"/>
+	<armour level="7" type="feet"/>
+	<primarybuff id="2" amount="-4"/> <!-- nimbleness -->
+	<secondarybuff id="10" amount="1"/> <!-- armour -->
+	<resistbuff voltaic="3" acidic="3"/>
+	<description text="The puddles in THIS dungeon will do a lot more than ruin the finish on your shoes. Best to be prepared."/>
+	</item>
+
+<item name="Elven Slippers" iconFile="items/boots_elven_slippers.png">
+	<price amount="7173"/>
+	<armour level="11" type="feet"/>
+	<primarybuff id="2" amount="3"/> <!-- nimbleness -->
+	<primarybuff id="5" amount="3"/> <!-- savvy -->
+	<secondarybuff id="3" amount="4"/> <!-- magic power -->
+	<secondarybuff id="6" amount="8"/> <!-- dodge -->
+	<secondarybuff id="12" amount="4"/> <!-- sneakiness -->
+	<description text="Mere human shoemakers can only dream of crafting footwear this poncy."/>
+	</item>
+
+<item name="Ice Boots" iconFile="items/boots_mountaineering.png">
+	<price amount="3541"/>
+	<armour level="11" type="feet"/>
+	<secondarybuff id="7" amount="3"/> <!-- block -->
+	<secondarybuff id="10" amount="2"/> <!-- armour -->
+	<resistbuff piercing="2" hyperborean="5"/>
+	<damagebuff piercing="3"/>
+
+	<description text="These warm fur-lined boots are equipped with sharpened cleats to help grip low-friction surfaces, such as ice, or monsters' faces."/>
+	</item>
+
+<item name="Heavy Goth Boots" iconFile="items/boots_goth.png">
+	<price amount="9074"/>
+	<armour level="12" type="feet"/>
+	<secondarybuff id="7" amount="5"/> <!-- block -->
+	<secondarybuff id="10" amount="4"/> <!-- armour -->
+	<resistbuff crushing="2" existential="4"/>
+
+	<description text="The weight of all these unnecessary buckles and chains is nothing in comparison to the intolerable burden of your soul."/>
+	</item>
+
+<item name="Boots of the Rhino" iconFile="items/boots_rhino.png" artifact="1">
+	<artifact quality="3"/>
+	<price amount="14170"/>
+	<armour level="13" type="feet"/>
+	<primarybuff id="0" amount="4"/> <!-- burliness -->
+	<primarybuff id="2" amount="-3"/> <!-- nimbleness -->
+	<secondarybuff id="7" amount="3"/> <!-- block -->
+	<secondarybuff id="10" amount="4"/> <!-- armour -->
+	<resistbuff piercing="2"/>
+        <targetHitEffectBuff percentage="20" name="Rhino Rush" />
+
+	<description text="Charges into your foes with the force of a rhinocerous. The best part is that electronic credit cards will not be invented for many centuries, so in the meantime you will be completely unstoppable."/>
+	</item>
+
+<!-- gloves -->
+
+<item name="Claw Gauntlet" iconFile="items/claw_gauntlets.png" >
+   <price amount="3800" />
+   <armour level="12" type="hands" />
+   <secondarybuff id="7" amount="2"/> <!-- block -->
+   <secondarybuff id="4" amount="2" /> <!-- critical -->
+   <secondarybuff id="9" amount="-4" /> <!-- EDR -->
+   <damagebuff slashing="2" />
+   <targetHitEffectBuff percentage="100" name="Claw Attack" />
+   <description text="If you've ever thought to yourself 'Gee, it's such a shame I can only hold two of these swords at once' then boy do we have a glove for you! Just... don't scratch your nose while you're wearing it." />
+   </item>
+
+<item name="Single Mithril Glove" iconFile="items/gloves_mithril.png" >
+
+   <price amount="34044" />
+   <armour level="13" type="hands" />
+   <secondarybuff id="7" amount="3"/> <!-- block -->
+   <secondarybuff id="10" amount="2"/> <!-- armor -->
+   <secondarybuff id="11" amount="8"/> <!-- resist -->
+
+   <resistbuff transmutative="3" />
+
+   <description text="Mandatory safety equipment for handling reality-warping divine artifacts." />
+   </item>
+
+<item name="The Hand of Midas" iconFile="items/gloves_midas.png" artifact="1" >
+   <artifact quality="4" />
+   <price amount="41045" />
+   <armour level="13" type="hands" />
+   <primarybuff id="2" amount="-5"/> <!-- nimbleness-->
+   <secondarybuff id="7" amount="4"/> <!-- block -->
+   <secondarybuff id="10" amount="2"/> <!-- armor -->
+   <secondarybuff id="9" amount="-4" /> <!-- EDR -->
+   <damagebuff transmutative="2" />
+   <resistbuff transmutative="4" />
+
+   <targetHitEffectBuff percentage="100" name="Midas" />
+
+   <description text="You're not sure if this is the actual severed hand of Midas or just a replica gauntlet named after him. You're... just going to pretend it's a replica, though." />
+   </item>
+
+<item name="Gauntlet of Power" iconFile="items/gloves_gauntlet_power.png" >
+
+   <price amount="50840" />
+   <armour level="15" type="hands" />
+   <primarybuff id="0" amount="5"/> <!-- burliness -->
+   <primarybuff id="1" amount="5"/> <!-- nimbleness -->
+   <primarybuff id="2" amount="5"/> <!-- sagacity -->
+   <secondarybuff id="2" amount="2"/> <!-- melee power-->
+   <secondarybuff id="3" amount="2"/> <!-- magic power -->
+   <secondarybuff id="10" amount="3"/> <!-- armor -->
+
+   <description text="It's so bad." />
+   </item>
+
+<!-- pants -->
+
+
+<item name="Denim Cuisses" iconFile="items/pants_denim.png" >
+   <price amount="1351" />
+   <armour level="6" type="legs" />
+   <secondarybuff id="7" amount="3"/> <!-- block -->
+   <secondarybuff id="10" amount="1" /> <!-- armor -->
+
+   <resistbuff slashing="1"/>
+
+   <description text="Comfortable but sturdy, casual but stylish. Classic armor for a real adventuring man (or woman.)" />
+   </item>
+
+<item name="Mangy Fur Loincloth" iconFile="items/fur_loincloth.png" >
+   <price amount="2834" />
+   <armour level="8" type="legs" />
+   <secondarybuff id="7" amount="2"/> <!-- block -->
+   <secondarybuff id="10" amount="1" /> <!-- armor -->
+   <primarybuff id="0" amount="8" /> <!-- burliness -->
+   <description text="This chic little number is THE hot accessory of the season for fashion-conscious barbarians." />
+   </item>
+
+<item name="Torn Purple Pants" iconFile="items/pants_purple.png" >
+   <price amount="6016" />
+   <armour level="12" type="legs" />
+   <primarybuff id="0" amount="6" /> <!-- burliness -->
+   <primarybuff id="1" amount="-4" /> <!-- sagacity -->
+   <primarybuff id="5" amount="-4" /> <!-- savvy -->
+   <secondarybuff id="2" amount="5" /> <!-- melee power -->
+   <description text="Something about these pants just makes you SO. ANGRY." />
+   </item>
+
+<item name="Pants of the Prevaricator" iconFile="items/pants_of_the_prevaricator.png" >
+   <price amount="21135" />
+   <armour level="14" type="legs" />
+   <primarybuff id="2" amount="3" /> <!-- nimbleness -->
+   <primarybuff id="3" amount="3" /> <!-- caddishness -->
+   <primarybuff id="5" amount="3" /> <!-- savvy -->
+   <secondarybuff id="6" amount="5" /> <!-- dodge -->
+
+   <damagebuff conflagratory="3"/>
+   <resistbuff conflagratory="3"/>
+
+   <playerHitEffectBuff percentage="100" name="Ignition Bolt"/>
+
+   <description text="Once the property of a legendary master thief, the gods were not fond of his lies and cursed his trousers to be perpetually aflame." />
+   </item>
+
+<!-- Belts -->
+
+<item name="Handsome Red Sash" iconFile="items/belt_red_sash.png" >
+   <price amount="810" />
+   <armour level="8" type="waist" />
+   <primarybuff id="3" amount="6"/> <!-- caddishness -->
+   <secondarybuff id="6" amount="3"/> <!-- dodge -->
+   <description text="A sash so bold and ruggedly handsome, bodices within a ten foot radius start spontaneously ripping themselves open." />
+   </item>
+
+<item name="Belt of Belts" iconFile="items/belt_of_belts.png" >
+   <price amount="1908" />
+   <armour level="11" type="waist" />
+   <secondarybuff id="7" amount="4"/> <!-- block -->
+   <secondarybuff id="10" amount="1"/> <!-- armor -->
+   <secondarybuff id="4" amount="3"/> <!-- critical -->
+   <secondarybuff id="8" amount="2"/> <!-- counter -->
+   <description text="It was supposed to make you look cool and edgy, but mostly it just makes you look like your pants don't fit." />
+   </item>
+
+<item name="Utility Belt" iconFile="items/belt_utility.png" >
+   <price amount="8474" />
+   <armour level="12" type="waist" />
+   <primarybuff id="5" amount="5"/> <!-- savvy -->
+   <primarybuff id="2" amount="5"/> <!-- nimbleness -->
+   <secondarybuff id="7" amount="4"/> <!-- block -->
+   <secondarybuff id="10" amount="1"/> <!-- armor -->
+   <secondarybuff id="16" amount="2"/> <!-- trap sense -->
+   <secondarybuff id="17" amount="1"/> <!-- trap sight -->
+   <description text="Because you never know when you might suddenly find yourself in need of shark repellant." />
+   </item>
+
+<item name="Orion's Belt" iconFile="items/belt_orion.png" >
+   <price amount="24014" />
+   <armour level="14" type="waist" />
+
+   <secondarybuff id="7" amount="4"/> <!-- block -->
+   <secondarybuff id="10" amount="1"/> <!-- armor -->
+   <secondarybuff id="4" amount="2"/> <!-- critical -->
+   <secondarybuff id="9" amount="4"/> <!-- EDR -->
+   <secondarybuff id="18" amount="1"/> <!-- sight -->
+
+   <crossbowShotBuff percentage="100" name="Aethereal Missile" />
+
+   <description text="Calls upon the stellar hunter Orion to infuse your shots with astral power. Just be sure to give him his belt back when you're done; you wouldn't want the night sky mooning you." />
+   </item>
+
+<item name="Van Allen Belt" iconFile="items/belt_van_allen.png" >
+   <price amount="41134" />
+   <armour level="15" type="waist" />
+
+   <secondarybuff id="3" amount="3"/> <!-- magic power -->
+   <secondarybuff id="5" amount="5"/> <!-- haywire -->
+   <secondarybuff id="6" amount="3"/> <!-- dodge -->
+   <secondarybuff id="11" amount="5"/> <!-- resist -->
+
+   <damagebuff righteous="2" aethereal="2" voltaic="2" conflagratory="2"/>
+
+   <description text="Astrologers do not fully understand the causes or mechanics of this strange band of radiation, but their general consensus is that it's 'probably pretty dangerous.'" />
+   </item>
+
+<!-- rings -->
+
+<item name="Titanium Ring" iconFile="items/ring_titanium.png" >
+	<price amount="7174"/>
+	<armour type="ring" level="9" randoms="0" />
+	<description text="A tough ring for a tough man."/>
+	<secondarybuff id="10" amount="3"/> <!-- armor -->
+	</item>
+
+<item name="Bone Ring" iconFile="items/ring_bonering.png" >
+	<price amount="8093"/>
+	<armour type="ring" level="11" randoms="0" />
+	<description text="Man, this would have been a lot more useful during your goth phase in high school."/>
+	<damagebuff necromantic="5" />
+	<resistbuff necromantic="4" toxic="2" putrefying="2" />
+
+	</item>
+
+<item name="Blingring" iconFile="items/ring_blingring.png" >
+	<price amount="7174"/>
+	<armour type="ring" level="13" randoms="0" />
+	<description text="After centuries of experimentation, alchemists have finally managed to produce this hyperpure 25-carat gold ring. Having that much concentrated gold tends to cause unusual effects on substances it makes contact with."/>
+	<damagebuff transmutative="2" />
+	<resistbuff transmutative="3" />
+
+	<targetHitEffectBuff percentage="100" name="Midas" />
+	</item>
+
+<!-- amulets -->
+
+<item name="Employee ID Badge" iconFile="items/amulet_id.png">
+	<price amount="1080"/>
+	<armour type="neck" level="7" randoms="0"/>
+	<secondarybuff id="12" amount="10"/> <!-- sneakiness -->
+	<description text="With this foolproof disguise you can infiltrate the dungeon freely and the monsters will be none the wiser. The perfect crime!"/>
+   </item>
+
+<item name="Amulet of Krong" iconFile="items/amulet_krong.png" artifact="1">
+	<artifact quality="5"/>
+	<price amount="24904"/>
+	<armour type="neck" level="13"/>
+	<primarybuff id="0" amount="5"/> <!-- burliness -->
+	<secondarybuff id="2" amount="3"/> <!-- melee power -->
+	<secondarybuff id="10" amount="2"/> <!-- armor -->
+	<resistbuff conflagratory="4" crushing="4" righteous="4"/>
+	<description text="Yea, though I walk through the shadow of the valley of death, I shall fear no evil, for Krong will totally crush the hell out of it."/>
+   </item>
+
+<!-- wands -->
+
+<item name="Wand of Death Ray" iconFile="items/wand_of_death_ray.png" >
+	<price amount="9000" />
+	<wand spell="Death Ray" mincharge="3" maxcharge="6" />
+	<description text="It's a little cliche, but you can't go wrong with the classics."/>
+   </item>
+
+<item name="Prismatic Wand" iconFile="items/wand_prismatic.png" >
+	<price amount="11111" />
+	<wand spell="Prismatic Blast" mincharge="7" maxcharge="7" />
+	<description text="This scintillating wand blasts your enemies with a truly dazzling array of damage types."/>
+   </item>
+
+<item name="Freeze Wand" iconFile="items/wand_freeze.png" >
+	<price amount="7000" />
+	<wand spell="Freeze Wand Stop" mincharge="3" maxcharge="5" />
+	<description text="This is the one. Stops time. Freeze Wand. Tell your friends."/>
+   </item>
+
+<item name="Wanda's Wand of Wands" iconFile="items/wand_of_wands.png" >
+	<price amount="20000" />
+	<wand spell="Wandsplosion" mincharge="2" maxcharge="3" />
+	<description text="Created by a legendary mermage preparing for a war against the surface world, this thing packs enough thaumaturgical firepower to wipe a small country off the map. Or possibly spontaneously create one out of thin air. Don't let it fall into the wrong hands."/>
+   </item>
+
+</itemDB>
