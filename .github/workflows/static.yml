@@ -37,17 +37,14 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Import Game Files
         env:
-          SSH_KEY: ${{secrets.SSH_KEY}}
-          SSH_HOST: ${{secrets.SSH_HOST}}
-          SSH_USER: ${{secrets.SSH_USER}}
-          SSH_PORT: ${{secrets.SSH_PORT}}
+          IMPORT_URL: ${{ secrets.IMPORT_URL }}
         run: |
-          echo "$SSH_KEY" >> key
-          chmod 600 key
-          rsync -av -e "ssh -i key -p $SSH_PORT -l $SSH_USER -o StrictHostKeyChecking=no" $SSH_HOST:~/dredmor .
-          cp -r dredmor/* ./
-          rm -rf dredmor
-          rm key
+          mkdir -p download
+          curl -L "$DOWNLOAD_URL" -o download/dredmor.tar
+          tar -xzf download/dredmor.tar -C download
+          rm download/dredmor.tar
+          cp -r download/* ./
+          rm -rf download
       - name: XML Fixes
         continue-on-error: true
         run: |
