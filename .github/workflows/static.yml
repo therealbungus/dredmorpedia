@@ -40,7 +40,7 @@ jobs:
           IMPORT_URL: ${{ secrets.IMPORT_URL }}
         run: |
           mkdir -p download
-          curl -L "$DOWNLOAD_URL" -o download/dredmor.tar
+          wget "$DOWNLOAD_URL" -P /download
           tar -xzf download/dredmor.tar -C download
           rm download/dredmor.tar
           cp -r download/* ./
