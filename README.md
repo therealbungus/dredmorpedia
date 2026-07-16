@@ -1,7 +1,7 @@
 # dredmorpedia
 Dredmorpedia is an automatically generated encyclopedia for the game [Dungeons of Dredmor](http://www.dungeonsofdredmor.com).
 
-This is a new version of dredmorpedia which runs from GitHub Pages at https://hate9.github.io/dredmorpedia/.
+This is a new version of dredmorpedia which runs from GitHub Pages at https://therealbungus.github.io/dredmorpedia/.
 
 This fork contains an updated and expanded list of mods, as well as UI improvements, performance improvements, and an improved "Encrusts" page.
 
@@ -38,7 +38,7 @@ Sprites
 
 Most sprites from the base game need to be unpacked into a series of PNG images.
 
-This can be done with the [ConvertSprites](https://github.com/Hate9/dredmorpedia/raw/refs/heads/master/.tools/convert-sprites-bin-rev3.zip) tool (archived because Dredmod no longer exists).
+This can be done with the [ConvertSprites](https://github.com/therealbungus/dredmorpedia/raw/refs/heads/master/.tools/convert-sprites-bin-rev3.zip) tool (archived because Dredmod no longer exists).
 
 Mods
 ----
