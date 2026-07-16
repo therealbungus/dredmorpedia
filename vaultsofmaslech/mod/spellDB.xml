@@ -248,7 +248,7 @@
 	</spell>
 
 <spell name="All Wet" type="target">
-	<buff useTimer="1" time="2" self="0" bad="1" allowStacking="0" stackable="0" stacksize="1" affectsCaster="0" icon="sprites/skills/meteo/refreshing_rain_64.png" smallicon="sprites/skills/meteo/refreshing_rain_32.png">
+	<buff useTimer="1" time="2" self="0" bad="1" allowStacking="0" allowstacking="0" stacksize="1" affectsCaster="0" icon="sprites/skills/meteo/refreshing_rain_64.png" smallicon="sprites/skills/meteo/refreshing_rain_32.png">
 		<resistbuff voltaic="-3"/>
 		<description text="Wet people zap real easy!"/>
 		</buff>
@@ -409,7 +409,7 @@
 
 <spell name="Gruesome Finish" icon="sprites/skills/avex/gruesomefinish64.png" type="self" >
 	<anim sprite="sprites/sfx/fleshy_buff/fleshy_buff" frames="6" firstframe="0" framerate="80" sfx="psycho" />
-	<buff useTimer="1" time="10" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/skill_placeholder.png" smallicon="skills/skill_placeholder_small.png" >
+	<buff useTimer="1" time="10" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/skill_placeholder.png" smallicon="skills/skill_placeholder_small.png" >
 		<secondarybuff id="2" amount="1" /> <!-- melee power -->
 		<secondarybuff id="4" amount="5" /> <!-- crit -->
 		<damagebuff slashing="1"/>
@@ -426,7 +426,7 @@
 
 <spell name="What Is Best In Life?" icon="sprites/skills/avex/bestinlife64.png" type="self" >
 	<anim sprite="sprites/sfx/curse_hit/curse_hit" frames="6" firstframe="0" framerate="80" />
-	<buff useTimer="1" time="10" self="1" stackable="1" resistable="0" stacksize="10" icon="sprites/skills/avex/bestinlife64.png" smallicon="sprites/skills/avex/bestinlife32.png" >
+	<buff useTimer="1" time="10" self="1" allowstacking="1" resistable="0" stacksize="10" icon="sprites/skills/avex/bestinlife64.png" smallicon="sprites/skills/avex/bestinlife32.png" >
 		<primarybuff id="0" amount="2"/> <!-- Burliness -->
 		<secondarybuff id="2" amount="1" /> <!-- melee power -->
 		<secondarybuff id="4" amount="2" /> <!-- crit -->
@@ -441,7 +441,7 @@
  <spell name="Possession's Price Effect" icon="skills/bloody32.png" type="self" >
 	<description text="Not everything about having monster spirits following you around is a good thing. Apparently, you did something to annoy one of them." />
 	<effect type="removebuffbyname" name="Possession's Gift" amount="1"/>
-	<buff useTimer="1" time="666" self="1" stackable="1" stacksize="10" resistable="0" removable="0" icon="skills/bloody64.png" smallicon="skills/bloody32.png" >
+	<buff useTimer="1" time="666" self="1" allowstacking="1" stacksize="10" resistable="0" removable="0" icon="skills/bloody64.png" smallicon="skills/bloody32.png" >
 		<secondarybuff id="11" amount="-3" /> <!-- resist -->
 		<resistbuff necromantic="-1" righteous="-1" />
 		</buff>
@@ -452,7 +452,7 @@
 	</spell>
 
 <spell name="Possession's Gift" icon="sprites/skills/wraith/skill_avenge_your_father32.png" type="self" >
-	<buff useTimer="0" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/skill_avenge_your_father.png" smallicon="sprites/skills/wraith/skill_avenge_your_father32.png" >
+	<buff useTimer="0" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/skill_avenge_your_father.png" smallicon="sprites/skills/wraith/skill_avenge_your_father32.png" >
 		<description text="You have spirits following you around for a while before they departs for...elsewhere. They whisper to you, usually about when to consider moving your arse. " />
 		<secondarybuff id="6" amount="1" /> <!-- dodge -->
 		<secondarybuff id="22" amount="1" /> <!-- magic reflect --> 
@@ -1128,7 +1128,7 @@
 
 <!-- BROFISTERY -->
 <spell name="Righteous Empowerment" type="self" icon="skills/spells/the_word32.png" >
-	<buff useTimer="1" time="10" stackable="0" self="1" icon="skills/spells/the_word64.png" smallicon="skills/spells/the_word32.png" >
+	<buff useTimer="1" time="10" allowstacking="0" self="1" icon="skills/spells/the_word64.png" smallicon="skills/spells/the_word32.png" >
 		<secondarybuff id="2" amount="3" />
 		<secondarybuff id="4" amount="5" />
 		<damagebuff righteous="2" />
@@ -1138,7 +1138,7 @@
 	</spell>
 
 <spell name="Bros Before Foes" type="target" icon="skills/spells/animate_petroleum32.png" wand="0" downtime="20" >
-	<buff useTimer="1" time="10" stackable="0" self="0" icon="skills/spells/animate_petroleum64.png" smallicon="skills/spells/animate_petroleum32.png" >
+	<buff useTimer="1" time="10" allowstacking="0" self="0" icon="skills/spells/animate_petroleum64.png" smallicon="skills/spells/animate_petroleum32.png" >
 		<secondarybuff id="2" amount="-3" />
 		<secondarybuff id="4" amount="-5" />
 		<resistbuff righteous="-2" />
@@ -1197,7 +1197,7 @@
 <!-- DADINAVIAN WIZARDRY -->
 <spell name="Tranquil as a Forest" type="self" icon="skills/extraplanar_concentration32.png" >
 	<requirements mp="10" savvyBonus="0.3" mincost="3" />
-	<buff useTimer="0" brittle="10" stackable="0" self="1" icon="skills/extraplanar_concentration64.png" smallicon="skills/extraplanar_concentration32.png" >
+	<buff useTimer="0" brittle="10" allowstacking="0" self="1" icon="skills/extraplanar_concentration64.png" smallicon="skills/extraplanar_concentration32.png" >
 		<secondarybuff id="3" amount="3" />
 		<secondarybuff id="5" amount="5" />
 		</buff>
@@ -1229,7 +1229,7 @@
 	
 <spell name="Swift as the Coursing River" type="self" icon="skills/skill_dodging_small.png" >
 	<requirements mp="15" savvyBonus="0.3" mincost="3" />
-	<buff useTimer="0" brittle="15" stackable="0" self="1" icon="skills/skill_dodging.png" smallicon="skills/skill_dodging_small.png" >
+	<buff useTimer="0" brittle="15" allowstacking="0" self="1" icon="skills/skill_dodging.png" smallicon="skills/skill_dodging_small.png" >
 		<secondarybuff id="6" amount="5" />
 		<secondarybuff id="9" amount="5" />
 		<secondarybuff id="12" amount="5" />
@@ -1240,7 +1240,7 @@
 	
 <spell name="Force of a Great Typhoon" type="self" icon="skills/mystic_missile32.png" >
 	<requirements mp="15" savvyBonus="0.3" mincost="3" />
-	<buff useTimer="0" brittle="15" stackable="0" self="1" icon="skills/mystic_missile64.png" smallicon="skills/mystic_missile32.png" >
+	<buff useTimer="0" brittle="15" allowstacking="0" self="1" icon="skills/mystic_missile64.png" smallicon="skills/mystic_missile32.png" >
 		<secondarybuff id="2" amount="5" />
 		<secondarybuff id="3" amount="5" />
 		<secondarybuff id="4" amount="5" />
@@ -1251,7 +1251,7 @@
 
 <spell name="Strength of a Raging Fire" type="self" icon="skills/wreathofexplosion32.png" >
 	<requirements mp="20" savvyBonus="0.3" mincost="3" />
-	<buff useTimer="0" brittle="20" stackable="0" self="1" icon="skills/wreathofexplosion64.png" smallicon="skills/wreathofexplosion32.png" >
+	<buff useTimer="0" brittle="20" allowstacking="0" self="1" icon="skills/wreathofexplosion64.png" smallicon="skills/wreathofexplosion32.png" >
 		<damagebuff conflagratory="5" />
 		<resistbuff conflagratory="5" hyperborean="5" />
 		</buff>
@@ -1341,7 +1341,7 @@
 
 <spell name="Volatile Arcane Energies" type="self" icon="skills/bored64.png" >
 	<anim sprite="sprites/sfx/target/target" frames="5" framerate="90" sfx="cursed" centerEffect="1" />
-	<buff useTimer="1" time="20" self="1" stackable="0" icon="skills/bored64.png" smallicon="skills/bored32.png" >
+	<buff useTimer="1" time="20" self="1" allowstacking="0" icon="skills/bored64.png" smallicon="skills/bored32.png" >
 		<description text="Incredible arcane energies course through your veins! Doing what, you have no idea, but they're doing STUFF. And THINGS. MAGIC things!" />
 		</buff>
 	</spell>
@@ -1841,7 +1841,7 @@
 	<!-- Wand of Lordly Might and Wand of Necrotic Might -->
 	<spell name="Rugged Fortitude" type="self" icon="skills/stat_con32.png" >
 		<description text="You thirst for battle." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/stat_con64.png" smallicon="skills/stat_con32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/stat_con64.png" smallicon="skills/stat_con32.png" >
 			<secondarybuff id="0" amount="3" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1849,7 +1849,7 @@
 
 	<spell name="Spell Parry" type="self" icon="skills/warrior/armourer0_32.png" >
 		<description text="Your hands move impossibly fast, blocking incoming fire easily." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/warrior/armourer0_64.png" smallicon="skills/warrior/armourer0_32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/warrior/armourer0_64.png" smallicon="skills/warrior/armourer0_32.png" >
 			<secondarybuff id="7" amount="1" />
 			<secondarybuff id="22" amount="1" />
 			</buff>
@@ -1858,7 +1858,7 @@
 
 	<spell name="Counterstrike" type="self" icon="skills/warrior/axemanship2_32.png" >
 		<description text="Your weapon dances of its own accord, striking back at your opponents viciously." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/warrior/axemanship2_64.png" smallicon="skills/warrior/axemanship2_32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/warrior/axemanship2_64.png" smallicon="skills/warrior/axemanship2_32.png" >
 			<secondarybuff id="8" amount="2" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1866,7 +1866,7 @@
 
 	<spell name="Swift Regeneration" type="self" icon="skills/spells/restoration32.png" >
 		<description text="Your body's metabolism accelerates to superhuman levels, knitting flesh quickly." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/spells/restoration64.png" smallicon="skills/spells/restoration32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/spells/restoration64.png" smallicon="skills/spells/restoration32.png" >
 			<secondarybuff id="13" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1874,7 +1874,7 @@
 
 	<spell name="Powerful Focus" type="self" icon="skills/wizard/spell_white0_32.png" >
 		<description text="Your mind becomes clearer than ever before." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/wizard/spell_white0_64.png" smallicon="skills/wizard/spell_white0_32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/wizard/spell_white0_64.png" smallicon="skills/wizard/spell_white0_32.png" >
 			<secondarybuff id="14" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1882,7 +1882,7 @@
 
 	<spell name="Desperate Blows" type="self" icon="skills/inverse_minion32.png" >
 		<description text="In desperation, you lash out around you with newfound strength." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/inverse_minion64.png" smallicon="skills/inverse_minion32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/inverse_minion64.png" smallicon="skills/inverse_minion32.png" >
 			<secondarybuff id="2" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1890,7 +1890,7 @@
 
 	<spell name="Combat Focus" type="self" icon="skills/rogue/skill_perception1_32.png" >
 		<description text="Channeling your fear into your spells, you increase your magical abilities tremendously." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/rogue/skill_perception1_64.png" smallicon="skills/rogue/skill_perception1_32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/rogue/skill_perception1_64.png" smallicon="skills/rogue/skill_perception1_32.png" >
 			<secondarybuff id="3" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1898,7 +1898,7 @@
 
 	<spell name="Steadfast Determination" type="self" icon="skills/warrior/sword_lore32.png" >
 		<description text="For a few moments, you can shrug off blows that would fell a lesser hero." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/warrior/sword_lore64.png" smallicon="skills/warrior/sword_lore32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/warrior/sword_lore64.png" smallicon="skills/warrior/sword_lore32.png" >
 			<secondarybuff id="10" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -1906,7 +1906,7 @@
 
 	<spell name="Cinematic Dodge" type="self" icon="skills/rogue/leap32.png" >
 		<description text="For a few moments, you can sidestep blows that would fell a lesser hero." />
-		<buff useTimer="1" time="30" self="1" stackable="1" resistable="0" stacksize="10" icon="skills/rogue/leap64.png" smallicon="skills/rogue/leap32.png" >
+		<buff useTimer="1" time="30" self="1" allowstacking="1" resistable="0" stacksize="10" icon="skills/rogue/leap64.png" smallicon="skills/rogue/leap32.png" >
 			<secondarybuff id="6" amount="1" />
 			</buff>
 		<anim sprite="sprites/sfx/bloodsplatA/bloodsplatA" frames="4" firstframe="0" framerate="80" sfx="piercing" />
@@ -2203,7 +2203,7 @@
 	</spell>
 	
 <spell name="Diggle Top Hat" type="self" icon="sprites/doctor_diggle64.png" >
-	<buff useTimer="0" self="1" stackable="0" resistable="0" icon="sprites/doctor_diggle64.png" smallicon="sprites/doctor_diggle32.png" >
+	<buff useTimer="0" self="1" allowstacking="0" resistable="0" icon="sprites/doctor_diggle64.png" smallicon="sprites/doctor_diggle32.png" >
 		<secondarybuff id="10" amount="5" /> <!-- armor -->
 		<secondarybuff id="22" amount="10" /> <!-- reflect -->
 		<halo name="sprites/sfx/tophat/tophat" first="0" num="3" frameRate="100" />
