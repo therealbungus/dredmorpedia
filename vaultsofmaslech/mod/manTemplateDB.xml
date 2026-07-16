@@ -1,0 +1,40 @@
+<templatedb>
+
+<template width="5" height="3" name="7777777" affectsPlayer="0">
+	<row text=".@@@."/>
+	<row text="@@@@@"/>
+	<row text="..#.."/>
+	</template>
+
+<template width="5" height="4" name="30001" affectsPlayer="0" >
+	<row text="@@@@@" />
+	<row text=".@@@." />
+	<row text="..@.." />
+	<row text="..#.." />
+	</template>
+
+<template width="3" height="3" name="30002" affectsPlayer="0" >
+	<row text="@.." />
+	<row text="..." />
+	<row text=".#." />
+	</template>
+	
+<template width="3" height="3" name="30003" affectsPlayer="0" >
+	<row text=".@." />
+	<row text="..." />
+	<row text=".#." />
+	</template>
+
+<template width="3" height="3" name="30004" affectsPlayer="0" >
+	<row text="..@" />
+	<row text="..." />
+	<row text=".#." />
+	</template>
+
+<template width="3" height="3" name="30000" affectsPlayer="0" >
+	<row text="..." />
+	<row text=".@." />
+	<row text=".#." />
+	</template>
+  
+</templatedb>

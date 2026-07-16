@@ -1,4 +1,4 @@
-/*******************************************************************************
+m/*******************************************************************************
 ** Source
 **
 ** The source(s) of Dredmorpedia's data.
@@ -316,9 +316,18 @@ Dredmor.Source.List =
 	{
 		id:     genId(),
 		dir:	'moredreditempack',
-		tag:	'MDI Mod',
+		tag:	'MDIP Mod',
 		title:  'More Dred (Item Pack) Mod',
 		href:   'https://steamcommunity.com/sharedfiles/filedetails/?id=75414172',
+		active: false,
+		mod:    true
+	},
+	{
+		id:     genId(),
+		dir:	'vaultsofmaslech',
+		tag:	'VoM Mod',
+		title:  'Vaults of Maslech Mod',
+		href:   'https://steamcommunity.com/sharedfiles/filedetails/?id=TEMP',
 		active: false,
 		mod:    true
 	}

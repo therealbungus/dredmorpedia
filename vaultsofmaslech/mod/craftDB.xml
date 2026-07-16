@@ -1,0 +1,900 @@
+<craftDB>
+<!-- VALID TOOLS:
+alchemy		Modular Alchemy Box						alchemy skill
+grinder		Elven Ingot Grinder						alchemy skill
+lathe		N-Dimensional Lathe						wandsmithing skill
+smithing	My Little Anvil Junior Smithing Kit		smithing skill
+still		Porta-Still								alchemy skill
+tinkerer	Tinkerer Parts							tinkering skill 
+ingot		Disposable Ingot Press					tinkering skill		-->
+
+
+<!-- WANDS -->
+<craft hidden="0"> <!-- Wizard's Spatula -->
+	<output skill="2" name="Wizard's Spatula" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Steel Ingot"/>
+	</craft>
+
+<craft hidden="1"> <!-- Pixie Stick -->
+	<output skill="3" name="Pixie Stick" amount="1" />
+	<tool tag="lathe" />
+	<input name="Burnt Out Wand" />
+	<input name="Citrine" />
+	<input name="Fairywodger" />
+	</craft>
+	
+<craft hidden="1" > <!-- Spray Bolttle -->
+	<output skill="3" name="Spray Bolttle" amount="1" />
+	<tool tag="lathe" />
+	<input name="Burnt Out Wand" />
+	<input name="Iron Ingot" />
+	<input name="Iron Ingot" />
+	<input name="Spring-loaded Power Core" />
+	</craft>
+	
+<craft hidden="1" > <!-- Phoenix Wand -->
+	<output skill="4" name="Phoenix Wand" amount="1" />
+	<tool tag="lathe" />
+	<input name="Burnt Out Wand" />
+	<input name="Ruby" />
+	<input name="Infernal Potion" />
+	</craft>
+	
+<craft hidden="1" > <!-- Rod of Lordly Might -->
+	<output skill="5" name="Rod of Lordly Might" amount="1" />
+	<tool tag="lathe" />
+	<input name="Burnt Out Wand" />
+	<input name="Ruby" />
+	<input name="Electrum Ingot" />
+	<input name="Aqua Regia" />
+	</craft>
+	
+<craft hidden="1" > <!-- Rod of Necrotic Might -->
+	<output skill="5" name="Rod of Necrotic Might" amount="1" />
+	<tool tag="lathe" />
+	<input name="Rod of Lordly Might" />
+	<input name="Potion of Dire Empowerment" />
+	<input name="Root of T'Char" />
+	</craft>
+
+<!-- WEAPONS -->
+<!-- Swords -->
+
+<!-- Hammers -->
+<craft hidden="0"> <!-- Hammer of Righteousness -->
+	<output skill="1" name="Hammer of Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer"/>
+	<input name="Potion of Radiance"/>
+	</craft>
+
+<craft hidden="0"> <!-- Hammer of Extra Righteousness -->
+	<output skill="1" name="Hammer of Extra Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Righteousness"/>
+	<input name="Potion of Radiance"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	</craft>
+
+<craft hidden="0"> <!-- Hammer of Double Righteousness -->
+	<output skill="2" name="Hammer of Double Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Extra Righteousness"/>
+	<input name="Hammer of Extra Righteousness"/>
+	<input name="Steel Ingot"/>
+	<input name="Gold Ingot"/>
+	</craft>
+	
+<craft hidden="0"> <!-- Hammer of Extreme Righteousness -->
+	<output skill="3" name="Hammer of Extreme Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Double Righteousness" />
+	<input name="Pearlescent Wand" />
+	<input name="Electrum Ingot" />
+	<input name="Electrum Ingot" />
+	</craft>
+
+<craft hidden="1"> <!-- Hammer of Incredible Righteousness -->
+	<output skill="4" name="Hammer of Incredible Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Extreme Righteousness"/>
+	<input name="Pearlescent Wand" />
+	<input name="Potion of Radiance" />
+	<input name="Potion of Midas"/>
+	</craft>
+	
+<craft hidden="1"> <!-- Hammer of Overflowing Righteousness -->
+	<output skill="5" name="Hammer of Overflowing Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Incredible Righteousness"/>
+	<input name="Electrum Ingot"/>
+	<input name="Pyrite Sun"/>
+	<input name="Diamond"/>
+	</craft>
+	
+<craft hidden="1"> <!-- Hammer of Unending Righteousness -->
+	<output skill="6" name="Hammer of Unending Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Overflowing Righteousness" />
+	<input name="Diamond" />
+	<input name="Emerald Encrusted Gold Ring" />
+	<input name="Potion of Radiance" />
+	</craft> 
+	
+<craft hidden="1"> <!-- Hammer of Exemplary Righteousness -->
+	<output skill="7" name="Hammer of Exemplary Righteousness" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Unending Righteousness" />
+	<input name="Aetheric Power Cylinder" />
+	<input name="Platinum Ingot" />
+	<input name="Ruby" />
+	</craft>
+	
+<craft hidden="1"> <!-- The Original Hammer of Righteousness -->
+	<output skill="8" name="The Original Hammer of Righteousness (tm)" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hammer of Exemplary Righteousness"/>
+	<input name="The Royal Beatdown"/>
+	<input name="Electrum Ingot"/>
+	<input name="Malleus Maleficarium"/>
+	</craft>
+
+<!-- Staves -->
+<craft hidden="0"> <!-- Hooked Cane -->
+	<output skill="1" name="Hooked Cane" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Hefty Stick" />
+	</craft>
+	
+<craft hidden="0"> <!-- Stylish Canesword -->
+	<output skill="1" name="Stylish Canesword" amount="1" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Crude Iron Sword" />
+	</craft>
+	
+<craft hidden="0"> <!-- Shillelagh -->
+	<output skill="2" name="Shillelagh" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Hooked Cane" />
+	<input name="Cracked Orb" />
+	</craft>
+	
+<craft hidden="1"> <!-- Orcish Wand -->
+	<output skill="3" name="Orcish Wand" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Wand of Bling" />
+	<input name="The Meatwand" />
+	<input name="Coral Wand" />
+	<input name="Hefty Stick" />
+	</craft>
+	
+<craft hidden="1"> <!-- Staphylococcus -->
+	<output skill="6" name="Staphylococcus" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Plague Bolt" />
+	<input name="Hefty Stick" />
+	<input name="Brimstone" />
+	<input name="Gold Ingot" />
+	</craft>
+
+<!-- Daggers -->
+<craft hidden="0"> <!-- Stake of Staking -->
+	<output skill="1" name="Stake of Staking" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Hefty Stick"/>
+	<input name="Shiv"/>
+	</craft>
+
+<!-- Katars -->
+<craft hidden="0"> <!-- Steel Katar -->
+	<output skill="1" name="Steel Katar" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Steel Ingot"/>
+	<input name="Steel Ingot"/>
+	</craft>
+
+<craft hidden="0"> <!-- Cobalt Katar -->
+	<output skill="1" name="Cobalt Katar" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Steel Katar" />
+	<input name="Iron Ingot" />
+	<input name="Copper Ingot" />
+	<input name="Grilled Steak" />
+	</craft>
+	
+<craft hidden="0"> <!-- Bluesteel Claws -->
+	<output skill="2" name="Bluesteel Claws" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Cobalt Katar" />
+	<input name="Steel Ingot" />
+	<input name="Potion of Mana" />
+	<input name="Sapphire" />
+	</craft>	
+
+<craft hidden="0"> <!-- Flametouched Steel Katar -->
+	<output skill="3" name="Flametouched Steel Katar" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Bluesteel Claws" />
+	<input name="Steel Ingot" />
+	<input name="Ruby" />
+	<input name="Fiery Wand" />
+	</craft>
+
+<craft hidden="0"> <!-- Emerald Katar -->
+	<output skill="4" name="Emerald Katar" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Flametouched Steel Katar" />
+	<input name="Emerald" />
+	<input name="Verdant Poison" />
+	</craft>
+	
+<craft hidden="1"> <!-- Flametouched Iron Claws -->
+	<output skill="5" name="Flametouched Iron Claws" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Emerald Katar" />
+	<input name="Fiery Wand" />
+	<input name="Iron Ingot" />
+	<input name="Potion of Radiance" />
+	</craft>
+	
+<craft hidden="1"> <!-- Ice Katar -->
+	<output skill="6" name="Emerald Katar" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Flametouched Iron Claws" />
+	<input name="Icicly Wand" />
+	<input name="The Prince" />
+	</craft>
+	
+<craft hidden="1"> <!-- Orichalcum Claws -->
+	<output skill="7" name="Orichalcum Claws" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Ice Katar" />
+	<input name="Platinum Ingot" />
+	<input name="Brass Ingot" />
+	<input name="Coral Wand" />
+	</craft>
+
+<!-- Polearms -->
+<craft hidden="0" >	<!-- Bohemian Earspoon -->
+	<output skill="3" name="Bohemian Earspoon" amount="1" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Pan-Galactic Gargle Blaster" />
+	<input name="Steel Ingot" />
+	<input name="Steel Ingot" />
+	</craft>
+
+<craft hidden="1" >	<!-- Bohemian Earspork -->
+	<output skill="5" name="Bohemian Earspork" amount="1" />
+	<tool tag="smithing" />
+	<input name="Bohemian Earspoon" />
+	<input name="Pan-Galactic Gargle Blaster" />
+	<input name="Pyrite Sun" />
+	<input name="Zodiacal Wand" />
+	</craft>
+
+<craft hidden="0" >	<!-- Lucerne Hammer -->
+	<output skill="4" name="Lucerne Hammer" amount="1" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Hammer" />
+	<input name="Potion of Dire Empowerment" />
+	</craft>
+
+<craft hidden="0" > <!-- Rusty Scythe -->
+	<output skill="1" name="Rusty Scythe" amount="1" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Iron Ingot" />
+	<input name="Rust" />
+	</craft>
+	
+<craft hidden="0" > <!-- Iron Scythe -->
+	<output skill="2" name="Iron Scythe" amount="1" />
+	<tool tag="smithing" />
+	<input name="Rusty Scythe" />
+	<input name="Iron Ingot" />
+	<input name="Iron Ingot" />
+	</craft>
+	
+<craft hidden="0" > <!-- Steel Scythe -->
+	<output skill="3" name="Steel Scythe" amount="1" />
+	<tool tag="smithing" />
+	<input name="Iron Scythe" />
+	<input name="Steel Ingot" />
+	<input name="Steel Ingot" />
+	</craft>
+
+<craft hidden="1" > <!-- Blacksteel Scythe -->
+	<output skill="4" name="Blacksteel Scythe" amount="1" />
+	<tool tag="smithing" />
+	<input name="Steel Scythe" />
+	<input name="Potion of Dire Empowerment" />
+	<input name="Pyrite Sun" />
+	<input name="Steel Ingot" />
+	</craft>
+
+<craft hidden="1" > <!-- Red Deth's Scythe -->
+	<output skill="5" name="Red Deth's Scythe" amount="1" />
+	<tool tag="smithing" />
+	<input name="Blacksteel Scythe" />
+	<input name="Starry Orb" />
+	<input name="Carnelian" />
+	<input name="Ruby" />
+	</craft>
+	
+<craft hidden="1" > <!-- THE NEGASCYTHE -->
+	<output skill="6" name="THE NEGASCYTHE" amount="1" />
+	<tool tag="smithing" />
+	<input name="Red Deth's Scythe" />
+	<input name="Orb of Nothing" />
+	<input name="Wand of Laser" />
+	<input name="Potion of Invisibility" />
+	</craft>
+
+<!-- Knuckles -->
+<craft hidden="0"> <!-- Plastic Knuckles -->
+	<output skill="1" name="Plastic Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Plastic Ingot"/>
+	<input name="Plastic Ingot"/>
+	</craft>
+	
+<craft hidden="0">	<!-- Brass Knuckles -->
+	<output skill="1" name="Brass Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Brass Ingot"/>
+	<input name="Brass Ingot"/>
+	</craft>
+	
+<craft hidden="0">	<!-- Iron Knuckles -->
+	<output skill="2" name="Iron Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Brass Knuckles"/>
+	</craft>
+
+<craft hidden="0">	<!-- Steel Knuckles -->
+	<output skill="3" name="Steel Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Steel Ingot"/>
+	<input name="Steel Ingot"/>
+	<input name="Iron Knuckles"/>
+	</craft>
+
+<craft hidden="1">	<!-- Flametouched Iron Knuckles -->
+	<output skill="4" name="Flametouched Iron Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Iron Ingot"/>
+	<input name="Fiery Wand"/>
+	<input name="Steel Knuckles"/>
+	</craft>
+
+<craft hidden="1">	<!-- Silver Knuckles -->
+	<output skill="5" name="Silver Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Silver Ingot"/>
+	<input name="Pearlescent Wand"/>
+	<input name="Flametouched Iron Knuckles" />
+	</craft>
+
+<craft hidden="1">	<!-- Gold Knuckles -->
+	<output skill="1" name="Gold Knuckles" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Gold Ingot"/>
+	<input name="Wand of Bling"/>
+	<input name="Silver Knuckles"/>
+	</craft>
+
+<craft hidden="1">	<!-- Golden Fist of the Bro -->
+	<output skill="1" name="Golden Fist of the Bro" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Gold Knuckles"/>
+	<input name="Wand of Transmogrification"/>
+	<input name="Solution of Gold"/>
+	<input name="Diamond"/>
+	</craft>
+
+
+<!-- Bows -->
+<craft hidden="0"> <!-- Elvish Longbow -->
+	<output skill="1" name="Elvish Longbow" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Small Crossbow"/>
+	<input name="Hefty Stick"/>
+	</craft>
+
+<craft hidden="0"> <!-- Elven Longbow -->
+	<output skill="1" name="Elven Longbow" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Elvish Longbow"/>
+	<input name="Fairywodger"/>
+	</craft>
+
+<craft hidden="0"> <!-- Icy Bow -->
+	<output skill="2" name="Icy Bow" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Elven Longbow"/>
+	<input name="Hyperborean Potion"/>
+	<input name="Sapphire"/>
+	</craft>
+
+<craft hidden="1"> <!-- Bow of the Radiant Dawn -->
+	<output skill="3" name="Bow of the Radiant Dawn" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Elven Longbow"/>
+	<input name="Potion of Radiance"/>
+	<input name="Zodiacal Wand"/>
+	</craft>
+
+<craft hidden="1"> <!-- Bow of the Red Archer -->
+	<output skill="5" name="Bow of the Red Archer" amount="1"/>
+	<tool tag="smithing"/>
+	<input name="Bow of the Radiant Dawn"/>
+	<input name="Noxious Brimstone Flask"/>
+	<input name="Greedy Blungecap"/>
+	<input name="Bolt of Squid"/>
+	</craft>
+
+<!-- Crossbows -->
+<craft hidden="1"> <!-- Repeater Crossbow -->
+	<output skill="5" name="Repeater Crossbow" amount="1"/>
+	<tool tag="tinkerer"/>
+	<input name="Wind-up Doubleplus Crossbow"/>
+	<input name="Spring-loaded Power Core"/>
+	<input name="Self-sealing Stem Bolt" />
+	<input name="Brass Mechanisms" />
+	</craft>
+	
+<!-- Thrown -->
+
+<!-- Bolts -->
+
+<!-- ARMOR -->
+<!-- Shields and Tomes -->
+<craft hidden="0"> <!-- Little Red Cookbook -->
+	<output skill="1" name="Little Red Cookbook" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Little Black Book"/>
+	<input name="Carnelian"/>
+	</craft>
+
+<craft hidden="1"> <!-- Book of Shadows -->
+	<output skill="4" name="Book of Shadows" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Little Black Book"/>
+	<input name="Potion of Radiance"/>
+	<input name="Potion of Clear Vision"/>
+	<input name="Burnt Out Wand"/>
+	</craft>
+
+<craft hidden="0"> <!-- Crafter's Almanac -->
+	<output skill="3" name="Crafter's Almanac" amount="1"/>
+	<tool tag="lathe"/>
+	<input name="Modular Alchemy Box"/>
+	<input name="Tinkerer Parts"/>
+	<input name="n-Dimensional Lathe"/>
+	<input name="Universal Principles"/>
+	</craft>
+	
+<craft hidden="1"> <!-- Manual of Martial Prowess -->
+	<output skill="3" name="Manual of Martial Prowess" amount="1" />
+	<tool tag="lathe" />
+	<input name="Fine Iron Sword" />
+	<input name="Fine Iron Mace" />
+	<input name="Fine Iron Axe" />
+	<input name="The Seventy Maxims of Maximally Effective Mercenaries" />
+	</craft>
+
+<craft hidden="0"> <!-- Dungeons for Dummies -->
+	<output skill="1" name="Dungeons for Dummies" amount="1" />
+	<tool tag="lathe" />
+	<input name="Potion of Healing" />
+	<input name="Potion of Mana" />
+	<input name="Burnt Out Wand" />
+	</craft>
+	
+<craft hidden="0"> <!-- The Seventy Maxims of Maximally Effective Mercenaries -->
+	<output skill="2" name="The Seventy Maxims of Maximally Effective Mercenaries" amount="1" />
+	<tool tag="lathe" />
+	<input name="Little Red Cookbook" />
+	<input name="Fine Iron Mace" />
+	<input name="Potion of Steeling" />
+	</craft>
+
+<craft hidden="0">	<!-- History of the World, Part I -->
+	<output skill="3" name="History of the World, Part I" amount="1" />
+	<tool tag="lathe" />
+	<input name="Burning Tome" />
+	<input name="Spectacles" />
+	<input name="Spear" />
+	</craft>
+	
+<craft hidden="1">	<!-- History of the World, Part II -->
+	<output skill="5" name="History of the World, Part II" amount="1" />
+	<tool tag="lathe" />
+	<input name="History of the World, Part I" />
+	<input name="Root of T'Char" />
+	<input name="Powder of Ibn Ghazi" />
+	</craft>
+	
+<craft hidden="1" >	<!-- Landscapes: A Pretentious Pictorial -->
+	<output skill="5" name="Landscapes: A Pretentious Pictorial" amount="1" />
+	<tool tag="lathe" />
+	<input name="Cloud Formations and Other Occult Phenomena" />
+	<input name="Deciduous Wand" />
+	<input name="Sapphire" />
+	</craft>
+
+<!-- Lanterns -->
+<craft hidden="0">	<!-- Candlestick -->
+	<output skill="1" name="Candlestick" amount="1" />
+	<tool tag="tinkerer" />
+	<input name="Bituminous Coal" />
+	<input name="Copper Ingot" />
+	<input name="Oil of Vitriol" />
+	</craft>
+
+<craft hidden="0">	<!-- Lantern -->
+	<output skill="2" name="Lantern" amount="1" />
+	<tool tag="tinkerer" />
+	<input name="Candlestick" />
+	<input name="Iron Ingot" />
+	<input name="Aqua Vitae" />
+	</craft>
+	
+<craft hidden="0">	<!-- Jack-o-Lantern -->
+	<output skill="4" name="Jack-o-Lantern" amount="1" />
+	<tool tag="tinkerer" />
+	<input name="Candlestick" />
+	<input name="Plastic Ingot" />
+	<input name="Plastic Ingot" />
+	<input name="Deciduous Wand" />
+	</craft>
+
+<craft hidden="1"> 	<!-- Hurricane Lantern -->
+	<output skill="5" name="Hurricane Lantern" amount="1" />
+	<tool tag="tinkerer" />
+	<input name="Candlestick" />
+	<input name="Brass Ingot" />
+	<input name="Aetheric Power Cylinder" />
+	<input name="Voltaic Cell" />
+	</craft>
+
+<craft hidden="1">	<!-- Dire Jack-o-Lantern -->
+	<output skill="6" name="Dire Jack-o-Lantern" amount="1" />
+	<tool tag="tinkerer" />
+	<input name="Jack-o-Lantern" />
+	<input name="Bony Wand" />
+	<input name="Molten Orb" />
+	</craft>
+
+<!-- Clothing -->
+	<!-- Cargo Shorts -->
+<craft hidden="0"> <!-- Cargo Shorts -->
+	<output skill="1" name="Cargo Shorts" />
+	<tool tag="alchemy" />
+	<input name="Cutoffs" />
+	<input name="Spatial Instability Infusion" />
+	<input name="Horadric Lutefisk Cube" />
+	</craft>
+	
+<craft hidden="0"> <!-- Cargo Shorts of the Purple Wizard -->
+	<output skill="3" name="Cargo Shorts of the Purple Wizard" />
+	<tool tag="alchemy" />
+	<input name="Cargo Shorts" />
+	<input name="Handy Wand" />
+	<input name="Ruby" />
+	<input name="Sapphire" />
+	</craft>
+	
+<craft hidden="1"> <!-- Cargo Shorts of the White Wizard -->
+	<output skill="6" name="Cargo Shorts of the White Wizard" />
+	<tool tag="alchemy" />
+	<input name="Cargo Shorts of the Purple Wizard" />
+	<input name="Diamond" />
+	<input name="Arcane Wand" />
+	<input name="Tobin's Spirit Guide" />
+	</craft>
+
+	<!-- Glasses -->
+<craft hidden="0"> <!-- Shades of the Blue Wizard -->
+	<output skill="1" name="Shades of the Blue Wizard" />
+	<tool tag="tinkerer" />
+	<input name="Spectacles" />
+	<input name="Sapphire" />
+	</craft>
+	
+<craft hidden="0">	<!-- Shades of the Red Wizard -->
+	<output skill="2" name="Shades of the Red Wizard" />
+	<tool tag="tinkerer" />
+	<input name="Spectacles" />
+	<input name="Ruby" />
+	<input name="Potion of Clear Vision" />
+	</craft>	
+
+<craft hidden="0">	<!-- Shades of the Green Wizard -->
+	<output skill="3" name="Shades of the Green Wizard" />
+	<tool tag="tinkerer" />
+	<input name="Spectacles" />
+	<input name="Emerald" />
+	<input name="Emerald" />
+	<input name="Potion of Clear Vision" />
+	</craft>
+	
+<craft hidden="1">	<!-- Shades of the Orange Wizard -->
+	<output skill="5" name="Shades of the Orange Wizard" />
+	<tool tag="tinkerer" />
+	<input name="Spectacles" />
+	<input name="Ruby" />
+	<input name="Citrine" />
+	<input name="Potion of Clear Vision" />
+	</craft>
+
+	<!-- Shoes -->
+	<!-- NuBalance -->
+		<!-- Skipping crafts for these intentionally, may add later -->
+		
+	<!-- Sandals with Socks -->
+		<!-- Skipping crafts for these intentionally, may add later -->
+	
+	<!-- Armor -->
+	<!-- Aprons -->
+		<!-- Skipping crafts for these intentionally, may add later -->
+<!-- EDIBLES -->
+<!-- Booze -->
+
+<!-- MISCELLANEOUS -->
+<craft hidden="0" > <!--  Galena -->
+	<output skill="1" name="Galena" amount="1" />
+	<output skill="3" name="Galena" amount="2" />
+	<output skill="5" name="Galena" amount="3" />
+	<output skill="7" name="Galena" amount="4" />
+	<tool tag="alchemy" />
+	<input name="Native Gold" />
+	<input name="Native Platinum" />
+	<input name="Brimstone" />
+	</craft>
+	
+<!-- INFUSIONS AND CONCOCTIONS -->
+<craft hidden="0" > <!-- Volatile Concoction -->
+	<output skill="2" name="Volatile Concoction" amount="2" />
+	<output skill="3" name="Volatile Concoction" amount="4" />
+	<output skill="4" name="Volatile Concoction" amount="6" />
+	<output skill="5" name="Volatile Concoction" amount="8" />
+	<output skill="6" name="Volatile Concoction" amount="10" />
+	<output skill="7" name="Volatile Concoction" amount="12" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Variable Enhancer" />
+	</craft>
+
+<craft hidden="0" > <!-- Conflagratory Concoction -->
+	<output skill="3" name="Conflagratory Concoction" amount="3" />
+	<output skill="4" name="Conflagratory Concoction" amount="6" />
+	<output skill="5" name="Conflagratory Concoction" amount="9" />
+	<output skill="6" name="Conflagratory Concoction" amount="12" />
+	<output skill="7" name="Conflagratory Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Hyperborean Concoction -->
+	<output skill="3" name="Hyperborean Concoction" amount="3" />
+	<output skill="4" name="Hyperborean Concoction" amount="6" />
+	<output skill="5" name="Hyperborean Concoction" amount="9" />
+	<output skill="6" name="Hyperborean Concoction" amount="12" />
+	<output skill="7" name="Hyperborean Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Voltaic Concoction -->
+	<output skill="3" name="Voltaic Concoction" amount="3" />
+	<output skill="4" name="Voltaic Concoction" amount="6" />
+	<output skill="5" name="Voltaic Concoction" amount="9" />
+	<output skill="6" name="Voltaic Concoction" amount="12" />
+	<output skill="7" name="Voltaic Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Acidic Concoction -->
+	<output skill="3" name="Acidic Concoction" amount="3" />
+	<output skill="4" name="Acidic Concoction" amount="6" />
+	<output skill="5" name="Acidic Concoction" amount="9" />
+	<output skill="6" name="Acidic Concoction" amount="12" />
+	<output skill="7" name="Acidic Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Putrefying Concoction -->
+	<output skill="3" name="Putrefying Concoction" amount="3" />
+	<output skill="4" name="Putrefying Concoction" amount="6" />
+	<output skill="5" name="Putrefying Concoction" amount="9" />
+	<output skill="6" name="Putrefying Concoction" amount="12" />
+	<output skill="7" name="Putrefying Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Aethereal Concoction -->
+	<output skill="3" name="Aethereal Concoction" amount="3" />
+	<output skill="4" name="Aethereal Concoction" amount="6" />
+	<output skill="5" name="Aethereal Concoction" amount="9" />
+	<output skill="6" name="Aethereal Concoction" amount="12" />
+	<output skill="7" name="Aethereal Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Existential Concoction -->
+	<output skill="3" name="Existential Concoction" amount="3" />
+	<output skill="4" name="Existential Concoction" amount="6" />
+	<output skill="5" name="Existential Concoction" amount="9" />
+	<output skill="6" name="Existential Concoction" amount="12" />
+	<output skill="7" name="Existential Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Righteous Concoction -->
+	<output skill="3" name="Righteous Concoction" amount="3" />
+	<output skill="4" name="Righteous Concoction" amount="6" />
+	<output skill="5" name="Righteous Concoction" amount="9" />
+	<output skill="6" name="Righteous Concoction" amount="12" />
+	<output skill="7" name="Righteous Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Necromantic Concoction -->
+	<output skill="3" name="Necromantic Concoction" amount="3" />
+	<output skill="4" name="Necromantic Concoction" amount="6" />
+	<output skill="5" name="Necromantic Concoction" amount="9" />
+	<output skill="6" name="Necromantic Concoction" amount="12" />
+	<output skill="7" name="Necromantic Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+
+<craft hidden="0" > <!-- Asphyxiative Concoction -->
+	<output skill="3" name="Asphyxiative Concoction" amount="3" />
+	<output skill="4" name="Asphyxiative Concoction" amount="6" />
+	<output skill="5" name="Asphyxiative Concoction" amount="9" />
+	<output skill="6" name="Asphyxiative Concoction" amount="12" />
+	<output skill="7" name="Asphyxiative Concoction" amount="15" />
+	<tool tag="alchemy" />
+	<input name="Galena" />
+	<input name="Empty Flask" />
+	<input name="Acidum Salis" />
+	</craft>
+	
+<craft hidden="0" > <!-- Infusion of Vitality -->
+	<output skill="2" name="Infusion of Vitality" amount="1"/>
+	<output skill="4" name="Infusion of Vitality" amount="2"/>
+	<output skill="6" name="Infusion of Vitality" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Acidum Salis"/>
+	<input name="Ground Meat"/>
+	<input name="Ground Meat"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Wisdom -->
+	<output skill="2" name="Infusion of Wisdom" amount="1"/>
+	<output skill="4" name="Infusion of Wisdom" amount="2"/>
+	<output skill="6" name="Infusion of Wisdom" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Acidum Salis"/>
+	<input name="Powdered Aluminum"/>
+	<input name="Powdered Aluminum"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Lightning -->
+	<output skill="1" name="Infusion of Lightning" amount="1"/>
+	<output skill="3" name="Infusion of Lightning" amount="3"/>
+	<output skill="5" name="Infusion of Lightning" amount="5"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Voltaic Concoction"/>
+	<input name="Aqua Regia"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Flame -->
+	<output skill="1" name="Infusion of Flame" amount="1"/>
+	<output skill="3" name="Infusion of Flame" amount="3"/>
+	<output skill="5" name="Infusion of Flame" amount="5"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Conflagratory Concoction"/>
+	<input name="Aqua Regia"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Acid -->
+	<output skill="1" name="Infusion of Acid" amount="1"/>
+	<output skill="3" name="Infusion of Acid" amount="3"/>
+	<output skill="5" name="Infusion of Acid" amount="5"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Acidic Concoction"/>
+	<input name="Aqua Regia"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Ice -->
+	<output skill="1" name="Infusion of Ice" amount="1"/>
+	<output skill="3" name="Infusion of Ice" amount="3"/>
+	<output skill="5" name="Infusion of Ice" amount="5"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Hyperborean Concoction"/>
+	<input name="Aqua Regia"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Elemental Maelstrom -->
+	<output skill="3" name="Infusion of Elemental Maelstrom" amount="1"/>
+	<output skill="5" name="Infusion of Elemental Maelstrom" amount="2"/>
+	<tool tag="alchemy"/>
+	<input name="Infusion of Lightning"/>
+	<input name="Infusion of Flame"/>
+	<input name="Infusion of Acid"/>
+	<input name="Infusion of Ice"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Leeching -->
+	<output skill="2" name="Infusion of Leeching" amount="1"/>
+	<output skill="4" name="Infusion of Leeching" amount="2"/>
+	<output skill="6" name="Infusion of Leeching" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Greedy Blungecap"/>
+	<input name="Greedy Blungecap"/>
+	<input name="Potion of Healing"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Osmosis -->
+	<output skill="2" name="Infusion of Osmosis" amount="1"/>
+	<output skill="4" name="Infusion of Osmosis" amount="2"/>
+	<output skill="6" name="Infusion of Osmosis" amount="3"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Azure Mob-Bonnet"/>
+	<input name="Azure Mob-Bonnet"/>
+	<input name="Potion of Mana"/>
+	</craft>
+
+<craft hidden="0" > <!-- Infusion of Accelerated Comprehension -->
+	<output skill="3" name="Infusion of Accelerated Comprehension" amount="1"/>
+	<tool tag="alchemy"/>
+	<input name="Galena"/>
+	<input name="Aqua Fortis"/>
+	<input name="Diamond"/>
+	<input name="Electrum Ingot"/>
+	</craft>
+
+</craftDB>
