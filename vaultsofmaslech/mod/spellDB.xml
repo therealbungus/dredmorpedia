@@ -816,7 +816,7 @@
 		</buff>
 	<anim sprite="sprites/sfx/icepuff/icepuff" frames="8" framerate="100"/>
 	</spell>
-<spell name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Intensified Focus Spectrumizer" type="self">
+<spell name="Intensified Focus Spectrumizer" type="self">
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Conflagratory Attunement" spell="Conflagratory Intensified Focus"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Voltaic Attunement" spell="Voltaic Intensified Focus"/>
 	<effect type="trigger" requirebuffontrigger="1" requirebuffontriggername="Aethereal Attunement" spell="Aethereal Intensified Focus"/>
@@ -826,7 +826,7 @@
 <spell name="Arcane Intensified Focus" type="self" icon="sprites/skills/spsw/arcane_intensity32.png">
 	<buff useTimer="0" manaUpkeep="4" removable="1" self="1" allowStacking="0" bad="0" stackSize="1" icon="sprites/skills/spsw/arcane_intensity64.png" smallicon="sprites/skills/spsw/arcane_intensity32.png">
 		<resistbuff conflagratory="1" voltaic="1" aethereal="1" hyperborean="1"/>
-		<targetHitEffectBuff name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Intensified Focus Spectrumizer" percentage="100"/>
+		<targetHitEffectBuff name="Intensified Focus Spectrumizer" percentage="100"/>
 		<description text="As your spellsword skills hone themselves, you find yourself able to intensify your Attunement, granting you a larger benefit when Attuned. Further, you can retain some of that energy even when in another mode."/>
 		</buff>
 	<anim sprite="sprites/sfx/null" frames="2" framerate="100" sfx="magic"/>
