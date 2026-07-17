@@ -312,6 +312,24 @@ Dredmor.Source.List =
 		href:   'https://steamcommunity.com/sharedfiles/filedetails/?id=3392971080',
 		active: false,
 		mod:    true
+	},
+	{
+		id:     genId(),
+		dir:	'moredreditempack',
+		tag:	'MDIP Mod',
+		title:  'More Dred (Item Pack) Mod',
+		href:   'https://steamcommunity.com/sharedfiles/filedetails/?id=75414172',
+		active: false,
+		mod:    true
+	},
+	{
+		id:     genId(),
+		dir:	'vaultsofmaslech',
+		tag:	'VoM Mod',
+		title:  'Vaults of Maslech Mod',
+		href:   'https://steamcommunity.com/sharedfiles/filedetails/?id=TEMP',
+		active: false,
+		mod:    true
 	}
 ];
 

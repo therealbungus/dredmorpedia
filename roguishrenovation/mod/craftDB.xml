@@ -1,15 +1,17 @@
 <craftDB>
 
+<!-- Grindings -->
+
+<craft>
+	<output skill="0" name="Rust" amount="1"/>
+	<tool tag="grinder"/>
+	<input name="Rusty Shiv"/>
+	</craft>
+
 <!-- Food craftings -->
 
 <craft hidden="0" >
-	<output skill="0" name="Gummi" amount="1" />
-	<tool tag="ingot"/>
-	<input name="Honey" />
-	</craft>
-
-<craft hidden="0" >
-	<output skill="0" name="Lutefisk Rice Ball" amount="1" />
+	<output skill="0" name="Lutefisk Sushi" amount="1" />
 	<tool tag="ingot"/>
 	<input name="'Jelly Donut'" />
 	<input name="Lutefisk" />
@@ -18,35 +20,18 @@
 	</craft>
 
 <craft hidden="0" >
-	<output skill="0" name="Lutefisk Sushi" amount="1" />
-	<tool tag="ingot"/>
-	<input name="Lutefisk Rice Ball" />
-	<input name="Lutefisk" />
-	<input name="Lutefisk" />
-	<input name="Lutefisk" />
-	</craft>
-
-<craft hidden="0" >
 	<output skill="0" name="Dinner" amount="1" />
 	<tool tag="ingot"/>
-	<input name="Oran Berry" />
-	<input name="Oran Berry" />
-	<input name="Oran Berry" />
-	</craft>
-
-<craft hidden="0" >
-	<output skill="0" name="Dinner" amount="1" />
-	<tool tag="ingot"/>
-	<input name="Leppa Berry" />
-	<input name="Leppa Berry" />
-	<input name="Leppa Berry" />
+	<input name="Grapes" />
+	<input name="Grapes" />
+	<input name="Grapes" />
 	</craft>
 
 <craft hidden="0" >
 	<output skill="0" name="Dinner" amount="2" />
 	<tool tag="ingot"/>
-	<input name="Sitrus Berry" />
-	<input name="Sitrus Berry" />
+	<input name="Huge Strawberry" />
+	<input name="Huge Strawberry" />
 	</craft>
 
 <craft hidden="0" >
@@ -64,40 +49,25 @@
 	</craft>
 
 <craft hidden="0" >
-	<output skill="0" name="Piquant Poffin Pie" amount="1" />
+	<output skill="0" name="Piquant Pie" amount="1" />
 	<tool tag="ingot"/>
-	<input name="Oran Berry" />
-	<input name="Honey" />
+	<input name="Grapes" />
+	<input name="Gummi" />
 	</craft>
 
 <craft hidden="0" >
-	<output skill="0" name="Piquant Poffin Pie" amount="1" />
+	<output skill="0" name="Creamy Cake" amount="1" />
 	<tool tag="ingot"/>
-	<input name="Leppa Berry" />
-	<input name="Honey" />
+	<input name="Huge Strawberry" />
+	<input name="Grapes" />
+	<input name="Gummi" />
 	</craft>
 
 <craft hidden="0" >
-	<output skill="0" name="Creamy Poffin Cake" amount="1" />
+	<output skill="0" name="Temporal Pike" amount="1" />
 	<tool tag="ingot"/>
-	<input name="Sitrus Berry" />
-	<input name="Oran Berry" />
-	<input name="Honey" />
-	</craft>
-
-<craft hidden="0" >
-	<output skill="0" name="Creamy Poffin Cake" amount="1" />
-	<tool tag="ingot"/>
-	<input name="Sitrus Berry" />
-	<input name="Leppa Berry" />
-	<input name="Honey" />
-	</craft>
-
-<craft hidden="0" >
-	<output skill="0" name="Temporal Poffin Pike" amount="1" />
-	<tool tag="ingot"/>
-	<input name="Piquant Poffin Pie" />
-	<input name="Creamy Poffin Cake" />
+	<input name="Piquant Pie" />
+	<input name="Creamy Cake" />
 	</craft>
 
 
@@ -106,26 +76,44 @@
 <!-- Drink Craftings -->
 
 <craft>
-	<output skill="1" name="Spinda's Cafe Drink" amount="1"/>
+	<output skill="0" name="Cheese" amount="1"/>
 	<tool tag="still"/>
-	<input name="Oran Berry"/>
-	<input name="Oran Berry"/>
+	<input name="Milk"/>
+	<input name="Milk"/>
 	</craft>
 
 <craft>
-	<output skill="1" name="Spinda's Cafe Drink" amount="1"/>
+	<output skill="1" name="Sake" amount="1"/>
 	<tool tag="still"/>
-	<input name="Leppa Berry"/>
-	<input name="Leppa Berry"/>
+	<input name="'Jelly Donut'"/>
+	<input name="'Jelly Donut'"/>
 	</craft>
 
 <craft>
-	<output skill="2" name="Lemonade" amount="1"/>
+	<output skill="1" name="Ice Wine" amount="1"/>
 	<tool tag="still"/>
-	<input name="Soda Pop"/>
-	<input name="Soda Pop"/>
-	<input name="Soda Pop"/>
-	<input name="Soda Pop"/>
+	<input name="Joy Juice"/>
+	<input name="Joy Juice"/>
+	</craft>
+
+<craft>
+	<output skill="1" name="Merlot" amount="1"/>
+	<tool tag="still"/>
+	<input name="Grapes"/>
+	<input name="Grapes"/>
+	</craft>
+
+<craft>
+	<output skill="1" name="Merlot" amount="1"/>
+	<tool tag="still"/>
+	<input name="Huge Strawberry"/>
+	</craft>
+
+<craft>
+	<output skill="2" name="Frost Spirits" amount="1"/>
+	<tool tag="still"/>
+	<input name="Ice Wine"/>
+	<input name="Ice Wine"/>
 	</craft>
 
 <craft>
@@ -159,20 +147,6 @@
 	</craft>
 
 <craft>
-	<output skill="3" name="Spinda's Cafe Good Drink" amount="1"/>
-	<tool tag="still"/>
-	<input name="Sitrus Berry"/>
-	<input name="Gummi"/>
-	</craft>
-
-<craft>
-	<output skill="3" name="Spinda's Cafe Good Drink" amount="1"/>
-	<tool tag="still"/>
-	<input name="Spinda's Cafe Drink"/>
-	<input name="Gummi"/>
-	</craft>
-
-<craft>
 	<output skill="3" name="Fruity Wine" amount="1"/>
 	<output skill="4" name="Fruity Wine" amount="2"/>
 	<tool tag="still"/>
@@ -190,25 +164,48 @@
 	<input name="Applejack"/>
 	</craft>
 
-<craft>
-	<output skill="5" name="Amazing Miracle Drink" amount="1"/>
+<craft hidden="1">
+	<output skill="5" name="Klatchian Coffee" amount="1"/>
 	<tool tag="still"/>
-	<input name="Spinda's Cafe Good Drink"/>
-	<input name="Sitrus Berry"/>
-	<input name="Sitrus Berry"/>
+	<input name="Ice Wine"/>
+	<input name="Aqua Vitae"/>
+	<input name="Bituminous Coal" />
+	<input name="Potion of Quickening" />
 	</craft>
 
 <craft>
-	<output skill="5" name="Amazing Miracle Drink" amount="1"/>
+	<output skill="5" name="Mr. Hip Flask" />
 	<tool tag="still"/>
-	<input name="Perfect Apple"/>
-	<input name="Sitrus Berry"/>
+	<input name="Empty Flask"/>
+	<input name="Absinthe"/>
+	<input name="Diggle Nog"/>
+	<input name="Fruity Wine"/>
+	</craft>
+
+<craft>
+	<output skill="1" name="Aqua Vitae" amount="1" />
+	<tool tag="still"/>
+	<input name="Sake"/>
+	<input name="Sake"/>
+	</craft>
+
+<craft>
+	<output skill="1" name="Aqua Vitae" amount="1" />
+	<tool tag="still"/>
+	<input name="High Class Glass"/>
+	<input name="High Class Glass"/>
 	</craft>
 
 <craft>
 	<output skill="1" name="Aqua Vitae" amount="1" />
 	<tool tag="still"/>
 	<input name="Fruity Wine"/>
+	</craft>
+
+<craft>
+	<output skill="1" name="Aqua Vitae" amount="2" />
+	<tool tag="still"/>
+	<input name="Frost Spirits"/>
 	</craft>
 
 <craft>
@@ -221,13 +218,6 @@
 
 
 <!-- Potion Craftings -->
-
-<craft hidden="1">
-	<output skill="2" name="Never-Melt Ice" amount="1" />
-	<tool tag="alchemy"/>
-	<input name="Hyperborean Potion"/>
-	<input name="Hyperborean Potion"/>
-	</craft>
 
 <craft hidden="0">
 	<output skill="3" name="Protein" amount="1" />
@@ -280,8 +270,8 @@
 	<output skill="3" name="Ginseng" amount="1" />
 	<output skill="5" name="Ginseng" amount="2" />
 	<tool tag="alchemy"/>
-	<input name="Sitrus Berry"/>
-	<input name="Fresh Water"/>
+	<input name="Huge Strawberry"/>
+	<input name="Ice Wine"/>
 	</craft>
 
 <craft hidden="0">
@@ -289,6 +279,30 @@
 	<output skill="5" name="Ginseng" amount="2" />
 	<tool tag="alchemy"/>
 	<input name="Perfect Apple"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="3" name="Deflection Draught" amount="1" />
+	<output skill="5" name="Deflection Draught" amount="2" />
+	<tool tag="alchemy" />
+	<input name="Aqua Vitae" />
+	<input name="Potion of Invisibility" />
+	<input name="Salt" />
+	</craft>
+
+<craft>
+	<output skill="3" name="Potion of Self-Immolation" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Cooking Oil" />
+	<input name="Carnelian" />
+	</craft>
+
+<craft>
+	<output skill="4" name="Hyper Hypo" amount="1" />
+	<tool tag="alchemy" />
+	<input name="Aqua Vitae" />
+	<input name="Steel Ingot" />
+	<input name="Oil of Vitriol" />
 	</craft>
 
 <craft>
@@ -309,11 +323,136 @@
 	</craft>
 
 <craft>
+	<output skill="4" name="Lewton's Concentrate" amount="1" />
+	<output skill="6" name="Lewton's Concentrate" amount="2" />
+	<tool tag="alchemy" />
+	<input name="Aqua Vitae" />
+	<input name="Aqua Vitae" />
+	<input name="Potion of Mana" />
+	<input name="Rust" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="4" name="Potion of Quickening" amount="1" />
+	<output skill="6" name="Potion of Quickening" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Aqua Vitae"/>
+	<input name="Brimstone"/>
+	<input name="Citrine"/>
+	<input name="Inky Hoglantern"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Hydrablood Potion" amount="1" />
+	<output skill="6" name="Hydrablood Potion" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Aqua Vitae"/>
+	<input name="Emerald"/>
+	<input name="Verdant Poison"/>
+	<input name="Aqua Regia"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Potion of Powerful Restoration" amount="1" />
+	<output skill="6" name="Potion of Powerful Restoration" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Potion of Healing"/>
+	<input name="Potion of Mana"/>
+	<input name="Potion of Purity"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Hotfoot Elixir" amount="1" />
+	<output skill="6" name="Hotfoot Elixir" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Potion of Invisibility"/>
+	<input name="Ruby"/>
+	<input name="Salt"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Haste Elixir" amount="1" />
+	<output skill="6" name="Haste Elixir" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Potion of Mana"/>
+	<input name="Black Pearl"/>
+	<input name="Saltpetre"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Elixir of Brutality" amount="1" />
+	<output skill="6" name="Elixir of Brutality" amount="2" />
+	<tool tag="alchemy"/>
+	<input name="Potion of Healing"/>
+	<input name="Amber"/>
+	<input name="Powdered Aluminum"/>
+	<input name="Powdered Aluminum"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Recipe Bread" amount="3" />
+	<tool tag="alchemy"/>
+	<input name="Sliced Bread"/>
+	<input name="Lewton's Concentrate"/>
+	<input name="Arcanite Chunk" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Recipe Bread" amount="3" />
+	<tool tag="alchemy"/>
+	<input name="Danish"/>
+	<input name="Lewton's Concentrate"/>
+	<input name="Arcanite Chunk" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Recipe Bread" amount="5" />
+	<tool tag="alchemy"/>
+	<input name="Dire Sandwich"/>
+	<input name="Lewton's Concentrate"/>
+	<input name="Arcanite Chunk" />
+	</craft>
+
+<!-- Alchemy equipment -->
+
+<craft hidden="0">
+	<output skill="2" name="Goopy Gloves" amount="1" />
+	<tool tag="alchemy"/>
+	<input name="Adventuring Gloves"/>
+	<input name="Alchemical Ooze"/>
+	<input name="Alchemical Ooze"/>
+	</craft>
+
+<craft>
 	<output skill="2" name="Radiant Orb" />
 	<tool tag="alchemy" />
 	<input name="Cracked Orb" />
 	<input name="Potion of Radiance" />
 	<input name="Potion of Clear Vision" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="2" name="Hippymancer's Leg Coverings" />
+	<tool tag="alchemy"/>
+	<input name="Adventuring Pants"/>
+	<input name="Apple"/>
+	<input name="Potion of Lively Regeneration"/>
+	</craft>
+
+<craft>
+	<output skill="3" name="Orb of Heart" />
+	<tool tag="alchemy" />
+	<input name="Cracked Orb" />
+	<input name="Potion of Healing" />
+	<input name="Potion of Lively Regeneration" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="3" name="Ulmish Spiresteel Ring" />
+	<tool tag="alchemy" />
+	<input name="Silver Ingot" />
+	<input name="Amethyst" />
+	<input name="Potion of Steeling" />
 	</craft>
 
 <craft>
@@ -325,13 +464,31 @@
 	<input name="Azure Mob-Bonnet" />
 	</craft>
 
+<craft>
+	<output skill="3" name="Golden Pantaloons" />
+	<tool tag="alchemy" />
+	<input name="Parachute Pants" />
+	<input name="Potion of Mana" />
+	<input name="Solution of Gold" />
+	<input name="Potion of Midas" />
+	</craft>
+
 <craft hidden="1">
-	<output skill="4" name="Black Sludge" amount="1" />
-	<tool tag="alchemy"/>
-	<input name="Grimy Food"/>
-	<input name="Verdant Poison"/>
-	<input name="Verdant Poison"/>
-	<input name="Verdant Poison"/>
+	<output skill="5" name="Manasurge Necklace" />
+	<tool tag="alchemy" />
+	<input name="Cheap Pendant" />
+	<input name="Lewton's Concentrate" />
+	<input name="Potion of Mana" />
+	<input name="Mana Shard" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Caffine Stimulant Injector Unit" />
+	<tool tag="alchemy" />
+	<input name="Empty Flask" />
+	<input name="Hyper Hypo" />
+	<input name="Klatchian Coffee" />
+	<input name="Klatchian Coffee" />
 	</craft>
 
 <craft hidden="1">
@@ -343,8 +500,71 @@
 	<input name="Aquamarine" />
 	</craft>
 
+<craft hidden="0">
+	<output skill="6" name="Blood Gem" />
+	<tool tag="alchemy" />
+	<input name="Ruby" />
+	<input name="Greedy Blungecap" />
+	<input name="Potion of Healing" />
+	<input name="Potion of Lively Regeneration" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Cultist's Hood" />
+	<tool tag="alchemy" />
+	<input name="Armored Archmage's Robe" />
+	<input name="Root of T'Char" />
+	<input name="Offal" />
+	<input name="Black Pearl" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="7" name="Arcanite Warlock's Gauntlet" />
+	<tool tag="alchemy" />
+	<input name="Platemail Gauntlets" />
+	<input name="Arcanite Chunk" />
+	<input name="Arcanite Chunk" />
+	<input name="Citrine" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="7" name="Arcanite Breastplate" />
+	<tool tag="alchemy" />
+	<input name="Full Plate Armour" />
+	<input name="Arcanite Chunk" />
+	<input name="Arcanite Chunk" />
+	<input name="Diamond" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="7" name="Arcanite Leggings" />
+	<tool tag="alchemy" />
+	<input name="Pants of Shiny Steel Plates" />
+	<input name="Arcanite Chunk" />
+	<input name="Arcanite Chunk" />
+	<input name="Turquoise" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="7" name="Spellsong Mageblade" />
+	<tool tag="alchemy" />
+	<input name="Katana" />
+	<input name="Arcanite Chunk" />
+	<input name="Sapphire" />
+	<input name="Black Pearl" />
+	</craft>
+
 <craft hidden="1">
-	<output skill="6" name="Breath of Selzauide" />
+	<output skill="7" name="Fairy Shoes" />
+	<tool tag="alchemy" />
+	<input name="Magic Sandals" />
+	<input name="Dream Dust" />
+	<input name="Fairywodger" />
+	<input name="Powdered Aluminum" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Breath of Selzauide" />
 	<tool tag="alchemy" />
 	<input name="Radiant Orb" />
 	<input name="Potion of Replenishment" />
@@ -353,7 +573,7 @@
 	</craft>
 
 <craft hidden="1">
-	<output skill="6" name="Death Scythe(s)" />
+	<output skill="7" name="Death Scythe(s)" />
 	<tool tag="alchemy" />
 	<input name="Perfect Obsidian" />
 	<input name="Steel Ingot" />
@@ -362,7 +582,7 @@
 	</craft>
 
 <craft hidden="1">
-	<output skill="6" name="Essence of Wisdom" />
+	<output skill="7" name="Essence of Wisdom" />
 	<tool tag="alchemy" />
 	<input name="Perfect Obsidian" />
 	<input name="Gold Ingot" />
@@ -392,14 +612,37 @@
 	<input name="Brimstone"/>
 	</craft>
 
-<craft hidden="1">
-	<output skill="5" name="Molotov Milk" amount="5" />
-	<output skill="6" name="Molotov Milk" amount="8" />
+<craft hidden="0">
+	<output skill="4" name="Prefabricated Dwarven Fortress" amount="1" />
+	<output skill="6" name="Prefabricated Dwarven Fortress" amount="3" />
+	<tool tag="alchemy"/>
+	<input name="Steel Ingot"/>
+	<input name="Malachite"/>
+	<input name="Stone Bolt"/>
+	<input name="Stone Bolt"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Frostfire Flask" amount="4" />
+	<output skill="6" name="Frostfire Flask" amount="6" />
 	<tool tag="alchemy"/>
 	<input name="Empty Flask"/>
-	<input name="Minotaur Milk"/>
-	<input name="Brimstone"/>
+	<input name="Aqua Regia"/>
+	<input name="Carnelian"/>
+	<input name="Aquamarine"/>
 	</craft>
+
+<!-- Alchemy Misc -->
+
+<craft hidden="0">
+	<output skill="6" name="Arcanite Chunk" />
+	<tool tag="alchemy" />
+	<input name="Electrum Ingot" />
+	<input name="Mana Shard" />
+	<input name="Sapphire" />
+	<input name="Potion of Mana" />
+	</craft>
+
 
 
 <!-- Tinkering Craftings -->
@@ -413,6 +656,23 @@
 	</craft>
 
 <craft hidden="0">
+	<output skill="3" name="Existential Shiv" />
+	<tool tag="tinkerer"/>
+	<input name="Shiv"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Potion of Invisibility"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="3" name="Fine Aluminum Dagger" />
+	<tool tag="tinkerer"/>
+	<input name="Shiv"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Brass Mechanisms"/>
+	</craft>
+
+<craft hidden="0">
 	<output skill="3" name="Grip Gloves" amount="1" />
 	<tool tag="tinkerer"/>
 	<input name="Adventuring Gloves"/>
@@ -421,10 +681,10 @@
 	</craft>
 
 <craft hidden="0">
-	<output skill="3" name="Metal Coat" amount="1" />
+	<output skill="3" name="Greasy Wrench" amount="1" />
 	<tool tag="tinkerer"/>
-	<input name="Steel Ingot"/>
-	<input name="Steel Ingot"/>
+	<input name="Enormous Wrench"/>
+	<input name="Cooking Oil"/>
 	<input name="Steel Ingot"/>
 	</craft>
 
@@ -437,13 +697,30 @@
 	<input name="Potion of Dire Empowerment"/>
 	</craft>
 
+<craft hidden="0">
+	<output skill="4" name="Blue Mana Battery" />
+	<tool tag="tinkerer"/>
+	<input name="Aetheric Power Cylinder"/>
+	<input name="Voltaic Cell"/>
+	<input name="Potion of Mana"/>
+	</craft>
+
 <craft hidden="1">
-	<output skill="4" name="Wide Lens" amount="1" />
+	<output skill="4" name="Magnifying Lens" amount="1" />
 	<tool tag="tinkerer"/>
 	<input name="Brass Mechanisms"/>
 	<input name="Brass Mechanisms"/>
 	<input name="Electrum Ingot"/>
 	<input name="Diamond"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Nullsword" />
+	<tool tag="tinkerer" />
+	<input name="Fine Steel Sword" />
+	<input name="Cube of Flesh" />
+	<input name="Bituminous Coal"/>
+	<input name="Potion of Steeling" />
 	</craft>
 
 <craft hidden="1">
@@ -456,21 +733,39 @@
 	</craft>
 
 <craft hidden="0">
-	<output skill="6" name="Goggle Specs" amount="1" />
+	<output skill="5" name="Repeater Crossbow" />
 	<tool tag="tinkerer"/>
-	<input name="Tinkerer's Goggles"/>
-	<input name="Electrum Ingot"/>
-	<input name="Diamond"/>
-	<input name="Diamond"/>
+	<input name="Steel Recurve Crossbow"/>
+	<input name="Brass Mechanisms"/>
+	<input name="Aluminum Ingot"/>
+	<input name="Spring-loaded Power Core"/>
 	</craft>
 
 <craft hidden="1">
-	<output skill="6" name="Scope Lens" amount="1" />
+	<output skill="6" name="Focusing Lens" />
 	<tool tag="tinkerer"/>
 	<input name="Brass Mechanisms"/>
 	<input name="Steel Ingot"/>
 	<input name="Steel Ingot"/>
 	<input name="Diamond"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="High Thigh Boots" />
+	<tool tag="tinkerer"/>
+	<input name="Fabulous Rogue Boots"/>
+	<input name="Spring-loaded Power Core"/>
+	<input name="Spring-loaded Power Core"/>
+	<input name="Aluminum Ingot"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Massive Tuning Fork" />
+	<tool tag="tinkerer"/>
+	<input name="Naginata"/>
+	<input name="Steel Ingot"/>
+	<input name="Electrum Ingot"/>
+	<input name="Aluminum Ingot"/>
 	</craft>
 
 <craft hidden="1">
@@ -498,6 +793,23 @@
 	<input name="Dragon Skull"/>
 	<input name="Aluminum Ingot"/>
 	<input name="Amber"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="7" name="BFC 9000" />
+	<tool tag="tinkerer"/>
+	<input name="Repeater Crossbow" />
+	<input name="Spring-loaded Power Core"/>
+	<input name="Aluminum Ingot"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Frost Shock" />
+	<tool tag="tinkerer" />
+	<input name="Clockwork Bolt-thrower" />
+	<input name="Icicly Wand" />
+	<input name="Aquamarine" />
+	<input name="Brass Mechanisms" />
 	</craft>
 
 <craft hidden="1">
@@ -578,6 +890,19 @@
 
 <!-- Bolts -->
 
+<craft hidden="0">
+	<output skill="2" name="Tinkertoy Bolt" amount="2"/>
+	<output skill="3" name="Tinkertoy Bolt" amount="4"/>
+	<output skill="4" name="Tinkertoy Bolt" amount="6"/>
+	<output skill="5" name="Tinkertoy Bolt" amount="8"/>
+	<output skill="6" name="Tinkertoy Bolt" amount="10"/>
+	<tool tag="tinkerer" />
+	<input name="Electrum Ingot"/>
+	<input name="Brass Mechanisms"/>
+	<input name="Copper Wire"/>
+	<input name="Spring-loaded Power Core"/>
+	</craft>
+
 <craft hidden="1">
 	<output skill="2" name="Ice Bolt" amount="6"/>
 	<output skill="3" name="Ice Bolt" amount="8"/>
@@ -586,7 +911,7 @@
 	<output skill="6" name="Ice Bolt" amount="14"/>
 	<tool tag="tinkerer" />
 	<input name="Iron Ingot"/>
-	<input name="Hyperborean Potion"/>
+	<input name="Sapphire"/>
 	</craft>
 
 <craft>
@@ -597,6 +922,33 @@
 	<output skill="6" name="Aethereal Bolt" amount="14"/>
 	<tool tag="tinkerer" />
 	<input name="Silver Ingot"/>
+	</craft>
+
+<craft>
+	<output skill="3" name="Caltrops Eruptor Bolt" amount="5"/>
+	<output skill="5" name="Caltrops Eruptor Bolt" amount="8"/>
+	<tool tag="tinkerer" />
+	<input name="Steel Ingot"/>
+	<input name="Iron Ingot"/>
+	<input name="Brass Mechanisms"/>
+	<input name="Brass Mechanisms"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="3" name="Aethereal Blast Bolt" amount="3"/>
+	<output skill="5" name="Aethereal Blast Bolt" amount="5"/>
+	<tool tag="tinkerer" />
+	<input name="Silver Ingot"/>
+	<input name="Black Powder"/>
+	<input name="Powdered Aluminum"/>
+	<input name="Powdered Aluminum"/>
+	</craft>
+
+<craft>
+	<output skill="3" name="Blingbolt" amount="4"/>
+	<output skill="5" name="Blingbolt" amount="6"/>
+	<tool tag="tinkerer" />
+	<input name="Rearden Metal Ingot"/>
 	</craft>
 
 <craft hidden="1">
@@ -610,6 +962,25 @@
 	</craft>
 
 <craft hidden="1">
+	<output skill="4" name="Cluster Bomb" amount="3"/>
+	<output skill="6" name="Cluster Bomb" amount="5"/>
+	<tool tag="tinkerer" />
+	<input name="Steel Ingot"/>
+	<input name="Steel Ingot"/>
+	<input name="Black Powder"/>
+	<input name="Brimstone"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Thunder Mine" amount="3"/>
+	<output skill="7" name="Thunder Mine" amount="5"/>
+	<tool tag="tinkerer" />
+	<input name="Steel Ingot"/>
+	<input name="Aetheric Power Cylinder"/>
+	<input name="Aetheric Power Cylinder"/>
+	</craft>
+
+<craft hidden="1">
 	<output skill="6" name="Burst Bolt" amount="1"/>
 	<tool tag="tinkerer" />
 	<input name="Platinum Ingot"/>
@@ -618,9 +989,108 @@
 	<input name="Potion of Purity"/>
 	</craft>
 
+<craft hidden="0">
+	<output skill="6" name="Dragonsbreath Caltrops Eruptor Bolt" amount="5"/>
+	<tool tag="tinkerer" />
+	<input name="Steel Ingot"/>
+	<input name="Carnelian"/>
+	<input name="Infernal Potion"/>
+	<input name="Brass Mechanisms"/>
+	</craft>
+
 
 
 <!-- Smithing Craftings -->
+
+<!-- Deconstruction -->
+
+<craft>
+	<output skill="0" name="Cracked Orb" />
+	<tool tag="smithing" />
+	<input name="Radiant Orb" />
+	</craft>
+
+<craft>
+	<output skill="0" name="Cracked Orb" />
+	<tool tag="smithing" />
+	<input name="Orb of Heart" />
+	</craft>
+
+<craft>
+	<output skill="2" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Flare Spear"/>
+	</craft>
+
+<craft>
+	<output skill="2" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Icicle Spear"/>
+	</craft>
+
+<craft>
+	<output skill="2" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Fishing Rod"/>
+	</craft>
+
+<craft>
+	<output skill="4" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Spear of the Stars"/>
+	</craft>
+
+<craft>
+	<output skill="4" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Spear of Rot"/>
+	</craft>
+
+<craft>
+	<output skill="5" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Ancient Trident"/>
+	</craft>
+
+<craft>
+	<output skill="5" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Dragon Fang"/>
+	</craft>
+
+<craft>
+	<output skill="6" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Monkey Pole"/>
+	</craft>
+
+<craft>
+	<output skill="6" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Spear of Necropoking"/>
+	</craft>
+
+<craft>
+	<output skill="7" name="Hefty Stick"/>
+	<tool tag="smithing"/>
+	<input name="Rainbow Lance"/>
+	</craft>
+
+<!-- Recipes -->
+
+<craft hidden="0">
+	<output skill="0" name="Cheap Pendant" />
+	<tool tag="smithing"/>
+	<input name="Iron Ingot"/>
+	<input name="Silver Ingot"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="1" name="Single Shoulder Piece" />
+	<tool tag="smithing"/>
+	<input name="Iron Ingot"/>
+	<input name="Iron Ingot"/>
+	</craft>
 
 <craft hidden="0">
 	<output skill="1" name="Soulcraft" />
@@ -639,6 +1109,74 @@
 	<input name="Fairywodger"/>
 	</craft>
 
+<craft>
+	<output skill="1" name="Sashimi Knife" />
+	<tool tag="smithing" />
+	<input name="Iron Ingot" />
+	<input name="Lutefisk" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Silver-Buckled Belt" />
+	<tool tag="smithing" />
+	<input name="Leather Belt" />
+	<input name="Silver Ingot" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Envenomed Shiv" />
+	<tool tag="smithing" />
+	<input name="Shiv" />
+	<input name="Verdant Poison" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Glassy Blade" />
+	<tool tag="smithing" />
+	<input name="Sword of Glass" />
+	<input name="Gold Ingot" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Flare Spear" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick"/>
+	<input name="Iron Ingot"/>
+	<input name="Carnelian"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Icicle Spear"/>
+	<tool tag="smithing"/>
+	<input name="Hefty Stick"/>
+	<input name="Iron Ingot"/>
+	<input name="Bronze Ingot"/>
+	<input name="Hyperborean Potion"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Steel Bracelet" />
+	<tool tag="smithing" />
+	<input name="Steel Ingot" />
+	<input name="Steel Ingot" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Flamesteel Flamberge" />
+	<tool tag="smithing" />
+	<input name="Steel Ingot" />
+	<input name="Burning Tome" />
+	<input name="Carnelian" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Elven Weedwalkers" />
+	<tool tag="smithing" />
+	<input name="Gladiator Sandals" />
+	<input name="Plastic Ingot" />
+	<input name="Fairywodger" />
+	</craft>
+
 <craft hidden="1">
 	<output skill="2" name="Ring of Reflection" />
 	<tool tag="smithing" />
@@ -647,7 +1185,7 @@
 	</craft>
 
 <craft>
-	<output skill="2" name="Expert Belt" />
+	<output skill="2" name="Black Belt" />
 	<tool tag="smithing" />
 	<input name="Leather Belt" />
 	<input name="Hachimaki" />
@@ -663,7 +1201,7 @@
 	</craft>
 
 <craft>
-	<output skill="3" name="Focus Sash" />
+	<output skill="3" name="Sash of Willpower" />
 	<tool tag="smithing" />
 	<input name="Leather Belt" />
 	<input name="Potion of Healing" />
@@ -680,6 +1218,15 @@
 	</craft>
 
 <craft hidden="1">
+	<output skill="3" name="Quicksilver Edge" />
+	<tool tag="smithing" />
+	<input name="Fine Iron Sword" />
+	<input name="Brass Ingot" />
+	<input name="Silver Ingot" />
+	<input name="Silver Ingot" />
+	</craft>
+
+<craft hidden="1">
 	<output skill="3" name="Charcoal" amount="1" />
 	<tool tag="smithing"/>
 	<input name="Burnt Out Wand"/>
@@ -691,10 +1238,71 @@
 <craft hidden="1">
 	<output skill="3" name="Star Amulet" />
 	<tool tag="smithing" />
+	<input name="Cheap Pendant" />
 	<input name="Platinum Ingot" />
 	<input name="Platinum Ingot" />
 	<input name="Silver Ingot" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="3" name="Spear of the Stars" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Platinum Ingot" />
 	<input name="Silver Ingot" />
+	<input name="Spatial Instability Infusion" />
+	</craft>
+
+<craft>
+	<output skill="4" name="Hammer of the Black Knight" />
+	<tool tag="smithing" />
+	<input name="Rough Steel Mace" />
+	<input name="Bituminous Coal" />
+	<input name="Rearden Metal Ingot" />
+	<input name="Potion of Midas" />
+	</craft>
+
+<craft>
+	<output skill="4" name="Classy Dirk" />
+	<tool tag="smithing" />
+	<input name="Iron Dirk" />
+	<input name="Gold Ingot" />
+	<input name="Silver Ingot" />
+	<input name="Black Pearl" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="4" name="Oversized Peeler" />
+	<tool tag="smithing" />
+	<input name="Steel Ingot" />
+	<input name="Steel Ingot" />
+	<input name="Potato" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="4" name="Silver Bracelet" />
+	<tool tag="smithing" />
+	<input name="Steel Bracelet" />
+	<input name="Silver Ingot" />
+	<input name="Silver Ingot" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="4" name="Pendant of the North Wind" />
+	<tool tag="smithing" />
+	<input name="Cheap Pendant" />
+	<input name="Platinum Ingot" />
+	<input name="Aquamarine" />
+	<input name="Hyperborean Potion" />
+	</craft>
+
+<craft>
+	<output skill="4" name="Thaumic Shield" />
+	<tool tag="smithing" />
+	<input name="Kite Shield" />
+	<input name="Gold Ingot" />
+	<input name="Amethyst" />
+	<input name="Emerald" />
 	</craft>
 
 <craft>
@@ -705,13 +1313,76 @@
 	<input name="Potion of Lively Regeneration" />
 	</craft>
 
+<craft hidden="0">
+	<output skill="4" name="Scale Mail Leggings" />
+	<tool tag="smithing" />
+	<input name="Adventuring Pants" />
+	<input name="Steel Ingot" />
+	<input name="Iron Ingot" />
+	<input name="Iron Ingot" />
+	</craft>
+
 <craft hidden="1">
 	<output skill="4" name="Spear of Rot" />
 	<tool tag="smithing" />
-	<input name="Steel Ingot" />
+	<input name="Hefty Stick" />
 	<input name="Steel Ingot" />
 	<input name="Verdant Poison" />
 	<input name="Grimy Food" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="4" name="Flaming Axe" />
+	<tool tag="smithing" />
+	<input name="Fine Iron Axe" />
+	<input name="Carnelian" />
+	<input name="Pyrite Sun" />
+	<input name="Bituminous Coal" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Saint Axe" />
+	<tool tag="smithing" />
+	<input name="Fine Iron Axe" />
+	<input name="Electrum Ingot" />
+	<input name="Amber" />
+	<input name="Brass Ingot" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Morganti Dagger" />
+	<tool tag="smithing" />
+	<input name="Classy Dirk" />
+	<input name="Potion of Dire Empowerment" />
+	<input name="Fell Truffle" />
+	<input name="Black Pearl" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Defender" />
+	<tool tag="smithing" />
+	<input name="Fine Steel Sword" />
+	<input name="Diamond" />
+	<input name="Brass Ingot" />
+	<input name="Brass Ingot" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="5" name="Ancient Trident"/>
+	<tool tag="smithing"/>
+	<input name="Trident"/>
+	<input name="Amber"/>
+	<input name="Copper Ingot"/>
+	<input name="Voltaic Potion"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Frostfire Crown" />
+	<tool tag="smithing" />
+	<input name="Knightly Sword" />
+	<input name="Ruby" />
+	<input name="Sapphire" />
+	<input name="Potion of Clear Vision" />
 	</craft>
 
 <craft>
@@ -733,12 +1404,30 @@
 	</craft>
 
 <craft hidden="1">
+	<output skill="6" name="Ferox" />
+	<tool tag="smithing"/>
+	<input name="Hefty Stick"/>
+	<input name="Dragon Skull"/>
+	<input name="Katana"/>
+	<input name="Pyrite Sun"/>
+	</craft>
+
+<craft hidden="1">
 	<output skill="6" name="Needlestrike" />
 	<tool tag="smithing" />
 	<input name="Knightly Sword" />
 	<input name="Dragon Skull" />
 	<input name="Steel Ingot" />
 	<input name="Diamond" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Skelefang" />
+	<tool tag="smithing" />
+	<input name="Classy Dirk" />
+	<input name="Dragon Skull" />
+	<input name="Steel Ingot" />
+	<input name="Citrine" />
 	</craft>
 
 <craft hidden="1">
@@ -786,9 +1475,54 @@
 	</craft>
 
 <craft hidden="1">
+	<output skill="6" name="Spear of Necropoking" />
+	<tool tag="smithing"/>
+	<input name="Hefty Stick"/>
+	<input name="Fell Truffle"/>
+	<input name="Katana"/>
+	<input name="Amethyst"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Numbing Shiv" />
+	<tool tag="smithing" />
+	<input name="Envenomed Shiv" />
+	<input name="Verdant Poison" />
+	<input name="Acidum Salis" />
+	<input name="Emerald" />
+	</craft>
+
+<craft hidden="0">
+	<output skill="6" name="Shield of Holy Righteousness" />
+	<tool tag="smithing" />
+	<input name="Filigreed Silver Shield" />
+	<input name="Gold Ingot" />
+	<input name="Platinum Ingot" />
+	<input name="Emerald" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Tri-Crystalknife" />
+	<tool tag="smithing" />
+	<input name="Classy Dirk" />
+	<input name="Hyperborean Potion" />
+	<input name="Sapphire" />
+	<input name="Diamond" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Goddess Bracelet" />
+	<tool tag="smithing" />
+	<input name="Silver Bracelet" />
+	<input name="Gold Ingot" />
+	<input name="Diamond" />
+	<input name="Citrine" />
+	</craft>
+
+<craft hidden="1">
 	<output skill="6" name="Silvered Amulet" />
 	<tool tag="smithing" />
-	<input name="Silver Ingot" />
+	<input name="Cheap Pendant" />
 	<input name="Silver Ingot" />
 	<input name="Sapphire" />
 	<input name="Diamond" />
@@ -803,7 +1537,7 @@
 	<input name="Diamond" />
 	</craft>
 
-<craft hidden="1">
+<craft hidden="0">
 	<output skill="6" name="Glorious Armour" />
 	<tool tag="smithing" />
 	<input name="Embossed Serpentine Platemail" />
@@ -812,7 +1546,7 @@
 	<input name="Amber" />
 	</craft>
 
-<craft hidden="1">
+<craft hidden="0">
 	<output skill="6" name="Mirrored Boots" />
 	<tool tag="smithing" />
 	<input name="Serpentine Sabatons" />
@@ -820,13 +1554,76 @@
 	<input name="Platinum Ingot" />
 	</craft>
 
+<craft hidden="1">
+	<output skill="6" name="Emerald Edge" />
+	<tool tag="smithing" />
+	<input name="Katana" />
+	<input name="Emerald" />
+	<input name="Verdant Poison" />
+	<input name="Aqua Regia" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Bloody Leggings" />
+	<tool tag="smithing" />
+	<input name="Pants of Serpentine Plates" />
+	<input name="Steel Ingot" />
+	<input name="Offal" />
+	<input name="Cube of Flesh" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Earth Shadow" />
+	<tool tag="smithing" />
+	<input name="Steel Ingot" />
+	<input name="Perfect Obsidian" />
+	<input name="Potion of Dire Empowerment" />
+	<input name="Black Pearl" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Godslayer" />
+	<tool tag="smithing" />
+	<input name="Morganti Dagger" />
+	<input name="Potion of Radiance" />
+	<input name="Electrum Ingot" />
+	<input name="Diamond" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Obsidian Tipped Spear" />
+	<tool tag="smithing" />
+	<input name="Hefty Stick" />
+	<input name="Perfect Obsidian" />
+	<input name="Amethyst" />
+	<input name="Steel Ingot" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Sun Pendant" />
+	<tool tag="smithing" />
+	<input name="Cheap Pendant" />
+	<input name="Electrum Ingot" />
+	<input name="Platinum Ingot" />
+	<input name="Potion of Radiance" />
+	</craft>
+
+<craft hidden="1">
+	<output skill="7" name="Prismatic Shield" />
+	<tool tag="smithing" />
+	<input name="Thaumic Shield" />
+	<input name="Platinum Ingot" />
+	<input name="Diamond" />
+	<input name="Citrine" />
+	</craft>
+
 <craft hidden="0">
-	<output skill="6" name="Soulcraft, Advanced" />
-	<tool tag="smithing"/>
-	<input name="Soulcraft"/>
-	<input name="Sapphire"/>
-	<input name="Ruby"/>
-	<input name="Emerald"/>
+	<output skill="7" name="Freezing Axe" />
+	<tool tag="smithing" />
+	<input name="Fine Steel Axe" />
+	<input name="Icicly Wand" />
+	<input name="Silver Ingot" />
+	<input name="Aquamarine" />
 	</craft>
 
 <craft hidden="1">
@@ -911,38 +1708,7 @@
 	</craft>
 
 
-<!-- TM Craftings. These use the lathe. -->
-
-<craft>
-	<output skill="0" name="Blank TM" amount="5"/>
-	<output skill="3" name="Blank TM" amount="10" />
-	<tool tag="lathe"/>
-	<input name="Silver Ingot"/>
-	<input name="Plastic Ingot"/>
-	</craft>
-
-<craft>
-	<output skill="2" name="TM of Powder Snow" amount="5"/>
-	<tool tag="lathe"/>
-	<input name="Blank TM"/>
-	<input name="Aquamarine"/>
-	<input name="Aquamarine"/>
-	</craft>
-
-<craft>
-	<output skill="3" name="TM of Stealth Rock" amount="5"/>
-	<tool tag="lathe"/>
-	<input name="Blank TM"/>
-	<input name="Amber"/>
-	<input name="Amber"/>
-	</craft>
-
-<craft>
-	<output skill="3" name="TM of Smog" amount="5"/>
-	<tool tag="lathe"/>
-	<input name="Blank TM"/>
-	<input name="Verdant Poison"/>
-	</craft>
+<!-- Lathe Craftings -->
 
 <craft hidden="1">
 	<output skill="3" name="Eye of the Storm" />
@@ -951,14 +1717,6 @@
 	<input name="Potion of Radiance"/>
 	<input name="Potion of Invisibility"/>
 	<input name="Turquoise"/>
-	</craft>
-
-<craft>
-	<output skill="5" name="TM of Poison Jab" amount="5"/>
-	<tool tag="lathe"/>
-	<input name="Blank TM"/>
-	<input name="Verdant Poison"/>
-	<input name="Grimy Food"/>
 	</craft>
 
 <craft hidden="1">
@@ -971,7 +1729,40 @@
 	</craft>
 
 <craft hidden="1">
-	<output skill="5" name="Shocking Revelations of a Charged Mind" />
+	<output skill="5" name="All Thyngs Great ande Gablooey" />
+	<tool tag="lathe"/>
+	<input name="Black Powder"/>
+	<input name="Saltpetre"/>
+	<input name="Bituminous Coal"/>
+	<input name="Brimstone"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="1" name="Ritual Blooding Device" />
+	<tool tag="lathe"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Iron Ingot"/>
+	<input name="Offal"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="2" name="Wand of Fungling" />
+	<tool tag="lathe"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Verdant Poison"/>
+	<input name="Plum"/>
+	</craft>
+
+<craft hidden="0">
+	<output skill="5" name="Wand of Quakes" />
+	<tool tag="lathe"/>
+	<input name="Burnt Out Wand"/>
+	<input name="Amber"/>
+	<input name="Amethyst"/>
+	</craft>
+
+<craft hidden="1">
+	<output skill="6" name="Shocking Revelations of a Charged Mind" />
 	<tool tag="lathe"/>
 	<input name="Wand of Tesla"/>
 	<input name="Voltaic Potion"/>

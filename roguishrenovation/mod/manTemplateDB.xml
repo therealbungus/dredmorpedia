@@ -1,0 +1,29 @@
+<!-- Names:
+
+# - player
+. - unaffected
+@ - affected
+
+
+-->
+
+<templatedb>
+
+	<!-- NV 2011 02 23 - no, the height is FOUR -->
+	<!-- DB 2011 03 02 - says you! -->
+  
+<template width="5" height="1" name="5001" affectsPlayer="0">
+	<row text="@.#.@"/>
+	</template>
+
+<template width="7" height="7" name="5002" affectsPlayer="0">
+	<row text="...@..."/>
+	<row text=".@...@."/>
+	<row text="......."/>
+	<row text="@..#..@"/>
+	<row text="......."/>
+	<row text=".@...@."/>
+	<row text="...@..."/>
+	</template>
+  
+</templatedb>

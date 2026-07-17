@@ -1,0 +1,10 @@
+<dredmormod>
+<revision text="BETA"/>
+<author text="Fax Celestis"/>
+<name text="The Vaults of Maslech"/>
+<description text="The Vaults of Maslech includes the Dungeon Delver skill and a large number of extra-challenging rooms."/>
+<info totalconversion="0"/>
+<require expansion="1"/> 
+<require expansion="2"/> 
+<require expansion="3"/>
+</dredmormod>

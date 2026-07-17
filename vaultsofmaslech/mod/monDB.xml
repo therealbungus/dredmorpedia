@@ -1,0 +1,337 @@
+<monDB>
+<!-- DIGGLES -->
+<!-- This now means there is at least one type of diggle per floor. I've tried to make sure that they are evenly distributed and are thematically linked to the floor they spawn on, but I can only do so much. -->
+
+<!-- F1 - DUNGEON -->
+	<!-- diggle -->
+	<!-- sickly diggle -->
+<monster name="Diggle Traitor" displayName="Diggle" level="0" tiny="1" splat="blood" taxa="Animal" diggleHell="1">
+	<idleSprite left="sprites/monster/diggle/diggle_run_l.spr"
+	right="sprites/monster/diggle/diggle_run_r.spr"
+	up="sprites/monster/diggle/diggle_run_u.spr"
+	down="sprites/monster/diggle/diggle_run_d.spr"/>
+	<attackSprite left="sprites/monster/diggle/diggle_atk_l.spr"
+	right="sprites/monster/diggle/diggle_atk_r.spr"
+	up="sprites/monster/diggle/diggle_atk_u.spr"
+	down="sprites/monster/diggle/diggle_atk_d.spr"/>
+	<hitSprite left="sprites/monster/diggle/diggle_hit_l.spr"
+	right="sprites/monster/diggle/diggle_hit_r.spr"
+	up="sprites/monster/diggle/diggle_hit_u.spr"
+	down="sprites/monster/diggle/diggle_hit_d.spr"/>  
+
+
+  <morphsprites
+    eatSprite="sprites/monster/diggle/diggle_eat.xml"
+    drinkSprite="sprites/monster/diggle/diggle_drink.xml"
+    levelupmSprite ="sprites/monster/diggle/diggle_levelup_male.xml"
+    levelupfSprite ="sprites/monster/diggle/diggle_levelup_female.xml"
+    vanishSprite="sprites/monster/diggle/diggle_vanish.xml"
+    longidleSprite="sprites/monster/diggle/diggle_long_idle.xml"/>
+  <digSprites downSprite = "sprites/monster/diggle/diggle_dig.xml"
+	upSprite = "sprites/monster/diggle/diggle_pop.xml" />	
+	
+	<dieSprite name="sprites/monster/diggle/diggle_die_r.spr"/>
+	
+	<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+	<ai aggressiveness="4" span="10" spellPercentage="15" />
+		<spell name="Turncoat"/>
+	
+	<stats numFig="3" xpValue="10" />
+	<damage slashing="1" piercing="2"/>
+	<secondarybuff id="4" amount="-10"/> <!-- crit -->
+	<secondarybuff id="6" amount="4"/> <!-- dodge -->
+	<secondarybuff id="0" amount="-2"/> <!-- hp -->
+	<palette tint="10"/>
+	<info latin="(Poingus Poingus)" text="A strange little bird-thing that tunnels through walls with its odd, rubbery nasal appliance."/>
+	
+	<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+
+<!-- F2 - CRYPT -->
+	<!-- enraged diggle -->
+	<monster name="Diggle Farmer" level="1" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" />
+	
+		<stats numRog="4" xpValue="20" />
+		<damage slashing="1" piercing="2" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<palette tint="200"/>
+		<info latin="(Poingus Agriculturus)" text="This earthy diggle seems to be munching on a mushroom."/>
+		<drop name="Fairywodger" percent="5"/>
+		<drop name="The Prince" percent="5"/>
+		<drop name="Night Cap" percent="5"/>
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		</monster>
+	
+	<monster name="Diggle Chef" level="1" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" />
+	
+		<stats numFig="2" numRog="2" xpValue="20" />
+		<damage slashing="1" piercing="2" conflagratory="1" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<palette tint="250"/>
+		<info latin="(Poingus Culinarius)" text="This diggle seems to be missing his chef's hat, but you can tell from his air of superiority and the wafts of cheese scent that follow him that he is a chef of some sort."/>
+		<drop name="Cheese" percent="5"/>
+		<drop name="Merlot" percent="5"/>
+		<drop name="Aged Steak" percent="5"/>
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		</monster>
+
+	<monster name="Diggle Smith" level="1" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" />
+	
+		<stats numFig="4" xpValue="20" />
+		<damage slashing="2" piercing="3" />
+		<secondarybuff id="2" amount="2"/> <!-- melee -->
+		<palette tint="150"/>
+		<info latin="(Poingus Manufacturus)" text="This soot-covered diggle seems to have just come from the forge."/>
+		<drop name="Iron Ingot" percent="5"/>
+		<drop name="Zinc Ingot" percent="5"/>
+		<drop name="Copper Ingot" percent="5"/>
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		</monster>
+
+<!-- F3 - STARBASE -->
+	<monster name="Cyclopean Diggle" level="2" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" spellpercentage="20" />
+			<spell name="Eye Lasers"/>
+		<stats numRog="6" xpValue="32" />
+		<damage piercing="3" slashing="3" />
+		<resistances piercing="2" slashing="2" />
+		<secondarybuff id="4" amount="4"/> <!-- crit -->
+		<secondarybuff id="6" amount="10"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<secondarybuff id="18" amount="5"/> <!-- sight -->
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<palette tint="80"/>
+		<info latin="(Poingus Exmanius)" text="You know what's worse than bears? Bears with lasers. What's worse than bears with lasers? Bear cavalry with lasers. What's worse than bear cavalry with lasers? Diggles. With. Lasers."/>
+		</monster>
+
+<!-- F4 - MARBLE -->
+	<monster name="Genteel Diggle" level="3" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" spellpercentage="20" />
+			<spell name="Midas" />
+			<spell name="Diggle Top Hat" />
+	
+		<stats numWiz="6" xpValue="45" />
+		<damage slashing="1" piercing="2" />
+		<resistances transmutative="5" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<palette tint="450"/>
+		<onhit spell="Midas" />
+		<info latin="(Poingus Richbitchius)" text="I say, old bean, what have we here? It is a dapper diggle in divine duds. Mind your manners...and your wallet."/>
+		<drop name="The Prince" percent="5"/>
+		</monster>
+
+<!-- F5 - SHIP/WOOD -->
+	<!-- diggle commando -->
+
+<!-- F6 - FUNGUS JUNGLE -->
+	<!-- deep fungus diggle -->
+	<monster name="Hypermitotic Diggle Spawn" level="5" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+   
+		<ai aggressiveness="4" span="10" />
+		<stats numFig="3" xpValue="10" />
+		<damage slashing="1" piercing="2"/>
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<palette tint="350"/>
+		<info latin="(Poingus Poingusspawnicus)" text="Dear lord, that diggle just divided into other diggles! Can it be that they reproduce asexually?"/>
+		</monster>
+
+	<monster name="Hypermitotic Diggle" level="5" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+   
+		<ai aggressiveness="4" span="10" />
+		<stats numFig="10" xpValue="60" />
+		<damage piercing="3" slashing="3" toxic="6" />
+		<resistances piercing="2" slashing="2" toxic="20" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<palette tint="350"/>
+		<ondeath spell="Diggle Divide" />
+		<info latin="(Poingus Poinguspoingus)" text="This diggle appears to be made up of smaller, angry diggles."/>
+		</monster> 
+
+<!-- F7 - FROZEN -->
+	<!-- diggle mage -->
+	<!-- technically could add an ice diggle or neanderthal diggle here but diggle mages are dangerous enough on this floor and have a big enough toolbox that they don't need support -->
+
+<!-- F8 - MINES -->
+	<!-- hungry diggle -->
+	<!-- deep diggle smith -->
+	<monster name="Deep Diggle Farmer" level="7" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" />
+	
+		<stats numRog="14" xpValue="100" />
+		<damage slashing="1" piercing="2" toxic="5" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<palette tint="200"/>
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<info latin="(Poingus Agriculturus)" text="This earthy diggle seems to be munching on a mushroom."/>
+		<drop name="Fairywodger" percent="15"/>
+		<drop name="The Prince" percent="15"/>
+		<drop name="Night Cap" percent="15"/>
+		</monster>
+
+<!-- F9 - VOLCANO -->
+	<!-- diggle geologist -->
+	<monster name="Promethean Diggle" level="8" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" spellpercentage="8" />
+			<spell name="Ignition Bolt"/>
+			<spell name="Ignition Bolt"/>
+			<spell name="Obvious Fireball"/>
+		<stats numFig="8" numWiz="8" xpValue="120" />
+		<damage slashing="3" piercing="3" conflagratory="8" />
+		<resistances conflagratory="20" hyperborean="-5" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<palette tint="300"/>
+		<info latin="(Poingus Imonfireicus)" text="If you can't stand the heat, dig deeper."/>
+		<drop name="Infernal Potion" percent="10"/>
+		</monster>
+
+<!-- F10 - PANDEMONIUM -->
+	<!-- archdiggle -->
+	<!-- deep diggle chef -->
+
+<!-- F11 - DEEP DUNGEON -->
+	<!-- muscle diggle -->
+	<!-- diggle rocketeer -->
+
+<!-- F12 - DOJO -->
+	<!-- thirsty diggle -->
+	<monster name="Diggle Berserker" level="11" diggleHell="1" >
+		<sfx attack="diggle_attack" hit="diggle_damage" die="diggle_die" spell="diggle_cast" dig_in="diggle_digs_in" dig_out="diggle_digs_out" />
+	
+		<ai aggressiveness="4" span="10" spellpercentage="10" />
+			<spell name="Monstrous Rage"/>
+		<stats numFig="5" numRog="15" xpValue="155" />
+		<damage slashing="4" piercing="8" />
+		<resistances piercing="8" slashing="4" />
+		<secondarybuff id="4" amount="-10"/> <!-- crit -->
+		<secondarybuff id="6" amount="4"/> <!-- dodge -->
+		<secondarybuff id="0" amount="-2"/> <!-- hp -->
+		<dig mindistance="3" percent="5" ambushpercent="5" blockedpercent="100" minturns="3" maxTurns="6" />
+		<palette tint="50"/>
+		<info latin="(Poingus Angricus)" text="Some people stare daggers when angry. This diggle stares axes."/>
+		</monster>
+
+<!-- F13 - CLOCKWORK PARADISE -->
+	<!-- diggle archmage -->
+	<!-- diggle rocketeer -->
+	<!-- rogue diggle scientist -->
+
+<!-- F14 - UNDERGROUND FOREST -->
+	<!-- diggle harbinger -->
+
+<!-- F15 - OSSUARY -->
+	<!-- Commenting out the Lichdiggle because Nicholas wants to put it in game proper
+	<monster name="Lichdiggle" level="14"  diggleHell="1" taxa="Undead" >
+		  <palette tint="100"/>
+		  <damage slashing="5" necrotic="20" />
+		  <stats numWiz="24" xpValue="250"/>
+		  <secondarybuff id="4" amount="10"/>  crit 
+		  <secondarybuff id="6" amount="20"/>  dodge 
+		  <secondarybuff id="3" amount="-10"/>  negative spellpower so the spells aren't quite so OMGdead 
+		  <secondarybuff id="0" amount="40" />  kick their HP up to 100 
+		  <ai aggressiveness="5" span="24" spellPercentage="15"/>
+			<spell name="Corpse Reviver" />
+			<spell name="Obvious Fireball" />
+			<spell name="The Recursive Curse" />
+			<spell name="Nerve Staple" />
+		  <resistances conflagratory="10" aethereal="5" necrotic="20" />
+		  
+		<idleSprite
+			left="expansion3/sprites/monster/vladiggle/vladiggle_run_l.xml"
+			right="expansion3/sprites/monster/vladiggle/vladiggle_run_r.xml"
+			up="expansion3/sprites/monster/vladiggle/vladiggle_run_u.xml"
+			down="expansion3/sprites/monster/vladiggle/vladiggle_run_d.xml"/>
+		<attackSprite
+			left="expansion3/sprites/monster/vladiggle/vladiggle_atk_l.xml"
+			right="expansion3/sprites/monster/vladiggle/vladiggle_atk_r.xml"
+			up="expansion3/sprites/monster/vladiggle/vladiggle_atk_u.xml"
+			down="expansion3/sprites/monster/vladiggle/vladiggle_atk_d.xml"/>
+		<hitSprite
+			left="expansion3/sprites/monster/vladiggle/vladiggle_hit_l.xml"
+			right="expansion3/sprites/monster/vladiggle/vladiggle_hit_r.xml"
+			up="expansion3/sprites/monster/vladiggle/vladiggle_hit_u.xml"
+			down="expansion3/sprites/monster/vladiggle/vladiggle_hit_d.xml"/>
+
+		<dieSprite
+			name="expansion3/sprites/monster/vladiggle/vladiggle_die_r.xml"/>
+		<castSpellSprite
+			name="expansion3/sprites/monster/vladiggle/vladiggle_wand_r.xml" />
+		  
+		  <info latin="(Poingus Damnatius Eternae)" text="Under Lord Dredmor's tutelage, the most magically adept of diggles are chosen to become lichdiggles. These undead abominations possess mastery of the arcane arts and can even revive the dead."/>
+		  </monster> -->
+					
+<!-- F16 - MYSTERIOUS FLOORS -->
+	<!-- impish diggle -->
+	<!-- monstrous demon diggle -->
+	<!-- vlad digula -->
+
+</monster>
+
+<!-- Tacows -->
+<monster name="Tacow" level="3" tiny="0" splat="blood" taxa="Animal" terrain="2" >
+	<idleSprite left="sprites/tacow/tacow_walk_left.xml"
+		right="sprites/tacow/tacow_walk_right.xml"
+		up="sprites/tacow/tacow_walk_up.xml"
+		down="sprites/tacow/tacow_walk_down.xml"/>
+	<attackSprite left="sprites/tacow/tacow_attack_left.xml"
+		right="sprites/tacow/tacow_attack_right.xml"
+		up="sprites/tacow/tacow_attack_up.xml"
+		down="sprites/tacow/tacow_attack_down.xml"/>
+	<hitSprite left="sprites/tacow/tacow_hit_left.xml"
+		right="sprites/tacow/tacow_hit_right.xml"
+		up="sprites/tacow/tacow_hit_up.xml"
+		down="sprites/tacow/tacow_hit_down.xml"/>
+	<dieSprite name="sprites/tacow/tacow_die.xml"/>
+	
+	<sfx attack="small_attack" hit="small_hit" die="small_die" spell="small_spell"/>
+	
+	<stats numFig="4" xpValue="30" />
+     
+        <palette tint="0" />
+	<damage conflagratory="5" />
+        <resistances conflagratory="3" toxic="5" />
+	<onhit spell="Hot Sauce" onechancein="3" />
+	
+	<info latin="(Mexicanus Bovinus)" text="Filled with hot meat, hot sauce, sour cream, and guacamole, these cows seem happy to see you. But beware their dangerous HOT SAUCE BREATH, for it burns mightily."/>
+	</monster>
+	
+<!-- TEST ZONE -->
+
+<!-- SUMMONS FOR SKILLS -->
+ 
+</monDB>

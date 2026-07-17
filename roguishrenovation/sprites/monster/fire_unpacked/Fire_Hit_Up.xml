@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<sprite>
+  <frame delay="80">Fire_Hit_Up_0.png</frame>
+  <frame delay="80">Fire_Hit_Up_1.png</frame>
+  <frame delay="80">Fire_Hit_Up_2.png</frame>
+  <frame delay="80">Fire_Hit_Up_3.png</frame>
+  <frame delay="80">Fire_Hit_Up_4.png</frame>
+  <frame delay="80">Fire_Hit_Up_5.png</frame>
+</sprite>

@@ -1,0 +1,248 @@
+<spellDB>
+
+<spell name="Prismatic Blast" type="target" icon="skills/placeholder32.png" wand="1">
+	<effect type="damage" crushing="4" crushingF="0.6" righteous="4" righteousF="0.6" conflagratory="4" conflagratoryF="0.6" acidic="4" acidicF="0.6" hyperborean="4" hyperboreanF="0.6" aethereal="4" aetherealF="0.6" necromantic="4" necromanticF="0.6" secondaryScale="23" affectscaster="1"/>
+	<description text="Taste the rainbow!"/>
+	<anim sprite="sprites/sfx/celestial_hit/celestial_hit" frames="8" sfx="radiant" framerate="80"  centerEffect="0"/>
+   </spell>
+
+<spell name="Death Ray" type="target" icon="skills/placeholder32.png" wand="1">
+	<effect type="damage" blasting="9" blastingF="1" conflagratory="9" conflagratoryF="1"  necromantic="6" necromanticF="1" secondaryScale="23" affectscaster="1"/>
+	<effect type="damage" blasting="6" blastingF="0.13" conflagratory="6" conflagratoryF="0.1"  necromantic="3" necromanticF="0.16" affectscaster="1"/>
+	<description text="It kills things dead."/>
+	<anim sprite="sprites/sfx/celestial_hit/celestial_hit" frames="8" sfx="disintegrate" framerate="80"  centerEffect="0"/>
+   <effect type="trigger" spell="Fire 1" />
+   </spell>
+
+<spell name="Freeze Wand Stop" type="target" icon="skills/placeholder32.png" wand="1">
+	<effect type="paralyze" turns="2" resistable="0" />
+	<effect type="paralyze" turns="2" />
+	<effect type="paralyze" turns="2" />
+	<effect type="paralyze" turns="2" />
+	<description text="Stop!"/>
+	<anim sprite="sprites/sfx/target/target" frames="5" framerate="90" sfx="cursed" centerEffect="1"/>
+   </spell>
+
+<spell name="Wand Blast" type="template" templateID="11" anchored="0" icon="skills/placeholder32.png" wand="1">
+	<effect type="damage" aethereal="12" aetherealF="2.5" secondaryScale="23" />
+	<effect type="knock" amount="2" />
+	<anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="70" sfx="magic_damage" />
+   </spell>
+
+<spell name="Spawn Wand" type="target" >
+	<effect type="spawnitemfromlist">
+		<option name="Wand of Laser"/>
+		<option name="Coral Wand"/>
+		<option name="Zodiacal Wand"/>
+		<option name="Bony Wand"/>
+		<option name="Rock Wand"/>
+		<option name="Stone Wand"/>
+		<option name="Wand of Tesla"/>
+		<option name="Wand of Bling"/>
+		<option name="Handy Wand"/>
+		<option name="Arcane Wand"/>
+		<option name="Fiery Wand"/>
+	</effect>
+	<impact sprite="sprites/sfx/divine_hit/divine_hit" frames="8" sfx="choir" framerate="70" centerEffect="0"/>
+	</spell>
+
+<spell name="Wandsplosion" type="target" icon="skills/placeholder32.png" wand="1">
+	<effect type="trigger" affectsCorpses="0" spell="Spawn Wand" />
+	<effect type="trigger" affectsCorpses="0" spell="Spawn Wand" />
+	<effect type="trigger" affectsCorpses="0" spell="Spawn Wand" percent="50" />
+	<effect type="trigger" affectsCorpses="0" spell="Spawn Wand" percent="50" />
+	<effect type="trigger" affectsCorpses="0" spell="Spawn Wand" percent="50" />
+	<effect type="trigger" affectsCorpses="0" spell="Wand Blast" />
+	<anim sprite="sprites/sfx/energyring/energyring" frames="8" sfx="magic_damage" />
+   </spell>
+
+<spell name="Handy Bandolier" type="self" icon="skills/placeholder32.png">
+   <effect type="spawn" itemname="Cruelly Barbed Steel Bolt" amount="1" />
+   </spell>
+
+<spell name="Hockey Knockback" type="target" icon="skills/placeholder32.png">
+   <effect type="damage" crushing="2"/>
+   <effect type="knock" amount="3"/>
+   <anim sprite="sprites/sfx/impactA/impactA" frames="6" framerate="60"  sfx="missile" centerEffect="0"/>
+   </spell>
+
+<spell name="Ravening Hunger" type="self" >
+    <effect type="consumefood"/>
+    <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+  </spell>
+
+<spell name="Claw Attack" type="target" >
+   <effect type="damage" slashing="12" affectsCaster="1" />
+   <anim sprite="sprites/sfx/blade_trap/blade_trap" frames="5" framerate="70" sfx="blade" />
+   </spell>
+
+<spell name="Swordchuck Self Hit" type="self" >
+   <effect type="damage" slashing="5" slashingF="1.5" secondaryScale="2" affectsCaster="1" />
+   <anim sprite="sprites/sfx/blade_trap/blade_trap" frames="5" framerate="70" sfx="blade" />
+   </spell>
+
+<spell name="Swordchuck Attack" type="target" >
+   <effect type="damage" slashing="10" slashingF="0.33" secondaryScale="2" affectsCaster="1" />
+   <effect type="trigger" spell="Swordchuck Self Hit"/>
+   <anim sprite="sprites/sfx/blade_trap/blade_trap" frames="5" framerate="70" sfx="blade" />
+   </spell>
+
+<spell name="Lesser Corpus Burst" type="targetcorpse">
+   <effect type="trigger" spell="Corpse Blast"/>
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" centerEffect="0"/>
+   </spell>
+
+<spell name="Minor Darkness Feedback" type="self">
+   <effect type="damage" necromantic="1" necromanticF="0.05" affectscaster="1"/>
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="darkmagic" centerEffect="0"/>
+   </spell>
+
+<spell name="Moderate Darkness Feedback" type="self">
+   <effect type="damage" necromantic="5" necromanticF="0.1" affectscaster="1"/>
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="darkmagic" centerEffect="0"/>
+   </spell>
+
+<spell name="Major Darkness Feedback" type="self">
+   <effect type="damage" necromantic="12" necromanticF="0.15" affectscaster="1"/>
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="darkmagic" centerEffect="0"/>
+   </spell>
+
+<spell name="Moderate Darkness Explosion" type="template" templateID="11">
+   <effect type="damage" necromantic="9" necromanticF="0.1" affectscaster="1"/>
+   <anim sprite="sprites/sfx/corpus_burst/corpus_burst" frames="7" framerate="100" sfx="darkmagic" centerEffect="0"/>
+   </spell>
+
+<spell name="Major Darkness Explosion" type="template" templateID="11">
+   <effect type="damage" necromantic="20" necromanticF="0.2" affectscaster="1"/>
+   <anim sprite="sprites/sfx/corpus_burst/corpus_burst" frames="7" framerate="100" sfx="darkmagic" centerEffect="0"/>
+   </spell>
+
+<spell name="Heart of Darkness Feedback" type="self">
+   <effect type="triggerfromlist">
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Minor Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Moderate Darkness Feedback"/>
+       <option name="Major Darkness Feedback"/>
+       <option name="Major Darkness Feedback"/>
+       <option name="Moderate Darkness Explosion"/>
+       <option name="Major Darkness Explosion"/>
+       </effect>
+
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+   </spell>
+
+<spell name="Heart of Darkness Attack" type="target">
+   <effect type="trigger" spell="Blungecap Vampirism Attack"/>
+   <effect type="trigger" spell="Lesser Corpus Burst" amount="1"/>
+   <effect type="trigger" spell="Heart of Darkness Feedback"/>
+   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+   </spell>
+
+<spell name="Lesser Fulminaric Bolt" type="targetfloor" icon="skills/spells/fulminaric_bolt32.png">
+   <effect type="damage" blasting="5" blastingF="0.1" voltaic="8" voltaicF="0.2" affectscaster="1" />
+   <effect type="paralyze" amount="1" turns="1" self="0"/>
+   <anim sprite="sprites/sfx/fulminaric_bolt/fulminaric_bolt" frames="10" sync="1" sfx="lightning_bolt" framerate="90"  centerEffect="0"/>
+   <effect type="trigger" amount="1" spell="Lightning Blast"/>
+   </spell>
+
+<spell name="Nerfed" type="self" icon="spells/nerfed_32.png">
+	<buff time="90" stacksize="5" allowstacking="1" icon="spells/nerfed_64.png" smallicon="spells/nerfed_32.png">
+	<damagebuff crushing="-6" slashing="-6"/>
+	<secondarybuff id="2" amount="-6"/> 
+	<secondarybuff id="4" amount="-10"/> 
+	<secondarybuff id="8" amount="-10"/> 
+	</buff>
+   <anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="metal_drop" />
+   <description text="Irritable developers have decided to tweak your stats in response to complaints from monsters that your weapon is unfair." />
+   </spell>
+
+<spell name="Rhino Rush" type="target" icon="skills/placeholder32.png">
+   <effect type="damage" crushing="8"/>
+   <effect type="knock" amount="2"/>
+   <effect type="teleport"/>
+   </spell>
+
+<spell name="Necrotizing Fasciitis Hit" type="target" >
+	<effect type="damage" putrefying="4" toxic="2" />
+   </spell>
+
+<spell name="Necrotizing Fasciitis" type="target" icon="skills/spells/fell_power32.png">
+   <buff time="12" self="0" stacksize="1" allowstacking="0" icon="skills/spells/fell_power64.png" smallicon="skills/spells/fell_power32.png">
+	<primarybuff id="0" amount="-5"/>  <!-- burliness -->
+	<secondarybuff id="13" amount="-5"/> <!-- hp regen -->
+	</buff>
+   <effect type="dot" amount="12" spell="Necrotizing Fasciitis Hit" requirebuff="1" />
+   <anim sprite="sprites/sfx/goosplatA/goosplatA" frames="4" sfx="magic" framerate="100" centerEffect="1"/>
+   <description text="Horrible flesh eating bacteria are eating your flesh! Bacterially." />
+   </spell>
+
+<spell name="Sludgehammer Self Hit" type="self" icon="skills/placeholder32.png">
+   <effect type="trigger" spell="Acid Pool" />
+   </spell>
+
+<spell name="Sludgehammer Hit" type="target" icon="skills/placeholder32.png">
+   <effect type="trigger" spell="Acid Pool" />
+   <effect type="trigger" spell="Sludgehammer Self Hit" />
+   <anim sprite="sprites/sfx/goosplatA/goosplatA" frames="4" sfx="organic" framerate="100" centerEffect="1"/>
+   </spell>
+
+<spell name="Smite Diggle" type="target" icon="skills/placeholder32.png">
+   <effect type="damage" slashing="10" slashingF="1" secondaryScale="2" taxa="Diggle"/>
+   <effect type="knock" amount="3" taxa="Diggle"/>
+   <effect type="paralyze" turns="1" amount="1" taxa="Diggle"/>
+
+   <effect type="damage" slashing="10" slashingF="1" secondaryScale="2" taxa="Muscle Diggle" />
+   <effect type="knock" amount="3" taxa="Muscle Diggle"/>
+   <effect type="paralyze" turns="1" amount="1" taxa="Muscle Diggle"/>
+   </spell>
+
+<spell name="Self Meat" type="self" icon="skills/placeholder32.png">
+   <effect type="spawnitemfromlist">
+     <option name="Offal"/>
+     <option name="Cube of Flesh"/>
+   </effect>
+   <anim sprite="sprites/sfx/goosplatA/goosplatA" frames="4" sfx="impact" framerate="100" centerEffect="1"/>
+   </spell>
+
+<spell name="Teleport Away" type="target" icon="skills/placeholder32.png">
+  <effect type="displace"/>  
+  <anim sprite="sprites/sfx/energyring/energyring" frames="8" framerate="50" sfx="teleport" centerEffect="1"/>
+  </spell>
+
+<spell name="MD Lightning Rod Blast" type="targetfloor" icon="skills/spells/fulminaric_bolt32.png">
+   <effect type="damage" voltaic="5" blasting="5" voltaicF="0.2" blastingF="0.1" affectscaster="1" />
+   <anim sprite="sprites/sfx/fulminaric_bolt/fulminaric_bolt" frames="10" sync="1" sfx="lightning_bolt" framerate="90"  centerEffect="0"/>
+   </spell>
+
+<spell name="MD Spawn Crystals" type="self" icon="skills/placeholder32.png">
+   <effect type="spawnitemfromlist">
+     <option name="Emerald"/>
+     <option name="Sapphire"/>
+     <option name="Ruby"/>
+     <option name="Carnelian"/>
+     <option name="Turquoise"/>
+     <option name="Amethyst"/>
+     <option name="Diamond"/>
+     <option name="Citrine"/>
+   </effect>
+    <anim sprite="sprites/sfx/energy_ball/energy_ball" frames="6" framerate="80" sfx="elec" />
+   </spell>
+
+<spell name="Test Cheat" type="self" icon="skills/antimagic32.png" wand="0">
+  </spell>
+
+<spell name="Test Items" type="self" icon="skills/antimagic32.png" >
+  </spell>
+
+</spellDB>

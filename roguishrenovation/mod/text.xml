@@ -1,89 +1,367 @@
 <text>
 
+  <quality text="aerated"/>
+  <quality text="all-natural"/>
+  <quality text="avant-garde"/>
+  <quality text="carbonated"/>
+  <quality text="cheaply-made"/>
+  <quality text="corroded"/>
+  <quality text="crusty"/>
+  <quality text="crystal-studded"/>
+  <quality text="crystalline"/>
+  <quality text="dehydrated"/>
+  <quality text="double-reinforced"/>
+  <quality text="dull"/>
+  <quality text="elegant"/>
+  <quality text="enhanced"/>
+  <quality text="exemplary"/>
+  <quality text="exquisite"/>
+  <quality text="extra-strength"/>
+  <quality text="fine-tuned"/>
+  <quality text="finely-milled"/>
+  <quality text="foamy"/>
+  <quality text="freshly-forged"/>
+  <quality text="glazed"/>
+  <quality text="heliocentric"/>
+  <quality text="imitation"/>
+  <quality text="laminated"/>
+  <quality text="lovingly crafted"/>
+  <quality text="nerfed"/>
+  <quality text="quick-setting"/>
+  <quality text="radioactive"/>
+  <quality text="reclaimed"/>
+  <quality text="refined"/>
+  <quality text="scrap"/>
+  <quality text="spray-painted"/>
+  <quality text="stained"/>
+  <quality text="starchy"/>
+  <quality text="super-sticky"/>
+  <quality text="tempered"/>
+  <quality text="tested and tried"/>
+  <quality text="vulcanised"/>
+  <quality text="well-tended"/>
+  <quality text="worn and weathered"/>
+
+
+
+  <material text="arcanite"/>
+  <material text="ashphalt"/>
+  <material text="bacteria"/>
+  <material text="benzaldehyde"/>
+  <material text="biomass"/>
   <material text="bread crumbs"/>
+  <material text="brimstone"/>
+  <material text="bubble wrap"/>
+  <material text="caltrops"/>
+  <material text="cellulose"/>
+  <material text="cement"/>
   <material text="chewy candy"/>
-  <material text="leafy greens"/>
-  <material text="minotaur milk"/>
+  <material text="combustible lemons"/>
+  <material text="cowrie shells"/>
+  <material text="crystallised mana"/>
+  <material text="dangerous bees"/>
+  <material text="dark lutefisk, which cannot be normally observed"/>
   <material text="delicious fruit"/>
+  <material text="diggle hide"/>
+  <material text="dihydrogen monoxide"/>
   <material text="dragon scales"/>
   <material text="dragon hide"/>
+  <material text="dream dust"/>
+  <material text="ember"/>
+  <material text="energon"/>
+  <material text="energy"/>
+  <material text="fishbones"/>
+  <material text="foam"/>
+  <material text="fun"/>
+  <material text="fungi"/>
+  <material text="golf balls"/>
+  <material text="grated coconut"/>
   <material text="hakarl"/>
+  <material text="ice cubes"/>
+  <material text="leafy greens"/>
+  <material text="marshmallows"/>
+  <material text="minotaur milk"/>
+  <material text="moonshine"/>
+  <material text="nanites"/>
+  <material text="latex"/>
+  <material text="leftovers"/>
   <material text="lutofu"/>
+  <material text="meat"/>
+  <material text="mixed vegetables"/>
+  <material text="octarine"/>
   <material text="pain pills"/>
-  <material text="pokeballs"/>
+  <material text="pencil lead"/>
+  <material text="petroleum jelly"/>
+  <material text="phoenix eggshell"/>
+  <material text="pie"/>
+  <material text="pieces of eight"/>
+  <material text="polystyrene"/>
+  <material text="ponies"/>
+  <material text="pumice"/>
   <material text="pure hate"/>
+  <material text="pudding"/>
+  <material text="rainbow crystals"/>
+  <material text="rare tropical snails"/>
+  <material text="royal jelly"/>
+  <material text="sandpaper"/>
   <material text="severed elf ears"/>
+  <material text="spaaaace"/>
+  <material text="spare parts"/>
+  <material text="spikes"/>
+  <material text="torchlight"/>
+  <material text="wood chips"/>
+  <material text="zen"/>
 
 
 
+  <decor text="a thrusty's last words"/>
+  <decor text="bar charts"/>
+  <decor text="bling"/>
+  <decor text="bottle caps"/>
+  <decor text="cheat codes"/>
+  <decor text="coal dust"/>
+  <decor text="diggle bones"/>
+  <decor text="doctor's prescriptions"/>
   <decor text="draconic runes"/>
+  <decor text="DSHA regulations"/>
+  <decor text="elder scrolls"/>
+  <decor text="enzymes"/>
   <decor text="exam questions"/>
+  <decor text="fetish art"/>
+  <decor text="filigree"/>
+  <decor text="finery"/>
   <decor text="fluffy dice"/>
+  <decor text="frills"/>
+  <decor text="gears and valves"/>
+  <decor text="glitter"/>
+  <decor text="golem cores"/>
+  <decor text="gratituous fanservice"/>
+  <decor text="green rocks"/>
+  <decor text="ice-edged runes"/>
+  <decor text="laments of the dead"/>
+  <decor text="lawyer's objections"/>
   <decor text="leftover code"/>
+  <decor text="lies and slander"/>
+  <decor text="mana shards"/>
+  <decor text="mathemagical equations"/>
+  <decor text="modder's notes"/>
+  <decor text="moving pictures"/>
+  <decor text="mushy spores"/>
+  <decor text="natural herbal dyes"/>
+  <decor text="patent applications"/>
+  <decor text="phoenix down"/>
+  <decor text="pie crust"/>
+  <decor text="poorly-drawn icons"/>
+  <decor text="powdered soap"/>
   <decor text="prayer candles"/>
   <decor text="prayers to Obsidia"/>
+  <decor text="product placements"/>
+  <decor text="propoganda"/>
+  <decor text="psychedelic fungi"/>
+  <decor text="references to other roguelikes"/>
+  <decor text="rose petals"/>
+  <decor text="scratches"/>
+  <decor text="slogans"/>
+  <decor text="spelunker's notes"/>
+  <decor text="squiddy ink"/>
+  <decor text="stop signs"/>
+  <decor text="unlisted phone numbers"/>
+  <decor text="venn diagrams"/>
   <decor text="warnings about cake"/>
+  <decor text="wizardly scrawls"/>
+  <decor text="words of power"/>
 
 
 
+  <noun text="Angel" plural="Angels" statue="dungeon/statue_angel.png" />
   <noun text="Crystal" plural="Crystals" statue="dungeon/bg_bluecrystal.png" />
+  <noun text="Cucumber" plural="Cucumbers" statue="dungeon/podium_cucumber.png" />
   <noun text="Diamond" plural="Diamonds" statue="dungeon/bg_diamond.png" />
+  <noun text="Draconic Obsidian" plural="Draconic Obsidian" painting="items/armour/armour_dracomask.png" />
+  <noun text="Feline" plural="Felines" statue="dungeon/statue_cat.png" />
+  <noun text="Gentleman" plural="Gentlemen" painting="dungeon/painting_gentleman.png" />
+  <noun text="Grape" plural="Grapes" statue="dungeon/podium_grapes.png" />
+  <noun text="Hakarl" plural="Hakarl" painting="dungeon/painting_fish.spr" />
+  <noun text="Kitten" plural="Kittens" statue="dungeon/statue_cat.png" />
+  <noun text="Knight" plural="Knights" statue="dungeon/statue_paladin.png" />
+  <noun text="Mana" plural="Mana" statue="dungeon/podium_manabook.png" floor="dungeon/ground_manacrystal.png" />
   <noun text="Notice Board" plural="Notice Boards" painting="dungeon/bg_noticeboard.png" />
+  <noun text="Paladin" plural="Paladins" statue="dungeon/statue_paladin.png" />
+  <noun text="Pickle" plural="Pickles" statue="dungeon/podium_cucumber.png" />
+  <noun text="Pudding" plural="Puddings" statue="dungeon/podium_pudding.png" />
+  <noun text="Radish" plural="Radishes" statue="dungeon/statue_turnip.png" />
+  <noun text="Seraph" plural="Seraphim" statue="dungeon/statue_femangel.png" />
+  <noun text="Tome" plural="Tomes" statue="dungeon/podium_manabook.png" />
+  <noun text="Turnip" plural="Turnips" statue="dungeon/statue_turnip.png" />
+  <noun text="Vinter" plural="Vinters" statue="dungeon/podium_grapes.png" />
+  <noun text="Wyrm" plural="Wyrms" statue="dungeon/statue_dragon.png" />
+  <noun text="Wyrmling" plural="Wyrmlings" statue="dungeon/statue_dragon.png" />
 
 
 
+  <noun text="Broccoli" plural="Broccoli"/>
+  <noun text="Business Model" plural="Business Models"/>
+  <noun text="Chocolate" plural="Chocolates"/>
+  <noun text="Conjuration" plural="Conjurations"/>
+  <noun text="Delicacy" plural="Delicacies"/>
+  <noun text="Despair" plural="Despair"/>
+  <noun text="Dinner" plural="Dinners"/>
+  <noun text="Doom" plural="Doom"/>
+  <noun text="Homework" plural="Homework"/>
+  <noun text="Hope" plural="Hope"/>
+  <noun text="Mammary" plural="Mammaries"/>
+  <noun text="Mirror" plural="Mirrors"/>
+  <noun text="Nanoparticle" plural="Nanoparticles"/>
+  <noun text="Nightmare" plural="Nightmares"/>
+  <noun text="Ninja" plural="Ninjas"/>
+  <noun text="Paradox" plural="Paradoxes"/>
+  <noun text="Phoenix" plural="Phoenixes" />
+  <noun text="Physician" plural="Physicians"/>
+  <noun text="Pill" plural="Pills"/>
+  <noun text="Salad" plural="Salads"/>
+  <noun text="Salary" plural="Salaries"/>
+  <noun text="Sex Appeal" plural="Sex Appeal"/>
+  <noun text="Superlative" plural="Superlatives"/>
+  <noun text="Tofu" plural="Tofu"/>
+  <noun text="Tissue" plural="Tissues" />
+
+
+
+  <insult text="A pox on you, and your kind!"/>
   <insult text="A few rounds of dice poker, guv?"/>
-  <insult text="Ash Ketchum is a complete loser who did nothing significant"/>
-  <insult text="Aim for the horn"/>
-  <insult text="Anyone got any adventurer spray? The things are all over the place these days"/>
+  <insult text="A winner is me"/>
+  <insult text="AAA! AAA! AAA!"/>
+  <insult text="AAUUUGGGGHHH"/>
   <insult text="Absolute Mover IQ skill? Not in this game, pal"/>
+  <insult text="Adventurer detected. Initiating countermeasures."/>
+  <insult text="Aim for the horn"/>
+  <insult text="All punches above the belt, please"/>
   <insult text="All right, who left the door open this time?"/>
   <insult text="All right, all stored away! You can count on me, honey"/>
+  <insult text="All this unpleasantness could have been avoided"/>
   <insult text="All your eyebrows are belong to us"/>
+  <insult text="Am I doing this right?"/>
+  <insult text="Another lamb to the slaughter"/>
+  <insult text="Another one from the evil eyebrow empire"/>
+  <insult text="Anyone got any adventurer spray? The things are all over the place these days"/>
+  <insult text="Although I do not receive a paycheck, I consider killing adventurers to be my occupation."/>
+  <insult text="An Eyebrow! Hide the food!"/>
   <insult text="...And three! SMILES GO FOR MILES! HOORAY!"/>
+  <insult text="Aren't you a special snowflake?"/>
+  <insult text="Aren't you going to scream? You can, y'know, it's all right"/>
+  <insult text="Argleblargh"/>
+  <insult text="Bah, humbug"/>
   <insult text="Beep boop, I am a robot from the future sent back in time to kill you, beep boop"/>
+  <insult text="Being a monster is hard but rewarding work"/>
   <insult text="Bitter medicine tastes like yuck"/>
+  <insult text="Boo!"/>
   <insult text="Burning the midnight oil again?"/>
+  <insult text="Cake or death?"/>
+  <insult text="Capitalism, ho!"/>
   <insult text="Chaw-haw-haw"/>
   <insult text="...Chocolate? Did you say...chocolate?"/>
+  <insult text="Cloudy with a chance of eyebrows, they said..."/>
   <insult text="Come here and let me give you a hug"/>
   <insult text="Come on!"/>
-  <insult text="Daddy! We've discovered a rare eyebrow pokemon!"/>
+  <insult text="Confound thee, 'tis had better not be one of thy jacknapes again"/>
+  <insult text="Could I kill you, please? C'mon, I used the 'please' word, I was very polite."/>
+  <insult text="Cowabunga!"/>
   <insult text="Damn, you stink!"/>
+  <insult text="Damn it, how much mana do you have?"/>
+  <insult text="Death approaches"/>
   <insult text="Defeating me? Impossible. That much is absolute"/>
+  <insult text="Destroy everything"/>
   <insult text="Did my spirit shine?"/>
   <insult text="Didn't I see you at the union meeting?"/>
   <insult text="Ding!"/>
+  <insult text="Do a barrel roll!"/>
+  <insult text="Do you know I'm fond of chess?"/>
+  <insult text="Do your worst"/>
+  <insult text="Do you mind if I get comfortable? I have a feeling this is going to take a while"/>
+  <insult text="Don't bash this one too hard, else it won't cook well"/>
+  <insult text="Don't eat the tofu"/>
+  <insult text="Don't kill the young and pregnant females, you gotta have a job tomorrow"/>
+  <insult text="Don't make me angry. You won't like me when I'm angry."/>
+  <insult text="Don't run, it's just ham!"/>
+  <insult text="Don't worry, things are about to get a lot worse"/>
+  <insult text="Don't tell the Eyebrow anything! The secret will keep you alive!"/>
   <insult text="Dredmor isn't about why, he's about why not"/>
+  <insult text="Drinking won't take away the reality of your situation"/>
   <insult text="Eat your greens, son. They're good for you."/>
   <insult text="Encyclopedias? Satisfaction guaranteed or your money back!"/>
+  <insult text="Enough talk! Have at you!"/>
   <insult text="Ever hear of doing it witcher-striga style?"/>
+  <insult text="Everything fades. Come, let us live while we can"/>
   <insult text="E-exploration team! Run!"/>
   <insult text="Exploration? Leave it to me!"/>
   <insult text="Excellent...I've levelled up."/>
+  <insult text="Everyone lies"/>
   <insult text="Everyone! I just finished making dinner!"/>
   <insult text="Everyone will feel the pain of my lutefisk takeaway lunch"/>
   <insult text="Eyebrow-er! Get it off me!"/>
+  <insult text="Eyebrows - just say no."/>
   <insult text="Eyebrahkiin? NO!"/>
+  <insult text="Fight! Fight!"/>
+  <insult text="Fine weather eh, chap?"/>
+  <insult text="Five zorkmids says this one doesn't last ten seconds"/>
   <insult text="Friendly friends!"/>
   <insult text="Fool! If you change the future, we'll all disappear!"/>
+  <insult text="Foolish Fool Foolishly Fooling in Folly..."/>
+  <insult text="For a better tomorrow"/>
+  <insult text="Get a haircut, hippie"/>
+  <insult text="Get on with it already"/>
+  <insult text="Get out of the gene pool, you're mucking it up"/>
   <insult text="Get out the weapons, let's try the diplomatic approach"/>
   <insult text="Grabbin' pills"/>
+  <insult text="Go back to sleep"/>
+  <insult text="Go home and be a family person"/>
+  <insult text="Go home to your mommy"/>
   <insult text="Good morning! Let's make it a great day!"/>
   <insult text="Gosh, exploring is hard! Yup yup!"/>
+  <insult text="Got a smoke, buddy?"/>
+  <insult text="Gotta move that gear up"/>
+  <insult text="Guten tag"/>
   <insult text="Has anyone seen my moisturiser?"/>
   <insult text="Have you considered the many benefits of owning a complete set of gold-bound encyclopedias?"/>
-  <insult text="Have you caught many types of pokemon yet?"/>
   <insult text="Have you accepted Arceus as your lord and personal saviour?"/>
+  <insult text="Have you no shame?"/>
+  <insult text="Help! Help! I'm being oppressed!"/>
+  <insult text="Help me out with this...do you taste better garlicky or buttery?"/>
   <insult text="Henshin-a-go-go, baby!"/>
   <insult text="Hey, hey!"/>
   <insult text="Hey, I've got some great sandwiches! Want any?"/>
   <insult text="Hello, there! Welcome to Dredmor assembly!"/>
+  <insult text="Hello there, my dear boy!"/>
   <insult text="Hi-yah! I'm a witcher!"/>
   <insult text="Hmm...I knew you were that kind of exploration team"/>
+  <insult text="Hmm...where did I put the emergency donuts, now?"/>
+  <insult text="Hold still, this will only sting a moment"/>
   <insult text="Holding B doesn't improve your catch rate"/>
   <insult text="How fortuitous. I must usually leave my lair to feed."/>
+  <insult text="Hudda hudda hudda"/>
+  <insult text="I can't believe it's not meat"/>
+  <insult text="I think some hot sauce will go will with this one"/>
+  <insult text="I think I can"/>
+  <insult text="I need a drink"/>
+  <insult text="I have a cold today"/>
+  <insult text="I shall insult thee in ye olde butcherede Englishe"/>
+  <insult text="I will hug you and squish you and call you George"/>
+  <insult text="I should be getting hazard pay for this"/>
+  <insult text="I have a fantastic offer for you"/>
+  <insult text="I only use sustainable hero-elimination techniques"/>
+  <insult text="I'm going to murder you until you're dead"/>
+  <insult text="I majored in philosophy and drama, now look at me"/>
+  <insult text="I spit on your filthy compensation plan"/>
+  <insult text="I've got to do something about this"/>
+  <insult text="I am so awesome, I astound myself"/>
+  <insult text="I grow weary of this charade"/>
+  <insult text="I so do love vengeance"/>
+  <insult text="I don't have to deal with this nonsense, I'm a goddamned NINJA."/>
   <insult text="I hate you. Go away."/>
+  <insult text="I could kill you in an instant"/>
+  <insult text="I just remembered I have something important to do"/>
+  <insult text="I would never let my children date you"/>
+  <insult text="I hereby demote you to the lowest possible position in academia...a graduate student!"/>
   <insult text="I didn't do it! You can't prove anything!"/>
   <insult text="I CAN'T TAKE THIS ANY MORE! WHERE'S MY MEDICATION?"/>
   <insult text="I will defeat you...WITH NINJA SCIENCE!"/>
@@ -92,172 +370,643 @@
   <insult text="I WILL STOP YOU UNTIL YOU DON'T SUCCEED!"/>
   <insult text="I rob from the rich and give to the poor"/>
   <insult text="I like turtles"/>
+  <insult text="I like them eyebrows. Give them to me."/>
+  <insult text="If killing and eating you is wrong, I don't wanna be right"/>
   <insult text="I don't want to faint in a place like this..."/>
   <insult text="I oughta listened to them when they said I was doing a dead-end degree"/>
+  <insult text="I'll gut you like a Cornish game hen"/>
+  <insult text="I'm bored"/>
   <insult text="I'm too old for this"/>
+  <insult text="I'm late, I'm late!"/>
+  <insult text="I'm drunk, what's your excuse?"/>
+  <insult text="I'm doing you a favour, really"/>
   <insult text="In you go! Into the cooking - I mean, swap cauldron!"/>
+  <insult text="Insult directed at the size of your primary or secondary sexual characteristics"/>
   <insult text="It's a witcher, boys! Hide your women!"/>
   <insult text="I have a recruitment rate of minus twenty four point five percent"/>
   <insult text="I might be unable to go on..."/>
   <insult text="It's got a Doom Seed! Run!"/>
-  <insult text="I challenge you to a pokemon battle"/>
   <insult text="I like pants, they're comfy and easy to wear"/>
   <insult text="IT'S SWELLING AGAIN! MY LEVEL IS SWELLING!"/>
   <insult text="I bought gummis to share, do you want any"/>
-  <insult text="I want to be a pokemon master"/>
   <insult text="I can't go exploring, I'm retired"/>
-  <insult text="I know everything about the world of pokemon in your game boy"/>
   <insult text="If we don't bring back any perfect apples, the guildmaster will...will..."/>
   <insult text="I don't see what's so great about Team Charm"/>
   <insult text="I hope you find a sealed chamber and have no keys"/>
+  <insult text="It's ok, I got this"/>
   <insult text="It's nice to go exploring"/>
   <insult text="It's a monster house!"/>
+  <insult text="It's go time!"/>
+  <insult text="It burns! IT BURNS!"/>
+  <insult text="Is this some kind of joke?"/>
+  <insult text="I've seen better-looking things stuck to my foot"/>
+  <insult text="Initialising combat sequence"/>
   <insult text="It concerns me not what enemies await us"/>
+  <insult text="It didn't have to come to this"/>
+  <insult text="It is a good day to die. Please, join us for this activity."/>
+  <insult text="It's like watching an evisceration chute work"/>
   <insult text="I've got a good feeling about this drink"/>
   <insult text="I will overwhelm your senses and delight your digestive system"/>
+  <insult text="If you see Dredmor, tell him I quit"/>
   <insult text="I'm going to waste all your reviver seeds"/>
   <insult text="If you can wake me up, I'll grant you a wish"/>
   <insult text="If you keep being difficult, it will mean big trouble for you!"/>
   <insult text="If we bring this one back it'll definitely cause a stir at the guild"/>
   <insult text="I'll back you up with my Helping Hand move"/>
+  <insult text="I'll punch out all your blood"/>
   <insult text="I'll feed your soul to Dredmor himself"/>
+  <insult text="I'll take a Dredmor burger, footy fries and a miasma mousse, please."/>
   <insult text="I'LL BUY YOUR ENCYCLOPEDIAS! JUST STOP BEATING ME!"/>
   <insult text="I'll show you how I can be useful"/>
-  <insult text="I must know what Master Dialga intends"/>
   <insult text="I've thought about changing the world, but it's hard to be brave"/>
   <insult text="I'm sorry for all the terrible things I said about you"/>
   <insult text="I'm not a monster, I'm a hero management technician."/>
   <insult text="I'm happy to be exploring with you"/>
+  <insult text="I'm just going to lay down right here, go ahead and kill me"/>
   <insult text="I'm ready for work now, getting bored over here already"/>
   <insult text="I'm going to go exploring all over again today!"/>
+  <insult text="Immersion? In this game? Hahaha!"/>
+  <insult text="Introducing tongs! They can do ANYTHING!"/>
+  <insult text="It will only get worse from here"/>
+  <insult text="It's rough and tumble time"/>
+  <insult text="Jolly good show there"/>
   <insult text="JOOR ZAH FRUL! It isn't working! WHY ISN'T IT WORKING?"/>
+  <insult text="Just how many of you are there?"/>
+  <insult text="Kek rega burg"/>
+  <insult text="Kiss me"/>
+  <insult text="Know that I'm very proud of you"/>
+  <insult text="Let darkness take you"/>
   <insult text="Let me guess. Someone stole your sweet-I mean, lutefisk."/>
+  <insult text="Let's discover how much xp you're worth"/>
   <insult text="Let's team up and find the golden chamber!"/>
+  <insult text="Let's see what this week's born loser has to offer"/>
+  <insult text="Let's not drag out the inevitable"/>
   <insult text="Let's keep this strictly professional"/>
   <insult text="Let's help each other do well"/>
   <insult text="Let's take on this challenge nice and steady"/>
-  <insult text="Let's take a look at your pokedex, shall we?"/>
   <insult text="Let's work hard to be chosen for the expedition"/>
-  <insult text="Look at that woman's breasts. They are large."/>
+  <insult text="Logic chess...BEGIN!"/>
+  <insult text="Long live the Reaction"/>
   <insult text="Look at that one, its eyes are wide open but it's fast asleep"/>
   <insult text="Looks like we can't quite reach an agreement"/>
+  <insult text="Looks like we saved a trip to the grocery store, honey."/>
+  <insult text="Make it die, please"/>
   <insult text="Make sure master loot's on before we down this boss"/>
+  <insult text="Mamma mia!"/>
+  <insult text="Maybe if I cover my eyes it won't see me"/>
+  <insult text="Me gusta"/>
+  <insult text="Me love you long time"/>
   <insult text="Meh-heh-heh"/>
+  <insult text="Mmm. MmmMMMMMmmMM."/>
+  <insult text="Mommy, make the bad person go away!"/>
+  <insult text="Muahahaha"/>
   <insult text="My dad never went to my spelling bees when I was a kid, and now I'm very bitter"/>
-  <insult text="My Rattata's like, in the top one percent"/>
   <insult text="My kid is missing, will you find him?"/>
+  <insult text="My life for Dredmor"/>
+  <insult text="My loot brings all the eyebrows to the yard"/>
   <insult text="My precious merchandise! Catch that thief!"/>
   <insult text="MY FULL SUPPORT IS BEHIND YOU! HAVE CONFIDENCE!"/>
+  <insult text="Ni!"/>
+  <insult text="Ni hao"/>
+  <insult text="Nice hat...I mean, eyebrows"/>
+  <insult text="No! I will not be defeated here!"/>
   <insult text="No, we have no jobs for a witcher. Have you tried the next dungeon over?"/>
   <insult text="NO ENEMY IS MY EQUAL"/>
+  <insult text="No comment"/>
   <insult text="NOOO! WILSOOOON!"/>
   <insult text="No, I'm not going to join your team even if you beat me to a bloody pulp"/>
+  <insult text="Nope"/>
+  <insult text="Not enough rage"/>
+  <insult text="Now, play permadeath like a good player, mm?"/>
   <insult text="Now your time is over. You will love me, and nothing else."/>
-  <insult text="Our guildmaster is something special, isn't he?"/>
-  <insult text="Oops! I dropped the lift key!"/>
+  <insult text="OBJECTION!"/>
+  <insult text="Oh, an eyebrow? Good thing I'm indestructible."/>
+  <insult text="Oh boy! It's the feast I take most delight in feasting upon!"/>
   <insult text="Oh my gosh! I'm so embarrassed!"/>
   <insult text="Oh no, my belly's empty"/>
+  <insult text="Oh no, what is THAT doing in the house? GET IT OUT! PUT IT OUTSIDE!"/>
   <insult text="Oh no...I guess I'll just put up a note on the job bulletin board"/>
+  <insult text="Off with its eyebrows!"/>
   <insult text="One more for the adventure log"/>
+  <insult text="Okay...got to remember...do these eyebrows and I have a history?"/>
+  <insult text="Okay, I know what this looks like, and I promise you it's not what you think."/>
+  <insult text="Okay, look here. I'm trying to threaten you, but you've got to work with me. Let's start over, okay?"/>
+  <insult text="Okay, you go and act like a fool, but I will have no part of this"/>
+  <insult text="Oops! I dropped the lift key!"/>
+  <insult text="Open range, open fire"/>
+  <insult text="Order in the court! Objection overruled!"/>
+  <insult text="ORRDRAAAAK!"/>
+  <insult text="Ordrak, Ordrak, receive my sacrifice"/>
+  <insult text="Our guildmaster is something special, isn't he?"/>
+  <insult text="Phat lewt!"/>
   <insult text="Pills here!"/>
+  <insult text="Please be gentle"/>
+  <insult text="Please give me all of your money"/>
+  <insult text="Please, take a seat and we can get started"/>
   <insult text="Please don't spam room-wide moves, I hate that"/>
   <insult text="Please share a drink and allow the flower of conversation to bloom"/>
+  <insult text="Positive thinking. Positive...thinking..."/>
+  <insult text="Prepare to be served"/>
+  <insult text="Propriety? You have no idea what that is"/>
   <insult text="Protect the Time Gear"/>
   <insult text="Part of a winning strategy is knowing when to withdraw"/>
   <insult text="Prepare for trouble, make it double"/>
+  <insult text="Quick, help me stuff this pot roast into this candle! Can't let the Eyebrow get to it!"/>
+  <insult text="Quit faffing around over there"/>
+  <insult text="Really? REALLY?"/>
+  <insult text="Remember to get rid of the evidence when we're done with this one"/>
+  <insult text="Remember, stand up to the Eyebrow and it'll back down."/>
+  <insult text="Remember, when you're facing an Eyebrow, don't EVER mention F-O-O-D or L-O-O-T, it drives them crazy."/>
+  <insult text="Resistance is futile"/>
+  <insult text="Roll for initiative"/>
   <insult text="Run! It's the Eyebrow of Blaviken!"/>
   <insult text="Run! It's the greatest Eyebrow of all!"/>
+  <insult text="Running out of character names?"/>
+  <insult text="Say your prayers"/>
+  <insult text="Score!"/>
+  <insult text="Screw the rules, I have the RNG"/>
+  <insult text="Security!"/>
   <insult text="Seekers of the seven treasures! I am-oh, this isn't working."/>
+  <insult text="Shouldn't you have memorised my pattern by now?"/>
+  <insult text="Silence! I KEEL you!"/>
   <insult text="So be it! You will all bear witness to my power!"/>
+  <insult text="So much for stealth"/>
+  <insult text="Some music would be appropriate for this, don't you think?"/>
+  <insult text="Sometimes, I dream of cheese"/>
+  <insult text="Sorry I'm late, I had a schedule to keep"/>
+  <insult text="Sorry, I just can't take you seriously"/>
+  <insult text="Soylent blue is monsters"/>
+  <insult text="Squish food! Eat food!"/>
+  <insult text="Stand still so I can kill you"/>
+  <insult text="Stay awhile and listen"/>
+  <insult text="Stay classy"/>
+  <insult text="Stop screaming and explain calmly what's wrong"/>
+  <insult text="Stop spamming that move, it's annoying"/>
+  <insult text="Suck gas, evildoer!"/>
+  <insult text="'Sup?"/>
   <insult text="TAAAANNNNKK!!!!!"/>
+  <insult text="Take the red pill"/>
   <insult text="Team Rocket, blast off at the speed of light!"/>
   <insult text="Thank goodness it's Friday."/>
   <insult text="Thank you for joining us. Perhaps we can swap hero-disposal tips."/>
   <insult text="That is a fine pair of eyebrows. May I ask how much you paid for them?"/>
+  <insult text="The burning you feel? It is shame."/>
   <insult text="The darkness swells within me"/>
+  <insult text="The end is near"/>
+  <insult text="The ice doth come"/>
+  <insult text="The stick! The stick!"/>
   <insult text="The prey approaches"/>
+  <insult text="The only thing that matters is the truth"/>
   <insult text="The only way to truly get rid of one of these is have another eat its soul"/>
   <insult text="The Good...they don't know how close to Evil they really are."/>
   <insult text="The flavours metal adds to human meat don't clash, instead they blend together in fine harmony in this dish"/>
   <insult text="The unique bitterness of this situation brings out a mature flavour to the play of your life"/>
+  <insult text="There is something very wrong with you"/>
+  <insult text="They'll have to glue you back together in hell when I'm through with you"/>
   <insult text="They're adventurers, Francis."/>
+  <insult text="This has got to be a joke"/>
+  <insult text="This is a harsh world, don't rob me of the few joys I have left"/>
   <insult text="This is my home. Please, stay awhile and make pie."/>
+  <insult text="This is a dungeon, not bloody grand central station."/>
   <insult text="This isn't Zero Isle, you know"/>
   <insult text="This is...all a nightmare!"/>
-  <insult text="There is no pikablu level"/>
+  <insult text="This is so overrated."/>
+  <insult text="This had better be important, I'm trying to enjoy my tea"/>
+  <insult text="This seems like a very silly thing to do"/>
+  <insult text="This wasn't in the script!"/>
+  <insult text="This wasn't in my job description"/>
+  <insult text="This will hurt me more than it does you"/>
+  <insult text="There is no moose level"/>
   <insult text="The Grand Master of All Things Bad doesn't exist, and we definitely aren't his minions!"/>
   <insult text="That's right, I'm a wanted criminal. Do you have what it takes to bring me down?"/>
+  <insult text="THIS! IS! DREDMOR!"/>
+  <insult text="Those eyebrows of yours are so last-year"/>
+  <insult text="Thou art a blight upon this world"/>
+  <insult text="Three more gold and I can upgrade my weapon"/>
+  <insult text="Thy blood shall soil the land"/>
+  <insult text="Time to receive your eternal reward"/>
   <insult text="TOO SOON, EXECUTUS! TOO SOON!"/>
+  <insult text="TO THE PIT"/>
+  <insult text="Train some more, you must"/>
+  <insult text="T'was fine until you showed up"/>
+  <insult text="Ugh, my back is killing me"/>
+  <insult text="Uh-oh"/>
   <insult text="UP AND AT 'EM! IT'S MORNING!"/>
   <insult text="Visiting your old friends at the guild, eh?"/>
   <insult text="Wait, don't do it THAT way! That's thoroughly unsanitary!"/>
+  <insult text="Wait...I know you. You're a wanted man."/>
+  <insult text="Waiter, I ordered a low-fat meal"/>
   <insult text="Where next? I'll follow you wherever you go!"/>
   <insult text="Want to pull sentry duty and earn some money?"/>
+  <insult text="Whoops, just hit the self-destruct button"/>
   <insult text="Would you like a Gracidea?"/>
   <insult text="Wanted outlaw spotted!"/>
   <insult text="Where's our needlessly complicated mechnical contraption?"/>
+  <insult text="We're going to have a lot of fun together"/>
   <insult text="We are looking for the milkman. We don't know where he is."/>
+  <insult text="We are wiping the floor with you."/>
   <insult text="We all disappear someday, what matters is what we do with our lives"/>
+  <insult text="We can fix you"/>
+  <insult text="We had a good thing going here, and you ruined it!"/>
+  <insult text="We know who's paying you"/>
+  <insult text="We need to talk"/>
+  <insult text="We should do this more often"/>
   <insult text="Welcome to the cafe of hopes and dreams"/>
+  <insult text="Welcome to the Dredmor disco domain"/>
   <insult text="Well, here's your big-win prize"/>
+  <insult text="Well, off to visit your mother"/>
   <insult text="What a farce..."/>
+  <insult text="...What? How?"/>
+  <insult text="What are you playing at?"/>
+  <insult text="What tomfoolery is this?"/>
+  <insult text="What's the scouter say about its eyebrow level?"/>
   <insult text="When are you leaving?"/>
+  <insult text="Where you see death, I see opportunity"/>
+  <insult text="Who committed the crime? It's you!"/>
   <insult text="Whoever loses has to wear the yellow scarf, okay?"/>
+  <insult text="WHY. GOD. WHY."/>
+  <insult text="Why are you doing this? It sounds like a really really bad idea"/>
+  <insult text="Why are you so greedy"/>
+  <insult text="Why do I have this sinking feeling"/>
+  <insult text="Why so serious?"/>
   <insult text="Why two swords? Does he tend to lose them often?"/>
   <insult text="Why aren't we allowed to evolve?"/>
   <insult text="Why, don't you like fusion cuisine?"/>
   <insult text="Why am I a cat fetus sperm tail?"/>
+  <insult text="Why must you destroy everything that is good"/>
+  <insult text="Will you still love me after today?"/>
   <insult text="Will you form an exploration team with me?"/>
   <insult text="Will you take me exploring with you?"/>
   <insult text="Where are we going? Gotta make up your mind!"/>
   <insult text="YES! YES!"/>
+  <insult text="You may not be sterile, but you'll never breed anyway"/>
   <insult text="Yoom-tah!"/>
+  <insult text="You are an affront to good taste"/>
+  <insult text="You are my only true love"/>
+  <insult text="You are on my list of things to do tonight"/>
+  <insult text="You are so incompetent, it's funny to me"/>
+  <insult text="You are truly a glutton for punishment"/>
+  <insult text="You don't want to die with those things on your head, do you?"/>
+  <insult text="You gonna do that, Eyebrow? You're really going to spam that same move over and over again?"/>
+  <insult text="You can't keep me from my dreams"/>
+  <insult text="You behind the eight ball now, foo"/>
+  <insult text="Your head asplode"/>
+  <insult text="You spoony bard!"/>
+  <insult text="You know what they say, the more the merrier"/>
   <insult text="Your skin-tight costume and plaited eyebrows make me trust you"/>
+  <insult text="Your technique is still very good"/>
   <insult text="Your unique bitterness comes together for a mature flavour"/>
   <insult text="You were right, this eyebrow outlaw is probably just an 'E' rank"/>
   <insult text="You've fallen into my trap!"/>
+  <insult text="You're a cold-blooded killer, but it takes all kinds to make a world."/>
+  <insult text="You're not helping me here, pal"/>
   <insult text="You didn't imagine I would be impeded by this, did you?"/>
   <insult text="YOU EXPECT ME TO WAIT?"/>
+  <insult text="You are my new best friend"/>
   <insult text="You broke my bicycle!"/>
+  <insult text="You have a dark, dark soul"/>
+  <insult text="You picked a bad time to get lost, friend."/>
   <insult text="You may dream to be a god...but I will never worship you."/>
+  <insult text="You were good, son, real good. Maybe even the best."/>
+  <insult text="You will be moist and delicious"/>
   <insult text="You wouldn't hit someone wearing glasses, would you?"/>
   <insult text="You'd better not be trying to steal my husband, tramp."/>
+  <insult text="You'll look good as a painting on my wall"/>
+  <insult text="You'll never take me alive!"/>
+  <insult text="Your brains will make a fine dessert topping"/>
+  <insult text="Your Honour, the defense would like to submit the evidence."/>
+  <insult text="Your skillset is bad and you should feel ashamed"/>
   <insult text="Your logical mind cannot contend with an illogical opponent"/>
   <insult text="Your mother uses forks the wrong way"/>
-  <insult text="You're still light-years away from facing Broc- I mean, Dredmor"/>
+  <insult text="You're getting pudgy about the middle"/>
+  <insult text="You're still light-years away from facing Dredmor"/>
   <insult text="You're keeping me from my dinner, this is an outrage"/>
+  <insult text="You're killing me! I'm dying as a result!"/>
+  <insult text="You're not as great as you think"/>
+  <insult text="You're not fit to even be made into a sausage"/>
 
 
-
+  <random text="A sudden, depressing thought strikes you - there are no washrooms in the dungeon."/>
+  <random text="Admit it, you're lost again. You ought to have taken that right turn towards Sovengarde earlier on."/>
+  <random text="Ah, another day at the office begins. Time to get settled in."/>
   <random text="All eyebrows are mortal. You are an eyebrow. Therefore, you are mortal. Q.E.D."/>
+  <random text="Are you getting fatter?"/>
   <random text="Are you SURE you're really in a dungeon and not merely having a very realistic dream that you're in a dungeon?"/>
+  <random text="Attention! Cleanup in corridor 229!"/>
+  <random text="Attention to all shoppers. B-mart is currently offering a sale on all potions. No refunds."/>
   <random text="Dang, you forgot to prepare your witcher's potions. Maybe you can harvest some stuff from the monsters around here..."/>
+  <random text="Did you remember to turn off the gas before leaving the house?"/>
+  <random text="Do remember to go outside sometime."/>
+  <random text="Dungeon duty's unsavoury, but someone's got to do it."/>
+  <random text="Dungeons of Dredmor would like to remind you that we are committed to providing you with a safe and efficient workplace. All newarrivals are to report to your nearest DSHA official for re-education."/>
+  <random text="Five minutes until friendship ends."/>
+  <random text="Freedom truly is scrumptious, isn't it? Time for you to explore this new concept with delicious passion."/>
   <random text="Guess they weren't lying when they said there were jobs for witchers here."/>
+  <random text="Have you been naughty...or nice?"/>
+  <random text="Have you found any special secret rooms yet?"/>
+  <random text="Hmm...there has to be a delicious pot roast somewhe- no, no, keep focused."/>
+  <random text="I don't think we're in Kansas anymore, Toto."/>
+  <random text="It is dark. You are likely to be eaten by a grue."/>
+  <random text="It's almost tomorrow! You've wasted all your daylight!"/>
+  <random text="If you don't hurry up, you won't be able to get home in time to watch the next 'Digglesons' episode."/>
+  <random text="If you liked this mod, why not try some other room mods?"/>
+  <random text="Look at that! You had absolutely no idea that was mathematically possible!"/>
   <random text="Maybe taking this job off the board wasn't the best of ideas."/>
   <random text="Maybe you should've brought a bigger Treasure Bag..."/>
+  <random text="Morph Ball ability acquired. Tap down twice to activate Morph Ball."/>
+  <random text="Must...find...McGuffin..."/>
   <random text="Ninjas are just a fairy tale. They don't exist, and there's definitely not one behind you right now."/>
+  <random text="Oh no! Not here! Not now! You're going to be walking funny for months!"/>
+  <random text="Read this and weep."/>
   <random text="Really, you'd have gotten away with it if not for those danged kids."/>
   <random text="Remember, adventurers. Eat your greens, drink your milk, brush your teeth and stay in Dungeoneering 101 class at 300000 Zorkmids a semester."/>
+  <random text="Remember, don't drink the water. Dredmor puts stuff in it to make folks forget. You can't even remember how you got here."/>
+  <random text="Remember, pain is weakness leaving your body."/>
+  <random text="Sure, Dredmor's decor is a bit off, but what sort of feel would YOU give the place?"/>
+  <random text="The beatings will stop when morale improves."/>
+  <random text="The groans of drunken diggle frat boys echo through the corridors."/>
+  <random text="The RNG's on a roll today. Good luck - you'l need it."/>
+  <random text="The sun rises in the east."/>
   <random text="They're probably having dinner back at the guild now."/>
   <random text="This feels like the Battle Subway all over again."/>
+  <random text="This is a reminder that all non-regulation eyebrows are DSHA non-compliant and punitive action will be taken accordingly."/>
+  <random text="This is it! This is when DESTINY! MEETS! FUNTIME!"/>
+  <random text="This is the dungeon public service system. All monsters are informed that code eyebrow is in effect."/>
+  <random text="This situation is...less than optimal."/>
+  <random text="Today is hug-a-newbie day. Please share your hugs posthaste."/>
+  <random text="Ugh...what did they put in the Sewer Brew last night?"/>
+  <random text="Ugh...you feel dizzy and nauseous a moment."/>
   <random text="Wait till the guys back at the guild hear about this!"/>
-  <random text="What an amazing pokemon adventure this is turning out to be!"/>
-  <random text="What sort of pokemon gym is this, and who in tarnation is the gym leader?"/>
+  <random text="Warm tingles run through your lower belly."/>
+  <random text="Well, at least they'll get the insurance if you die in here."/>
+  <random text="What an amazing adventure this is turning out to be!"/>
   <random text="Welcome to B-Mart, shopper. Please do not park in the cephalopod parking space if you are not one."/>
+  <random text="Welcome. Welcome to City Seventeen. It's safer here."/>
+  <random text="Why does everyone insist on you solving their problems?"/>
+  <random text="Would this all have been better if it'd been in...SPACE?"/>
+  <random text="You are okay with this. In fact, you think this is a good thing."/>
+  <random text="You can't help but feel great about everything."/>
   <random text="You're certainly not getting paid enough for this."/>
+  <random text="You could go for a nap right about now."/>
+  <random text="You are what you eat. Now that's a scary thought."/>
+  <random text="You catch the warm scent of draconic prayer candles in the air."/>
   <random text="You wonder how your partner is doing without you."/>
   <random text="You feel the tremors of Temporal Tower disintegrating."/>
   <random text="You feel ready to evolve any moment now. Good thing there's no one around to see it happen to you."/>
-  <random text="You nearly avoid stepping on a Shroomish."/>
-  <random text="You find yourself turning into a pokemon. Best get used to saying your name over and over again."/>
+  <random text="You have a sudden craving for pickles and sewer brew."/>
   <random text="You know, you might be trapped in a very realistic nightmare from which you can never awaken. Isn't that a nice thought?"/>
+  <random text="You really ought to speak to your agent about getting a better role. Maybe a speaking one."/>
+  <random text="Your random text is new and interesting and I would like to subscribe to your newsletter."/>
   <random text="Your skill in destruction has increased to 25. Oops, wrong game."/>
   <random text="Your witcher's medallion is vibrating like mad. Well, it's only to be expected."/>
 
 
 
+
+  <adjective text="Aetherial"/>
+  <adjective text="Aggressive"/>
+  <adjective text="Amorous"/>
+  <adjective text="Amorphous"/>
+  <adjective text="Anthropomorphic"/>
+  <adjective text="Apathic"/>
+  <adjective text="Aqueous"/>
+  <adjective text="Archaic"/>
+  <adjective text="Arid"/>
+  <adjective text="Augmented"/>
+  <adjective text="Average"/>
+  <adjective text="Avian"/>
+  <adjective text="Awakened"/>
+  <adjective text="Baconised"/>
+  <adjective text="Barbed"/>
+  <adjective text="Bare-Chested"/>
+  <adjective text="Beastial"/>
+  <adjective text="Befuddled"/>
+  <adjective text="Benevolent"/>
+  <adjective text="Bewitched"/>
+  <adjective text="Blazing"/>
+  <adjective text="Bleached"/>
+  <adjective text="Bloated"/>
+  <adjective text="Bone-Chilling"/>
+  <adjective text="Bouncy"/>
+  <adjective text="Brand-New"/>
+  <adjective text="Broody"/>
+  <adjective text="Busty"/>
+  <adjective text="Candid"/>
+  <adjective text="Candy-Coated"/>
+  <adjective text="Canned"/>
+  <adjective text="Carnal"/>
+  <adjective text="Caustic"/>
+  <adjective text="Cavernous"/>
+  <adjective text="Cheating"/>
+  <adjective text="Chewy"/>
+  <adjective text="Conspiratorial"/>
+  <adjective text="Contagious"/>
+  <adjective text="Contemptuous"/>
+  <adjective text="Contradictory"/>
+  <adjective text="Controversial and Provocative"/>
+  <adjective text="Corrosive"/>
+  <adjective text="Covetous"/>
+  <adjective text="Cross-Eyed"/>
+  <adjective text="Cryophobic"/>
+  <adjective text="Cuddly"/>
+  <adjective text="Curvaceous"/>
+  <adjective text="Delicious"/>
+  <adjective text="Deadly"/>
+  <adjective text="Deathly"/>
+  <adjective text="Deep-Fried"/>
+  <adjective text="Defunct"/>
+  <adjective text="Delusional"/>
+  <adjective text="Demoralizing"/>
+  <adjective text="Destitute"/>
+  <adjective text="Ditzy"/>
+  <adjective text="Downcast"/>
+  <adjective text="Draconic"/>
+  <adjective text="Dubious"/>
+  <adjective text="Duct-Taped"/>
+  <adjective text="Dull"/>
+  <adjective text="Dysfunctional"/>
+  <adjective text="Eager"/>
+  <adjective text="Eco-Friendly"/>
+  <adjective text="Effervescent"/>
+  <adjective text="Emulsified"/>
+  <adjective text="Enchanting"/>
+  <adjective text="Endless"/>
+  <adjective text="Enhanced"/>
+  <adjective text="Enthusiastic"/>
+  <adjective text="Erudite"/>
+  <adjective text="Essential"/>
+  <adjective text="Ethical"/>
+  <adjective text="Euphoric"/>
+  <adjective text="Exhausted"/>
+  <adjective text="Extra-Lethal"/>
+  <adjective text="Explosive"/>
+  <adjective text="Fabulous"/>
+  <adjective text="Family-Friendly"/>
+  <adjective text="Fecund"/>
+  <adjective text="Feral"/>
+  <adjective text="Flaccid"/>
+  <adjective text="Forgetful"/>
+  <adjective text="Formulaic"/>
+  <adjective text="Fuzzy"/>
+  <adjective text="Gelatinous"/>
+  <adjective text="Gilded"/>
+  <adjective text="Globular"/>
+  <adjective text="Gnomish"/>
+  <adjective text="Grave"/>
+  <adjective text="Gravid"/>
+  <adjective text="Half-Baked"/>
+  <adjective text="Hardy"/>
+  <adjective text="Hated"/>
+  <adjective text="Heckforged"/>
+  <adjective text="Henpecked"/>
+  <adjective text="High-Maintenance"/>
+  <adjective text="Hollow"/>
+  <adjective text="Homeless"/>
+  <adjective text="Hooked"/>
+  <adjective text="Hopeless"/>
+  <adjective text="Horrid"/>
+  <adjective text="Hungry"/>
+  <adjective text="Hyperactive"/>
+  <adjective text="Hypothetical"/>
+  <adjective text="Illogical"/>
+  <adjective text="Illusory"/>
+  <adjective text="Illustrious"/>
+  <adjective text="Imaginary"/>
+  <adjective text="Impossible"/>
+  <adjective text="Inebriated"/>
+  <adjective text="Infected"/>
+  <adjective text="Infinite"/>
+  <adjective text="Inquisitive"/>
+  <adjective text="Insane"/>
+  <adjective text="Insidious"/>
+  <adjective text="Insightful"/>
+  <adjective text="Invasive"/>
+  <adjective text="Invigorating"/>
+  <adjective text="Jovial"/>
+  <adjective text="Jaded"/>
+  <adjective text="Jiggly"/>
+  <adjective text="Laid-Back"/>
+  <adjective text="Lascivious"/>
+  <adjective text="Laser-Emitting"/>
+  <adjective text="Lethargic"/>
+  <adjective text="Lily-Livered"/>
+  <adjective text="Logical"/>
+  <adjective text="Long-Burning"/>
+  <adjective text="Long-Winded"/>
+  <adjective text="Loquacious"/>
+  <adjective text="Lovecraftian"/>
+  <adjective text="Lovestruck"/>
+  <adjective text="Ludicrous"/>
+  <adjective text="Lyophilised"/>
+  <adjective text="Mandatory"/>
+  <adjective text="Mathemagical"/>
+  <adjective text="Mathematical"/>
+  <adjective text="Mind-Blowing"/>
+  <adjective text="Mind-Numbing"/>
+  <adjective text="Miniaturised"/>
+  <adjective text="Modular"/>
+  <adjective text="Moist"/>
+  <adjective text="Mystifying"/>
+  <adjective text="Naughty"/>
+  <adjective text="Nauseaous"/>
+  <adjective text="Nefarious"/>
+  <adjective text="Nonsensical"/>
+  <adjective text="Notorious"/>
+  <adjective text="Nubile"/>
+  <adjective text="Objectionable"/>
+  <adjective text="Obsolete"/>
+  <adjective text="Odious"/>
+  <adjective text="Overclocked"/>
+  <adjective text="Overlooked"/>
+  <adjective text="Overwhelming"/>
+  <adjective text="Oviparous"/>
+  <adjective text="Paradoxical"/>
+  <adjective text="Penetrating"/>
+  <adjective text="Perforated"/>
+  <adjective text="Perky"/>
+  <adjective text="Perplexing"/>
+  <adjective text="Pill-Popping"/>
+  <adjective text="Placid"/>
+  <adjective text="Pleasurable"/>
+  <adjective text="Ponderous"/>
+  <adjective text="Prenatal"/>
+  <adjective text="Pretentious"/>
+  <adjective text="Prickly"/>
+  <adjective text="Proactive"/>
+  <adjective text="Procedural"/>
+  <adjective text="Prominent"/>
+  <adjective text="Promiscuous"/>
+  <adjective text="Pugilistic"/>
+  <adjective text="Putrid"/>
+  <adjective text="Questionable"/>
+  <adjective text="Radiant"/>
+  <adjective text="Rancid"/>
+  <adjective text="Reactive"/>
+  <adjective text="Restless"/>
+  <adjective text="Rugged"/>
+  <adjective text="Run-down"/>
+  <adjective text="Salty"/>
+  <adjective text="Scented"/>
+  <adjective text="Sensual"/>
+  <adjective text="Sleepy"/>
+  <adjective text="Skimpy"/>
+  <adjective text="Spatially Challenged"/>
+  <adjective text="Speedy"/>
+  <adjective text="Spiked"/>
+  <adjective text="Spotless"/>
+  <adjective text="Squeaky"/>
+  <adjective text="Squishy"/>
+  <adjective text="Submissive"/>
+  <adjective text="Supercalifragilisticexpialidocious"/>
+  <adjective text="Starchy"/>
+  <adjective text="Stealthy"/>
+  <adjective text="Steamy"/>
+  <adjective text="Studly"/>
+  <adjective text="Sweltering"/>
+  <adjective text="Swollen"/>
+  <adjective text="Synthetic"/>
+  <adjective text="Tangential"/>
+  <adjective text="Tantalising"/>
+  <adjective text="Tautological"/>
+  <adjective text="Technicolour"/>
+  <adjective text="Tempting"/>
+  <adjective text="Threadbare"/>
+  <adjective text="Topsy-Turvy"/>
+  <adjective text="Torrential"/>
+  <adjective text="Triangular"/>
+  <adjective text="Turgid"/>
+  <adjective text="Tyrannical"/>
+  <adjective text="Unfortunate"/>
+  <adjective text="Unhealthy"/>
+  <adjective text="Unsound"/>
+  <adjective text="Unwanted"/>
+  <adjective text="Unwieldy"/>
+  <adjective text="Upbeat"/>
+  <adjective text="Verdant"/>
+  <adjective text="Vicious"/>
+  <adjective text="Villianous"/>
+  <adjective text="Virile"/>
+  <adjective text="Virulent"/>
+  <adjective text="Vivid"/>
+  <adjective text="Viviparous"/>
+  <adjective text="Wanton"/>
+  <adjective text="Washed-Up"/>
+  <adjective text="Weeping"/>
+  <adjective text="Well-Balanced"/>
+  <adjective text="Well-Muscled"/>
+  <adjective text="Well-Travelled"/>
+  <adjective text="Windy"/>
+  <adjective text="Working Man's"/>
+  <adjective text="Zealously Conserved"/>
+
+
+
+  <ichor text="afterbirth"/>
+  <ichor text="algebra"/>
+  <ichor text="aluminum dust"/>
   <ichor text="apples"/>
   <ichor text="apricorns"/>
+  <ichor text="ashes"/>
   <ichor text="base stats"/>
   <ichor text="battle points"/>
   <ichor text="berries"/>
@@ -265,89 +1014,491 @@
   <ichor text="big apples"/>
   <ichor text="blood money"/>
   <ichor text="blood, sweat and tears"/>
+  <ichor text="Bolt Council propoganda"/>
+  <ichor text="borscht"/>
+  <ichor text="brain bleach"/>
   <ichor text="bran flakes"/>
-  <ichor text="broken pokeballs"/>
+  <ichor text="breadcrumbs"/>
   <ichor text="calcium"/>
+  <ichor text="calculus"/>
   <ichor text="carbos"/>
+  <ichor text="cerebrospinal fluid"/>
+  <ichor text="cheer"/>
+  <ichor text="controlled substances"/>
+  <ichor text="crud"/>
+  <ichor text="crushed hopes"/>
+  <ichor text="death and taxes"/>
+  <ichor text="decisive evidence"/>
+  <ichor text="defiance"/>
   <ichor text="delicious fruit"/>
   <ichor text="delicious, delicious tears"/>
+  <ichor text="despair"/>
   <ichor text="dirty laundry"/>
   <ichor text="divine favour"/>
+  <ichor text="doom and gloom"/>
+  <ichor text="dust"/>
+  <ichor text="effervescence"/>
   <ichor text="effort values"/>
+  <ichor text="embarrassing sexual diseases"/>
   <ichor text="energypowder"/>
   <ichor text="ether"/>
+  <ichor text="ethical questions"/>
+  <ichor text="failed examinations (yours!)"/>
+  <ichor text="fast food"/>
+  <ichor text="fire and brimstone"/>
   <ichor text="fresh water"/>
+  <ichor text="frustration"/>
   <ichor text="friendship"/>
   <ichor text="gil"/>
+  <ichor text="gold-bound encyclopedias"/>
   <ichor text="gritty social issues"/>
-  <ichor text="gummis"/>
-  <ichor text="gym badges"/>
-  <ichor text="hold items"/>
+  <ichor text="half-baked ideas"/>
+  <ichor text="happiness"/>
+  <ichor text="herbs and spices"/>
+  <ichor text="hydrolysed vegetable oils"/>
+  <ichor text="ichor-based derivatives"/>
+  <ichor text="impotent rage"/>
+  <ichor text="inappropriate magazines"/>
   <ichor text="iron"/>
+  <ichor text="jello"/>
+  <ichor text="lactation"/>
+  <ichor text="leftovers"/>
   <ichor text="lemonade"/>
-  <ichor text="moomoo milk"/>
+  <ichor text="lighter fluid"/>
+  <ichor text="logic"/>
+  <ichor text="loot"/>
+  <ichor text="mcguffins"/>
+  <ichor text="meat"/>
+  <ichor text="motor oil"/>
+  <ichor text="mulch"/>
+  <ichor text="noisome gases"/>
+  <ichor text="noxious fumes"/>
+  <ichor text="nutritive secretions"/>
+  <ichor text="nuts and bolts"/>
+  <ichor text="objections"/>
+  <ichor text="oms and noms"/>
   <ichor text="orens"/>
   <ichor text="pain pills"/>
-  <ichor text="plain seeds"/>
-  <ichor text="poffin crumbs"/>
-  <ichor text="pokeblocks"/>
-  <ichor text="pokemon eggs"/>
+  <ichor text="peanut butter"/>
+  <ichor text="plasma"/>
   <ichor text="potions"/>
   <ichor text="protein"/>
-  <ichor text="PP"/>
-  <ichor text="prize money"/>
+  <ichor text="questionable ethics"/>
+  <ichor text="rainbows"/>
   <ichor text="rare candies"/>
-  <ichor text="soda pop"/>
+  <ichor text="regrets"/>
+  <ichor text="rejection"/>
+  <ichor text="riches beyond compare"/>
+  <ichor text="scrumptiousness"/>
+  <ichor text="self-doubt"/>
+  <ichor text="sociopathic tendencies"/>
   <ichor text="smashed mechanisms (for it was secretly a robot)"/>
+  <ichor text="smoke and mirrors"/>
+  <ichor text="soylent blue (which is really monsters)"/>
+  <ichor text="sparkles"/>
+  <ichor text="spice melange (the spice must flow!)"/>
+  <ichor text="stale cereal"/>
   <ichor text="stuffed toys"/>
+  <ichor text="stuffing"/>
+  <ichor text="sunshine"/>
   <ichor text="suspicious mutagens"/>
+  <ichor text="synthetic eyebrows"/>
   <ichor text="tall grass"/>
+  <ichor text="terrible puns"/>
   <ichor text="time and space"/>
-  <ichor text="type advantages"/>
-  <ichor text="unfilled pokedexes"/>
+  <ichor text="tofu"/>
+  <ichor text="transducer fluid"/>
+  <ichor text="ultimate ninja power"/>
+  <ichor text="uncertainty"/>
+  <ichor text="unfulfilled desires"/>
+  <ichor text="unrequited love"/>
+  <ichor text="unfinished term papers (speaking of which, I should really go about finishing mine)"/>
+  <ichor text="unsullied virtue"/>
+  <ichor text="used hygiene products"/>
   <ichor text="used TMs"/>
   <ichor text="vitamins"/>
+  <ichor text="zen"/>
   <ichor text="zinc"/>
 
 
 
-  <title text="Ace Trainer who is training a"/>
+  <architecture text="Academy" plural="Academies"/>
+  <architecture text="Apartment" plural="Apartments"/>
+  <architecture text="Aqueduct" plural="Aqueducts"/>
+  <architecture text="Aquarium" plural="Aquariums"/>
+  <architecture text="Assembly Line" plural="Assembly Lines"/>
+  <architecture text="Auditorium" plural="Auditoriums"/>
+  <architecture text="Avenue" plural="Avenues"/>
+  <architecture text="Bargain Store" plural="Bargain Stores"/>
+  <architecture text="Ballroom" plural="Ballrooms"/>
+  <architecture text="Barn" plural="Barns"/>
+  <architecture text="Barracks" plural="Barracks"/>
+  <architecture text="Barrow" plural="Barrows"/>
+  <architecture text="Basement" plural="Basements"/>
+  <architecture text="Beach" plural="Beaches"/>
+  <architecture text="Bedroom" plural="Bedrooms"/>
+  <architecture text="Bolt-Hole" plural="Bolt-Holes"/>
+  <architecture text="Cabaret" plural="Cabarets"/>
+  <architecture text="Cafe" plural="Cafes"/>
+  <architecture text="Caldera" plural="Calderas"/>
+  <architecture text="Canal" plural="Canals"/>
+  <architecture text="Canteen" plural="Canteens"/>
+  <architecture text="Cellar" plural="Cellars"/>
+  <architecture text="Cinema" plural="Cinemas"/>
+  <architecture text="Circus" plural="Circuses"/>
+  <architecture text="Civic Center" plural="Civic Centers"/>
+  <architecture text="Classroom" plural="Classrooms"/>
+  <architecture text="Clinic" plural="Clinics"/>
+  <architecture text="Condominium" plural="Condominiums"/>
+  <architecture text="Conference Room" plural="Conference Rooms"/>
+  <architecture text="Conservatory" plural="Conservatories"/>
+  <architecture text="Courtroom" plural="Courtrooms"/>
+  <architecture text="Courtyard" plural="Courtyards"/>
+  <architecture text="Crossroad" plural="Crossroads"/>
+  <architecture text="Cubbyhole" plural="Cubbyholes"/>
+  <architecture text="Depot" plural="Depots"/>
+  <architecture text="Desert" plural="deserts"/>
+  <architecture text="Dormitory" plural="Dormitories"/>
+  <architecture text="Dump" plural="Dumps"/>
+  <architecture text="Factory" plural="Factories"/>
+  <architecture text="Farm" plural="Farms"/>
+  <architecture text="Food Court" plural="Food Courts"/>
+  <architecture text="Garage" plural="Garages"/>
+  <architecture text="Garden" plural="Gardens"/>
+  <architecture text="Gateway" plural="Gateways"/>
+  <architecture text="Golf Course" plural="Colf Courses"/>
+  <architecture text="Guild House" plural="Guild Houses"/>
+  <architecture text="Gymnasium" plural="Gymnasiums"/>
+  <architecture text="Headquarters" plural="Headquarters"/>
+  <architecture text="Helioport" plural="Helioports"/>
+  <architecture text="Highway" plural="Highways"/>
+  <architecture text="Hive" plural="Hives"/>
+  <architecture text="Hollow" plural="Hollows"/>
+  <architecture text="Hospital" plural="Hospitals"/>
+  <architecture text="Jungle" plural="Jungles"/>
+  <architecture text="Laboratory" plural="Laboratories"/>
+  <architecture text="Lair" plural="Lairs"/>
+  <architecture text="Landfill" plural="Landfills"/>
+  <architecture text="Lawn" plural="Lawns"/>
+  <architecture text="Lounge" plural="Lounges"/>
+  <architecture text="Mall" plural="Malls"/>
+  <architecture text="Mansion" plural="Mansions"/>
+  <architecture text="Mining Village" plural="Mining Villages"/>
+  <architecture text="Nest" plural="Nests"/>
+  <architecture text="Nursery" plural="Nurseries"/>
+  <architecture text="Office" plural="Offices"/>
+  <architecture text="Opera House" plural="Opera Houses"/>
+  <architecture text="Orchard" plural="Orchards"/>
+  <architecture text="Parking Lot" plural="Parking Lots"/>
+  <architecture text="Park" plural="Parks"/>
+  <architecture text="Pasture" plural="Pastures"/>
+  <architecture text="Path" plural="Paths"/>
+  <architecture text="Penthouse" plural="Penthouses"/>
+  <architecture text="Plain" plural="Plains"/>
+  <architecture text="Plateau" plural="Plateaus"/>
+  <architecture text="Playpen" plural="Playpens"/>
+  <architecture text="Ranch" plural="Ranches"/>
+  <architecture text="Refectory" plural="Refectories"/>
+  <architecture text="Refinery" plural="Refineries"/>
+  <architecture text="Restaurant" plural="Restaurants"/>
+  <architecture text="Scrapyard" plural="Scrapyards"/>
+  <architecture text="Shophouse" plural="Shophouses"/>
+  <architecture text="Shrine" plural="Shrines"/>
+  <architecture text="Sitting Room" plural="Sitting rooms"/>
+  <architecture text="Solar" plural="Solars"/>
+  <architecture text="Stables" plural="Stables"/>
+  <architecture text="Stadium" plural="Stadiums"/>
+  <architecture text="Supermarket" plural="Supermarkets"/>
+  <architecture text="Tennis Court" plural="Tennis Courts"/>
+  <architecture text="Theater" plural="Theatres"/>
+  <architecture text="Training Shed" plural="Training Sheds"/>
+  <architecture text="Treehouse" plural="Treehouses"/>
+  <architecture text="Tunnel" plural="Tunnels"/>
+  <architecture text="University" plural="Universities"/>
+  <architecture text="Villa" plural="Villas"/>
+  <architecture text="Warehouse" plural="Warehouses"/>
+  <architecture text="Wasteland" plural="Wastelands"/>
+  <architecture text="Water Park" plural="Water Parks"/>
+  <architecture text="Wayhouse" plural="Wayhouses"/>
+  <architecture text="Well" plural="Wells"/>
+  <architecture text="Wetland" plural="Wetlands"/>
+  <architecture text="Window" plural="Windows"/>
+  <architecture text="Youth Center" plural="Youth centers"/>
+  <architecture text="Ziggurat" plural="Ziggurats"/>
+
+
+  <title text="Ace Attorney seeking the truth about"/>
   <title text="Artist who is painting"/>
+  <title text="Avenger of"/>
   <title text="Backpacker trekking to"/>
   <title text="Baker who produces tasty"/>
+  <title text="Bellboy taking tips from"/>
   <title text="Biker of"/>
   <title text="Beauty, local star of"/>
   <title text="Bug Catcher who collects"/>
+  <title text="Chef serving up"/>
   <title text="Clerk who works at"/>
+  <title text="Complete Failure at"/>
   <title text="Cyclist training for"/>
   <title text="Dancer who pushes a beat to"/>
+  <title text="Dark menace of"/>
+  <title text="Darkness within"/>
+  <title text="Dealer of"/>
   <title text="Depot Agent running trains at"/>
+  <title text="Devourer of"/>
   <title text="Doctor who treats"/>
+  <title text="Doom of"/>
+  <title text="Ending of"/>
+  <title text="Eye of"/>
   <title text="Fisherman who catches"/>
   <title text="Gentleman"/>
+  <title text="Government Agent spying on"/>
+  <title text="Graduate Student slaving over"/>
   <title text="Gym Leader of"/>
+  <title text="High Priest of"/>
+  <title text="Hunter seeking"/>
   <title text="Hiker who loves"/>
   <title text="Harlequin who performs for"/>
   <title text="Janitor who cleans up after"/>
+  <title text="Judge presiding over"/>
   <title text="Lass, Daughter of"/>
+  <title text="Last Bastion of"/>
+  <title text="Last of the"/>
   <title text="Maid to"/>
+  <title text="Man with the golden"/>
+  <title text="Martial Artist training with"/>
+  <title text="Mastermind behind"/>
+  <title text="Nemesis of"/>
   <title text="Nurse looking after"/>
   <title text="Nursery Aide caring for"/>
+  <title text="Only Hope of the"/>
+  <title text="Shadow Lord questing for"/>
   <title text="Subway Master of"/>
   <title text="Parasol Lady of"/>
-  <title text="Pokemon League Champion of"/>
-  <title text="Pokefan who wants to catch"/>
-  <title text="Pokemon Ranger at"/>
   <title text="Policeman patrolling"/>
   <title text="Preschooler crying for"/>
-  <title text="School Kid who hates eating"/>
-  <title text="Scientist conducting experiments on"/>
+  <title text="Reaper of"/>
+  <title text="Reporter staking out a scoop on"/>
   <title text="Roughneck of the"/>
   <title text="Rich Boy who wastes money on"/>
+  <title text="School Kid who hates eating"/>
+  <title text="Scientist conducting experiments on"/>
   <title text="Socialite who tries to chat up"/>
+  <title text="Tea-Time of the"/>
+  <title text="The Unending"/>
   <title text="Veteran who served in"/>
   <title text="Waiter now taking orders for"/>
   <title text="Waitress now taking orders for"/>
   <title text="Youngster loafing around with"/>
+
+
+  <wizardname text = "Adoloin" />
+  <wizardname text = "Blockhead" />
+  <wizardname text = "Blubba Fatt" />
+  <wizardname text = "Borius" />
+  <wizardname text = "Bumblebore" />
+  <wizardname text = "Burritus Bisus" />
+  <wizardname text = "Calliou" />
+  <wizardname text = "Cedric" />
+  <wizardname text = "D. Cognaher" />
+  <wizardname text = "Dalinar" />
+  <wizardname text = "Donovan" />
+  <wizardname text = "Ergot" />
+  <wizardname text = "Faorn" />
+  <wizardname text = "Griff" />
+  <wizardname text = "Heartiste" />
+  <wizardname text = "Ictus" />
+  <wizardname text = "Jackapple" />
+  <wizardname text = "Jaromir" />
+  <wizardname text = "Kana" />
+  <wizardname text = "Kane" />
+  <wizardname text = "Kaplan" />
+  <wizardname text = "Kongar" />
+  <wizardname text = "Mondain" />
+  <wizardname text = "Morrolan" />
+  <wizardname text = "Nanaca" />
+  <wizardname text = "Nate" />
+  <wizardname text = "Nerfulon" />
+  <wizardname text = "Nuku" />
+  <wizardname text = "Rainer" />
+  <wizardname text = "Rinsewind" />
+  <wizardname text = "Saresan" />
+  <wizardname text = "Sethar" />
+  <wizardname text = "Shakii" />
+  <wizardname text = "Sir Wilhelm Buckley Fainshaw the 3rd, esquire, M.D." />
+  <wizardname text = "Tyrus" />
+  <wizardname text = "Vladimir" />
+
+  <wizardtitle text = " the Alcohol-Intolerant" />
+  <wizardtitle text = " the Archivist" />
+  <wizardtitle text = " the Bellicose" />
+  <wizardtitle text = " the Boring" />
+  <wizardtitle text = " the Bouncy" />
+  <wizardtitle text = " the Chronicler" />
+  <wizardtitle text = " the Clinically Deranged" />
+  <wizardtitle text = " the Compressed" />
+  <wizardtitle text = " the Curator" />
+  <wizardtitle text = " the Disturbingly Happy" />
+  <wizardtitle text = " the Endowed" />
+  <wizardtitle text = " the Gravitationally-Challenged" />
+  <wizardtitle text = " the Impressive" />
+  <wizardtitle text = " the Indisposed" />
+  <wizardtitle text = " the Life of the Party" />
+  <wizardtitle text = " the Meaty" />
+  <wizardtitle text = " the Not-Quite-There" />
+  <wizardtitle text = " the Paradoxical" />
+  <wizardtitle text = " the Parboiled" />
+  <wizardtitle text = " the Player" />
+  <wizardtitle text = " the Prepared" />
+  <wizardtitle text = " the Reactionary" />
+  <wizardtitle text = " the Simpering" />
+  <wizardtitle text = " the Structurally Sound" />
+  <wizardtitle text = " the Supercalifragilisticexpialidocious" />
+  <wizardtitle text = " the Symmetrical" />
+  <wizardtitle text = " the Unclean" />
+  <wizardtitle text = " the Well-Endowed" />
+  <wizardtitle text = " the Wolf" />
+  <wizardtitle text = " the Woozy" />
+  <wizardtitle text = " the World-Keeper" />
+  <wizardtitle text = ", Accounter of Diggles" />
+  <wizardtitle text = ", Allomancer" />
+  <wizardtitle text = ", Arcanist" />
+  <wizardtitle text = ", Asker of Inconvenient Questions" />
+  <wizardtitle text = ", Crusher of Gummi Bears" />
+  <wizardtitle text = ", Cryomancer" />
+  <wizardtitle text = ", Dark Wizard of Doomy Doom" />
+  <wizardtitle text = ", Doomsayer" />
+  <wizardtitle text = ", Dracologist" />
+  <wizardtitle text = ", Drinker of Booze" />
+  <wizardtitle text = ", Eater of Dinners" />
+  <wizardtitle text = ", Elementalist" />
+  <wizardtitle text = ", Friend to Dragons" />
+  <wizardtitle text = ", Glorified Lab Technician" />
+  <wizardtitle text = ", Gramyre Consultant" />
+  <wizardtitle text = ", Grand Chicken of Doom" />
+  <wizardtitle text = ", Guest Speaker for today" />
+  <wizardtitle text = ", He Whose Name We Do Not Speak (But Certainly Can Write Down)" />
+  <wizardtitle text = ", Magnificent Bastard" />
+  <wizardtitle text = ", Muscle Wizard" />
+  <wizardtitle text = ", Poodle Tamer" />
+  <wizardtitle text = ", Psychonaut" />
+  <wizardtitle text = ", Radiant Wizard" />
+  <wizardtitle text = ", Roguish Renovator" />
+  <wizardtitle text = ", Spell Designer" />
+  <wizardtitle text = ", Techno-Viking-Wizard" />
+  <wizardtitle text = ", Terror of Candy Land" />
+  <wizardtitle text = ", Terror of Graduate Students" />
+  <wizardtitle text = ", Thaumatheurge" />
+  <wizardtitle text = ", Thaumic Engineer" />
+  <wizardtitle text = ", the Grader of Theses" />
+
+
+  <wizardspiel text = "Artifacts de-corrupted." />
+  <wizardspiel text = "Believes yellow robes are unlucky." />
+  <wizardspiel text = "Can create a rock so heavy he can't lift it." />
+  <wizardspiel text = "Cannot swim." />
+  <wizardspiel text = "Does not like ponies." />
+  <wizardspiel text = "Does not trust newfangled clockwork." />
+  <wizardspiel text = "Depths plumbed." />
+  <wizardspiel text = "Devices Dismantled." />
+  <wizardspiel text = "Dungeons and depths deepened with diligence." />
+  <wizardspiel text = "Enjoys romantic dinners and long walks along the beach." />
+  <wizardspiel text = "Examining the relationship between health potion use and weight gain." />
+  <wizardspiel text = "Graduate students soundly whipped." />
+  <wizardspiel text = "Graduated with n-1th-class honours." />
+  <wizardspiel text = "Happy all the time. ALL. THE. TIME." />
+  <wizardspiel text = "Inappropriate but in a good way." />
+  <wizardspiel text = "Invented the Diggle-o-Matic 5000." />
+  <wizardspiel text = "Is currently indisposed." />
+  <wizardspiel text = "Is currently seeking tenure." />
+  <wizardspiel text = "Is in possession of confections of baked flour." />
+  <wizardspiel text = "Is looking for a girlfriend." />
+  <wizardspiel text = "Is not a vampire." />
+  <wizardspiel text = "Is REALLY not a vampire." />
+  <wizardspiel text = "Knows whether you've been naughty or nice." />
+  <wizardspiel text = "Lost things found with remarkable speed and accuracy." />
+  <wizardspiel text = "Magic carpets rethreaded." />
+  <wizardspiel text = "Majored in Dracological Studies." />
+  <wizardspiel text = "May or may not be partially or wholly imaginary." />
+  <wizardspiel text = "May or may not be pregnant." />
+  <wizardspiel text = "May or may not contain nuts." />
+  <wizardspiel text = "Nether regions explored." />
+  <wizardspiel text = "Nominated for employee of the month." />
+  <wizardspiel text = "Now teaching Evil 101 on Thursdays." />
+  <wizardspiel text = "Often forgets his medication." />
+  <wizardspiel text = "Once performed services for Lady Svetlana." />
+  <wizardspiel text = "Organiser of the Elf-Dwarf annual get-together potluck." />
+  <wizardspiel text = "Papers graded with negotiable leniency and affection." />
+  <wizardspiel text = "Patron of Never-Under-Land." />
+  <wizardspiel text = "Patron of the Magical Arts." />
+  <wizardspiel text = "President of the Plastics Proliferation Party." />
+  <wizardspiel text = "Professional wand-swallower." />
+  <wizardspiel text = "Proponent of horseless carriages." />
+  <wizardspiel text = "Published famous thesis on correlation between wearing red clothing and untimely death." />
+  <wizardspiel text = "Pulls pastries and wine out of thin air." />
+  <wizardspiel text = "Rejected for tenure from Evil Alchemists University." />
+  <wizardspiel text = "Served in Wizard War 2." />
+  <wizardspiel text = "Studied aerial trajectories of Minotaur wrestlers." />
+  <wizardspiel text = "Studies diggle mating habits." />
+  <wizardspiel text = "Terrified of gummi bears." />
+  <wizardspiel text = "Undefeated king of the voltaic boogaloo." />
+  <wizardspiel text = "Walks the void between the spheres." />
+  <wizardspiel text = "Wand-blindness cured." />
+  <wizardspiel text = "Will never betray you. Really." />
+  <wizardspiel text = "Will never threaten to hex you, and in fact, cannot speak." />
+  <wizardspiel text = "Will not consider positions that involve teaching." />
+  <wizardspiel text = "Will not turn you into a phoenix." />
+
+  <wizardtag text = "A one-stop provider for all your summoning needs." />
+  <wizardtag text = "Alcohol extracted from wizardly containers and remnants." />
+  <wizardtag text = "All elements of Magicka conjured." />
+  <wizardtag text = "All potions handcrafted in a traditional fashion." />
+  <wizardtag text = "All rights reserved." />
+  <wizardtag text = "All services performed subject to the appropriate magical tax." />
+  <wizardtag text = "Buying zinc powder at competitive rates." />
+  <wizardtag text = "Consult your physician before retaining wizardly services." />
+  <wizardtag text = "Details within." />
+  <wizardtag text = "Diggles ensl- tamed at competitive prices." />
+  <wizardtag text = "Discounts available for bulk boiling of ginseng." />
+  <wizardtag text = "Desperately seeking a reliable source of rust in bulk." />
+  <wizardtag text = "Do not ask about the peas." />
+  <wizardtag text = "Do not contract services if pregnant." />
+  <wizardtag text = "Do not disturb during the full moon." />
+  <wizardtag text = "Does not do kingdoms or magic axes." />
+  <wizardtag text = "Enjoys wine with cheese." />
+  <wizardtag text = "Everything available - for a price." />
+  <wizardtag text = "Evisceration chute cleaning performed only on Fridays." />
+  <wizardtag text = "Free samples of our evil enhancement pills available on request." />
+  <wizardtag text = "Has prime tower real estate for sale." />
+  <wizardtag text = "Inquire about our dental rates today." />
+  <wizardtag text = "Last seen at Wonkdonkler's Brewery." />
+  <wizardtag text = "Last seen 'chasing the phoenix'." />
+  <wizardtag text = "Last seen conducting blood alcohol experiment." />
+  <wizardtag text = "Last seen face-down in beer keg." />
+  <wizardtag text = "Last seen in parts unknown." />
+  <wizardtag text = "Last seen in the maw of a monstrosity from the Dungeon Dimensions." />
+  <wizardtag text = "Last seen running from his bar tab." />
+  <wizardtag text = "Last seen saying 'hey, watch this!'" />
+  <wizardtag text = "Last seen settling his bar tab." />
+  <wizardtag text = "May or may not contain nuts." />
+  <wizardtag text = "Metal powders tasted for impurities." />
+  <wizardtag text = "Moonlighting for moonshine." />
+  <wizardtag text = "Needs money to support dream dust and ice wine addiction." />
+  <wizardtag text = "Not liable for loss or injury arising directly or indirectly from the use of provided magical services." />
+  <wizardtag text = "One hundred percent dwarf guaranteed or your money back." />
+  <wizardtag text = "Our mortar-and-pestle unit clean and DSHA certified." />
+  <wizardtag text = "Paying top price for the left hands of gnomes caught cheating at cards." />
+  <wizardtag text = "Phoenix down gathering done on the cheap." />
+  <wizardtag text = "Please ask about our senior's discount." />
+  <wizardtag text = "Rates at half-price for royalty." />
+  <wizardtag text = "Residues safely disposed of." />
+  <wizardtag text = "Selling sensitive insider information on Evil Alchemists University." />
+  <wizardtag text = "Sole importer of various controlled substances." />
+  <wizardtag text = "Specialises in swords and stones." />
+  <wizardtag text = "Triangulon's Trial of Triangulation and Trigonometry Tested Tempermentally." />
+  <wizardtag text = "Voltaic cells replaced for a small fee." />
+  <wizardtag text = "Will not reveal identity of secret meatloaf ingredient." />
+  <wizardtag text = "Will take payment in liquified fermented Fairywodger." />
+
 
 </text>

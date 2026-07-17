@@ -159,7 +159,8 @@ Dredmor.Skill.Parse = function(source, xml)
 				xmlAbility = $(this);
 				
 				// Check if this ability matches our skill
-				if (xmlAbility.attr('skill') == xmlSkill.attr('id')) {
+				if ((xmlAbility.attr('skill') && xmlAbility.attr('skill') === xmlSkill.attr('id')) ||
+					(xmlAbility.attr('skillname') && xmlAbility.attr('skillname') === xmlSkill.attr('skillname'))) {
 					// Parse ability and build object
 					var ability = new Dredmor.Object();
 					

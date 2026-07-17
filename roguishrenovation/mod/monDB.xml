@@ -1,6 +1,175 @@
 <monDB>
 
-<monster type="4" subtype="23" name="Dragon Whelp" level="0"  tiny="1" terrain="2" taxa="Animal" special="0" >
+<!-- Phoenixes -->
+
+<monster name="Phoenix" level="8" tiny="1" splat="blood" taxa="Other" terrain="2">
+	<idleSprite left="sprites/monster/phoenix/phoenixleft.xml"
+	right="sprites/monster/phoenix/phoenixright.xml"
+	up="sprites/monster/phoenix/phoenixup.xml"
+	down="sprites/monster/phoenix/phoenixdown.xml"/>
+	<attackSprite left="sprites/monster/phoenix/phoenixattackleft.xml"
+	right="sprites/monster/phoenix/phoenixattackright.xml"
+	up="sprites/monster/phoenix/phoenixattackup.xml"
+	down="sprites/monster/phoenix/phoenixattackdown.xml"/>
+	<hitSprite left="sprites/monster/phoenix/phoenixleft.xml"
+	right="sprites/monster/phoenix/phoenixright.xml"
+	up="sprites/monster/phoenix/phoenixup.xml"
+	down="sprites/monster/phoenix/phoenixdown.xml"/>
+	<dieSprite name="sprites/monster/phoenix/phoenixdie.xml"/>
+	<castSpellSprite name="sprites/monster/phoenix/phoenixcast.xml"/>
+	
+	<sfx attack="raven_attack"
+		  hit="raven_damage"
+		  die="raven_die"
+		  spell="raven_cast"/>
+	
+	<stats numFig="4" numWiz="14" xpValue="120" />
+	<ai span="5" aggressiveness="5" chicken="1" spellPercentage="20" />
+		<spell name="Gog's Tactical Pyre"/>
+		<spell name="Lutefisk Smite" />
+		<spell name="Phoenix Regeneration" />
+		<spell name="Thermite Center"/>
+		<spell name="Obvious Fireball"/>
+		<spell name="Rune of Exploding"/>
+	<sight cone="270" modifier="1.1" />
+	<charge chance="10" turns="6" spell="Phoenix Reviver" interruptable="1" blockaction="1" range="5" targetself="1" /> 
+	<palette tint="0" />
+	<damage slashing="2" conflagratory="8" righteous="8" />
+	<resistances necromantic="-6" conflagratory="99" hyperborean="9" righteous="9" putrefying="9" asphyxiative="-6" />
+		<secondarybuff id="6" amount="25"/> <!-- dodge -->
+		<secondarybuff id="11" amount="27"/>
+	<info latin="(Aquilae Flamus)" text="A burning bird, impervious to fire. Traditionally nests in the calderas of volcanoes, but domesticated specimens will live in stoves and fireplaces."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Ruby" percent="5"/>
+
+
+	<monster name="Phoenix Chick" level="3" terrain="2" special="0" >
+		<stats numWiz="7" numFig="2" xpValue="35"/>
+		<resistances necromantic="-3" conflagratory="99" hyperborean="5" righteous="5" putrefying="5" asphyxiative="-3" />
+		<damage slashing="2" conflagratory="3" righteous="3" />
+		<secondarybuff id="6" amount="10"/> <!-- dodge -->
+		<secondarybuff id="11" amount="15"/>
+		<palette tint="25"/>
+		<info latin="(Aquilae Tinyus)" text="A tiny phoenix chick, occasionally found as pests drinking flames from street gaslamps."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Ruby" percent="0"/>
+	<ai span="5" aggressiveness="5" chicken="1" spellPercentage="15" />
+		<spell name="Weak Firebolt"/>
+		<spell name="Mini Lutefisk Smite" />
+		<spell name="Minor Phoenix Regeneration" />
+	</monster>
+
+	<monster name="Marshfire Phoenix" level="5" terrain="2" special="0" >
+		<stats numWiz="10" numFig="3" xpValue="90"/>
+		<resistances necromantic="-4" conflagratory="-5" toxic="6" acidic="6" hyperborean="6" righteous="6" putrefying="6" asphyxiative="-4"/>
+		<damage slashing="2" conflagratory="4" righteous="3" toxic="3" />
+		<secondarybuff id="6" amount="15"/> <!-- dodge -->
+		<secondarybuff id="11" amount="18"/>
+		<palette tint="140"/>
+		<info latin="(Aquilae Willowispus)" text="A phoenix formed from will-o-wisps. Unlike others of its kind, its internal gases make it quite flammable."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Emerald" percent="5"/>
+	<ai span="5" aggressiveness="5" chicken="1" spellPercentage="20" />
+		<spell name="Gargoyle Acid Bolt" />
+		<spell name="Weak Firebolt"/>
+		<spell name="Minor Phoenix Regeneration" />
+		<spell name="Mini Lutefisk Smite" />
+	</monster>
+
+	<monster name="Coldflame Phoenix" level="6" terrain="2" special="0" >
+		<stats numWiz="12" numFig="3" xpValue="105"/>
+		<resistances necromantic="-5" conflagratory="99" hyperborean="99" righteous="7" putrefying="7" asphyxiative="-5"/>
+		<damage slashing="2" conflagratory="5" righteous="4" hyperborean="4" />
+		<secondarybuff id="6" amount="20"/> <!-- dodge -->
+		<secondarybuff id="11" amount="24"/>
+		<palette tint="-150"/>
+		<info latin="(Aquilae frozi)" text="A phoenix formed of living frostfire, making it impervious to cold as well as flame."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Sapphire" percent="5"/>
+	<ai span="5" aggressiveness="5" chicken="1" spellPercentage="20" />
+		<spell name="Arctic Swirly" />
+		<spell name="Firebolt"/>
+		<spell name="Phoenix Regeneration" />
+		<spell name="Lutefisk Smite" />
+	</monster>
+
+	<monster name="Grand Phoenix" level="13" terrain="2" special="0" >
+		<stats numWiz="21" numFig="7" xpValue="145"/>
+		<resistances necromantic="-8" conflagratory="99" hyperborean="12" righteous="12" putrefying="12" asphyxiative="-8"/>
+		<damage slashing="2" conflagratory="9" righteous="8" />
+		<secondarybuff id="6" amount="35"/> <!-- dodge -->
+		<secondarybuff id="11" amount="40"/>
+		<palette tint="-30"/>
+		<info latin="(Aquilae Solaris)" text="A phoenix formed from ancient, primal fire. Has a sweet tooth for coal and gasoline; adventurers often trade these for handfuls of their feathers."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Diamond" percent="5"/>
+	<ai span="5" aggressiveness="5" chicken="1" spellPercentage="35" />
+		<spell name="Gog's Tactical Pyre"/>
+		<spell name="Major Lutefisk Smite" />
+		<spell name="Obvious Fireball"/>
+		<spell name="Major Phoenix Regeneration" />
+		<spell name="Rune of Exploding"/>
+	</monster>
+
+	<monster name="Al'as" level="12" terrain="2" named="1" horde="0" maxSpawns="1" >
+		<stats numFig="12" numWiz="21" xpValue="800"/>
+		<resistances necromantic="-8" conflagratory="99" hyperborean="15" righteous="15" putrefying="15" asphyxiative="-8"/>
+		<damage slashing="8" conflagratory="7" righteous="7" />
+		<onhit spell="Monster Blink" onechancein="3"/>
+		<secondarybuff id="0" amount="200"/>
+		<secondarybuff id="6" amount="40"/> <!-- dodge -->
+		<secondarybuff id="11" amount="40"/>
+		<palette tint="-30"/>
+		<info latin="(Aquilae Solaris Mountus)" text="Alas, seems like the deal with that elf prince didn't work out too well for this fellow."/>
+		<drop name="Ashes of Al'as" percent="100"/>
+	<ai span="5" aggressiveness="5" chicken="0" spellPercentage="40" cancharm="0"/>
+		<sight cone="270" modifier="3.0" />
+		<spell name="Major Lutefisk Smite" />
+		<spell name="Obvious Fireball"/>
+		<spell name="Major Phoenix Regeneration" />
+		<spell name="Fire Blossom"/>
+	</monster>
+
+	<monster name="Lady Svetlana" level="13" terrain="2" special="1" named="1" horde="0" maxSpawns="1" >
+		<stats numFig="19" numRog="25" numWiz="61" xpValue="30000"/>
+		<resistances necromantic="-5" conflagratory="99" hyperborean="25" righteous="25" putrefying="25" asphyxiative="-5" existential="10" toxic="10"/>
+		<damage slashing="15" conflagratory="25" righteous="25" />
+		<onhit spell="Monster Blink" onechancein="2"/>
+		<secondarybuff id="0" amount="700"/>
+		<secondarybuff id="6" amount="40"/> <!-- dodge -->
+		<secondarybuff id="10" amount="15"/>
+		<secondarybuff id="11" amount="55"/>
+		<palette tint="0"/>
+		<info latin="(Aquilae Solaris Mater)" text="You face Baroness Svetlana Kuznetsova, artisan, mother, and personification of the sun's radiance in avian form. Beware, this is an INCREDIBLY dangerous monster."/>
+		<drop name="Bituminous Coal" percent="5"/>
+		<drop name="Black Powder" percent="5"/>
+		<drop name="Phoenix Tear" percent="30"/>
+		<drop name="Sun Pendant" percent="50"/>
+	<ai span="20" aggressiveness="30" chicken="0" spellPercentage="65" canparalyze="0" cancharm="0"/>
+		<sight cone="270" modifier="3.0" />
+		<spell name="Obvious Fireball"/>
+		<spell name="Major Lutefisk Smite" />
+		<spell name="Sparkly Glamour"/>
+		<spell name="Fire Blossom"/>
+		<spell name="Summon Grand Phoenix"/>
+		<spell name="Greater Targeted Mana Drain"/>
+		<spell name="Infernal Torus"/>
+		<spell name="Antimagic Field"/>
+		<spell name="Rune of Exploding"/>
+		<spell name="Mass Destruction"/>
+		<charge chance="18" turns="5" spell="Flame Death Destruction" interruptable="0" blockaction="1" range="5" targetself="0" />
+	</monster>
+
+</monster>
+
+<!-- Dragons -->
+
+<monster name="Dragon Whelp" level="0"  tiny="1" terrain="2" taxa="Animal" special="0" >
 	<idleSprite
 		left="sprites/monster/fire/fire_Walk_Left.spr"
 		right="sprites/monster/fire/fire_Walk_Right.spr"
@@ -28,62 +197,60 @@
 
 	<stats numFig="3" xpValue="12"/>
 	<resistances conflagratory="4" hyperborean="-2"/> <!-- Basing this off diggle, but a little stronger. -->
-	<damage blasting="1" conflagratory="2"/>
+	<damage blasting="2" conflagratory="1"/>
 	<ai aggressiveness="3" span="6" />
+	<sight cone="270" modifier="1.1" />
 	<info latin="(draconis ignitis youngunus)" text="A dragon whelp, barely more than a day old. We've got whelps! That's a fifty DKP minus."/>
 
-	<monster type="3" subtype="25" name="Mana Hunter" level="4" terrain="2" special="0" > <!-- Mage Killer, but very weak to melee. -->
-		<stats numWiz="11" numRog="2" xpValue="105"/>
-		<resistances aethereal="10" transmutative="10" conflagratory="0" hyperborean="0"/>
-		<secondarybuff id="4" amount="-5"/> <!-- crit -->
-		<secondarybuff id="10" amount="-2"/>
+	<monster name="Mana Hunter" level="4" terrain="2" special="0" > <!-- Mage Killer, but very weak to melee. -->
+		<stats numWiz="10" numRog="2" xpValue="100"/>
+		<resistances crushing="-3" slashing="-3" aethereal="10" transmutative="10" conflagratory="0" hyperborean="0"/>
+		<secondarybuff id="0" amount="-15"/> <!-- hp -->
+		<secondarybuff id="6" amount="-10"/> <!-- crit -->
 		<secondarybuff id="11" amount="25"/>
-		<secondarybuff id="22" amount="25"/>
+		<secondarybuff id="22" amount="33"/>
 		<damage blasting="1" aethereal="6" conflagratory="0" />
-		<onhit spell="Targeted Mana Drain" onechancein="1"/>
+		<onhit spell="Lesser Targeted Mana Drain" onechancein="1"/>
 		<palette tint="165"/>
 		<info latin="(draconis magicus nommus)" text="A wyrmling that sniffs out and voraciously devours all sorts of magic. Try not to use spells against this."/>
-		<ai aggressiveness="3" span="6" spellPercentage="30"/>
+		<ai aggressiveness="10" span="10" spellPercentage="30"/>
 		<spell name="Thaumic Drain"/>
-		<spell name="Thaumic Drain"/>
-		<spell name="Targeted Mana Drain"/>
 		<spell name="Targeted Mana Drain"/>
 		<spell name="Aethereal Missile" />
+		<drop name="Mana Shard" percent="18"/>
 	</monster>
 
-	<monster type="3" subtype="25" name="Swamp Wyrmling" level="5" terrain="2" special="0" > <!-- Anti rogue monster...that's a rogue. -->
+	<monster name="Swamp Wyrmling" level="5" terrain="2" special="0" > <!-- Anti rogue monster...that's a rogue. -->
 		<stats numFig="5" numRog="8" xpValue="110"/>
 		<resistances acidic="10" toxic="10" putrefying="10" conflagratory="0" hyperborean="0"/>
 		<secondarybuff id="0" amount="-10"/>
 		<secondarybuff id="6" amount="3"/>
 		<secondarybuff id="9" amount="7"/>
-		<damage blasting="2" acidic="9" conflagratory="0" />
-		<onhit spell="Vile Gunk" onechancein="10"/>
+		<damage blasting="4" acidic="7" conflagratory="0" />
+		<onhit spell="Vile Gunk" onechancein="5"/>
 		<palette tint="140"/>
 		<info latin="(draconis slimus)" text="A lithe, slimy wyrmling that gunks up everything it touches."/>
-		<ai aggressiveness="3" span="6" spellPercentage="10"/>
+		<ai aggressiveness="10" span="10" spellPercentage="10"/>
 		<spell name="Gargoyle Acid Bolt" />
 	</monster>
 
-	<monster type="3" subtype="25" name="Radiant Wyrm" level="12" terrain="2" special="0" > <!-- Mage Killer, but very weak to melee. Since there aren't enough monsters on DL13, I thought I'd spice it up. -->
+	<monster name="Radiant Wyrm" level="12" terrain="2" special="0" > <!-- Mage Killer, but very weak to melee. Since there aren't enough monsters on DL13, I thought I'd spice it up. -->
 		<stats numRog="5" numWiz="20" xpValue="200"/>
-		<resistances righteous="20" conflagratory="10" hyperborean="0"/>
-		<secondarybuff id="10" amount="-5"/>
+		<resistances crushing="-6" slashing="-6" righteous="20" conflagratory="10" hyperborean="0"/>
 		<secondarybuff id="11" amount="50"/>
-		<secondarybuff id="22" amount="50"/>
-		<damage blasting="1" righteous="12" conflagratory="0" />
-		<onhit spell="Greater Targeted Mana Drain" onechancein="1"/>
+		<secondarybuff id="22" amount="75"/>
+		<damage blasting="1" righteous="15" conflagratory="0" />
+		<onhit spell="Targeted Mana Drain" onechancein="1"/>
 		<palette tint="50"/>
 		<info latin="(draconis radianta)" text="A dragon formed of blinding, radiant energy trapped within a fragile, scaly shell. Spells have nothing on this thing."/>
-		<ai aggressiveness="3" span="6" spellPercentage="30"/>
+		<ai aggressiveness="20" span="20" spellPercentage="35"/>
 		<spell name="Greater Thaumic Drain"/>
-		<spell name="Greater Thaumic Drain"/>
-		<spell name="Greater Targeted Mana Drain"/>
 		<spell name="Greater Targeted Mana Drain"/>
 		<spell name="Major Lutefisk Smite" />
+		<drop name="Mana Shard" percent="33"/>
 	</monster>
 	
-	<monster type="3" subtype="25" name="Obsidian Warder" level="13" terrain="2" special="1"> <!-- Special boss monster for Lower Obsidia shrines. Lower Obsidia shrines will have a certain chance of holding one perfect obsidian and five of these guys. -->
+	<monster name="Obsidian Warder" level="13" terrain="2" special="1" named="1"> <!-- Special boss monster for Lower Obsidia shrines. Lower Obsidia shrines will have a certain chance of holding one perfect obsidian and three of these guys. -->
 		<stats numFig="30" numRog="5" xpValue="400"/>
 		<resistances toxic="10" putrefying="10" necromantic="10" conflagratory="30" hyperborean="0"/> <!-- No rifting these guys to death. Also, reduce evil chest items' power against them. -->
 		<secondarybuff id="0" amount="125"/> <!-- As the mother goddess' favoured, they're going to be really healthy. -->
@@ -93,11 +260,12 @@
 		<onhit spell="Gog's Tactical Pyre" onechancein="3"/>
 		<palette tint="-130"/>
 		<info latin="(draconis osbidis)" text="A dragon that has dedicated its life to the draconic mother goddess Obsidia, its dark, gleaming scales testament to the goddess' favour that grants it immense strength and sturdiness."/>
-		<ai aggressiveness="6" span="6" spellPercentage="25" cancharm="0"/>
+		<ai aggressiveness="20" span="20" spellPercentage="25" cancharm="0"/>
+		<sight cone="270" modifier="3.0" />
 		<spell name="Obvious Fireball"/>
 	</monster>
 
-	<monster type="3" subtype="25" name="Fiersome" level="15" terrain="2" special="1"> <!-- Boss fight! Prometheans, meet your match! Stat allocation is based on level 10 Lord Dredmor total times two thirds. -->
+	<monster name="Fiersome" level="15" terrain="2" special="1" named="1" horde="0" maxSpawns="1"> <!-- Boss fight! Prometheans, meet your match! Stat allocation is based on level 10 Lord Dredmor total times two thirds. -->
 		<stats numFig="15" numWiz="30" xpValue="7500"/>
 		<resistances toxic="15" putrefying="15" necromantic="15" conflagratory="30" hyperborean="-5"/> <!-- No rifting him to pieces. Also, cold is his weakness. -->
 		<secondarybuff id="0" amount="120"/> <!-- health! Not too much, now. -->
@@ -105,19 +273,195 @@
 		<secondarybuff id="11" amount="10"/> <!-- A wizard dragon, you didn't expect spells to be amazingly good against him, did you? -->
 		<secondarybuff id="22" amount="10"/>
 		<damage blasting="6" conflagratory="8" /> <!-- Weak in melee! Take advantage of that! -->
-		<onhit spell="Flamefield 1" onechancein="2"/>
-		<palette tint="0"/>
+		<onhit spell="Monster Blink" onechancein="1"/>
+		<palette tint="30"/>
 		<info latin="(draconis championus fierus)" text="You face Fiersome, Obsidia's burning champion on this material plane. Prometheans, meet your counterpart. Beware, this is a VERY dangerous monster."/>
-		<ai aggressiveness="10" span="6" spellPercentage="40" chicken="1" cancharm="0"/>
+		<ai aggressiveness="30" span="20" spellPercentage="45" chicken="1" cancharm="0"/>
+		<sight cone="270" modifier="3.0" />
 		<spell name="Obvious Fireball"/>
 		<spell name="Thermite Center"/>
 		<spell name="Rune of Exploding"/>
 		<spell name="Gog's Tactical Pyre"/>
-<!--		<spell name="Infernal Torus"/> I really want him to do this, but he will kill himself with it. Stupid AI. -->
+		<spell name="Infernal Torus"/>
 		<spell name="Antimagic Field"/>
-		<spell name="Flamefield 2"/>
+		<spell name="Summon Flamer"/>
 		<spell name="Strong Brimstone Cloud"/>
+		<charge chance="18" turns="5" spell="Flame Death Destruction" interruptable="0" blockaction="1" range="5" targetself="0" />
 	</monster>
+
+	<monster name="Terrable" level="15" terrain="2" special="1" named="1" horde="0" maxSpawns="1"> <!-- Boss fight! Stat allocation is based on level 15 Lord Dredmor total times two thirds. -->
+		<stats numFig="44" numRog="22" xpValue="30000"/>
+		<resistances toxic="25" putrefying="25" necromantic="25" conflagratory="45" hyperborean="-10"/> <!-- No rifting him to pieces. Similarly, a weakness to cold damage. -->
+		<secondarybuff id="0" amount="150"/> <!-- health! Not too much, now, already a lot from fighter levels. -->
+		<secondarybuff id="10" amount="30"/> <!-- armour -->
+		<secondarybuff id="7" amount="25"/> <!-- block -->
+		<damage blasting="30" conflagratory="25" /> <!-- Need to give melee a decent chance. -->
+		<onhit spell="Gog's Tactical Pyre" onechancein="3"/>
+		<palette tint="-130"/>
+		<info latin="(draconis championus terrus)" text="You face Terrable, Obsidia's earthen champion on this material plane. Beware, this is a VERY dangerous monster."/>
+		<ai aggressiveness="30" span="20" spellPercentage="20" canparalyze="0" cancharm="0"/>
+		<sight cone="270" modifier="3.0" />
+		<spell name="Obvious Fireball"/>
+		<spell name="Stealth Rock"/>
+		<spell name="Unliving Wall"/>
+		<spell name="Infernal Torus"/>
+		<spell name="Boulderization"/>
+		<spell name="Summon Obsidian Warder"/>
+		<charge chance="18" turns="5" spell="Flame Death Destruction" interruptable="0" blockaction="1" range="5" targetself="0" />
+	</monster>
+
+</monster>
+
+<!--  Arcane Disruptor. Need a silencing monster somewhere. Based off gold golem. -->
+<monster name="Arcane Disruptor" level="7" taxa="Construct">
+  <idleSprite 
+     left="sprites/monster/statue/statue_walk_l.xml" 
+     right="sprites/monster/statue/statue_walk_r.xml" 
+     up="sprites/monster/statue/statue_walk_u.xml" 
+     down="sprites/monster/statue/statue_walk_d.xml" 
+     /> 
+
+  <attackSprite 
+     left="sprites/monster/statue/statue_atk_l.xml" 
+     right="sprites/monster/statue/statue_atk_r.xml" 
+     up="sprites/monster/statue/statue_atk_u.xml" 
+     down="sprites/monster/statue/statue_atk_d.xml" 
+     /> 
+
+  <hitSprite 
+     left="sprites/monster/statue/statue_walk_l.xml" 
+     right="sprites/monster/statue/statue_walk_r.xml" 
+     up="sprites/monster/statue/statue_walk_u.xml" 
+     down="sprites/monster/statue/statue_walk_d.xml" 
+     /> 
+
+  <dieSprite 
+     name="sprites/monster/statue/statue_death.xml"
+     /> 
+
+  <castSpellSprite name="sprites/monster/statue/statue_cast.xml" />
+
+  <sfx 
+     attack="large_attack" 
+     hit="large_hit" 
+     die="large_die" 
+     spell="undead_spell"
+     /> 
+
+		<info latin=" " text="A regulator of dwarven magics, this statue is programmed to seek and suppress mana sources." /> 
+		<drop name="Bituminous Coal" percent="5"/>
+		<stats numFig="13" numWiz="6" xpValue="120" /> 
+		<damage crushing="2" existential="6" /> 
+ 		<secondarybuff id="11" amount="10"/> <!-- Resist -->
+		<secondarybuff id="22" amount="25"/> <!-- Reflect -->
+		<ai aggressiveness="10" span="8" chicken="1" spellpercentage="15" />
+		<sight cone="90" modifier="1.0" />
+		<resistances hyperborean="10" conflagratory="10" aethereal="20" transmutative="20" asphyxiative="20" acidic="-3" />
+		<spell name="Antimagic Field"/>
+		<spell name="Mind Blast"/>
+
+	<monster name="The Curator" level="14" named="1" horde="0" maxSpawns="1">
+		<info latin=" " text="The menegerie is for guests only. Do not touch the diplays." />
+		<palette tint="180" />
+		<stats numFig="20" numWiz="12" xpValue="210" /> 
+		<damage existential="14" /> 
+		<secondaryBuff id="0" amount="300" /> <!-- hp -->
+		<secondarybuff id="11" amount="20"/> <!-- Resist -->
+		<secondarybuff id="22" amount="25"/> <!-- Reflect -->
+		<ai aggressiveness="10" span="8" chicken="1" spellpercentage="20" />
+		<resistances hyperborean="10" conflagratory="10" aethereal="20" transmutative="20" asphyxiative="20" acidic="-6" />
+		<spell name="Antimagic Field"/>
+		<spell name="Mind Blast"/>
+		<charge chance="25" turns="5" spell="Summon Arcane Flares" interruptable="1" blockaction="1" range="5" targetself="1" />
+		</monster>
+
+</monster>
+
+<!-- Mushys need some love. This is the base monster and will not appear elsewhere. -->
+
+<monster name="Base Mushroom" level="1"  tiny="1"  taxa="Vegetable" special="1">
+	<idleSprite left="sprites/monster/mush/mush_run_l.spr"
+	right="sprites/monster/mush/mush_run_r.spr"
+	up="sprites/monster/mush/mush_run_u.spr"
+	down="sprites/monster/mush/mush_run_d.spr"/>
+	<attackSprite left="sprites/monster/mush/mush_atk_l.spr"
+	right="sprites/monster/mush/mush_atk_r.spr"
+	up="sprites/monster/mush/mush_atk_u.spr"
+	down="sprites/monster/mush/mush_atk_d.spr"/>
+	<hitSprite left="sprites/monster/mush/mush_hit_l.spr"
+	right="sprites/monster/mush/mush_hit_r.spr"
+	up="sprites/monster/mush/mush_hit_u.spr"
+	down="sprites/monster/mush/mush_hit_d.spr"/>
+	<sfx attack="vegetable_attack" hit="vegetable_hit" die="vegetable_die" spell="vegetable_spell"/>
+	<dieSprite name="sprites/monster/mush/mush_die.spr"/>
+	<castSpellSprite name="sprites/monster/mush/mush_atk_d.spr"/>
+	
+	<ai aggressiveness="4" span="12" />
+	<stats numFig="3" numRog="2" xpValue="16"/>
+	<damage slashing="1" />
+	
+	<info latin="(fungus amungus)" text="Base Mushrooms for the new mushy line."/>
+
+	<monster name="Death Cap" level="1" special="0"> <!-- I think vegans need a little more of a hand up on floor 2. -->
+		<palette tint="-270"/>
+		<damage slashing="1" toxic="2" necromantic="2"/>
+		<resistances piercing="1" toxic="2" necromantic="2" conflagratory="-2"/>
+		<stats numFig="3" numRog="2" xpValue="20" />
+		<secondarybuff id="7" amount="2"/> <!-- block -->
+		<secondarybuff id="10" amount="1"/> <!-- armour -->
+		<info latin="(fungus corpsus)" text="These fungi often grow on the corpses of dead adventurers and often explode into small clouds of spores shortly after death."/>
+		<ondeath spell="Death Spores" percent="66" />
+		</monster>
+
+	<monster name="Shock Shroom" level="2" special="0"> <!-- I think vegans need a little more of a hand up on floor 3, too. -->
+		<palette tint="-180"/>
+		<damage slashing="3" voltaic="4"/>
+		<resistances piercing="2" toxic="4" voltaic="4" acidic="4" />
+		<stats numFig="3" numRog="3" xpValue="28" />
+		<secondarybuff id="7" amount="5"/> <!-- block -->
+		<secondarybuff id="10" amount="2"/> <!-- armour -->
+		<info latin="(fungus joltus)" text="A favourite of voltaic mycologists, these shrooms are grown as night lights and as emergency power sources when more standard measures (such as potatoes) fail."/>
+		<spell name="Weak Electrobolt"/>
+		<ai aggressiveness="3" span="12" spellPercentage="15"/>
+		<ondeath spell="Death Jolt" percent="40" />
+		</monster>
+
+	<monster name="Flare Shroom" level="8" special="0"> <!-- Boom. -->
+		<palette tint="45"/>
+		<damage slashing="6" toxic="6" conflagratory="6"/>
+		<resistances piercing="3" toxic="8" conflagratory="8" acidic="4" hyperborean="-4" />
+		<stats numFig="8" numRog="4" numWiz="3" xpValue="115" />
+		<secondarybuff id="7" amount="15"/> <!-- block -->
+		<secondarybuff id="10" amount="6"/> <!-- armour -->
+		<info latin="(fungus fumus)" text="Packed full of sulphur and other explosive chemicals, this mushroom has long been known to the Ultimate Pagans as a pest. Has the tendency to self-ignite on death - if so, clear the area immediately."/>
+		<ai aggressiveness="3" span="12"/>
+		<ondeath spell="Death Flare" percent="40" />
+		</monster>
+
+	<monster name="Deathly Shiitake" level="11" special="0"> <!-- Evvvil. No veggies on floor 12, either. -->
+		<palette tint="-45"/>
+		<damage slashing="8" toxic="8" necromantic="12"/>
+		<resistances piercing="6" toxic="8" necromantic="10" putrefying="4" acidic="8" righteous="-4" conflagratory="-4" />
+		<stats numFig="9" numRog="9" numWiz="5" xpValue="125" />
+		<secondarybuff id="7" amount="20"/> <!-- block -->
+		<secondarybuff id="10" amount="7"/> <!-- armour -->
+		<info latin="(fungus weeaboous)" text="An important ingredient in many dishes served to members of the Mustache League as part of their training, this fungus is seeping with volatile spritual energies."/>
+		<ai aggressiveness="3" span="12" spellPercentage="15"/>
+		<spell name="Shroomy Flame"/>
+		<ondeath spell="Death Shiitake" percent="40" />
+		</monster>
+
+	<monster name="Doom Shroom" level="14" special="0"> <!-- Bampf. -->
+		<palette tint="135"/>
+		<damage slashing="0" blasting="10" toxic="10" acidic="6" putrefying="6" />
+		<resistances piercing="8" toxic="12" necromantic="12" putrefying="12" acidic="12" conflagratory="-6" />
+		<stats numFig="12" numRog="12" numWiz="6" xpValue="140" />
+		<secondarybuff id="7" amount="25"/> <!-- block -->
+		<secondarybuff id="10" amount="10"/> <!-- armour -->
+		<info latin="(fungus weeaboous)" text="Green and sickly, this fungus is what they mean when they say the words 'mushroom cloud'. May become unstable on death - if so, RUN."/>
+		<ai aggressiveness="3" span="12"/>
+		<ondeath spell="Doom Shroom Trigger" percent="40" />
+		</monster>
 
 </monster>
 

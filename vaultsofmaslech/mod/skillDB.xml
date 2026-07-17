@@ -1,0 +1,526 @@
+<skillDB>
+<!-- DELVER -->
+<skill name="Dungeon Delver" skillname="Dungeon Delver" type="rogue" description="You've spent your whole life training for this moment: now the dungeon is here before you. Will you choke?">
+   <art icon="sprites/skills/delver/delver64.png"/>
+   <loadout type="armour" subtype="Dungeons for Dummies" always="1" amount="1"/>
+   </skill>
+   
+<ability name="Dungeon Delver" icon="sprites/skills/delver/delver64.png" skillname="Dungeon Delver" startSkill="1">
+   <description text="This is it! Your big moment! Don't screw it up! Come home with the shinies or on them!"/>
+   </ability>
+   
+<ability name="When Push Comes To Shove" icon="sprites/skills/delver/WPCTS64.png" skillname="Dungeon Delver" level="0" >
+	<description text="When push comes to shove, you're the one doing the shoving. With this skill, you have a limited ability to move objects around the dungeon. Sometimes you push a little too hard and end up breaking whatever you were pushing, so be careful." />
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<secondarybuff id="17" amount="1" /> <!-- trap sight -->
+	<spell name="When Push Comes To Shove" />
+	</ability>
+	
+<ability name="Handy" icon="sprites/skills/delver/handy64.png" skillname="Dungeon Delver" level="1" learnrecipe="Mossy Shield" > 
+	<description text="You have a knack for always having the right tool for the job. Maybe not the job you're currently working on, but a job nonetheless." />
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<secondarybuff id="21" amount="1" /> <!-- alchemy -->
+	<spell name="Handy" /> <!-- This skill sucks, I should replace it -->
+	</ability>
+	
+<ability name="Fast Learner" icon="sprites/skills/delver/fast_learner64.png" skillname="Dungeon Delver" level="2" learnrecipe="Magical Badass Jacket" >
+	<description text="You've always picked things up quickly, but down here in the dungeon you find your senses tuned. You gain extra experience from killing monsters and have learned a few things about smithing." />
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<secondarybuff id="17" amount="1" /> <!-- trap sight -->
+	<secondarybuff id="19" amount="1" /> <!-- smithing -->
+	<targetKillBuff name="Fast Learner" />
+	</ability>
+	
+<ability name="Unfettered Psychoportation" icon="sprites/skills/delver/unfettered_psychoportation64.png" skillname="Dungeon Delver" level="3" >
+	<description text="...which is a fancy way of saying 'teleport wherever you like, as long as it's in a straight line'. So it's not actually very unfettered. Who named this ability?" />
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<spell name="Unfettered Psychoportation" />
+	</ability>
+	
+<ability name="Subsonic Harmonics" icon="sprites/skills/delver/subsonics64.png" skillname="Dungeon Delver" level="4" >
+	<description text="You've learned from watching batties how to emit a low-frequency hum that harmonizes with the environment around you. If you're looking for a fragile wall, this is the way to find it." />
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<secondarybuff id="17" amount="1" /> <!-- trap sight -->
+	<spell name="Subsonic Harmonics" />
+	</ability>
+	
+<ability name="Utilitarian" icon="sprites/skills/delver/utilitarian64.png" skillname="Dungeon Delver" level="5" learnrecipe="Hand Grenade" >
+	<description text="You've gleaned how to do a little bit of tinkering. While it's not stellar, at least you can do something. Also, sometimes you find yourself just...tripping over ingredients." />
+	<secondarybuff id="20" amount="1" /> <!-- tinkering -->
+	<secondarybuff id="16" amount="1" /> <!-- trap level -->
+	<targetKillBuff name="Handy" percentage="10" />
+	</ability>
+
+<ability name="Excavate" icon="sprites/skills/delver/excavate64.png" skillname="Dungeon Delver" level="6" >
+	<description text="Sometimes, there's just a wall in your way." />
+	<secondarybuff id="16" amount="2" /> <!-- trap level -->
+	<secondarybuff id="17" amount="1" /> <!-- trap sight -->
+	<spell name="Excavate" />
+	</ability>
+	
+<ability name="Purify Object" icon="sprites/skills/delver/purify_object64.png" skillname="Dungeon Delver" level="7" >
+	<description text="You know Krong is a fickle god, and you've studied the ways that some creatures can render useful objects into non-useful husks of their former glory. Through in-depth study, meditation, and a training montage involving 80's hair metal, a volcano, and Mr. Miyagi, you've learned how to reverse those effects...sort of." />
+	<secondarybuff id="16" amount="3" /> <!-- trap level -->
+	<secondarybuff id="23" amount="1" /> <!-- wandsmithing -->
+	<spell name="Purify Object" />
+	</ability>
+
+<!-- METEOROLOGY --> 
+<skill name="Meteorology" skillname="Meteorology" type="wizard" description="Today's forecast: partly cloudy with a chance of PAIN.">
+   <art icon="sprites/skills/meteo/skill_meteorology_64.png"/>
+   </skill>
+   
+<ability name="Meteorology" icon="sprites/skills/meteo/skill_meteorology_64.png" skillname="Meteorology" startSkill="1">
+   <description text="Today's forecast: partly cloudy with a chance of PAIN."/>
+   </ability>   
+   
+<ability name="Vague Predictions" icon="sprites/skills/meteo/skill_meteorology_64.png" skillname="Meteorology" level="0" >
+	<description text="It's your job to be right about 40% of the time. Be vague to increase your accuracy!" />
+	<resistbuff existential="1" />
+	<spell name="Vague Prediction" />
+	</ability>
+<ability name="Weather Is Fascinating!" icon="sprites/skills/meteo/weather_is_fascinating_64.png" skillname="Meteorology" level="1">
+	<description text="Dear lord, this is amazing! Look how this cold front and warm front interact to create this cumulus cloud layer!"/>
+	<resistbuff existential="1" />
+	<secondarybuff id="14" amount="1" /> <!-- MPR -->
+	<spell name="Weather Is Fascinating" />
+	</ability>
+<ability name="Cloudy With A Chance Of Meatballs" icon="skills/fungal_mana64.png" skillname="Meteorology" level="2">
+	<description text="Today's Forecast: fresh steak with a chance of steak sauce showers."/>
+	<resistbuff existential="1" />
+	<triggeroncast name="Meatballs" percent="20" />
+	</ability>
+
+<ability name="Predictions Come True" icon="sprites/skills/meteo/roll_the_dice_64.png" skillname="Meteorology" level="3">
+	<description text="Hey, look at that! You rolled the dice and things came up in your favor...this time!"/>
+	<resistbuff existential="1" />
+	<spell name="Predictions Come True" />
+	</ability> 
+
+<ability name="When It Rains, It Pours" skillname="Meteorology" level="4" icon="sprites/skills/meteo/acid_rain_64.png">
+	<description text="You've got this one down. There's definitely something that's falling from the sky.  Right now.  Hard to tell what it is, but if you announce it just before it hits, you'll at least look like you know your job."/>
+	<resistbuff existential="1" acidic="3"/>
+	<spell name="It's Raining, It's Pouring"/>
+	</ability> 
+<ability name="Meteor Shower" icon="sprites/skills/meteo/meteor_shower_64.png" skillname="Meteorology" level="5">
+	<description text="Would you look at that! Shooting stars sure are pretty."/>
+	<resistbuff existential="1" crushing="3" blasting="1" conflagratory="1" aethereal="1" />
+	<spell name="Meteor Shower" />
+	</ability>
+
+<!-- AVENGING EXECUTIONER --> 
+<skill name="Avenging Executioner" skillname="Avenging Executioner" type="rogue" description="You have a score to settle, and you've heard there's lich on the menu.">
+   <art icon="sprites/skills/avex/executioner64.png"/>
+   <loadout type="weapon" subtype="Razor Sword" always="1" amount="1"/>
+   </skill>
+   
+<ability name="Avenging Executioner" icon="sprites/skills/avex/executioner64.png" skillname="Avenging Executioner" startSkill="1">
+   <description text="You have a score to settle, and you've heard there's lich on the menu."/>
+   </ability>
+   
+<ability name="Dread Blade" icon="sprites/skills/avex/dreadblade64.png" skillname="Avenging Executioner" level="0" >
+	<description text="You are fearsome and ruthless with a blade. The diggles whisper something about the 'demon barber' when you come near." />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<criticalBuff name="Dread Blade" after="1" />
+	</ability>
+<ability name="Telling Blow" icon="sprites/skills/avex/tellingblow64.png" skillname="Avenging Executioner" level="1" >
+	<description text="When you hit hard, you hit really hard." />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<criticalBuff name="Telling Blow" after="1" />
+	</ability>
+<ability name="Inspire Terror" icon="sprites/skills/avex/inspireterror64.png" skillname="Avenging Executioner" level="2" >
+	<description text="Your presence is so fearsome that your enemies cower and flee before you." />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<spell name="Inspire Terror" />
+	</ability>
+<ability name="Gruesome Finish" icon="sprites/skills/avex/gruesomefinish64.png" skillname="Avenging Executioner" level="3" >
+	<description text="You enjoy reveling in the slaughter of your enemies. You find it...revitalizing." />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<targetKillBuff name="Gruesome Finish" after="1" />
+	</ability>
+<ability name="Bloody Murder" icon="sprites/skills/avex/bloodymurder64.png" skillname="Avenging Executioner" level="4" >
+	<description text="Enemies who witness your brutal slaughter in battle are struck with fear and awe. And some damage." />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<targetKillBuff name="Bloody Murder" after="1" />
+	</ability>
+<ability name="What Is Best In Life?" icon="sprites/skills/avex/bestinlife64.png" skillname="Avenging Executioner" level="5" >
+	<description text="To crush your enemies, see them driven before you, and to hear the lamentation of their diggles!" />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="12" amount="2" />
+	<targetKillBuff name="What Is Best In Life?" after="1" />
+	</ability>
+
+
+<!-- HAUNTED --> 
+<skill name="Haunted" skillname="Haunted" type="warrior" description="You are haunted by spectres of those slain in the dungeons. Sometimes they help you."> 
+	<art icon="skills/skill_avenge_your_father.png"/> 
+	</skill>
+<ability name="Haunted" icon="skills/skill_avenge_your_father.png" skillname="Haunted" startSkill="1"> 
+	<description text="You are haunted by spectres of those slain in the dungeons. Sometimes they help you."/> 
+	</ability>	
+	
+<ability name="Possessed" icon="skills/bloody64.png" skillname="Haunted" level="0" >
+        <description text="You see dead people. Well, diggles. And other monsters, too." />
+        <targetKillBuff name="Possession's Gift" />
+        </ability>
+<ability name="Feed on Fear" icon="skills/spells/animate_robot64.png" skillname="Haunted" level="1" >
+        <description text="You can call on one of your spirits to terrorize a still (un)living creature. They seem to like the terror it generates." />
+        <spell name="Feed on Fear" />
+        </ability>
+<ability name="Ghostarmor" icon="skills/body_paint64.png" skillname="Haunted" level="2" >
+        <description text="The spirits that accompany you are getting more willing to help you stay alive. When you ask, a pair of them will devote themselves to your defense." />
+        <spell name="Ghostarmor" />
+        </ability>
+<ability name="Gaze of Malevolence" icon="skills/vital_siphon64.png" skillname="Haunted" level="3" >
+        <description text="By directing your entire horde of spirits at a single victim, you lose them all -- but the victim loses much, much more." />
+        <spell name="Gaze of Malevolence" />
+        </ability>
+<ability name="Possessive" icon="skills/spells/animate_petroleum64.png" skillname="Haunted" level="4">
+		<description text="You can ask one of your spirits to stay behind and enter the body of any creature that happens across it. It'll force the creature to love you unconditionally until the creature can reject the spirit."/>
+		<spell name="PossessiveSpirit"/>
+		</ability>
+<ability name="Ghostblade" icon="skills/spells/pure_righteousness64.png" skillname="Haunted" level="5"> 
+		<description text="The Ghostblade is a technique forged of desperation -- as many spirits as you have on you will dive into your aura, strengthening your attacks with the power of the Otherworld. The more, the scarier!"/>
+		<spell name ="Ghostblade"/>
+		</ability> 
+<ability name="Wail of the Banshee" icon="skills/spells/unholy_warcry64.png" skillname="Haunted" level="6 " >
+        <description text="The spirits that follow you are getting more brazen -- now one will, if you ask, basically detonate itself in a violent scream of otherworldy energies. Don't stand too near when it does so." />
+        <spell name="Wail of the Banshee" />
+        </ability>
+
+<!-- NOONE EXPECTS THE DREDMOR INQUISITION -->
+<skill name="Inquisitor" skillname="Inquisitor" type="warrior" description="The hammer of righteousness is strong in your arms!">
+   <art icon="skills/wizard/spell_white4_64.png"/>
+   <loadout   type="weapon" subtype="Hammer of Righteousness" always="1" amount="1"/> 
+   </skill>
+   
+<ability name="Inquisitor" icon="skills/wizard/spell_white4_64.png" skillname="Inquisitor" startSkill="1">
+   <description text="The hammer of righteousness is strong in your arms!"/>
+   </ability>   
+   
+<ability name="Smite Evil" icon="skills/warrior/macery1_64.png" skillname="Inquisitor" level="0" >
+	<description text="The proper term is 'Smite Evil,' not 'Bump Uglies'." />
+	<resistbuff necromantic="1" putrefying="1" />
+	<spell name="Smite Evil" />
+	</ability>
+<ability name="Holy Sword" icon="skills/wizard/spell_white9_64.png" skillname="Inquisitor" level="1" learnrecipe="Hammer of Incredible Righteousness" >
+	<description text="Not necessarily a sword, mind you, just the idea of one will do."/>
+	<resistbuff necromantic="1" putrefying="1" />
+	<spell name="Holy Sword" />
+	</ability>
+<ability name="Martyr's Aegis" icon="skills/spells/martyrs_aegis64.png" skillname="Inquisitor" level="2" learnrecipe="Hammer of Overflowing Righteousness" >
+	<description text="There, but for the grace of god, go you."/>
+	<resistbuff necromantic="1" putrefying="1" />
+	<spell name="Martyr's Aegis" />
+	<secondarybuff id="0" amount="8" /> <!-- HP -->
+	</ability>
+<ability name="Know Thine Enemy" icon="skills/wizard/spell_white1_64.png" skillname="Inquisitor" level="3" learnrecipe="Hammer of Unending Righteousness" >
+	<description text="It is said that if you know your enemies and know yourself, you will not be imperiled in a hundred battles; if you do not know your enemies but do know yourself, you will win one and lose one; if you do not know your enemies nor yourself, you will be imperiled in every single battle."/>
+	<resistbuff necromantic="1" putrefying="1" />
+	<spell name="Know Thine Enemy" />
+	</ability>
+<ability name="Solemn Vow" icon="skills/spells/pure_righteousness64.png" skillname="Inquisitor" level="4" learnrecipe="Hammer of Exemplary Righteousness" >
+	<description text="Your patron shields you from harm for your mighty faith."/>
+	<resistbuff acidic="1" aethereal="1" asphyxiative="1" blasting="1" conflagratory="1" crushing="1" existential="1" hyperborean="1" necromantic="1" piercing="1" putrefying="1" righteous="1" slashing="1" toxic="1" transmutative="1" voltaic="1" />
+	<secondarybuff id="11" amount="15" /> <!-- magic resist -->
+	<secondarybuff id="22" amount="15" /> <!-- magic reflect -->
+	</ability>
+<ability name="Divine Restoration" icon="skills/spells/restoration64.png" skillname="Inquisitor" level="5" learnrecipe="The Original Hammer of Righteousness (tm)" >
+	<description text="By the power of Krong, you are HEALED!"/>
+	<resistbuff necromantic="1" putrefying="1" />
+	<secondarybuff id="13" amount="3" /> <!-- HPR -->
+	<secondarybuff id="14" amount="3" /> <!-- MPR -->
+	<spell name="Divine Restoration" />
+	<criticalBuff name="Know Thine Enemy" after="1" percentage="33" />
+	</ability>
+
+<!-- SPELLSWORD --> 
+<skill name="Spellsword" skillname="Spellsword" type="wizard" description="You mix magic and melee in a unique and devastating way.">
+	<art icon="sprites/skills/spsw/arcane_attune64.png"/>
+	<loadout type="weapon" subtype="Sacrificial Dagger" always="1" amount="1"/>
+	</skill>
+<ability name="Spellsword" icon="skills/warrior/sword_lore64.png" skillname="Spellsword" startSkill="1">
+	<description text="You mix magic and melee in a unique and devastating way."/>
+	</ability>	
+<ability name="Arcane Attunement" icon="sprites/skills/spsw/arcane_attune64.png" skillname="Spellsword" level="0">
+	<description text="The most basic thing a spellsword learns is how to activate a magical 'mode'. Using such a mode will align the elements that the rest of their spellsword training teaches and shield them from that element."/>
+	<secondarybuff id="5" amount="1"/>
+	<secondarybuff id="14" amount="1"/>
+	<secondarybuff id="1" amount="2"/>
+	<spell name="Arcane Attunement"/>
+	</ability>
+<ability name="Arcane Strike" icon="sprites/skills/spsw/arcane_strike64.png" skillname="Spellsword" level="1">
+	<description text="By reaching into your elemental self, you can draw forth some of that energy and use it to damage an opponent. This is not without cost: your ability to do this is limited by your mana pool."/>
+	<spell name="Arcane Strike"/>
+	<secondarybuff id="5" amount="2"/>
+	</ability>
+<ability name="Arcane Riposte" icon="sprites/skills/spsw/energy_shield64.png" skillname="Spellsword" level="2">
+	<description text="Your ability to draw out your elemental attunement has improved to the point where it is now reflex. Any enemy that strikes you has a chance to be struck in turn with some of your elemental energies."/>
+	<playerHitEffectBuff name="Arcane Strike" percentage="20"/>
+	<secondarybuff id="11" amount="5"/>
+	<secondarybuff id="22" amount="5"/>
+	<secondarybuff id="5" amount="2"/>
+	</ability>
+<ability name="Arcane Intensity" icon="sprites/skills/spsw/arcane_intensity64.png" skillname="Spellsword" level="3">
+	<description text="As your spellsword skills hone themselves, you find yourself able to intensify your attunement, granting you a larger benefit when attuned. Further, you can retain some of that energy even when in another mode."/>
+	<spell name="Arcane Intensified Focus"/>
+	<secondarybuff id="5" amount="3"/>
+	<secondarybuff id="14" amount="1"/>
+	<secondarybuff id="1" amount="4"/>
+	</ability>
+<ability name="Energy Vortex" icon="sprites/skills/spsw/energy_vortex64.png" skillname="Spellsword" level="4">
+	<description text="You can now throw your elemental energies about. This is an expensive and risky tactic: expending all your energy on vortices will leave you unable to perform arcane strikes."/>
+	<spell name="Energy Vortex"/>
+	<secondarybuff id="5" amount="3"/>
+	</ability>
+<ability name="Arcane Channeling" icon="sprites/skills/spsw/arcane_channeling64.png" skillname="Spellsword" level="5">
+	<description text="The ultimate spellsword technique involves careful planning: this ability can be used as a basic--albeit expensive--attack skill, but when you have prime focus in all four of your elemental foci, you can empower this attack to an absurd degree."/>
+	<spell name="Arcane Channeling"/>
+	<secondarybuff id="5" amount="8"/>
+	<secondarybuff id="11" amount="10"/>
+	<secondarybuff id="1" amount="4"/>
+	</ability>
+
+<!-- Trapsmith -->
+	<!-- Spell-like trap mines on cooldown, scale off trap affinity -->
+	<!-- Traps are pulled from the Quasielemental Plane of Traps -->
+<skill name="Trapsmith" skillname="Trapsmith" type="rogue" description="You have studied ancient texts and learned how to access the Paraelemental Plane of Traps.">
+	<art icon="skills/rogue/trappist64.png"/>
+	<loadout type="weapon" subtype="Sacrificial Dagger" always="1" amount="1"/>
+	</skill>
+<ability name="Trapsmith" icon="skills/rogue/trappist64.png" skillname="Trapsmith" startSkill="1">
+	<description text="You have studied ancient texts and learned how to access the Paraelemental Plane of Traps."/>
+	</ability>	
+	<!-- Lvl 0 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity -->
+		<!-- Footy Trap: deals piercing and slashing damage, impedes movement -->
+<ability name="Summon Footy Trap" icon="skills/rogue/skill_trap_lore1_64.png" skillname="Trapsmith" level="0">
+	<description text="Footy traps are a basic device that impedes the movement of those unfortunate to step into one. You can call these directly from the Paraelemental Plane of Traps to any place of your choosing."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<spell name="Summon Footy Trap"/>
+	</ability>
+	
+	<!-- Lvl 1 -->
+		<!-- +1 Tinkering -->
+		<!-- Midas Trap: deals transmutative damage, midas effect -->
+<ability name="Summon Midas Trap" icon="skills/rogue/skill_trap_lore0_64.png" skillname="Trapsmith" level="1">
+	<description text="Midas traps, when triggered, transform small portions of their victim into gold coins. This ability lets you summon organic, free-range midas traps directly into your immediate surroundings."/>
+	<secondarybuff id="20" amount="1"/>
+	<spell name="Summon Midas Trap"/>
+	</ability>
+	
+	<!-- Lvl 2 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity -->
+		<!-- Deadfall Trap: deals crushing damage, creates a wall, knocks back -->
+<ability name="Summon Deadfall Trap" icon="skills/wizard/spell_earth3_64.png" skillname="Trapsmith" level="2">
+	<description text="Deadfall traps (also known as load-bearing traps) drop a pile of rubble onto whoever happens to blunder into their trigger. This power lets you craft bespoke, artisanal deadfall traps wherever you point."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<spell name="Summon Deadfall Trap"/>
+	</ability>
+	
+	<!-- Lvl 3 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity -->
+		<!-- Explosive Runes: deals blasting and conflagratory, AoE effect -->
+<ability name="Summon Explosive Runes" icon="skills/spells/divine_inscription64.png" skillname="Trapsmith" level="3">
+	<description text="Explosive runes violently explode when read, touched, or sometimes even just when left alone. They're very volatile. This power lets you scribe masterfully written calligraphy that explodes anywhere within your sight."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<spell name="Scribe Explosive Runes"/>
+	</ability>
+	
+	<!-- Lvl 4 -->
+		<!-- +1 Tinkering -->
+		<!-- Vacuum Trap: deals asphyxiative damage, AoE, sucks enemies in -->
+<ability name="Summon Vacuum Trap" icon="skills/wizard/spell_air1_64.png" skillname="Trapsmith" level="4">
+	<description text="Vacuum traps suck all the air out of an area and pull anything inside it towards the center. Hapless creatures within its range will find it difficult to breathe. This power lets you source vintage vacuum traps directly from the Paraelemental Plane of Traps."/>
+	<secondarybuff id="20" amount="1"/>
+	<spell name="Summon Vacuum Trap"/>
+	</ability>
+	
+	<!-- Lvl 5 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity -->
+		<!-- Blink Trap: deals aethereal damage, teleports enemy randomly -->
+<ability name="Summon Blink Trap" icon="skills/wizard/spell_air3_64.png" skillname="Trapsmith" level="5">
+	<description text="Blink traps send their victims careening around in random directions through magical displacement. Since these traps are very inefficient, they use some of the victim's body to power the trap, transmuting portions of their body into arcane energy. This power places hand-crafted, antique blink traps gently onto the floor nearby."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<spell name="Summon Blink Trap"/>
+	</ability>
+
+	<!-- Lvl 6 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity -->
+		<!-- Thunderbolt Trap: deals voltaic, AoE effect, stuns -->
+<ability name="Summon Thunderbolt Trap" icon="skills/spells/fulminaric_bolt64.png" skillname="Trapsmith" level="6">
+	<description text="Thunderbolt traps are a shocking flash and a bang (not to be confused with a flashbang). This skill summons forth a rustic, farm-to-table thunderbolt trap from the Quasiparaelemental Demiplane of Electrical Traps."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<spell name="Summon Thunderbolt Trap"/>
+	</ability>
+
+	<!-- Lvl 7 -->
+		<!-- +1 Trap Sight, +1 Trap Affinity, +1 Tinkering -->
+		<!-- A sentry skill would be perfect but it isn't possible while charmed monsters don't use skills -->
+		<!-- Nethercurse Trap: deals necromantic, big AoE, debuffs -->
+<ability name="Summon Nethercurse Trap" icon="skills/spells/stars_aligned64.png" skillname="Trapsmith" level="7">
+	<description text="Found on the edges of the Quasiparaelemental Demiplane of Evil Traps, nethercurse traps are a particularly vile trap that is often described with words like 'overkill', 'extreme prejudice', and 'I think I found his finger'. This ability lets you put one nearby. Just...not too nearby. You don't want to get any on you."/>
+	<secondarybuff id="16" amount="1"/>
+	<secondarybuff id="17" amount="1"/>
+	<secondarybuff id="20" amount="1"/>
+	<spell name="Summon Nethercurse Trap"/>
+	</ability>
+	
+<!-- BROFISTERY -->
+<skill name="Brofistery" skillname="Brofistery" type="warrior" description="You have studied at the table of Sweet Bro and Hella Jeff, and have come away TOTALLY RIGHTEOUS." >
+	<art icon="skills/warrior/footwork64.png" />
+	<loadout type="weapon" subtype="Plastic Knuckles" always="1" amount="1"/>
+	</skill>
+
+<ability name="Brofistery" icon="skills/warrior/footwork64.png" skillname="Brofistery" startSkill="1">
+	<description text="You have studied at the table of Sweet Bro and Hella Jeff, and have come away TOTALLY RIGHTEOUS." />
+	</ability>
+	
+<ability name="Broface" icon="skills/stat_chr64.png" skillname="Brofistery" level="0" >
+	<description text="NOT IN THE FACE" />
+	<resistbuff righteous="1" />
+	<damagebuff righteous="1" />
+	<secondarybuff id="6" amount="3" />
+	</ability>
+	
+<ability name="I Cast Fist" icon="skills/warrior/unarmed_art0_64.png" skillname="Brofistery" level="1" >
+	<description text="The most basic attack form of brofistery, you strike an opponent with some righteous power. Occasionally, you can make it explode." />
+	<spell name="I Cast Fist" />
+	<damagebuff righteous="1" />
+	</ability>
+	
+<ability name="Bros Before Foes" icon="skills/spells/animate_petroleum64.png" skillname="Brofistery" level="2" >
+	<description text="Your totally bodacious righteousness makes your enemies weaker and fuels your own power." />
+	<spell name="Bros Before Foes" />
+	<resistbuff righteous="1" />
+	</ability>
+	
+<ability name="Flanking Bro" icon="skills/wizard/spell_air3_64.png" skillname="Brofistery" level="3" >
+	<description text="Summon a bro to help you kill foes, bro. Bros before foes!" />
+	<spell name="Flanking Bro" />
+	<damagebuff righteous="1" />
+	<secondarybuff id="12" amount="3" />
+	</ability>
+	
+<ability name="Bad Bromance" icon="skills/spells/unconditional_love64.png" skillname="Brofistery" level="4" learnrecipe="Flametouched Iron Knuckles" >
+	<description text="Ra-a Oo-ma-ma Ga-ga Ooh-laa-laa, want your bad bromance." />
+	<playerHitEffectBuff name="Bad Bromance" percentage="10" />
+	<spell name="Bad Bromance" />
+	<resistbuff righteous="1" />
+	</ability>
+	
+<ability name="Dr. Zhivabro, or How I Learned to Stop Worrying and Love the Brofist" icon="skills/spells/firehand64.png" skillname="Brofistery" level="5" learnrecipe="Silver Knuckles" >
+	<description text="I love the smell of gnarly brofists in the morning." />
+	<targetHitEffectBuff name="I Cast Fist" percentage="20" />
+	<damagebuff righteous="2" />
+	<secondarybuff id="10" amount="2" />
+	</ability>
+	
+<ability name="Power of the Broforce" icon="skills/body_paint64.png" skillname="Brofistery" level="6" learnrecipe="Gold Knuckles" >
+	<description text="Not to be confused with the Courage or the Wisdom of the Broforce." />
+	<spell name="Power of the Broforce" />
+	<resistbuff righteous="1" />
+	<secondarybuff id="11" amount="5" />
+	<secondarybuff id="22" amount="5" />
+	</ability>
+	
+<ability name="Broseidon, Broverlord of the Brocean" icon="skills/spells/tsunami64.png" skillname="Brofistery" level="7" learnrecipe="Golden Fist of the Bro" >
+	<description text="You are become Bro, destroyer of tools." />
+	<damagebuff righteous="2" />
+	<resistbuff righteous="2" />
+	<secondarybuff id="2" amount="2" />
+	<secondarybuff id="4" amount="2" />
+	<secondarybuff id="6" amount="2" />
+	<secondarybuff id="8" amount="2" />
+	<secondarybuff id="10" amount="2" />
+	<targetHitEffectBuff name="I Cast Fist" percentage="20" />
+	</ability>
+
+<!-- DADINAVIAN WIZARDRY -->
+<skill name="Dadinavian Wizardry" skillname="Dadinavian Wizardry" type="wizard" description="Dadinavian wizards are a cadre of wizards from the North (lots of places have a 'north'). They wear cargo shorts and wraparound sunglasses, and are widely known as Masters of the Grilling Arts." >
+	<art icon="sprites/skills/dad/darkside64.png" />
+	<loadout type="armour" subtype="Cargo Shorts" always="1" amount="1"/>
+	</skill>
+
+<ability name="Dadinavian Wizardry" icon="sprites/skills/dad/darkside64.png" skillname="Dadinavian Wizardry" startSkill="1">
+	<description text="Dadinavian wizards are a highly hierarchical cadre of wizards from the North (lots of places have a 'north'). They wear cargo shorts and wraparound sunglasses, and are widely known as Masters of the Grilling Arts." />
+	</ability>
+	
+<ability name="Tranquil as a Forest" icon="skills/extraplanar_concentration64.png" skillname="Dadinavian Wizardry" level="0" >
+	<description text="Dadinavian wizards must be tranquil as the forest." />
+	<primarybuff id="1" amount="2" />
+	<spell name="Tranquil as a Forest" />
+	</ability>
+
+<ability name="Fire Within" icon="skills/infernal64.png" skillname="Dadinavian Wizardry" level="1" >
+	<description text="Dadinavian wizards must have the passionate fire of The Grill in their hearts." />
+	<damagebuff conflagratory="1" />
+	<resistbuff conflagratory="1" />
+	<spell name="Fire Within" />
+	</ability>
+
+<ability name="Swift as the Coursing River" icon="skills/skill_dodging.png" skillname="Dadinavian Wizardry" level="2" >
+	<description text="Dadinavian wizards must be as swift as the coursing river." />
+	<primarybuff id="2" amount="5" />
+	<spell name="Swift as the Coursing River" />
+	</ability>
+
+<ability name="Force of a Great Typhoon" icon="skills/mystic_missile64.png" skillname="Dadinavian Wizardry" level="3" >
+	<description text="Dadinavian wizards must have the force of a great typhoon." />
+	<primarybuff id="0" amount="5" />
+	<spell name="Force of a Great Typhoon" />
+	</ability>
+
+<ability name="Strength of a Raging Fire" icon="skills/wreathofexplosion64.png" skillname="Dadinavian Wizardry" level="4" >
+	<description text="Dadinavian wizards must possess the strength of the raging fire." />
+	<damagebuff conflagratory="3" />
+	<resistbuff conflagratory="3" />
+	<spell name="Strength of a Raging Fire" />
+	</ability>
+
+<ability name="Mysterious as the Dark Side of the Moon" icon="sprites/skills/dad/darkside64.png" skillname="Dadinavian Wizardry" level="5" learnrecipe="Cargo Shorts of the White Wizard">
+	<description text="Dadinavian wizards are, above all else, mysterious as the dark side of the moon." />
+	<primarybuff id="5" amount="10" />
+	<spell name="Mysterious as the Dark Side of the Moon" />
+	</ability>
+
+
+<!-- Truespeaker -->
+	<!-- Say My Name...: mild unstackable buff that is consumed to power other truespeaker skills -->
+	<!-- ...And Be Afraid: burns SMN to fear enemies -->
+	<!-- ...And I Am There: burns SMN to teleport -->
+	<!-- Unnamed: occasionally gain SMN by killing enemies -->
+	<!-- ...For I Am Resilient: burn SMN to gain a brittle defensive buff -->
+	<!-- ...For I Am Great and Terrible: burn SMN to gain a brittle offensive buff -->
+	<!-- ... -->
+	<!-- ... -->
+
+<!-- Power Metal wizard -->
+	<!-- Ride the Lightning: teleport and shock everyone on the way -->
+	<!-- Holy Thunderforce: AoE righteous/voltaic nuke -->
+	<!-- Through the Fire and Flames: conflagratory resists, when-hit effect -->
+	<!-- Sonata Arctica: hyperborean resists, when-hit effect -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+
+<!-- Usurper -->
+	<!-- You are here not to defeat Lord Dredmor, but to depose him and claim his power for your own so that you may rule with an IRON FIST. -->
+	<!-- Chill Touch: melee-range spell that inflicts hyperborean and fear -->
+	<!-- Unnamed: Consume corpses for healing/mana -->
+	<!-- Unnamed: Consume corpses for buffs -->
+	<!-- Corpse Explosion: lifted almost directly from Diablo 2 -->
+	<!-- Demonic Circle: like Celestial Circle but different, but same, but still different -->
+	<!-- Lich Apotheosis: capstone, maybe transformation? High undead resists/weaknesses -->
+</skillDB>

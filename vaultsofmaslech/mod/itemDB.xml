@@ -1,0 +1,1626 @@
+<itemDB>
+<!-- EQUIPMENT -->	
+<!-- ARMOR -->
+<!-- HEAD -->
+<item name="Maslech, the Eater of Beatings" iconFile="items/helm_fedora.png" artifact="1" overrideClassName="God of Hats" special="1">
+	<price amount="1000000" />
+	<armour level="20" type="head" />
+	<primarybuff id="0" amount="3" />
+	<primarybuff id="1" amount="2" />
+	<primarybuff id="2" amount="5" />
+	<primarybuff id="3" amount="2" />
+	<primarybuff id="4" amount="4" />
+	<primarybuff id="5" amount="1" />
+	<secondarybuff id="0" amount="5" />
+	<secondarybuff id="1" amount="4" />
+	<secondarybuff id="4" amount="4" />
+	<secondarybuff id="5" amount="6" />
+	<secondarybuff id="6" amount="8" />
+	<secondarybuff id="7" amount="7" />
+	<secondarybuff id="8" amount="5" />
+	<secondarybuff id="9" amount="3" />
+	<secondarybuff id="10" amount="4" />
+	<secondarybuff id="11" amount="4" />
+	<secondarybuff id="12" amount="10" />
+	<secondarybuff id="13" amount="1" />
+	<secondarybuff id="14" amount="8" />
+	<secondarybuff id="16" amount="5" />
+	<secondarybuff id="17" amount="2" />
+	<secondarybuff id="18" amount="2" />
+	<damagebuff slashing="1" blasting="4" conflagratory="1" hyperborean="3" voltaic="1" toxic="2" necromantic="1" acidic="1" putrefying="1" asphyxiative="2" existential="1" />
+	<resistbuff crushing="1" slashing="1" conflagratory="2" voltaic="4" toxic="2" righteous="1" necromantic="2" acidic="1" putrefying="2" aethereal="1" asphyxiative="1" />
+	<description text="Once possessed by Fax Celestis XVI, the Eater of Beatings has now chosen you as its next hero. It desires the blood of diggles for sustenance. Do you dare defy the Hat God? It is studded with elk bone and the blood of diggles." />
+	</item>
+
+<!-- Wraparound Sunglasses for the Dadinavian Wizard fit -->
+<item name="Shades of the Blue Wizard" iconFile="sprites/head_sunglasses_blue.png" >
+	<price amount="200" />
+	<armour level="2" type="head" />
+	<description text="Rather than pointy hats or other headwear traditionally associated with wizardry, Dadinavian wizards wear these sporty, aerodynamic sunglasses. This is the most basic version, usually gifted to an apprentice graduating into full wizardry by their mentor." />
+	<secondarybuff id="22" amount="5" />
+	<resistbuff righteous="1" />
+	<secondarybuff id="3" amount="1" />
+	</item>
+
+<item name="Shades of the Red Wizard" iconFile="sprites/head_sunglasses_red.png" >
+	<price amount="3000" />
+	<armour level="6" type="head" />
+	<description text="Dadinavian wizard castes follow a complicated, color-based protocol for determining who is a better wizard. Red wizards are several steps above blue (except in Eastern Dadinavia, for some reason), and these red shades are more powerful to match." />
+	<secondarybuff id="22" amount="8" />
+	<resistbuff righteous="3" />
+	<secondarybuff id="3" amount="3" />
+	</item>
+
+<item name="Shades of the Green Wizard" iconFile="sprites/head_sunglasses_green.png" >
+	<price amount="10000" />
+	<armour level="10" type="head" />
+	<description text="Dadinavian green wizards are among the higher castes (surpassed only by orange wizards, white wizards, black wizards, and The High Prismatic Wizard). This green-tinted pair of sunglasses has seen better days, but they're more than functional." />
+	<secondarybuff id="22" amount="10" />
+	<resistbuff righteous="4" />
+	<secondarybuff id="3" amount="5" />
+	</item>
+	
+<item name="Shades of the Orange Wizard" iconFile="sprites/head_sunglasses_orange.png" artifact="1" >
+	<price amount="25000" />
+	<armour level="14" type="head" />
+	<description text="Orange wizard shades are worn by all the uppermost castes of Dadinavian wizards. Why? Tradition states that 'white sunglasses look stupid' and 'black sunglasses make it impossible to see anything'." />
+	<secondarybuff id="22" amount="15" />
+	<resistbuff righteous="5" />
+	<secondarybuff id="3" amount="7" />
+	<artifact quality="8" />
+	</item>	
+	
+<!-- LANTERNS --> 
+<item name="Candlestick" iconFile="sprites/candlestick.png" overrideClassName="Lantern" >
+	<price amount="200" />
+	<armour level="2" type="shield" />
+	<description text="A candle in a hand-held candlestick holder. Maybe you can use this to light up your life a little." />
+	<secondarybuff id="17" amount="1" />
+	<secondarybuff id="18" amount="1" />
+	<resistbuff conflagratory="-1" righteous="1" />
+	</item>
+	
+<item name="Lantern" iconFile="sprites/lantern.png" overrideClassName="Lantern" >
+	<price amount="1500" />
+	<armour level="4" type="shield" />
+	<description text="Inscribed on the handle is the phrase 'Please Return to P. Revere'." />
+	<secondarybuff id="17" amount="2" />
+	<secondarybuff id="18" amount="2" />
+	<resistbuff righteous="2" />
+	<damagebuff righteous="2" conflagratory="2" />
+	<targetHitEffectBuff name="Ignition Bolt" percentage="10" />
+	</item>
+	
+<!-- 7 - ??? -->
+
+<item name="Jack-o-Lantern" iconFile="sprites/lantern_jack_o_lantern.png" overrideClassName="Lantern" >
+	<price amount="10000" />
+	<armour level="10" type="shield" />
+	<description text="This whimsical handheld lantern is shaped like a traditional jack-o-lantern. The light emitting from its mouth gives an eerie glow to your surroundings." />
+	<secondarybuff id="17" amount="2" />
+	<secondarybuff id="18" amount="2" />
+	<resistbuff existential="4" />
+	<damagebuff existential="3" conflagratory="3" />
+	<targetHitEffectBuff name="Sapped Life" percentage="10" />
+	</item>
+	 
+<item name="Hurricane Lantern" iconFile="sprites/lantern_hurricane.png" overrideClassName="Lantern" >
+	<price amount="20000" />
+	<armour level="13" type="shield" />
+	<description text="This magical hurricane lantern does not have a flame or similar light source inside the glass (though it does still emit light). Instead, when you are struck with a spell, the lantern absorbs some of the incoming energy and generates a mild antimagic bubble around you as a defense mechanism." />
+	<secondarybuff id="17" amount="2" />
+	<secondarybuff id="18" amount="2" />
+	<secondarybuff id="11" amount="5" />
+	<resistbuff asphyxiative="5" />
+	<damagebuff asphyxiative="4" conflagratory="4" />
+	<playerHitEffectBuff name="Antimagic Buff" percentage="10" />
+	</item>
+	
+<item name="Dire Jack-o-Lantern" iconFile="sprites/lantern_dire_jack_o_lantern.png" overrideClassName="Lantern" artifact="1">
+	<price amount="100000" />
+	<armour level="16" type="shield" />
+	<description text="This terrifying handheld lantern is carved like a traditional jack-o-lantern. You could swear that the face changes when you're not looking at it." />
+	<secondarybuff id="17" amount="3" />
+	<secondarybuff id="18" amount="3" />
+	<resistbuff existential="4" conflagratory="4" />
+	<damagebuff existential="4" conflagratory="4" />
+	<artifact quality="8" />
+	<targetHitEffectBuff name="Sapped Life" percentage="20" />
+	</item>
+
+<!-- TOMES -->
+<item name="Dungeons for Dummies" iconFile="sprites/tome_dummies.png" overrideClassName="Tome" artifact="1" >
+	<price amount="100" />
+	<armour level="1" type="shield" />
+	<primarybuff id="0" amount="1" />
+	<primarybuff id="1" amount="1" />
+	<primarybuff id="2" amount="1" />
+	<primarybuff id="3" amount="1" />
+	<primarybuff id="4" amount="1" />
+	<primarybuff id="5" amount="1" />
+	<artifact quality="1" />
+	<description text="Every little bit counts." />
+	</item>
+	
+<item name="The Seventy Maxims of Maximally Effective Mercenaries" iconFile="sprites/tome_seventy_maxims.png" overrideClassName="Tome" artifact="1" >
+	<price amount="5000" />
+	<armour level="5" type="shield" />
+	<artifact quality="3" />
+	<secondarybuff id="2" amount="3" /> <!-- melee -->
+	<damagebuff crushing="3" />
+	<resistbuff crushing="3" />
+	<description text="Maxim 6: If violence wasn't your last resort, you failed to resort to enough of it." />
+	</item>
+	
+<item name="History of the World, Part I" iconFile="sprites/tome_history_pt_1.png" overrideClassName="Tome" artifact="1" >
+	<price amount="5000" />
+	<armour level="6" type="shield" />
+	<artifact quality="5" />
+	<thrownBuff name="Narcosomatic Induction" percentage="50" />
+	<targetHitEffectBuff percentage="50" name="Narcosomatic Induction" />
+	<description text="Far more boring than the movie version." />
+	</item>
+
+<item name="Manual of Martial Prowess" iconFile="sprites/tome_martial_prowess.png" overrideClassName="Tome" artifact="1" > 
+	<price amount="25000" />
+	<armour level="7" type="shield" />
+	<artifact quality="7" />
+	<targetHitEffectBuff percentage="10" name="Thibault's Trompement" />
+	<targetHitEffectBuff percentage="10" name="Norwegian Axenado" />
+	<targetHitEffectBuff percentage="10" name="Ragnar's Meteor" />
+	<targetHitEffectBuff percentage="10" name="Gray Heron Takes Flight" />
+	<targetKillBuff percentage="25" name="Killing Blow" />
+	<description text="A treatise on the best way to defeat your enemies, see them driven before you, and to hear the lamentation of their women. Parts of it appear to be bloodstained." />
+	</item>
+
+<item name="Book of Shadows" iconFile="sprites/tome_shadows.png" overrideClassName="Tome" >
+	<price amount="25000" />
+	<armour level="5" type="shield" />
+	<resistbuff righteous="4" necromantic="2" existential="2" />
+	<secondarybuff id="21" amount="1" /> <!-- alchemy -->
+	<secondarybuff id="23" amount="1" /> <!-- wandsmithing -->
+	<targetKillBuff percentage="25" name="Arcane Attunement" />
+	<description text="Previously owned by three scantily clad witches." />
+	</item>
+
+<item name="History of the World, Part II" iconFile="sprites/tome_history_pt_2.png" overrideClassName="Tome" artifact="1" >
+	<price amount="5000" />
+	<armour level="8" type="shield" />
+	<artifact quality="5" />
+	<thrownBuff name="Doom Hit" percentage="100" />
+	<targetHitEffectBuff percentage="100" name="Doom Hit" />
+	<description text="Someone's torn out half the pages and scrawled all over the others in some infernal language." />
+	</item>
+
+<item name="Landscapes: A Pretentious Pictorial" iconFile="sprites/tome_landscapes.png" overrideClassName="Tome" >
+	<price amount="25000" />
+	<armour level="6" type="shield" />
+	<damagebuff asphyxiative="4" />
+	<resistbuff asphyxiative="4" />
+	<targetHitEffectBuff percentage="25" name="Harsh Vacuum" />
+	<description text="The pictures in here could take your breath away." />
+	</item>
+
+<item name="Crafter's Almanac" iconFile="sprites/tome_almanac.png" overrideClassName="Tome" >
+	<price amount="25000" />
+	<armour level="8" type="shield" />
+	<secondarybuff id="19" amount="1" /> <!-- smithing -->
+	<secondarybuff id="20" amount="1" /> <!-- tinkering -->
+	<secondarybuff id="21" amount="1" /> <!-- alchemy -->
+	<secondarybuff id="23" amount="1" /> <!-- Wandcrafting -->
+	<description text="Seems to have a little bit on everything." />
+	</item>
+
+<!-- CHESTS -->
+<item name="Apron of Mild Bawdiness" iconFile="sprites/armor_apron.png" level="3" >
+	<price amount="450" />
+	<armour level="2" type="chest" />
+	<secondarybuff id="3" amount="2" /> <!-- magic power -->
+	<secondarybuff id="5" amount="1" /> <!-- haywire -->
+	<secondarybuff id="1" amount="3" /> <!-- mana -->
+	<resistbuff conflagratory="3" />
+	<description text="Traditional Dadinavian wizard attire is incomplete without this flirtatious apron. What makes it flirtatious? Well, typically one does not wear anything underneath it." />
+	</item>
+
+<item name="Apron of the Red Wizard" iconFile="sprites/armor_apron_red_wizard.png" level="8" >
+	<price amount="7500" />
+	<armour level="8" type="chest" />
+	<secondarybuff id="3" amount="5" /> <!-- magic power -->
+	<secondarybuff id="5" amount="5" /> <!-- haywire -->
+	<secondarybuff id="11" amount="3" /> <!-- magic resist -->
+	<secondarybuff id="1" amount="10" /> <!-- mana -->
+	<resistbuff conflagratory="3" aethereal="2" acidic="2" toxic="2
+	" />
+	<description text="Dadinavian wizards who ascend to the red caste are given this ceremonial attire as part of their commencement. They are typically given practical magical enchantments that grant the wearer resistances against the elements of common magical mishaps. Why it's down here is beyond anyone's knowledge." />
+	</item>
+
+<item name="Apron of the Black Wizard" iconFile="sprites/armor_apron_black_wizard.png" level="11" artifact="1" >
+	<price amount="25000" />
+	<armour level="11" type="chest" />
+	<secondarybuff id="3" amount="8" /> <!-- magic power -->
+	<secondarybuff id="5" amount="8" /> <!-- haywire -->
+	<secondarybuff id="11" amount="5" /> <!-- magic resist -->
+	<secondarybuff id="1" amount="15" /> <!-- mana -->
+	<resistbuff conflagratory="3" aethereal="3" acidic="3" toxic="3" />
+	<artifact quality="10" />
+	<description text="Dadinavian wizards who ascend to the highest caste (black) wear this traditional garb. Each one is unique and enchanted differently, though they do have some common features. One thing they do have in common, however, is that they're not very good at stopping traditional physical attacks. Try not to get hit with this on: the black of the apron will cover up bloodstains, but will do nothing to prolong your lifespan." />
+	</item>
+
+<!-- PANTS --> 
+<!-- levels 13, 14, 15 -->
+
+<item name="Cargo Shorts" iconFile="sprites/pants_cargo_shorts.png" level="2" >
+	<price amount="200" />
+	<armour level="2" type="legs" />
+	<secondarybuff id="3" amount="2" />
+	<secondarybuff id="14" amount="1" />
+	<playerHitEffectBuff name="Handy" percentage="10" />
+	<description text="Apprentice wizards devised the original cargo shorts to carry additional magical components, as their robes did not have pockets. However, it was not long before they were coopted as the national garb of Dadinavia. This pair has an enchantment that spontaneously creates components when struck with significant kinetic energy." />
+	</item>
+
+<item name="Cargo Shorts of the Purple Wizard" iconFile="sprites/pants_cargo_shorts_purple_wizard.png" level="7" >
+	<price amount="4500" />
+	<armour level="7" type="legs" />
+	<secondarybuff id="3" amount="5" />
+	<secondarybuff id="5" amount="5" />
+	<secondarybuff id="11" amount="5" />
+	<secondarybuff id="14" amount="2" />
+	<playerHitEffectBuff name="Handy" percentage="10" />
+	<description text="Upon leaving their apprenticeship, Dadinavian wizards change their robes (and associated cargo shorts) from iron gray to funky purple, a color chosen because it covers alchemical mishaps very easily. Like the apprentice version, these journeyman cargo shorts carry a similar kinetic enchantment, spontaneously creating crafting materials when struck with sufficient force." />
+	</item>
+
+<item name="Cargo Shorts of the White Wizard" iconFile="sprites/pants_cargo_shorts_white_wizard.png" level="10" artifact="1" >
+	<price amount="15000" />
+	<armour level="10" type="legs" />
+	<secondarybuff id="3" amount="10" />
+	<secondarybuff id="5" amount="5" />
+	<secondarybuff id="11" amount="10" />
+	<secondarybuff id="14" amount="3" />
+	<artifact quality="5" />
+	<playerHitEffectBuff name="Handy" percentage="15" />
+	<description text="Dadinavian master wizards wear this traditional garb. They function similarly to an apprentice's, but are far more stylish in their white color (and far more powerfully enchanted). Bonus: they are enchanted with a self-cleaning cantrip, so the dust, dirt, grime, blood, ichor, and other detritus of the dungeon will not damage your fabulous shorts." />
+	</item>
+
+<item name="Adventuring Jeans (Dark Wash)" iconFile="sprites/pants_jeans_darkwash.png" level="12" >
+	<price amount="25000" />
+	<armour level="12" type="legs" />
+	<secondarybuff id="6" amount="10" />
+	<secondarybuff id="11" amount="10" />
+	<secondarybuff id="12" amount="10" />
+	<resistbuff slashing="4" />
+	<description text="These adventuring jeans are a slim cut and are a little worn in the knees, but are otherwise serviceable. Adventuring jeans differ from traditional jeans primarily in that adventurers wear them (rather than the common folk)." />
+	</item>
+
+<item name="Adventuring Jeans (Light Wash)" iconFile="sprites/pants_jeans_lightwash.png" level="13" artifact="1" >
+	<price amount="35000" />
+	<armour level="13" type="legs" />
+	<secondarybuff id="6" amount="10" />
+	<secondarybuff id="11" amount="10" />
+	<secondarybuff id="12" amount="10" />
+	<resistbuff slashing="4" />
+	<artifact quality="3" />
+	<description text="These adventuring jeans are a slim cut and are a little worn in the knees, but are otherwise serviceable. Adventuring jeans differ from traditional jeans primarily in that adventurers wear them (rather than the common folk)." />
+	</item>
+	
+<item name="Adventuring Jeans (Black)" iconFile="sprites/pants_jeans_black.png" level="14" artifact="1" >
+	<price amount="45000" />
+	<armour level="14" type="legs" />
+	<secondarybuff id="6" amount="10" />
+	<secondarybuff id="11" amount="10" />
+	<secondarybuff id="12" amount="10" />
+	<resistbuff slashing="4" />
+	<artifact quality="6" />
+	<description text="These adventuring jeans are a slim cut and are a little worn in the knees, but are otherwise serviceable. Adventuring jeans differ from traditional jeans primarily in that adventurers wear them (rather than the common folk)." />
+	</item>
+	
+	<item name="Adventuring Jeans (White)" iconFile="sprites/pants_jeans_white.png" level="15" artifact="1" >
+	<price amount="55000" />
+	<armour level="15" type="legs" />
+	<secondarybuff id="6" amount="10" />
+	<secondarybuff id="11" amount="10" />
+	<secondarybuff id="12" amount="10" />
+	<resistbuff slashing="4" />
+	<artifact quality="9" />
+	<description text="These adventuring jeans are a slim cut and are a little worn in the knees, but are otherwise serviceable. Adventuring jeans differ from traditional jeans primarily in that adventurers wear them (rather than the common folk)." />
+	</item>
+
+<!-- GLOVES -->
+<!-- Boxing gloves -->
+<item name="Boxing Gloves" iconFile="sprites/gloves_boxing.png" level="8" >
+	<price amount="5500" />
+	<armour level="8" type="hands" />
+	<damagebuff crushing="4" />
+	<resistbuff crushing="1" />
+	<secondarybuff id="8" amount="5" />
+	<secondarybuff id="9" amount="-5" />
+	<secondarybuff id="2" amount="1" />
+	<description text="These red boxing gloves make it very difficult to perform precise movements, but they're also pretty excellent for beating up monsters." />
+	</item>
+	
+<item name="Icy Boxing Gloves" iconFile="sprites/gloves_boxing_blue.png" level="11" >
+	<price amount="10000" />
+	<armour level="11" type="hands" />
+	<damagebuff crushing="6" hyperborean="3" />
+	<resistbuff crushing="3" hyperborean="3" conflagratory="-2" />
+	<secondarybuff id="8" amount="7" />
+	<secondarybuff id="9" amount="-5" />
+	<secondarybuff id="2" amount="1" />
+	<description text="While the enchantment on these frost-covered gloves isn't enough to actually freeze anything, it is definitely uncomfortable for anyone on the receiving end of their assault." />
+	</item>
+	
+<item name="Verdant Boxing Gloves" iconFile="sprites/gloves_boxing_green.png" level="13" >
+	<price amount="27500" />
+	<armour level="13" type="hands" />
+	<damagebuff crushing="6" />
+	<resistbuff crushing="3" />
+	<secondarybuff id="8" amount="7" />
+	<secondarybuff id="9" amount="-5" />
+	<secondarybuff id="2" amount="3" />
+	<targetHitEffectBuff name="Fruitening" percentage="10" />
+	<description text="You're not sure why these gloves smell like a fresh fruit salad, but they do." />
+	</item>
+	
+<item name="Radioactive Boxing Gloves" iconFile="sprites/gloves_boxing_radioactive.png" level="15" >
+	<price amount="75000" />
+	<armour level="15" type="hands" />
+	<damagebuff crushing="8" />
+	<resistbuff crushing="4" />
+	<secondarybuff id="8" amount="10" />
+	<secondarybuff id="0" amount="-10" />
+	<secondarybuff id="13" amount="-3" />
+	<secondarybuff id="9" amount="-5" />
+	<secondarybuff id="2" amount="4" />
+	<targetHitEffectBuff name="Tiny Radiation Cloud" percentage="25" />
+	<description text="Downside: wearing these is immeasurably bad for your health. Upside: they are just as bad for your enemies' health." />
+	</item>
+
+<!-- BELTS -->
+<item name="Protagonist's Belt" iconFile="sprites/belt_protagonist.png" level="7" >
+	<price amount="4500" />
+	<armour level="7" type="waist" />
+	<resistbuff necromantic="1" toxic="1" putrefying="1" />
+	<secondarybuff id="10" amount="1" />
+	<secondarybuff id="22" amount="5" />
+	<description text="This belt has a shiny silver star for a buckle. Every protagonist needs a notable belt these days. Some even wear multiple belts. Like that lady who has a skirt made entirely from belts. That's a little extreme, but maybe you can start with this one and see where it goes." />
+	</item>
+
+<item name="Gold-Star Protagonist's Belt" iconFile="sprites/belt_protagonist_gold.png" level="15" >
+	<price amount="75500" />
+	<armour level="15" type="waist" />
+	<resistbuff necromantic="4" toxic="4" putrefying="4" />
+	<secondarybuff id="10" amount="2" />
+	<secondarybuff id="22" amount="15" />
+	<description text="This belt has a large golden star for a buckle. You'd say it feels lucky, but luck isn't a stat that you know of. At least its shiny!" />
+	</item>
+
+<item name="Scabbard of Keen Edges" iconFile="sprites/belt_scabbard.png" level="8" >
+	<price amount="8000" />
+	<armour level="8" type="waist" />
+	<secondarybuff id="4" amount="5" />
+	<damagebuff slashing="4" />
+	<description text="Originally, scabbards were a way to protect your sword while it wasn't in use. Dwarves weren't satisfied with this, however, and developed a scabbard with a tiny whetstone right at the opening, so that every time you drew your sword it would sharpen it anew automatically. This is one of those scabbards, though it has seen better days." />
+	</item>
+	
+<item name="Scabbard of Razor Edges" iconFile="sprites/belt_scabbard_blue.png" level="11" >
+	<price amount="12000" />
+	<armour level="11" type="waist" />
+	<secondarybuff id="4" amount="7" />
+	<damagebuff slashing="5" />
+	<description text="This scabbard is an improvement over the scabbard of keen edges, having a much more finely tuned sharpening mechanism inside of it. It has seen some use, but is still in remarkably good shape." />
+	</item>
+	
+<item name="Scabbard of Vorpal Edges" iconFile="sprites/belt_scabbard_red.png" level="14" artifact="1" >
+	<price amount="60000" />
+	<armour level="14" type="waist" />
+	<secondarybuff id="4" amount="10" />
+	<damagebuff slashing="8" />
+	<artifact quality="5" />
+	<description text="The pinnacle of dwarven auto-sharpening-scabbard design." />
+	</item>
+	
+<item name="Bottomless Quiver" iconFile="sprites/belt_quiver.png" level="9" >
+	<price amount="10000" />
+	<armour level="9" type="waist" />
+	<crossbowShotBuff name="Council's Gift" percentage="20" />
+	<description text="This unassuming quiver always seems to have bolts in it. Occasionally they just fall out." />
+	</item>
+
+<!-- BOOTS -->
+<!-- Socks With Sandals - levels 3, 6, 9, 12, 15 - magic power focused -->
+<item name="Blue Sandals With Socks" iconFile="sprites/boots_sandals_w_socks_blue.png" level="3" >
+	<price amount="400" />
+	<armour level="3" type="feet" />
+	<secondarybuff id="3" amount="3" />
+	<primarybuff id="1" amount="3" />
+	<description text="Only a Dadinavian wizard can pull off socks with sandals. These hideous foot coverings are magically enchanted to interact with leylines and increase your magical prowess." />
+	</item>
+
+<item name="Red Sandals With Socks" iconFile="sprites/boots_sandals_w_socks_red.png" level="6" >
+	<price amount="1250" />
+	<armour level="6" type="feet" />
+	<secondarybuff id="3" amount="3" />
+	<secondarybuff id="14" amount="1" />
+	<primarybuff id="1" amount="3" />
+	<description text="Boasting an even stronger connection to the leylines hidden in the earth, these garish sandals (and the associated socks) impart greater magical prowess and quicker mana restoration to their wearer." />
+	</item>
+	
+<item name="Green Sandals With Socks" iconFile="sprites/boots_sandals_w_socks_green.png" level="9" >
+	<price amount="9500" />
+	<armour level="9" type="feet" />
+	<secondarybuff id="3" amount="5" />
+	<secondarybuff id="14" amount="1" />
+	<primarybuff id="1" amount="5" />
+	<description text="Green Dadinavian wizards wear these traditional sandals and their associated socks. Try not to think too hard about the last foot that was in these, or you'll be as green as the sandals." />
+	</item>
+
+<item name="Orange Sandals With Socks" iconFile="sprites/boots_sandals_w_socks_orange.png" level="12" >
+	<price amount="14000" />
+	<armour level="12" type="feet" />
+	<secondarybuff id="3" amount="8" />
+	<secondarybuff id="14" amount="2" />
+	<primarybuff id="1" amount="8" />
+	<description text="Orange Dadinavian wizards are one of the highest castes of wizard in the highly-stratified Dadinavian society, but even strong wizards can succumb to the horrors of these dungeons. Hopefully you have better luck than they did." />
+	</item>
+	
+<item name="Black Sandals With Socks" iconFile="sprites/boots_sandals_w_socks_gray.png" level="15" artifact="1">
+	<price amount="22500" />
+	<armour level="15" type="feet" />
+	<secondarybuff id="3" amount="10" />
+	<secondarybuff id="14" amount="3" />
+	<primarybuff id="1" amount="10" />
+	<artifact quality="5" />
+	<description text="Only the High Prismatic Wizard is higher than the Black Wizards of Dadinavia. How did this pair of powerful sandals (and associated socks) end up down here?" />
+	</item>
+
+<!-- NuBalance - levels 4, 7, 10, 13, 16 - athleticism and dodge focused -->
+<item name="Tan Dreds" iconFile="sprites/boots_dreds_tan.png" level="1" >
+	<price amount="70" />
+	<armour level="1" type="feet" />
+	<secondarybuff id="6" amount="1" />
+	<primarybuff id="2" amount="1" />
+	<description text="These tan sneakers are perfect for lawnmowing, grilling, and talking about baseball on hot summer days." />
+	</item>
+
+<item name="Blue Dreds" iconFile="sprites/boots_dreds_blue.png" level="4" >
+	<price amount="1000" />
+	<armour level="4" type="feet" />
+	<secondarybuff id="6" amount="3" />
+	<primarybuff id="2" amount="3" />
+	<description text="The pinnacle of Dadinavian wizard fashion, these Dreds come in a classic blue and are paired with tall white socks." />
+	</item>
+	
+<item name="Red Dreds" iconFile="sprites/boots_dreds_red.png" level="7" >
+	<price amount="4500" />
+	<armour level="7" type="feet" />
+	<secondarybuff id="6" amount="5" />
+	<primarybuff id="2" amount="5" />
+	<description text="Dadinavian red wizards, one of the intermediate castes, wear these stylish trainers while discussing politics and cryptocurrency." />
+	</item>
+
+<item name="Red Dred Redemptions" iconFile="sprites/boots_dreds_red_redemption.png" level="10" >
+	<price amount="12500" />
+	<armour level="10" type="feet" />
+	<secondarybuff id="6" amount="8" />
+	<primarybuff id="2" amount="8" />
+	<description text="These shoes have absolutely nothing to do with cowboys." />
+	</item>
+
+<item name="Gray Dreds" iconFile="sprites/boots_dreds_gray.png" level="13" >
+	<price amount="50000" />
+	<armour level="13" type="feet" />
+	<secondarybuff id="6" amount="12" />
+	<primarybuff id="2" amount="12" />
+	<description text="These enchanted trainers are perfectly balanced for quick, light movements and minor feats of daring." />
+	</item>
+
+<item name="Negadreds" iconFile="sprites/boots_dreds_inverse.png" level="16" artifact="1" >
+	<price amount="77000" />
+	<armour level="16" type="feet" />
+	<secondarybuff id="6" amount="15" />
+	<primarybuff id="2" amount="15" />
+	<artifact quality="8" />
+	<description text="This limited-run pair of sneakers has inverted colors for the soles and logo. Sneakerheads go gaga over these, so of course you're going to use them to kick monsters' faces in, aren't you?" />
+	</item>
+
+<!-- AMULETS -->
+<item name="Pranksta's Bling" iconFile="sprites/neck_pranksta.png" overrideClassName="Bling" level="7">
+	<price amount="7500" />
+	<armour level="7" type="neck" randoms="1" />
+	<secondarybuff id="7" amount="5" />
+	<secondarybuff id="12" amount="-5" />
+	<description text="...can you even wear this on a different day?" />
+	</item>
+		
+<item name="Dapper Monocle" iconFile="sprites/head_monocle.png" overrideClassName="Stylish Eyewear" level="8">
+	<price amount="12500" />
+	<armour level="8" type="neck" />
+	<primarybuff id="2" amount="2" /> <!-- Nimbleness -->
+	<secondarybuff id="16" amount="1" /> <!-- trap sense -->
+	<secondarybuff id="17" amount="1" /> <!-- trap sight -->
+	<secondarybuff id="18" amount="1" /> <!-- sight radius -->
+	<description text="For the stylish gentleman on the go!" />
+	</item>
+
+<item name="Silver Locket" iconFile="sprites/neck_silver_locket.png" level="9">
+	<price amount="15000" />
+	<armour level="9" type="neck" randoms="1" />
+	<primarybuff id="3" amount="-3" /> 
+	<secondarybuff id="0" amount="5" />
+	<secondarybuff id="13" amount="2" /> 
+	<description text="The pictures in this locket have long since faded, but the sentiment is still there. Wear this in memory of those who've gone before you into these depths." />
+	</item>
+
+<item name="Diggle Charm" iconFile="sprites/neck_diggle_charm.png" level="11">
+	<price amount="22500" />
+	<armour level="11" type="neck" randoms="1" />
+	<primarybuff id="4" amount="5" />
+	<secondarybuff id="2" amount="2" />
+	<description text="This diggle-shaped charm gives you a strong urge to dig." />
+	</item>
+
+<item name="Moon Pendant" iconFile="sprites/neck_moon_pendant.png" level="13" >
+	<price amount="30000" />
+	<armour level="13" type="neck" randoms="1" />
+	<primarybuff id="0" amount="3" />
+	<primarybuff id="1" amount="3" />
+	<primarybuff id="2" amount="3" />
+	<primarybuff id="3" amount="3" />
+	<primarybuff id="4" amount="3" />
+	<primarybuff id="5" amount="3" />
+	<description text="This simple silver moon pendant has been enchanted with general-purpose enhancement magic." />
+	</item>
+
+<item name="Lost Phylactery" iconFile="sprites/neck_big_purple_crystal_bright.png" overrideClassName="Phylactery" level="15" artifact="1">
+	<price amount="72500" />
+	<armour level="15" type="neck" />
+	<artifact quality="10" />
+	<secondarybuff id="0" amount="-20" />
+	<secondarybuff id="1" amount="20" />
+	<secondarybuff id="13" amount="-10" />
+	<secondarybuff id="14" amount="10" />
+	<description text="Legends are spoken of phylacteries like this one being used to store the souls of liches after they undergo their dark transformation. You're not sure if this is the phylactery of Dredmor or of another lich, but the lights that play about inside the crystal are unsettling enough that you'd rather not find out." />
+	</item>
+
+<item name="Discarded Phylactery" iconFile="sprites/neck_big_blue_crystal.png" overrideClassName="Phylactery" level="15" artifact="1">
+	<price amount="72500" />
+	<armour level="15" type="neck" />
+	<artifact quality="10" />
+	<secondarybuff id="0" amount="20" />
+	<secondarybuff id="1" amount="-20" />
+	<secondarybuff id="13" amount="10" />
+	<secondarybuff id="14" amount="-10" />
+	<description text="Legends are spoken of phylacteries like this one being used to store the souls of liches after they undergo their dark transformation. You're not sure if this is the phylactery of Dredmor or of another lich, but the lights that play about inside the crystal are unsettling enough that you'd rather not find out." />
+	</item>
+	
+<item name="Mislaid Phylactery" iconFile="sprites/neck_big_green_crystal.png" overrideClassName="Phylactery" level="15" artifact="1">
+	<price amount="72500" />
+	<armour level="15" type="neck" />
+	<artifact quality="10" />
+	<secondarybuff id="0" amount="20" />
+	<secondarybuff id="1" amount="20" />
+	<secondarybuff id="13" amount="-10" />
+	<secondarybuff id="14" amount="-10" />
+	<description text="Legends are spoken of phylacteries like this one being used to store the souls of liches after they undergo their dark transformation. You're not sure if this is the phylactery of Dredmor or of another lich, but the lights that play about inside the crystal are unsettling enough that you'd rather not find out." />
+	</item>
+
+<item name="Dark Phylactery" iconFile="sprites/neck_big_dark_crystal.png" overrideClassName="Phylactery" level="15" artifact="1">
+	<price amount="72500" />
+	<armour level="15" type="neck" />
+	<artifact quality="10" />
+	<secondarybuff id="0" amount="-20" />
+	<secondarybuff id="1" amount="-20" />
+	<secondarybuff id="13" amount="10" />
+	<secondarybuff id="14" amount="10" />
+	<description text="Legends are spoken of phylacteries like this one being used to store the souls of liches after they undergo their dark transformation. You're not sure if this is the phylactery of Dredmor or of another lich, but the lights that play about inside the crystal are unsettling enough that you'd rather not find out." />
+	</item>
+
+<item name="Strange Phylactery" iconFile="sprites/neck_big_pink_crystal.png" overrideClassName="Phylactery" level="16" artifact="1">
+	<price amount="72500" />
+	<armour level="16" type="neck" />
+	<artifact quality="10" />
+	<primarybuff id="0" amount="3" />
+	<primarybuff id="1" amount="3" />
+	<primarybuff id="2" amount="3" />
+	<primarybuff id="3" amount="3" />
+	<primarybuff id="4" amount="3" />
+	<primarybuff id="5" amount="3" />
+	<description text="This phylactery isn't quite like the others... Strange. Is it...yours?" />
+	</item>
+
+<!-- RINGS -->
+<item name="Lost Engagement Ring" iconFile="items/ring01.png" level="10" artifact="1" >
+	<price amount="10000" />
+	<armour type="ring" level="10" randoms="1" />
+	<artifact quality="7" />
+	<description text="It would be fairly noble to return this lost engagement ring to its rightful owner, but there's a fairly good chance they're already down here somewhere." />
+	</item>
+
+<item name="Martyr's Ring" iconFile="items/ring03.png" level="11" artifact="1" >
+	<price amount="17500" />
+	<armour type="ring" level="11" randoms="1" />
+	<artifact quality="8" />
+	<playerHitEffectBuff name="Martyr's Aegis" percentage="10" />
+	<playerHitEffectBuff name="Fervor of the Flagellant" percentage="10" />
+	<description text="The ultimate in square-shaped finger ornamentation, the martyr's ring is designed for those who stick their necks (and other extremities) out for others at their own expense." />
+	</item>
+
+<item name="The Watchful Eye" iconFile="items/ring06.png" level="12" artifact="1" >
+	<price amount="20000" />
+	<armour type="ring" level="12" randoms="1" />
+	<artifact quality="10" />
+	<targetHitEffectBuff name="Old Sphinx Bolt" percentage="15" />
+	<description text="Instead of a gemstone, this ring appears to have a fully functional (and strangely alive) eye set into it. It looks remarkably like some of the eyes you've seen peeping out of the dungeon walls." />
+	</item>
+
+<item name="Ring of the Itinerant Spellsword" iconFile="items/ring05.png" level="13" artifact="1" >
+	<price amount="30000" />
+	<armour type="ring" level="13" randoms="1" />
+	<artifact quality="10" />
+	<targetHitEffectBuff name="Arcane Attunement" percentage="50" />
+	<description text="A particularly enterprising (or lazy) spellsword has enchanted this ring so that it will automatically shuffle you through channeling modes when striking enemies. Give it a whirl!" />
+	</item>
+
+<item name="Meteorologist's Band" iconFile="items/ring04.png" level="14" artifact="1" >
+	<price amount="40000" />
+	<armour type="ring" level="14" randoms="1" />
+	<artifact quality="10" />
+	<playerHitEffectBuff name="Vague Prediction" percentage="100" />
+	<description text="Imbued by a powerful meteorologist, this ring makes vague predictions that are sometimes accurate." />
+	</item>
+
+<item name="Nondescript Ring" iconFile="items/ring02.png" level="15" artifact="1" >
+	<price amount="55000" />
+	<armour type="ring" level="15" randoms="1" />
+	<artifact quality="10" />
+	<damagebuff existential="5" />
+	<resistbuff existential="5" />
+	<description text="This ring is difficult to keep pictured in your mind. Are you even wearing a ring?" />
+	</item>
+
+<item name="Lord Dredmor's Third Ring" iconFile="items/ring00.png" level="16" artifact="1" >
+	<price amount="75000" />
+	<armour type="ring" level="16" randoms="1" />
+	<artifact quality="16" />
+	<description text="It is a widely known fact that an individual can only wear one ring on each hand, otherwise magical energies conflict with each other and create a resonance cascade resulting in the collapse of the local space-time-magical confluence, utterly destroying the hapless idiot who tried to put on too many rings. Lord Dredmor, being a powerful lich, knows this, and so he has cast aside this, his Third Ring, as he has crafted two others that are superior to this one." />
+	</item>
+
+<!-- WEAPONS -->
+<!-- SWORDS (type 0) -->
+<item name="Excalibur" iconFile="sprites/sword_excalibur.png" level="10" type="0" artifact="1" special="1" >
+	<price amount="50000" />
+	<weapon slashing="10" piercing="5" righteous="5" />
+	<secondarybuff id="13" amount="1" />
+	<artifact quality="8" />
+	<description text="The mighty Excalibur is now in your hands!" />
+	</item>
+	
+<!-- HAMMERS (type 2) -->
+<item name="Hammer of Righteousness" iconFile="sprites/thrown_hammer.png" level="1" type="2" >
+	<price amount="250" />
+	<weapon crushing="2" righteous="1" />
+	<primarybuff id="4" amount="2" />
+	<description text="A Hammer of Righteousness is a powerful tool in the hands of an Inquisitor. It's pretty good in plain hands too." />
+	</item>
+
+<item name="Hammer of Extra Righteousness" iconFile="sprites/thrown_hammer.png" level="3" type="2" >
+	<price amount="500" />
+	<weapon crushing="4" righteous="2" />
+	<primarybuff id="4" amount="4" />
+	<description text="The Hammer Consortium, a subsidiary of the Bolt Council, brings to you the Hammer of Extra Righteousness, for when your enemies need extra smiting." />
+	</item>
+	
+<item name="Hammer of Double Righteousness" iconFile="sprites/thrown_hammer.png" level="5" type="2" >
+	<price amount="1750" />
+	<weapon crushing="6" righteous="3" />
+	<primarybuff id="4" amount="6" />
+	<description text="The Hammer Consortium's Double Righteous model does triple the damage of the baseline Hammer of Righteousness!" />
+	</item>
+	
+<item name="Hammer of Extreme Righteousness" iconFile="sprites/thrown_hammer.png" level="7" type="2" >
+	<price amount="4500" />
+	<weapon crushing="8" righteous="4" />
+	<primarybuff id="4" amount="8" />
+	<description text="The Hammer Consortium's latest model, the Hammer of Extreme Righteousness, is the perfect tool for the Inquisitor on the go! Rend your enemies' brains from their skulls with fewer swings than even our Hammer of Double Righteousness!" />
+	</item>
+	
+<item name="Hammer of Incredible Righteousness" iconFile="sprites/thrown_hammer.png" level="9" type="2" >
+	<price amount="9500" />
+	<weapon crushing="10" righteous="6" />
+	<primarybuff id="4" amount="10" />
+	<description text="Here at the Hammer Consortium, we asked ourselves: is the Hammer of Extreme Righteousness extreme enough? And we had to say no. Say hello to your new best friend, the Hammer of Incredible Righteousness!" />
+	</item>
+	
+<item name="Hammer of Overflowing Righteousness" iconFile="sprites/thrown_hammer.png" level="11" type="2" >
+	<price amount="17500" />
+	<weapon crushing="12" righteous="8" />
+	<primarybuff id="4" amount="12" />
+	<description text="The Hammer Consortium's laboratory technicians were hard at work hammering out the finer points of this model for years. We're not sure just how they jammed so much righteousness into one hammer, but they did it!" />
+	</item>
+
+<item name="Hammer of Unending Righteousness" iconFile="sprites/thrown_hammer.png" level="13" type="2" >
+	<price amount="31500" />
+	<weapon crushing="14" righteous="10" />
+	<primarybuff id="4" amount="14" />
+	<description text="The Hammer of Unending Righteousness is the ultimate in fiend-slaying design. The Hammer Consortium has spared no expense: this model is lovingly handcrafted by Hammer Consortium artisans out of rare-earth cold iron, anointed with bespoke holy oils, and finished with the finest ironwood haft money can buy. It also includes a bonus cupholder!" />
+	</item>
+	
+<item name="Hammer of Exemplary Righteousness" iconFile="sprites/thrown_hammer.png" level="15" type="2" >
+	<price amount="56700" />
+	<weapon crushing="16" righteous="12" />
+	<primarybuff id="4" amount="16" />
+	<description text="You thought the Hammer Consortium was done with the Hammer of Unending Righteousness, didn't you? Well think again, because the Hammer of Exemplary Righteousness has all the features of the Hammer of Unending Righteousness, but also includes a certificate of authenticity and limited-run identification paperwork. It's almost too nice to smash into the faces of your fiendish enemies! ...almost." />
+	</item>
+	
+<item name="The Original Hammer of Righteousness (tm)" iconFile="sprites/thrown_hammer.png" level="17" type="2" artifact="1" >
+	<price amount="102060" />
+	<weapon crushing="20" righteous="20" />
+	<primarybuff id="4" amount="25" />
+	<artifact quality="8" />
+	<description text="The Hammer Consortium lost this hammer aeons ago in a beaurocratic mixup, and they've been trying to relocate it since. Last you heard, it was in the hands of an insurance company. What is it doing here?" />
+	</item>
+
+<!-- STAVES (type 3) --> 
+<item name="Hooked Cane" iconFile="sprites/staff_cane.png" level="3" type="3" >
+	<price amount="400" />
+	<weapon crushing="4" />
+	<secondarybuff id="16" amount="1" />
+	<description text="This cane is better for prodding traps than beating monsters into submission, but beggars can't be choosers." />
+	</item>
+
+<item name="Stylish Canesword" iconFile="sprites/staff_canesword.png" level="4" type="3" >
+	<price amount="550" />
+	<weapon crushing="2" slashing="2" piercing="2" />
+	<primarybuff id="3" amount="3" />
+	<description text="This stylish canesword is perfect for the cad on the go!" />
+	</item>
+	
+<item name="Shillelagh" iconFile="sprites/staff_shillelagh.png" level="4" type="3" >
+	<price amount="500" />
+	<weapon crushing="5" />
+	<secondarybuff id="3" amount="2" />
+	<secondarybuff id="5" amount="2" />
+	<primarybuff id="4" amount="2" />
+	<criticalBuff percentage="50" name="Heavy Critical" />
+	<description text="The shillelagh is a traditional weapon consisting of a staff with a heavy spherical weight on the end. They share more in common with a mace than with a wizard's staff, but this one will make your magic (and your critical hits!) stronger all the same." />
+	</item>
+
+<item name="Orcish Wand" iconFile="sprites/staff_orcish_wand.png" level="6" type="3" >
+	<price amount="1500" />
+	<weapon crushing="5" transmutative="4" />
+	<secondaryBuff id="4" amount="10" />
+	<criticalBuff percentage="100" name="Randomized Wand Effect" />
+	<description text="Orcs are not known for their magical prowess, nor for their attention to detail. They are, however, known for bashing in the heads of their enemies with extreme prejudice. You're not sure what exactly this 'wand' is going to do next, but it does seem like an otherwise serviceable staff." />
+	</item>
+
+<item name="Staphylococcus" iconFile="sprites/staff_plague.png" level="13" type="3" artifact="1" >
+	<price amount="31500" />
+	<weapon crushing="5" toxic="5" asphyxiative="5" putrefying="5" />
+	<secondaryBuff id="3" amount="8" />
+	<targetHitEffectBuff percentage="20" name="Diggle Flu" />
+	<criticalBuff percentage="100" name="Diggle Flu" />
+	<artifact quality="4" />
+	<description text="The Staphylococcus is named for the disease it inflicts upon enemies. Try not to get any on you." />
+	</item>
+
+<item name="Muse's Staff" iconFile="sprites/staff_music.png" level="14" type="3" artifact="1" >
+	<price amount="40000" />
+	<weapon righteous="10" aethereal="10" />
+	<secondaryBuff id="3" amount="10" />
+	<artifact quality="7" />
+	<targetKillBuff name="Subsonic Harmonics" />
+	<description text="This quite literal music staff is shaped like a treble clef. It hums harmoniously along with the sounds of the dungeon, and its tune seems to wend its way into cracks in the walls, weakening their structure and revealing hidden passages." />
+	</item>
+
+<item name="Caliban's Rebuke" iconFile="sprites/staff_crystal.png" level="15" type="3" artifact="1">
+	<price amount="75000" />
+	<weapon crushing="10" conflagratory="10" />
+	<secondarybuff id="3" amount="12" />
+	<resistbuff conflagratory="-2" hyperborean="2" />
+	<artifact quality="8" />
+	<criticalBuff name="Unconditional Love" />
+	<description text="This staff radiates heat (but in a warm-and-fuzzy sort of way (not a burning-to-death sort of way (though it will burn your enemies to death if you hit them enough (but sometimes it will cause your enemies to change allegiances before then (if you hit them hard enough)))))." />
+	</item>
+
+<!-- DAGGERS (type 7) -->
+	<!-- KATARS -->
+<item name="Steel Katar" iconFile="sprites/katar_steel.png" level="2" type="7" >
+	<price amount="125" />
+	<weapon slashing="2" piercing="1" />
+	<primarybuff id="2" amount="2" />
+	<description text="Also known as a 'punching dagger', the katar is a favorite of demon-hunting assassins." />
+	</item>
+
+<item name="Cobalt Katar" iconFile="sprites/katar_cobalt.png" level="4" type="7" >
+	<price amount="400" />
+	<weapon slashing="3" piercing="2" />
+	<primarybuff id="2" amount="4" />
+	<description text="This cobalt-infused steel katar has a wonderfully sharp edge that is simply begging to be inserted into the nearest enemy." />
+	</item>
+
+<item name="Bluesteel Claws" iconFile="sprites/claws_bluesteel.png" level="6" type="7" >
+	<price amount="1500" />
+	<weapon slashing="6" piercing="3" />
+	<primarybuff id="2" amount="6" />
+	<description text="Don't ask what bluesteel is. We're not sure either, but it does make some particularly nice weaponry." />
+	</item>
+
+<item name="Flametouched Steel Katar" iconFile="sprites/katar_flametouched_steel.png" level="8" type="7" >
+	<price amount="4500" />
+	<weapon slashing="6" piercing="3" conflagratory="4" />
+	<primarybuff id="2" amount="8" />
+	<description text="Flametouched metals retain some of the heat of the forge, allowing the wielder to impart some of that heat directly to their enemies." />
+	</item>
+
+<item name="Emerald Katar" iconFile="sprites/katar_emerald.png" level="10" type="7" >
+	<price amount="10000" />
+	<weapon slashing="6" piercing="3" toxic="4" acidic="4"/>
+	<primarybuff id="2" amount="10" />
+	<description text="So named for the emerald-colored liquid that weeps from the gem in this katar's hilt, emerald katars are highly toxic and generally not conducive to continued life." />
+	</item>
+	
+<item name="Flametouched Iron Claws" iconFile="sprites/claws_flametouched_iron.png" level="12" type="7" >
+	<price amount="20000" />
+	<weapon slashing="6" piercing="6" conflagratory="4" righteous="4" />
+	<primarybuff id="2" amount="12" />
+	<description text="Reminiscent of wolverines for some reason, these claws are made of flametouched iron and are extremely hot." />
+	</item>
+
+<item name="Ice Katar" iconFile="sprites/katar_ice.png" level="14" type="7" >
+	<price amount="40000" />
+	<weapon slashing="15" piercing="10" hyperborean="15" />
+	<primarybuff id="2" amount="14" />
+	<resistbuff conflagratory="5" />
+	<description text="You're fairly sure that the blade of this katar is cut from glacial ice and formed into its current shape. It's so cold that it's chilling the air around you." />
+	</item>
+
+<item name="Orichalcum Claws" iconFile="sprites/claws_orichalcum.png" level="16" type="7" >
+	<price amount="75000" />
+	<weapon slashing="25" piercing="15" conflagratory="10" voltaic="10" hyperborean="10" />
+	<primarybuff id="2" amount="16" />
+	<resistbuff conflagratory="7" voltaic="7" hyperborean="7" />
+	<description text="First mined by dwarves from their deepest mines, orichalcum is an almost sacred substance that is infused with base elemental energies. This claw, somehow both hot and cold, sparks rhythmically with electricity." />
+	</item>
+	
+	<!-- OTHER DAGGERS -->
+<item name="Sai" iconFile="sprites/dagger_sai.png" level="9" type="7" >
+	<price amount="10000" />
+	<weapon piercing="18" />
+	<primarybuff id="5" amount="5" />
+	<secondarybuff id="8" amount="10" />
+	<description text="Sai are extremely effective in the hands of a master and can be used in a variety of ways. Unfortunately, you have not spent your formative years mastering this implement of death, so you'll just have to do your best and hope it all works out in the end." />
+	</item>
+
+<item name="Elven Switchblade" iconFile="sprites/dagger_switchblade.png" level="5" type="7" >
+	<price amount="800" />
+	<weapon slashing="3" piercing="3" />
+	<secondarybuff id="12" amount="5" />
+	<secondarybuff id="4" amount="5" />
+	<description text="Elves are well-known amongst the dwarven community for their sneakiness and their archery skills. This knife is evidence to the former." />
+	</item>
+
+<item name="Stake of Staking" iconFile="sprites/dagger_stake.png" level="4" type="7" >
+	<price amount="400" />
+	<weapon piercing="5" />
+	<targetHitEffectBuff name="Staked by the Stake of Staking" />
+	<description text="A stake of staking is best used against the undead, or when the stakes are high and the steaks are rare." />
+	</item>
+
+<item name="Swordbreaker" iconFile="sprites/dagger_swordbreaker.png" level="8" type="7" >
+	<price amount="4500" />
+	<weapon slashing="6" piercing="6" />
+	<secondarybuff id="7" amount="10" />
+	<targetHitEffectBuff name="Broken Steel" percentage="20" />
+	<description text="This sawtooth-bladed dagger is designed to catch (and break!) the swords (and other dangerous extremities!) of your enemies (those guys who are trying to kill you!)." />
+	</item>
+
+<item name="Dwarven War Chisel" iconFile="sprites/dagger_chisel.png" level="7" type="7" >
+	<price amount="3000" />
+	<weapon piercing="10" />
+	<secondarybuff id="19" amount="1" />
+	<description text="Dwarven war chisels are a rare artifact from days of yore. It is rumored that these tools were repurposed from the dwarves' workshops out of necessity and then were refined to their current state with years upon years of bureaucratically-impeded research and development. Are they perfect? No. Did you file form 305B with the 5335X Addendum (Type 4)? If you had, it would be." />
+	</item>
+
+<!-- POLEARMS (type 8) -->	
+<item name="Bohemian Earspoon" iconFile="sprites/polearm_bohemian_earspoon.png" level="6" type="8" >
+	<price amount="1500" />
+	<weapon piercing="5" aethereal="4" />
+	<resistbuff aethereal="2" />
+	<secondarybuff id="9" amount="5" />
+	<description text="The bohemian earspoon uses STAR POWER to inflict gnarly death upon its victims." />
+	</item>
+	
+<item name="Bohemian Earspork" iconFile="sprites/polearm_bohemian_earspork.png" level="10" type="8" >
+	<price amount="10000" />
+	<weapon piercing="10" aethereal="7" />
+	<resistbuff aethereal="4" />
+	<secondarybuff id="9" amount="10" />
+	<playerHitEffectBuff name="Lesser Syzygy" percentage="10" />
+	<description text="A natural evolution of the bohemian earspoon, the bohemian earspork is a star-powered polearm that comes with its own theme music (a pretty catchy tune about someone named Galileo...)." />
+	</item>
+	
+<item name="Lucerne Hammer" iconFile="sprites/polearm_lucerne_hammer.png" level="8" type="8" >
+	<price amount="4500" />
+	<weapon crushing="13" />
+	<secondarybuff id="4" amount="5" />
+	<secondarybuff id="9" amount="-10" />
+	<criticalbuff name="Heavy Critical" percentage="100" />
+	<description text="Unlike most polearms, the lucerne hammer is essentially a sledge on the end of a very long stick. Forget about 'given a long enough lever I could move the world': given a long enough hammer, you could crush even the most daunting of enemies. It can be fairly difficult to wield properly, but when it hits, it hits HARD." />
+	</item>
+
+<item name="Rusty Scythe" iconFile="sprites/polearm_scythe_iron_rusty.png" level="4" type="8" >
+	<price amount="1200" />
+	<weapon slashing="3" toxic="2" />
+	<description text="This battered farming implement has seen better days." />
+	</item>
+
+<item name="Iron Scythe" iconFile="sprites/polearm_scythe_iron.png" level="6" type="8" >
+	<price amount="2200" />
+	<weapon slashing="8" />
+	<description text="A scythe is, like most other weapons, essentially a sharp blade on the end of a stick. Thousands of years of development in metallurgy and weaponsmithing, and it still boils down to how big the blade is and what direction it points in." />
+	</item>
+
+<item name="Steel Scythe" iconFile="sprites/polearm_scythe_steel.png" level="8" type="8" >
+	<price amount="4500" />
+	<weapon slashing="10" necromantic="3" />
+	<description text="Scythes are the preferred weapon of farmers and necromancers everywhere." />
+	</item>
+
+<item name="Blacksteel Scythe" iconFile="sprites/polearm_scythe_blacksteel.png" level="10" type="8" >
+	<price amount="12000" />
+	<weapon slashing="11" necromantic="6" />
+	<description text="Dipping ordinary steel into the Lake of Lost Souls transforms it into blacksteel, a powerful metal charged with necromantic energies. Weapons crafted from it are rare, but powerful. Whoever made this scythe really wanted to lean into the edgy necromancer vibe." />
+	</item>
+	
+<item name="Red Deth's Scythe" iconFile="sprites/polearm_scythe_red.png" level="12" type="8" >
+	<price amount="22000" />
+	<weapon slashing="12" necromantic="8" />
+	<description text="May or may not have a matching masque." />
+	</item>
+
+<item name="THE NEGASCYTHE" iconFile="sprites/polearm_scythe_nega.png" level="14" type="8" artifact="1" >
+	<price amount="40000" />
+	<weapon righteous="15" necromantic="15" />
+	<artifact quality="8" />
+	<description text="THE NEGASCYTHE IS AN IMPLEMENT OF LIGHT AND DARK, DESIGNED TO BOTH REAP AND SOW. IT IS CRAFTED FROM THE COALESCED VAPOR OF NUANCE. IT THIRSTS FOR SOULS. DARE YOU DENY THE NEGASCYTHE ITS HUNGER?" />
+	</item>
+
+<!-- UNARMED -->
+	<!-- KNUCKLES -->
+<item name="Plastic Knuckles" iconFile="sprites/knuckles_plastic.png" overrideClassName="Knuckles" >
+	<price amount="100" />
+	<armour level="1" type="shield" />
+	<description text="These cheap plastic knuckles barely fit over your fingers. The holes are square too. Man, these are really crappy." />
+	<damagebuff crushing="2" />
+	</item>
+	
+<item name="Brass Knuckles" iconFile="sprites/knuckles_brass.png" overrideClassName="Knuckles" >
+	<price amount="250" />
+	<armour level="3" type="shield" />
+	<description text="Traditionally held by bouncers, mobsters, and overzealous pugilists, these knuckles have now fallen into your hands. Ha, a hands pun. The narrator will be here all week. Try the veal." />
+	<damagebuff crushing="4" />
+	</item>
+	
+<item name="Iron Knuckles" iconFile="sprites/knuckles_iron.png" overrideClassName="Knuckles" >
+	<price amount="600" />
+	<armour level="5" type="shield" />
+	<description text="Iron, being a harder metal than brass, is better suited to bashing faces in. Why not give your enemies a hand with their defensive training? Another hand pun! Those never get old." />
+	<damagebuff crushing="7" />
+	</item>
+	
+<item name="Steel Knuckles" iconFile="sprites/knuckles_steel.png" overrideClassName="Knuckles" >
+	<price amount="1500" />
+	<armour level="7" type="shield" />
+	<description text="Cold steel in hand is worth two in your enemy. ...wait." />
+	<damagebuff crushing="10" />
+	</item>
+	
+<item name="Flametouched Iron Knuckles" iconFile="sprites/knuckles_flametouched_iron.png" overrideClassName="Knuckles" >
+	<price amount="1500" />
+	<armour level="7" type="shield" />
+	<description text="These charred iron knuckles have been infused with flaming elemental energies that you can evoke by mashing them into an enemy." />
+	<damagebuff crushing="6" conflagratory="4" />
+	<targetHitEffectBuff name="Ignition Bolt" percentage="25" />
+	</item>
+	
+<item name="Silver Knuckles" iconFile="sprites/knuckles_silver.png" overrideClassName="Knuckles" >
+	<price amount="10000" />
+	<armour level="10" type="shield" />
+	<description text="These blessed silver-plated knuckles are infused with holy energies that destroy the enemies of righteousness. You've got to hand it to the smith, this is pretty fine work. Oh my, more hand puns." />
+	<damagebuff crushing="11" righteous="4" />
+	</item>
+	
+<item name="Gold Knuckles" iconFile="sprites/knuckles_gold.png" overrideClassName="Knuckles" >
+	<price amount="55000" />
+	<armour level="15" type="shield" />
+	<description text="These gold-plated knuckles are inordinately heavy, but they hit very hard and make you feel like the Hand of the King. These hand puns never get old." />
+	<damagebuff crushing="22" />
+	<targetHitEffectBuff name="Midas" />
+	</item>
+	
+<item name="Golden Fist of the Bro" iconFile="sprites/knuckles_golden_fist_of_the_bro.png" overrideClassName="Knuckles" artifact="1" >
+	<price amount="100000" />
+	<armour level="20" type="shield" />
+	<description text="These totally righteous knuckles are infused with gnarly, awesome energies. Call them forth by reaching out and brofisting your enemies: if they perish, then they were not righteous enough for the Almighty Bro." />
+	<damagebuff crushing="30" righteous="10" />
+	<targetHitEffectBuff name="Mega Midas" />
+	<artifact quality="8" />
+	</item>
+
+<!-- BOWS AND CROSSBOWS (type 4) -->
+<item name="Elvish Longbow" iconFile="sprites/bow_1.png" level="1" type="4" overrideClassName="Longbow" >
+	<price amount="100" />
+	<weapon piercing="3" />
+	<secondarybuff id="12" amount="2" /> <!-- sneak -->
+	<secondarybuff id="4" amount="1" /> <!-- crit -->
+	<description text="Looks like a knock-off." />
+	</item>
+
+<item name="Elven Longbow" iconFile="sprites/bow_5.png" level="3" type="4" overrideClassName="Longbow" >
+	<price amount="400" />
+	<weapon piercing="5" />
+	<secondarybuff id="12" amount="4" /> <!-- sneak -->
+	<secondarybuff id="4" amount="2" /> <!-- crit -->
+	<description text="There's no substitute for the real thing!" />
+	</item>
+
+<item name="Icy Bow" iconFile="sprites/bow_4.png" level="4" type="4" overrideClassName="Longbow" >
+	<price amount="600" />
+	<weapon piercing="4" hyperborean="2"/>
+	<secondarybuff id="4" amount="4" /> <!-- crit -->
+	<description text="Holding this bow makes your hands cold. Makes your enemies cold too." />
+	<crossbowShotBuff percentage="33" name="Small Weak Snowstorm" />
+	</item>
+
+<item name="Bow of the Radiant Dawn" iconFile="sprites/bow_6.png" level="6" type="4" overrideClassName="Longbow" >
+	<price amount="3500" />
+	<weapon piercing="4" righteous="4"/>
+	<secondarybuff id="4" amount="6" /> <!-- crit -->
+	<description text="Glimmers powerfully in your hands. Almost blinding, actually." />
+	<crossbowShotBuff percentage="10" name="Blinding Flash" />
+	</item>
+
+<item name="Simple Bow" iconFile="sprites/bow_2.png" level="6" type="4" overrideClassName="Longbow" >
+	<price amount="3500" />
+	<weapon piercing="4" existential="4"/>
+	<secondarybuff id="4" amount="2" /> <!-- crit -->
+	<description text="Gives off a gentle, calming sensation." />
+	<crossbowShotBuff percentage="10" name="Antimagic Cloud" />
+	<crossbowShotBuff percentage="20" name="Antimagic Field" />
+	</item>
+
+<item name="Bow of the Red Archer" iconFile="sprites/bow_3.png" level="10" type="4" overrideClassName="Longbow" artifact="1" >
+	<price amount="10000" />
+	<weapon piercing="10" conflagratory="2" toxic="2" asphyxiative="2" />
+	<secondarybuff id="4" amount="15" /> <!-- crit -->
+	<artifact quality="6" />
+	<description text="This bow whispers 'blooooood' softly in your ear when you wield it. It seems...thirsty." />
+	<crossbowShotBuff percentage="50" name="Vampirism Attack" />
+	</item>
+
+<item name="Repeater Crossbow" iconFile="sprites/crossbow_repeater.png" level="9" type="4" >
+	<price amount="7500" />
+	<weapon piercing="10" />
+	<secondarybuff id="9" amount="-5" />
+	<crossbowShotBuff percentage="25" name="Small Bolt Spray" />
+	<description text="This dangerous contraption of dwarven make reeks of desperation against terrifying odds. It has a large magazine of bolts attached to the top, and cranking the lever sends these bolts flying in all directions." />
+	</item>
+
+<item name="Inconsequentia's Arc" iconFile="sprites/crossbow_inconsequentia.png" level="11" type="4" artifact="1" >
+	<price amount="22000" />
+	<weapon piercing="10" existential="10" />
+	<crossbowShotBuff percentage="25" name="Ennui" />
+	<artifact quality="5" />
+	<description text="Nothing matters...more than ending the lives of the monsters in this dungeon! This confusing crossbow makes you care and not care at the same time." />
+	</item>
+
+<item name="The Overture" iconFile="sprites/crossbow_overture.png" level="13" type="4" artifact="1" >
+	<price amount="44000" />
+	<weapon piercing="20" />
+	<secondaryBuff id="9" amount="20" />
+	<artifact quality="5" />
+	<description text="Best used when you can't risk missing." />
+	</item>
+
+<item name="Linh Quang Kim Trao Than No" iconFile="sprites/crossbow_saintly.png" level="14" type="4" artifact="1" >
+	<price amount="60000" />
+	<weapon piercing="25" />
+	<crossbowShotBuff percentage="100" name="Medium Bolt Spray" />
+	<artifact quality="6" />
+	<description text="Also known as The Saintly Crossbow of the Supernaturally Luminous Golden Claw, this impressive repeating crossbow is manufactured from the claw of a giant golden turtle. It is incredibly heavy and has a very large magazine." />
+	</item>
+
+<item name="Indra's Rainbow" iconFile="sprites/bow_rainbow.png" level="15" type="4" overrideClassName="Rainbow" artifact="1" >
+	<price amount="80000" />
+	<weapon crushing="4" conflagratory="4" righteous="4" acidic="4" hyperborean="4" aethereal="4" necromantic="4" /> <!-- ROYGBIV -->
+	<artifact quality="7" />
+	<description text="Bring an entire spectrum of hurt to your enemies." />
+	<crossbowShotBuff percentage="25" name="Random Weather" />
+	</item>
+
+<!-- ALCHEMY --> 
+<item name="Variable Enhancer" iconFile="sprites/potion_v_enhancer.png" level="3" >
+	<description text="This potion seems especially volatile." />
+	<potion spell="Variable Enhancer"/>
+	<price amount="1000" />
+	</item>
+
+<!-- Infusions: have effects based on your alchemy level -->
+<item name="Infusion of Vitality" level="2" craftoutput="1" iconFile="sprites/infusion_vitality.png" >
+	<price amount="200" />
+	<potion spell="Vitality Infusion" />
+	<description text="This shimmery red liquid seems to attune itself to you. It smells failtly of fertilizer and growing plants." />
+	</item>
+
+<item name="Infusion of Wisdom" level="2" craftoutput="1" iconFile="sprites/infusion_wisdom.png" >
+	<price amount="200" />
+	<potion spell="Wisdom Infusion" />
+	<description text="This shimmery blue liquid seems to attune itself to you. It smells faintly of ice and mint." />
+	</item>
+
+<item name="Infusion of Lightning" level="2" craftoutput="1" iconFile="sprites/infusion_lightning.png" type="5" >
+	<price amount="200" />
+	<weapon slashing="2" hit="Lightning Infusion" thrown="sprites/infusion_lightning.png" canTargetFloor="1" />
+	<description text="This shimmery cobalt liquid seems to attune itself to you. It smells faintly of ozone." />
+	</item>
+
+<item name="Infusion of Flame" level="2" craftoutput="1" iconFile="sprites/infusion_flame.png" type="5" >
+	<price amount="200" />
+	<weapon slashing="2" hit="Fire Infusion" thrown="sprites/infusion_flame.png" canTargetFloor="1" />
+	<description text="This shimmery bronze liquid seems to attune itself to you. It smells faintly of charcoal." />
+	</item>
+
+<item name="Infusion of Acid" level="2" craftoutput="1" iconFile="sprites/infusion_acid.png" type="5" >
+	<price amount="200" />
+	<weapon slashing="2" hit="Acid Infusion" thrown="sprites/infusion_acid.png" canTargetFloor="1" />
+	<description text="This shimmery green liquid seems to attune itself to you. It smells faintly of alkaline." />
+	</item>
+
+<item name="Infusion of Ice" level="2" craftoutput="1" iconFile="sprites/infusion_ice.png" type="5" >
+	<price amount="200" />
+	<weapon slashing="2" hit="Ice Infusion" thrown="sprites/infusion_ice.png" canTargetFloor="1" />
+	<description text="This shimmery blue liquid seems to attune itself to you. It smells faintly of crisp snow." />
+	</item>
+
+<item name="Infusion of Elemental Maelstrom" level="6" craftoutput="1" special="1" iconFile="sprites/infusion_maelstrom.png" type="5" >
+	<price amount="3000" />
+	<weapon slashing="4" hit="Maelstrom Infusion" thrown="sprites/infusion_maelstrom.png" canTargetFloor="1" />
+	<description text="This shimmery emerald liquid seems to attune itself to you. It smells faintly of an incoming storm." />
+	</item>
+
+<item name="Infusion of Leeching" level="3" craftoutput="1" iconFile="sprites/infusion_leech.png" >
+	<price amount="1000" />
+	<potion spell="Leech Infusion" />
+	<description text="This shimmery ruby liquid seems to attune itself to you. It smells faintly of blood." />
+	</item>
+
+<item name="Infusion of Osmosis" level="3" craftoutput="1" iconFile="sprites/infusion_osmose.png" >
+	<price amount="1000" />
+	<potion spell="Osmose Infusion" />
+	<description text="This shimmery midnight liquid seems to attune itself to you. It smells faintly of tree sap." />
+	</item>
+
+<item name="Infusion of Accelerated Comprehension" level="6" craftoutput="1" special="1" iconFile="sprites/infusion_comp.png" >
+	<price amount="6000" />
+	<potion spell="Comprehension Infusion" />
+	<description text="This shimmery rose-colored liquid seems to attune itself to you. It smells faintly of old books and new binders." />
+	</item>
+
+<!-- Concoctions: Infusions, but better -->
+<item name="Volatile Concoction" level="2" iconFile="sprites/concoction_volatile.png" type="5" craftoutput="1">
+	<price amount="500" />
+	<weapon slashing="2" hit="Volatile Concoction" thrown="sprites/concoction_volatile.png" canTargetFloor="1" />
+	<description text="This flask of liquid quickly shifts colors all aross the spectrum, and bubbles so vigorously the vial shakes in your hand." />
+	</item>
+
+<item name="Conflagratory Concoction" level="3" iconFile="sprites/concoction_conflagratory.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Conflagratory Concoction" thrown="sprites/concoction_conflagratory.png" canTargetFloor="1" />
+	<description text="This boiling liquid smokes darkly in the vial." />
+	</item>
+
+<item name="Hyperborean Concoction" level="3" iconFile="sprites/concoction_hyperborean.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Hyperborean Concoction" thrown="sprites/concoction_hyperborean.png" canTargetFloor="1" />
+	<description text="This vial is frozen solid." />
+	</item>
+
+<item name="Voltaic Concoction" level="3" iconFile="sprites/concoction_voltaic.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Voltaic Concoction" thrown="sprites/concoction_voltaic.png" canTargetFloor="1" />
+	<description text="This vial flashes and rumbles, as if a small storm were brewing under the stopper." />
+	</item>
+
+<item name="Acidic Concoction" level="3" iconFile="sprites/concoction_acidic.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Acidic Concoction" thrown="sprites/concoction_acidic.png" canTargetFloor="1" />
+	<description text="This vial is filled with a clear liquid. The vial itself seems sturdier than others of similar manufacture." />
+	</item>
+
+<item name="Putrefying Concoction" level="3" iconFile="sprites/concoction_putrefying.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Putrefying Concoction" thrown="sprites/concoction_putrefying.png" canTargetFloor="1" />
+	<description text="This disgusting goo stinks with a palpable miasma." />
+	</item>
+
+<item name="Aethereal Concoction" level="3" iconFile="sprites/concoction_aethereal.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Aethereal Concoction" thrown="sprites/concoction_aethereal.png" canTargetFloor="1" />
+	<description text="This tightly-stoppered bottle is filled with a nebulous liquid reminiscent of the milky way." />
+	</item>
+
+<item name="Existential Concoction" level="3" iconFile="sprites/concoction_existential.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Existential Concoction" thrown="sprites/concoction_existential.png" canTargetFloor="1" />
+	<description text="I have always looked upon alchemy in natural philosophy to be like enthusiasm in divinity, and to have troubled the world much to the same purpose." />
+	</item>
+
+<item name="Righteous Concoction" level="3" iconFile="sprites/concoction_righteous.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Righteous Concoction" thrown="sprites/concoction_righteous.png" canTargetFloor="1" />
+	<description text="And lo, did the Alchemist speak unto the people: 'Duck!'" />
+	</item>
+
+<item name="Necromantic Concoction" level="3" iconFile="sprites/concoction_necromantic.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Necromantic Concoction" thrown="sprites/concoction_necromantic.png" canTargetFloor="1" />
+	<description text="This dark and brooding liquid fizzes loudly. It smells of grave dirt." />
+	</item>
+
+<item name="Asphyxiative Concoction" level="3" iconFile="sprites/concoction_asphyxiative.png" type="5" craftoutput="1">
+	<price amount="1000" />
+	<weapon slashing="2" hit="Asphyxiative Concoction" thrown="sprites/concoction_asphyxiative.png" canTargetFloor="1" />
+	<description text="This tightly stoppered bottle doesn't seem to contain anything. Odd." />
+	</item>
+
+<!-- New ingredient to make infusions interesting and limit their access somewhat -->
+<item name="Galena" alchemical="1" iconFile="items/mineral_galena.png" >
+	<price amount="100" />
+	<description text="Amateur alchemists try to turn this into gold. Real alchemists turn this into something they drink." />
+	</item>
+
+<!-- Other alchemical potions -->
+	<!-- Inquisitor buffs -->
+<item name="Inquisitor's Brew" level="3" iconFile="items/potion_orange0.png" >
+	<price amount="200" />
+	<potion spell="Holy Sword" />
+	<description text="Tiny swords glitter as they swirl through the liquid in this bottle." />
+	</item>
+
+<item name="Martyr's Philter" level="4" iconFile="items/potion_orange1.png" >
+	<price amount="500" />
+	<potion spell="Martyr's Aegis" />
+	<description text="Tiny shields glitter as they swirl through the liquid in this bottle." />
+	</item>
+	
+	<!-- Brofistery buffs -->
+<item name="Bromaster's Brostorative" level="8" iconFile="items/potion_white2.png" >
+	<price amount="2000" />
+	<potion spell="Power of the Broforce" />
+	<description text="The label on this is practically unintelligible. You think a 'brostorative' is a good thing, but who knows, bro?" />
+	</item>
+
+<!-- WANDS -->
+<!-- Grill Spatula Wand for Dadinavia Wizards -->
+<item name="Wizard's Spatula" iconFile="sprites/wand_spatula.png" >
+	<price amount="4000" />
+	<wand spell="Fire Within" mincharge="3" maxcharge="6" /> <!-- not sold on this spell here -->
+	<description text="The Arcane Wizards of Dadinavia first designed this unique wizarding implement a long time ago. Wizard spatulas have seen a resurgence in recent years, particularly among the middle-aged father demographic of wizards."/>
+   </item>  
+
+<!-- Recipe Page for hidden recipes -->
+<item name="Spray Bolttle" iconFile="sprites/wand_spray_bolttle.png" >
+	<price amount="2000" />
+	<wand spell="Sprayed Bolt" mincharge="4" maxcharge="10" />
+	<description text="This industrial-strength dungeon cleaner claims that it kills 99.9% of diggles!" />
+	</item>
+
+<item name="Pixie Stick" iconFile="sprites/wand_pixie.png" >
+	<price amount="3500" />
+	<wand spell="Fairywodger Fungal Healing" mincharge="1" maxcharge="6" />
+	<description text="You know what they say about small wands..."/>
+	</item>
+
+<item name="Phoenix Wand" iconFile="sprites/wand_phoenix.png" >
+	<price amount="5500" />
+	<wand spell="Obvious Fireball" mincharge="2" maxcharge="4" />
+	<description text="This wand burns hotly in your hand, promising cleansing fire and pyrrhic rebirth."/>
+	</item>
+
+<item name="Rod of Lordly Might" iconFile="sprites/wand_lordly_might.png" >
+	<price amount="3500" />
+	<wand spell="Never Outnumbered" mincharge="2" maxcharge="4" />
+	<description text="That's what she called it, anyway.  (Gets stronger the more potential peons are in your immediate vicinity.)" />
+	</item>
+
+<item name="Rod of Necrotic Might" iconFile="sprites/wand_necrotic_might.png" >
+	<price amount="7500" />
+	<wand spell="Necrotic Might" mincharge="1" maxcharge="3" />
+	<description text="This dark rod quietly whispers 'booodiiiiiieeees'. The power of this effect increases when you stand atop your defeated enemies, the more the better." />
+	</item>
+
+<!-- MACGUFFINS -->
+<!-- commented out as these need more advanced targeting than what the game currently provides
+<item name="Adle's Bomb" iconFile="sprites/macg_bomb.png" >
+	<price amount="1" />
+	<description text="Useful for walls more than anything." />
+	<macguffin spell="Adle's Bomb Chain" item_class_name="Bomb" />
+	</item>
+-->
+
+<item name="Recipe Page" iconFile="items/note_page.png" >
+	<price amount="4000" />
+	<macguffin spell="Learn a Recipe" item_class_name="Note" />
+	<description text="This page details a recipe. Hopefully it's something you can use."/>
+	</item>  
+
+<!-- TRAPS -->
+<!-- WALL-MOUNTED TRAPS -->
+<!-- LIFELEECH TRAPS -->
+<item name="Weak Lifeleech Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="dungeon/pentagram.png" originFacing="south" originMount="wall" trigger="always" casts="Weak Lifeleech Bolt" level="3"/>
+	<price amount="300" />
+	<description text="Just as it says on the tin, lifeleech traps make it very difficult to continue living."/>
+	</item>
+	
+<item name="Masterwork Lifeleech Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="dungeon/pentagram.png" originFacing="south" originMount="wall" trigger="always" casts="Masterwork Lifeleech Bolt" level="6"/>
+	<price amount="600" />
+	<description text="Just as it says on the tin, lifeleech traps make it very difficult to continue living."/>
+	</item>
+	
+<item name="Powerful Lifeleech Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="dungeon/pentagram.png" originFacing="south" originMount="wall" trigger="always" casts="Powerful Lifeleech Bolt" level="9"/>
+	<price amount="900" />
+	<description text="Just as it says on the tin, lifeleech traps make it very difficult to continue living."/>
+	</item>
+	
+<item name="Dire Lifeleech Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="dungeon/pentagram.png" originFacing="south" originMount="wall" trigger="always" casts="Dire Lifeleech Bolt" level="12"/>
+	<price amount="1200" />
+	<description text="Just as it says on the tin, lifeleech traps make it very difficult to continue living."/>
+	</item>
+	
+<item name="Dread Lifeleech Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="dungeon/pentagram.png" originFacing="south" originMount="wall" trigger="always" casts="Dread Lifeleech Bolt" level="15"/>
+	<price amount="1500" />
+	<description text="Just as it says on the tin, lifeleech traps make it very difficult to continue living."/>
+	</item>
+
+<!-- MANASAP TRAPS -->
+<item name="Weak Manasap Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/manasap/manasap.xml" originFacing="south" originMount="wall" trigger="always" casts="Weak Manasap Bolt" level="3"/>
+	<price amount="300" />
+	<description text="Eldritch energies swirl about, congealing wherever the arcane eye on the wall sets its gaze."/>
+	</item>
+	
+<item name="Masterwork Manasap Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/manasap/manasap.xml" originFacing="south" originMount="wall" trigger="always" casts="Masterwork Manasap Bolt" level="6"/>
+	<price amount="600" />
+	<description text="Eldritch energies swirl about, congealing wherever the arcane eye on the wall sets its gaze."/>
+	</item>
+	
+<item name="Powerful Manasap Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/manasap/manasap.xml" originFacing="south" originMount="wall" trigger="always" casts="Powerful Manasap Bolt" level="9"/>
+	<price amount="900" />
+	<description text="Eldritch energies swirl about, congealing wherever the arcane eye on the wall sets its gaze."/>
+	</item>
+	
+<item name="Dire Manasap Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/manasap/manasap.xml" originFacing="south" originMount="wall" trigger="always" casts="Dire Manasap Bolt" level="12"/>
+	<price amount="1200" />
+	<description text="Eldritch energies swirl about, congealing wherever the arcane eye on the wall sets its gaze."/>
+	</item>
+	
+<item name="Dread Manasap Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/manasap/manasap.xml" originFacing="south" originMount="wall" trigger="always" casts="Dread Manasap Bolt" level="15"/>
+	<price amount="1500" />
+	<description text="Eldritch energies swirl about, congealing wherever the arcane eye on the wall sets its gaze."/>
+	</item>
+
+<!-- JUDGEMENTAL TRAPS -->
+<item name="Highly Judgemental Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/judgemental/judgemental.xml" originFacing="south" originMount="wall" trigger="always" casts="Highly Judgemental Trap Bolt" level="7"/>
+	<price amount="700" />
+	<description text="The highly judgemental trap stares at you with a level, judging gaze. If you had a mother-in-law, this would be her eye staring out of the wall, not some freakish arcane monstrosity."/>
+	</item>
+	
+<item name="Supremely Judgemental Trap" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/judgemental/judgemental.xml" originFacing="south" originMount="wall" trigger="always" casts="Supremely Judgemental Trap Bolt" level="14"/>
+	<price amount="1400" />
+	<description text="The eye gazing at you from the wall fixes a steady, disapproving gaze on you, more powerful than any other gaze you have ever felt. For some reason, you feel guilty about what you did last night."/>
+	</item>
+	
+<!-- SPHINX EYES -->
+<item name="Young Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Young Sphinx Bolt" level="2"/>
+	<price amount="200" />
+	<description text="Sphinxes are notorious peeping toms, a hobby they practice by peering out of cracks in dungeon walls. Watch out, though, they shoot lasers when noticed."/>
+	</item>
+	
+<item name="Juvenile Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Juvenile Sphinx Bolt" level="5"/>
+	<price amount="500" />
+	<description text="Juvenile sphinxes are no exception to the peeping-tom rule of sphinx habits. In fact, they are some of the worst offenders."/>
+	</item>
+	
+<item name="Adult Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Adult Sphinx Bolt" level="8"/>
+	<price amount="800" />
+	<description text="Not above their voyeuristic heritage and childhoods, the only thing improved about adult sphinxes is their aim."/>
+	</item>
+	
+<item name="Mature Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Mature Sphinx Bolt" level="11"/>
+	<price amount="1100" />
+	<description text="This trap is more mature than to go into premature/mature jokes. Also, that was like ONE time, seriously."/>
+	</item>
+	
+<item name="Old Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Old Sphinx Bolt" level="14"/>
+	<price amount="1400" />
+	<description text="Old sphinxes gotta get their jollies from somewhere."/>
+	</item>
+	
+<item name="Ancient Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Ancient Sphinx Bolt" level="17"/>
+	<price amount="1700" />
+	<description text="This glaring eye stares out of a crack in the wall at you, blinking slowly, daring you to cross into its path."/>
+	</item>
+	
+<item name="Terrible Sphinx Eye" iconFile="dungeon/trap_pressure_plate0.png" >
+	<trap origin="sprites/lasereyes/lasereyes.xml" originFacing="south" originMount="wall" trigger="always" casts="Terrible Sphinx Bolt" level="20"/>
+	<price amount="2000" />
+	<description text="This glaring eye stares out of a crack in the wall at you, blinking slowly, daring you to cross into its path."/>
+	</item>
+	
+<!--FLOOR TRAPS -->
+<!-- FEEBLEMIND TRAPS -->
+<item name="Minor Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="200" />
+	<trap trigger="once" casts="Minor Feeblemind" level="2" />
+	<description text="This glowing purple field of runes makes you feel stupid just looking at it." />
+	</item>
+	
+<item name="Weak Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="400" />
+	<trap trigger="once" casts="Weak Feeblemind" level="4" />
+	<description text="This glowing purple field of runes makes you feel really stupid just looking at it." />
+	</item>
+	
+<item name="Lesser Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="600" />
+	<trap trigger="once" casts="Lesser Feeblemind" level="6" />
+	<description text="This glowing purple field of runes makes you feel very stupid just looking at it." />
+	</item>
+	
+<item name="Major Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="800" />
+	<trap trigger="once" casts="Major Feeblemind" level="8" />
+	<description text="This glowing purple field of runes makes you feel vastly stupid just looking at it." />
+	</item>
+	
+<item name="Strong Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="1000" />
+	<trap trigger="once" casts="Strong Feeblemind" level="10" />
+	<description text="This glowing purple field of runes makes you feel incredibly stupid just looking at it." />
+	</item>
+	
+<item name="Dire Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="1250" />
+	<trap trigger="once" casts="Dire Feeblemind" level="12" />
+	<description text="This glowing purple field of runes makes you feel inordinately stupid just looking at it." />
+	</item>
+	
+<item name="Greater Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="1500" />
+	<trap trigger="once" casts="Greater Feeblemind" level="14" />
+	<description text="This glowing purple field of runes makes you feel excruciatingly stupid just looking at it." />
+	</item>
+	
+<item name="Dread Feeblemind Trap" iconFile="sprites/trap_arcane.png" >
+	<price amount="2000" />
+	<trap trigger="once" casts="Dread Feeblemind" level="16" /> <!-- This should only appear rarely on the bottommost floors and outside the regular dungeon due to this level parameter -->
+	<description text="no can think good blinky purple trap thing make dumdum" />
+	</item>
+
+<!-- LOAD-BEARING TRAPS -->
+<item name="Minor Deadfall Trap" iconFile="dungeon/trap_mine.png" >
+	<price amount="300" />
+	<trap trigger="once" casts="Minor Deadfall" level="3" />
+	<description text="This trap looks like it's load-bearing." />
+	</item>
+	
+<item name="Lesser Deadfall Trap" iconFile="dungeon/trap_mine.png" >
+	<price amount="600" />
+	<trap trigger="once" casts="Lesser Deadfall" level="6" />
+	<description text="This trap looks like it's load-bearing." />
+	</item>
+	
+<item name="Major Deadfall Trap" iconFile="dungeon/trap_mine.png" >
+	<price amount="900" />
+	<trap trigger="once" casts="Major Deadfall" level="9" />
+	<description text="This trap looks like it's load-bearing." />
+	</item>
+	
+<item name="Greater Deadfall Trap" iconFile="dungeon/trap_mine.png" >
+	<price amount="1250" />
+	<trap trigger="once" casts="Greater Deadfall" level="12" />
+	<description text="This trap looks like it's load-bearing." />
+	</item>
+	
+<item name="Dire Deadfall Trap" iconFile="dungeon/trap_mine.png" >
+	<price amount="2000" />
+	<trap trigger="once" casts="Dire Deadfall" level="15" />
+	<description text="This trap looks like it's load-bearing." />
+	</item>
+
+<!-- MISC TRAPS -->
+<item name="Grog " iconFile="items/booze_grog.png" >
+	<!-- and many lols were had -->
+	<price amount="200" />
+	<trap trigger="once" casts="GOTCHA!" level="2" />
+	<description text="Only those actually reading this text are safe from the fury of Grogthulu!" />
+	</item>
+
+<item name="Mousetrap" iconFile="sprites/trap_mouse.png" >
+	<price amount="100" />
+	<trap trigger="once" casts="Mousetrap" level="1" />
+	<description text="Lord Dredmor has an aggressive policy against vermin in his dungeon. It's unclear if you fall into that category." />
+	</item>
+	
+<item name="A Better Mousetrap" iconFile="sprites/trap_mouse.png" >
+	<price amount="1000" />
+	<trap trigger="once" casts="A Better Mousetrap" level="10" />
+	<description text="This trap makes it very clear that Lord Dredmor considers you a rodent to be exterminated." />
+	</item>
+
+<!-- FOOTY TRAPS -->
+<item name="Rusty Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="100" />
+	<trap trigger="once" casts="Rusty Footy Trap Bite" level="1"/>
+	<description text="Originally used by the dwarves in the Great Footy Incursion in 312 BD, the dwarves quickly discovered that these jaw-like traps are useful on far more than just footies. Unfortunately, they also discovered that they work equally well on dwarves." />
+	</item>
+
+<item name="Shoddy Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="200" />
+	<trap trigger="once" casts="Shoddy Footy Trap Bite" level="3"/>
+	<description text="The Great Footy Incursion had thousands of casualties, including the dwarves' standards." />
+	</item>
+	
+<item name="Above-Average Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="300" />
+	<trap trigger="once" casts="Above-Average Footy Trap Bite" level="5"/>
+	<description text="Despite the necessity for thousands upon thousands of traps, some craftsdwaves maintained a higher standard for their creations. This is not one of those creations." />
+	</item>
+	
+<item name="Masterwork Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="400" />
+	<trap trigger="once" casts="Masterwork Footy Trap Bite" level="7"/>
+	<description text="Despite the necessity for thousands upon thousands of traps, some craftsdwaves maintained a higher standard for their creations. Unfortunately for you, this is one of them." />
+	</item>
+	
+<item name="Spring-Loaded Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="500" />
+	<trap trigger="once" casts="Spring-Loaded Footy Trap Bite" level="9"/>
+	<description text="These footy traps were originally sown around the gates of heavily defensible fortifications during the Great Footy Incursion of 312 BD. Since they're still here, you can only assume one of two things: either they worked remarkably well, or they didn't work at all." />
+	</item>
+	
+<item name="Charged Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="600" />
+	<trap trigger="once" casts="Charged Footy Trap Bite" level="11"/>
+	<description text="Holy crap, some lunatic hooked this footy trap up to a battery! Madness!" />
+	</item>
+	
+<item name="Envenomed Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="700" />
+	<trap trigger="once" casts="Envenomed Footy Trap Bite" level="13"/>
+	<description text="Close inspection of this footy trap quickly reveals that the teeth of this devious device have been slathered with a vile toxin. There is also a warning label: 'keep out of children do not injest'. Language was not a dwarven strong suit, it seems." />
+	</item>
+	
+<item name="Contaminated Dwarven Footy Trap" iconFile="sprites/beartrap.png" >
+	<price amount="1000" />
+	<trap trigger="once" casts="Contaminated Footy Trap Bite" level="15"/>
+	<description text="This particularly heinous contraption not only will clamp down on a footy's (or anything else's) foot to wreak wanton destruction, but will also inject the hapless fool with a variety of toxins and venoms. Don't be one of those fools." />
+	</item>
+	
+</itemDB>

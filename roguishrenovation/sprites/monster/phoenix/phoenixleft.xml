@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprite>
+  <frame delay="100">phoenixleft1.png</frame>
+  <frame delay="100">phoenixleft2.png</frame>
+  <frame delay="100">phoenixleft3.png</frame>
+  <frame delay="100">phoenixleft4.png</frame>
+</sprite>

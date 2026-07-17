@@ -1,0 +1,4 @@
+<sounds>
+	<sound name="mousetrap" wave="sfx/250256__kwahmah_02__mousetrap-surprise.wav" /> <!-- mousetrap surprise.wav by kwahmah_02 - https://freesound.org/s/250256/ - License: Attribution 3.0 -->
+	<sound name="ticking" wave="sfx/487725__matrixxx__ticking-timer-05-sec.wav" /> <!-- ticking timer 05 sec.wav by MATRIXXX_ - https://freesound.org/people/MATRIXXX_/sounds/487725/ - creative commons license -->
+</sounds>

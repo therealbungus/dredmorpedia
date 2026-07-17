@@ -1,0 +1,49 @@
+TVoM Documentation
+
+The Vaults of Maslech is an expansion-sized mod for Dungeons of Dredmor. It includes:
+
+- 122 rooms, including:
+   - Thematic rooms for specific dungeon levels (crypt cells on floor 2, ice floes on floor 7, chained minecarts rooms on floor 8, and more)
+   - Rooms that only appear in mysterious dimensions and wizardlands
+   - Rooms that include lots of bookcases (to help account for the increased number of recipes from this and other mods)
+   - Rooms that get more dangerous the deeper you go and may be un-traversable without a dig, shove, or teleport 
+
+- 9 skills:
+   - Rogue Skills
+      - Dungeon Delver, a utility rogue skill that provides a dig, a shove, a teleport, an artifact cleanse, trap affinity, and a smattering of crafting abilities
+      - Avenging Executioner, a combat rogue skill that gains buffs and inflicts fear when killing enemies
+      - Trapsmith, a support rogue skill that summons traps from the Elemental Plane of Traps to confound enemies
+   - Warrior Skills
+      - Haunted, a necromantic warrior skill that uses an alternative power source (spirits) for determining the strength of its abilities
+      - Inquisitor, a spellcasting warrior skill that uses the power of righteous indignation to smite demons and the undead
+      - Brofistery, a melee warrior skill about laying your enemies out in a totally gnarly way, man
+   - Wizard Skills
+      - Meteorology, an offensive wizard skill about forecasting and weather manipulation (and in one notable instance, a literal meteor)
+      - Spellsword, a melee-oriented wizard skill that plays like a warrior
+	  - Dadinavian Wizardry, a support wizard skill with lots of personal buffs that augment each other
+   
+- 13 monsters, including:
+   - 12 new kinds of diggle, which means there will be at least one kind appearing on every floor
+   - Tacows, Mexican food themed bovines with dangerous hot sauce breath
+
+- 201 items, including:
+   - Wraparound sunglasses, cargo shorts, trainers, sandals with socks, and grilling aprons in multiple levels for the middle-aged-father-themed Dadinavian Wizard
+   - Lanterns, a new kind of off-hand item that improves your sight
+   - Tomes, off-hand items that have on-hit effects
+   - A variety of high-level rings and amulets
+   - Demon-smiting hammers of righteousness, brought to you by the Hammer Consortium (a subsidiary of the Bolt Council)
+   - A variety of staves, ranging from the wildly-magical orcish wand to the artifact Caliburn's Rebuke
+   - Katars, punching daggers, and claws in varying levels and strengths
+   - Scythes (and a few other polearms), also in varying levels and strengths
+   - Brass knuckles (and knuckles in other materials as well) that work with the Unarmed skill
+   - Longbows for all levels (including the powerful artifact Indra's Rainbow)
+   - High-level crossbows and repeater crossbows
+   - High-level boxing gloves, for your monster facial reconstruction needs
+   - Adventuring jeans, for high-level adventurers who prefer nimbleness to tankiness
+   - Infusions and concoctions, alchemical creations that have varying effects based upon your alchemy level
+   - Some other potions and consumables to work with the concepts introduced in this mod
+   - Wands, ranging from the tiny pixie stick to the powerful rod of necrotic might
+   - Loose recipe pages, which will teach you a recipe without a bookcase
+   - Manasap traps, lifeleech traps, judgmental traps, sphinx eye traps, feeblemind traps, load-bearing traps, footy traps, and mousetraps
+
+- 96 crafting recipes, to craft both new items introduced by this mod and old items that are missing related recipes
