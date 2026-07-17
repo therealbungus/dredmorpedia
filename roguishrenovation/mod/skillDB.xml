@@ -1,19 +1,46 @@
 <skillDB>
 
-<!-- Radiant Wizard -->
-
-<skill name="Radiant Wizard" id="222" skillname="Radiant Wizard" type="wizard" description="You have immersed yourself in the energies of all things luminous to gain great magical power, at the cost of your physical body deteriorating.">
+<skill name="Radiant Wizard" skillname="Radiant Wizard" type="wizard" description="You have immersed yourself in the energies of all things luminous to gain great magical power, at the cost of your physical body deteriorating.">
 	<art icon="skills/radiant64.png"/>
 	<loadout type="armour" subtype="Cracked Orb" />
 	</skill>
 
-<ability name="Radiant Wizard" icon="skills/radiant64.png" skillname="Radiant Wizard" skill="222" startSkill="1">
+<skill name="Blood Knight" skillname="Blood Knight" type="warrior" description="You have engraved runes of power on your equipment, which are powered by blood. Contrary to popular belief, this does not turn you into a sociopathic elf.">
+	<art icon="skills/blood_knight/blood_knight64.png"/>
+	<loadout type="armour" subtype="Garnet Circlet" always="1"/>
+	</skill>
+
+<ability name="Radiant Wizard" icon="skills/radiant64.png" skillname="Radiant Wizard" startSkill="1">
 	<description text="You have steeped yourself in the energies of all things luminous to gain great magical power. As your physical body becomes more insubstantial, though, the laws of physics come bearing down upon you ever more harshly."/>
 	</ability>
 
+<ability name="Blood Knight" icon="skills/blood_knight/blood_knight64.png" skillname="Blood Knight" startSkill="1">
+	<description text="You have engraved runes of power on your equipment, which draw their strength from warm, rich blood. Preferably that of your foes, but your own will do in a pinch."/>
+	</ability>
+
+<skill name="Witcher" skillname="Witcher" type="rogue" description="Going under the name of 'White Eyebrows', you travel through a gritty fantasy world slaying monsters for money, exploring social issues, and being witty and sarcastic in general.">
+	<art icon="skills/witcher/witcher_64.png"/>
+	</skill>
+
+<ability name="Witcher" icon="skills/witcher/witcher_64.png" skillname="Witcher" startSkill="1">
+	<description text="Mutated by various alchemical and magical processes (which incidentally also turned your hair white), you roam a gritty fantasy world slaying monsters for money. You've also become extremely witty and sarcastic, and are to most of the world as 'White Eyebrows'."/>
+	</ability>
+
+<skill name="Arcanist" skillname="Testing" type="wizard" description="You have studied extensively the manipulation of raw mana and how to sling it at people.">
+	<art icon="skills/wizard/magictraining2_64.png"/>
+	<loadout type="weapon" subtype="Refurbished Staff" always="1" />
+	</skill>
+
+<ability name="Arcanist" icon="skills/wizard/magictraining2_64.png" skillname="Testing" startSkill="1">
+	<description text="You have studied extensively the manipulation of raw mana and how to sling it at people."/>
+	</ability>
+
+
+<!-- Radiant Wizard -->
+
 <!-- Human form version of Light Dart. -->
 
-<ability name="Light Dart" icon="skills/spells/curse_of_midas64.png" skillname="Radiant Wizard" skill="222" level="0" >
+<ability name="Light Dart" icon="skills/spells/curse_of_midas64.png" skillname="Radiant Wizard" level="0" >
 	<spell name="Light Dart"/>
 	<description text="Blast your ememies with a concentrated burst of luminance from your fingertip! Are you sure your hand's supposed to be see-through, though, or is that a trick of the light?" />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -26,7 +53,7 @@
 
 <!-- EDF version of Light Dart. -->
 
-<ability name="Light Dart" icon="skills/spells/curse_of_midas64.png" skillname="Radiant Wizard" skill="222" level="0" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Light Dart" icon="skills/spells/curse_of_midas64.png" skillname="Radiant Wizard" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Light Dart"/>
 	<description text="Blast your ememies with a concentrated burst of luminance from your fingertip! Are you sure your hand's supposed to be see-through, though, or is that a trick of the light?" />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -39,7 +66,7 @@
 
 <!-- Human form version of Dazzling Blast. -->
 
-<ability name="Dazzling Blast" icon="skills/spells/blinding_light64.png" skillname="Radiant Wizard" skill="222" level="1" >
+<ability name="Dazzling Blast" icon="skills/spells/blinding_light64.png" skillname="Radiant Wizard" level="1" >
 	<spell name="Dazzling Blast"/>
 	<description text="Your heart has started pumping out haywire energies, which augment your magical powers and can be released in stunning bursts. This, however, makes it less effective at pumping blood around your body, sapping your strength--physical contact should always be a last resort." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -54,7 +81,7 @@
 
 <!-- EDF version of Dazzling Blast. -->
 
-<ability name="Dazzling Blast" icon="skills/spells/blinding_light64.png" skillname="Radiant Wizard" skill="222" level="1" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Dazzling Blast" icon="skills/spells/blinding_light64.png" skillname="Radiant Wizard" level="1" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Dazzling Blast"/>
 	<description text="Your heart has started pumping out haywire energies, which augment your magical powers and can be released in stunning bursts. This, however, makes it less effective at pumping blood around your body, sapping your strength--physical contact should always be a last resort." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -69,7 +96,7 @@
 
 <!-- Human form version of Realignment. -->
 
-<ability name="Realignment" icon="skills/realign64.png" skillname="Radiant Wizard" skill="222" level="2" >
+<ability name="Realignment" icon="skills/realign64.png" skillname="Radiant Wizard" level="2" >
 	<spell name="Realignment"/>
 	<description text="Wary of the fact that your body is falling apart atom by atom and becoming prone to breaching and highly dangerous meltdown, you learn to pull together the new form you are assuming into a shape more suited to repelling physical threats. This also drains your energies faster than college frat boys can conduct blood alcohol experiments." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -85,7 +112,7 @@
 
 <!-- EDF version of Realignment. -->
 
-<ability name="Realignment" icon="skills/realign64.png" skillname="Radiant Wizard" skill="222" level="2" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Realignment" icon="skills/realign64.png" skillname="Radiant Wizard" level="2" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Realignment"/>
 	<description text="Wary of the fact that your body is falling apart atom by atom and becoming prone to breaching and highly dangerous meltdown, you learn to pull together the new form you are assuming into a shape more suited to repelling physical threats. This also drains your energies faster than college frat boys can conduct blood alcohol experiments." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -100,7 +127,7 @@
 
 <!-- Human form version of Charged Beam. -->
 
-<ability name="Charged Beam" icon="skills/spells/phlogistonic_oil64.png" skillname="Radiant Wizard" skill="222" level="3" >
+<ability name="Charged Beam" icon="skills/spells/phlogistonic_oil64.png" skillname="Radiant Wizard" level="3" >
 	<spell name="Charged Beam"/>
 	<description text="As you draw closer to transcending to your new energy-based form, you gain the ability to fire a short-range beam that has a chance to siphon the energies of your enemies. This comes at the price of said energies spraying everywhere if those monsters rip apart your fleshy shell." />
 		<primarybuff id="1" amount="2"/> <!-- sagacity -->
@@ -119,7 +146,7 @@
 
 <!-- EDF version of Charged Beam. -->
 
-<ability name="Charged Beam" icon="skills/spells/phlogistonic_oil64.png" skillname="Radiant Wizard" skill="222" level="3" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Charged Beam" icon="skills/spells/phlogistonic_oil64.png" skillname="Radiant Wizard" level="3" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Charged Beam"/>
 	<description text="As you draw closer to transcending to your new energy-based form, you gain the ability to fire a short-range beam that has a chance to siphon the energies of your enemies. This comes at the price of said energies spraying everywhere if those monsters rip apart your fleshy shell." />
 		<primarybuff id="1" amount="2"/> <!-- sagacity -->
@@ -136,7 +163,7 @@
 
 <!-- Human form version of Light Bending. -->
 
-<ability name="Light Bending" icon="skills/spells/the_word64.png" skillname="Radiant Wizard" skill="222" level="4" >
+<ability name="Light Bending" icon="skills/spells/the_word64.png" skillname="Radiant Wizard" level="4" >
 	<spell name="Light Bending"/>
 	<description text="You're not much more than atoms held together by pure thought now; electromagnetic waves of all wavelengths acknowledge you as their master. You direct them where you please, revealing the hidden and weakening those nasty monsters to your spells. Of course, you're concentrating on defying the laws of thermodynamics, and if that concentration is broken..." />
 		<primarybuff id="1" amount="2"/> <!-- sagacity -->
@@ -156,7 +183,7 @@
 
 <!-- EDF version of Light Bending. -->
 
-<ability name="Light Bending" icon="skills/spells/the_word64.png" skillname="Radiant Wizard" skill="222" level="4" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Light Bending" icon="skills/spells/the_word64.png" skillname="Radiant Wizard" level="4" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Light Bending"/>
 	<description text="You're not much more than atoms held together by pure thought now; electromagnetic waves of all wavelengths acknowledge you as their master. You direct them where you please, revealing the hidden and weakening those nasty monsters to your spells. Of course, you're concentrating on defying the laws of thermodynamics, and if that concentration is broken..." />
 		<primarybuff id="1" amount="2"/> <!-- sagacity -->
@@ -175,7 +202,7 @@
 
 <!-- Human form version of Prismatic Spray. -->
 
-<ability name="Prismatic Spray" icon="skills/rainbow_spray64.png" skillname="Radiant Wizard" skill="222" level="5" >
+<ability name="Prismatic Spray" icon="skills/rainbow_spray64.png" skillname="Radiant Wizard" level="5" >
 	<spell name="Prismatic Spray"/>
 	<description text="You have almost transcended into a being of pure energy, and hence are able to blast your enemies with the essence of the universe. Watch out for the increased energies roiling within you, though." />
 		<primarybuff id="1" amount="4"/> <!-- sagacity -->
@@ -194,7 +221,7 @@
 
 <!--EDF version of Prismatic Spray. -->
 
-<ability name="Prismatic Spray" icon="skills/rainbow_spray64.png" skillname="Radiant Wizard" skill="222" level="5" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Prismatic Spray" icon="skills/rainbow_spray64.png" skillname="Radiant Wizard" level="5" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Prismatic Spray"/>
 	<description text="You have almost transcended into a being of pure energy, and hence are able to blast your enemies with the essence of the universe. Watch out for the increased energies roiling within you, though." />
 		<primarybuff id="1" amount="4"/> <!-- sagacity -->
@@ -212,14 +239,14 @@
 
 <!-- Enables Ascendant's Wrath when polymorphed. However, this makes transcendance not appear in the skill hotbar automatically; you'll have to manually add this. -->
 
-<ability name="Ascendant's Wrath" icon="skills/superlight_dragon64.png" skillname="Radiant Wizard" skill="222" level="6" polymorphedOnly="1" polymorphTag="Flamer" >
+<ability name="Ascendant's Wrath" icon="skills/superlight_dragon64.png" skillname="Radiant Wizard" level="6" polymorphedOnly="1" polymorphTag="Flamer" >
 	<spell name="Ascendant's Wrath"/>
 	<description text="The energies of the cosmos rage within your heart; you must release them! Rend reality and make these mortals cower with the sheer power of your voice!"/>
 	</ability>
 
 <!-- Transcendence skill. -->
 
-<ability name="Transcendence" icon="skills/light_dragon64.png" skillname="Radiant Wizard" skill="222" level="6">
+<ability name="Transcendence" icon="skills/light_dragon64.png" skillname="Radiant Wizard" level="6">
 	<spell name="Entropic Dragon Form"/>
 	<description text="You have finally shed your material shell for good and emerged in your true form, a dragon of radiant energy. Well, you could have been a glowing ball of gas or something, but you wouldn't have an excuse to destroy stuff."/>
 	</ability>
@@ -230,18 +257,9 @@
 
 <!-- Blood Knight-->
 
-<skill name="Blood Knight" id="223" skillname="Blood Knight" type="warrior" description="You have engraved runes of power on your equipment, which are powered by blood. Contrary to popular belief, this does not turn you into a sociopathic elf.">
-	<art icon="skills/blood_knight/blood_knight64.png"/>
-	<loadout type="armour" subtype="Garnet Circlet" always="1"/>
-	</skill>
-
-<ability name="Blood Knight" icon="skills/blood_knight/blood_knight64.png" skillname="Blood Knight" skill="223" startSkill="1">
-	<description text="You have engraved runes of power on your equipment, which draw their strength from warm, rich blood. Preferably that of your foes, but your own will do in a pinch."/>
-	</ability>
-
 <!-- Blood Price skill. Protection! -->
 
-<ability name="Crimson Defender" icon="skills/blood_knight/crimson_aegis64.png" skillname="Blood Knight" skill="223" level="0" >
+<ability name="Crimson Defender" icon="skills/blood_knight/crimson_aegis64.png" skillname="Blood Knight" level="0" >
 	<spell name="Crimson Defender"/>
 	<description text="Thanks to thirteen easy unitary payments of your maximum life-force, your Blood Knight(TM) rune-etched crimson armour has arrived in the mail, fresh-forged from the drained remains of interdimensional magical windchimes. You hope all this New-Age stuff will pay off in the long run, unlike what happened with the magnets." />
 	<primarybuff id="4" amount="2"/> <!-- Stubborness -->
@@ -250,21 +268,21 @@
 
 <!-- Bloody Mess skill. Similar to blood magic's Soul Steal. -->
 
-<ability name="Bloody Mess" icon="skills/blood_knight/bloody_mess_64.png" skillname="Blood Knight" skill="223" level="1" >
+<ability name="Bloody Mess" icon="skills/blood_knight/bloody_mess_64.png" skillname="Blood Knight" level="1" >
 	<description text="It's not your fault you leave a trail of red wherever you go; it just seems to happen. You didn't do it! No one can prove anything!" />
 	<secondarybuff id="0" amount="3"/> <!-- hitpoints -->
 	<secondarybuff id="2" amount="1"/> <!-- melee power -->
 	<targetKillBuff percentage="100" name="Bloody Mess" />
 	</ability>
 
-<ability name="Blood Price" icon="skills/blood_knight/blood_price64.png" skillname="Blood Knight" skill="223" level="2" >
+<ability name="Blood Price" icon="skills/blood_knight/blood_price64.png" skillname="Blood Knight" level="2" >
 	<spell name="Blood Price"/>
 	<description text="You've engraved very thirsty runes on your weapons; they're a bit picky about sap or animatory magics, but will still drink those in a pinch. Failing to feed them with the blood of your foes will result in them turning on you, though (at the cost of one health every four rounds)." />
 	<secondarybuff id="2" amount="1"/> <!-- melee power -->
 	<secondarybuff id="4" amount="1" /> <!-- crit -->
 	</ability>
 
-<ability name="To The Slaughter" icon="skills/blood_knight/to_the_slaughter64.png" skillname="Blood Knight" skill="223" level="3" >
+<ability name="To The Slaughter" icon="skills/blood_knight/to_the_slaughter64.png" skillname="Blood Knight" level="3" >
 	<spell name="Slaughter Attack"/>
 	<description text="Remember that time when you stole that spaceship from those space goats? Turned out they were space vegetarians who dined on space vegetables, but space goats equal space mutton, and at least you've learned to slice straight from the whole experience.  Costs nine units of blood to use." />
 	<secondarybuff id="4" amount="2"/> <!-- crit -->
@@ -272,7 +290,7 @@
 
 <!-- Burning Adrenaline skill. -->
 
-<ability name="Burning Adrenaline" icon="skills/blood_knight/burning_adrenaline64.png" skillname="Blood Knight" skill="223" level="4" >
+<ability name="Burning Adrenaline" icon="skills/blood_knight/burning_adrenaline64.png" skillname="Blood Knight" level="4" >
 	<spell name="Burning Adrenaline"/>
 	<resistbuff conflagratory="2" />
 	<description text="For twenty units of blood, you take on the aspect of a phoenix and bring your blood to a boil, enhancing your killing power over time." />
@@ -280,7 +298,7 @@
 
 <!-- Current capstone skill. -->
 
-<ability name="Crimson Flurry" icon="skills/blood_knight/crimson_flurry64.png" skillname="Blood Knight" skill="223" level="5" >
+<ability name="Crimson Flurry" icon="skills/blood_knight/crimson_flurry64.png" skillname="Blood Knight" level="5" >
 	<spell name="Crimson Flurry"/>
 	<description text="For eighteen simple payments of blood (without interest), you can charge the runes on your weapon and become a swirling tornado of bloody death. Lengthy and bore-inducing introduction speech for you and your companions sold separately." />
 	<secondarybuff id="2" amount="2"/> <!-- melee power -->
@@ -293,29 +311,21 @@
 
 <!-- Witcher -->
 
-<skill name="Witcher" id="224" skillname="Witcher" type="rogue" description="Going under the name of 'White Eyebrows', you travel through a gritty fantasy world slaying monsters for money, exploring social issues, and being witty and sarcastic in general.">
-	<art icon="skills/witcher/witcher_64.png"/>
-	</skill>
-
-<ability name="Witcher" icon="skills/witcher/witcher_64.png" skillname="Witcher" skill="224" startSkill="1">
-	<description text="Mutated by various alchemical and magical processes (which incidentally also turned your hair white), you roam a gritty fantasy world slaying monsters for money. You've also become extremely witty and sarcastic, and are to most of the world as 'White Eyebrows'."/>
-	</ability>
-
-<ability name="Mutant!" icon="skills/witcher/witcher_64.png" skillname="Witcher" skill="224" level="0">
+<ability name="Mutant!" icon="skills/witcher/witcher_64.png" skillname="Witcher" level="0">
 	<description text="Various Trials performed on you as a child have enhanced your vitality and sight, as well as giving you some basic training in alchemy to prepare your Witcher's potions."/>
 	<secondarybuff id="13" amount="1"/> <!-- hp regen -->
 	<secondarybuff id="18" amount="1"/> <!-- Sight Radius -->
 	<secondarybuff id="21" amount="1"/> <!-- Alchemy -->
 	</ability>
 
-<ability name="Sign of Aard" icon="skills/witcher/aard_sign64.png" skillname="Witcher" skill="224" level="1" >
+<ability name="Sign of Aard" icon="skills/witcher/aard_sign64.png" skillname="Witcher" level="1" >
 	<spell name="Sign of Aard"/>
 	<description text="One of the small spells Witchers use to aid themselves in combat, the Aard sign allows you to use a powerful telekinetic force to shove away enemies and objects in front of you." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
 		<secondarybuff id="3" amount="1"/> <!-- mpow -->
 	</ability>
 
-<ability name="Sign of Igni" icon="skills/witcher/igni_sign64.png" skillname="Witcher" skill="224" level="2" >
+<ability name="Sign of Igni" icon="skills/witcher/igni_sign64.png" skillname="Witcher" level="2" >
 	<spell name="Sign of Igni"/>
 	<description text="Another Witcher's cantrip, the Igni sign allows you to damage enemies in front of you with fire and explosive energy." />
 		<secondarybuff id="4" amount="1"/> <!-- crit -->
@@ -323,7 +333,7 @@
 		<damagebuff conflagratory="1"/>
 	</ability>
 
-<ability name="Toxic Resistance" icon="skills/witcher/witcher_toxic64.png" skillname="Witcher" skill="224" level="3" >
+<ability name="Toxic Resistance" icon="skills/witcher/witcher_toxic64.png" skillname="Witcher" level="3" >
 	<description text="After having imbibed so many of your own potions, you've built up a measure of resistance to poisons in general." />
 		<secondarybuff id="0" amount="3"/> <!-- hp -->
 		<secondarybuff id="13" amount="1"/> <!-- hp regen -->
@@ -331,7 +341,7 @@
 		<resistbuff toxic="1" acidic="1" putrefying="1"/>
 	</ability>
 
-<ability name="Combat Acumen" icon="skills/warrior/dualwield3_64.png" skillname="Witcher" skill="224" level="4" >
+<ability name="Combat Acumen" icon="skills/warrior/dualwield3_64.png" skillname="Witcher" level="4" >
 	<description text="Years of slaying, negotiating with and uncovering the truth behind monsters has left you with a quick mind and reflexes. When you land a critical hit on a monster, you have a small chance of getting a bonus attack." />
 		<secondarybuff id="2" amount="1"/> <!-- melee pow -->
 		<secondarybuff id="8" amount="2"/> <!-- counter -->
@@ -339,7 +349,7 @@
 		<criticalBuff percentage="20" name="Adventurer Aikido" />
 	</ability>
 
-<ability name="Sign of Yrden" icon="skills/witcher/yrden_sign64.png" skillname="Witcher" skill="224" level="5" >
+<ability name="Sign of Yrden" icon="skills/witcher/yrden_sign64.png" skillname="Witcher" level="5" >
 	<spell name="Sign of Yrden"/>
 	<description text="Using the Yrden Sign allows a Witcher to create a magical trap that will snare anything that steps on it. The Sign is rigged such that you can't harm yourself with it, but stepping on the Sign yourself will waste it." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
@@ -348,14 +358,14 @@
 		<secondarybuff id="17" amount="1"/> <!-- trap sight -->
 	</ability>
 
-<ability name="Sign of Quen" icon="skills/witcher/quen_sign64.png" skillname="Witcher" skill="224" level="6" >
+<ability name="Sign of Quen" icon="skills/witcher/quen_sign64.png" skillname="Witcher" level="6" >
 	<spell name="Sign of Quen"/>
 	<description text="A defensive Witcher's Sign, the Quen Sign provides heavy protection and shocks all enemies around the Witcher on a successful block. Be forewarned, though - mana will not regenerate when the Sign is active and each shock will drain some of your mana." />
 		<secondarybuff id="7" amount="5"/> <!-- block -->
 		<secondarybuff id="10" amount="2"/> <!-- armour -->
 	</ability>
 
-<ability name="Sign of Heliotrop" icon="skills/witcher/heliotrop_sign64.png" skillname="Witcher" skill="224" level="7" >
+<ability name="Sign of Heliotrop" icon="skills/witcher/heliotrop_sign64.png" skillname="Witcher" level="7" >
 	<spell name="Sign of Heliotrop"/>
 	<description text="Made by crossing one's arms, the Sign of Heliotrop not only acts as a buffer against magical forces, but also enhances a Witcher's reflexes to inhuman levels." />
 		<secondarybuff id="11" amount="3"/> <!-- resist -->
@@ -369,30 +379,21 @@
 
 <!-- Arcanist -->
 
-<skill name="Arcanist" id="225" type="wizard" description="You have studied extensively the manipulation of raw mana and how to sling it at people.">
-	<art icon="skills/wizard/magictraining2_64.png"/>
-	<loadout type="weapon" subtype="Refurbished Staff" always="1" />
-	</skill>
-
-<ability name="Arcanist" icon="skills/wizard/magictraining2_64.png" skill="225" startSkill="1">
-	<description text="You have studied extensively the manipulation of raw mana and how to sling it at people."/>
-	</ability>
-
-<ability name="Cornucopia" icon="skills/fruit64.png" skill="225" level="0" >
+<ability name="Cornucopia" icon="skills/fruit64.png" skillname="Testing" level="0" >
 	<spell name="Cornucopia"/>
 	<description text="Studying at magic school was tough. So tough, in fact, that you never really had the time to nip down to the store on campus. Good thing you found a way around that by conjuring food and drink out of thin air." />
 		<primarybuff id="1" amount="1"/> <!-- sagacity -->
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Arcane Missile" icon="skills/wizard/spell_water0_64.png" skill="225" level="1" >
+<ability name="Arcane Missile" icon="skills/wizard/spell_water0_64.png" skillname="Testing" level="1" >
 	<spell name="Arcane Missiles"/>
 	<description text="Fire an arcane missile off into the darkness! The effect is stable most of the time, but sometimes you get more, sometimes you get less..." />
 		<secondarybuff id="3" amount="1"/> <!-- mpow -->
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Counterspell" icon="skills/mystic_missile64.png" skill="225" level="2" >
+<ability name="Counterspell" icon="skills/mystic_missile64.png" skillname="Testing" level="2" >
 	<spell name="Counterspell"/>
 	<description text="'My magic is more potent than yours, and I can prove it!' With your general-purpose counterspell, you can prevent enemies from casting and reduce their resistances to your magic." />
 		<secondarybuff id="11" amount="1"/> <!-- resist -->
@@ -400,13 +401,13 @@
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Arcane Blast" icon="skills/wizard/spell_water9_64.png" skill="225" level="3" >
+<ability name="Arcane Blast" icon="skills/wizard/spell_water9_64.png" skillname="Testing" level="3" >
 	<spell name="Arcane Blast"/>
 	<description text="Blast your enemies with raw arcane power! With each consecutive casting of this spell (up to four times), it becomes far more potent in both damage and area of effect, but all your mana costs skyrocket." />
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Create Mana Gem" icon="skills/rogue/skill_alchemy0_64.png" skill="225" level="4" >
+<ability name="Create Mana Gem" icon="skills/rogue/skill_alchemy0_64.png" skillname="Testing" level="4" >
 	<spell name="Create Mana Gem"/>
 	<description text="Create a gem to store away some of your mana for later! Using the gem will fry your energies a little due to the power surging through your body, but better that than running on empty, eh?" />
 		<secondarybuff id="1" amount="5"/> <!-- mana -->
@@ -414,7 +415,7 @@
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Supercharge" icon="skills/spells/tesla64.png" skill="225" level="5" >
+<ability name="Supercharge" icon="skills/spells/tesla64.png" skillname="Testing" level="5" >
 	<spell name="Supercharge Trigger"/>
 	<description text="Through rigorous mental training and yelling like a madman for a total of three episodes, you can supercharge yourself and gain ultimate wizard power for six turns! Be forewarned, though - mortals were not made to hold such energies, and you lose all your mana at the end of its duration." />
 		<primarybuff id="5" amount="1"/> <!-- savvy -->
@@ -422,7 +423,7 @@
 		<resistbuff aethereal="1" />
 	</ability>
 
-<ability name="Arcane Reflux" icon="skills/wizard/spell_water2_64.png" skill="225" level="6" >
+<ability name="Arcane Reflux" icon="skills/wizard/spell_water2_64.png" skillname="Testing" level="6" >
 	<spell name="Arcane Reflux"/>
 	<description text="You've discovered a way to trim the waste from your spells, refluxing any mana that would have been lost back into useful energies. While this buff is active, every spell you cast has a chance to release a small blast of mana about its target. Handle with care around shopkeepers." />
 		<primarybuff id="5" amount="1"/> <!-- savvy -->
@@ -431,7 +432,7 @@
 	<triggeronCast percent="100" name="Arcane Reflux Trigger" />
 	</ability>
 
-<ability name="Thaumogenic Cleansing" icon="skills/rogue/skill_wand_lore0_64.png" skill="225" level="7" >
+<ability name="Thaumogenic Cleansing" icon="skills/rogue/skill_wand_lore0_64.png" skillname="Testing" level="7" >
 	<spell name="Thaumogenic Cleansing"/>
 	<description text="You've become so adept at mana manipulation that you can reverse-engineer what makes your artifacts tick and weed out corruption in them, at the cost of some mana." />
 		<secondarybuff id="3" amount="2"/> <!-- mpow -->
